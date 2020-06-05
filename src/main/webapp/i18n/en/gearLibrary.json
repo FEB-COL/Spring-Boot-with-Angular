@@ -1,0 +1,39 @@
+{
+    "geargatewayApp": {
+        "gearLibrary": {
+            "home": {
+                "title": "Gear Libraries",
+                "createLabel": "Create a new Gear Library",
+                "createOrEditLabel": "Create or edit a Gear Library"
+            },
+            "created": "A new Gear Library is created with identifier {{ param }}",
+            "updated": "A Gear Library is updated with identifier {{ param }}",
+            "deleted": "A Gear Library is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Library {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Library"
+            },
+            "idFile": "Id File",
+            "documentName": "Document Name",
+            "documentDomain": "Document Domain",
+            "documentTitle": "Document Title",
+            "documentType": "Document Type",
+            "documentDescription": "Document Description",
+            "documentIsCopy": "Document Is Copy",
+            "documentIsDraft": "Document Is Draft",
+            "labelField": "Label Field",
+            "typeField": "Type Field",
+            "propertieName": "Propertie Name",
+            "documentIdAlfresco": "Document Id Alfresco",
+            "folderIdAlfresco": "Folder Id Alfresco",
+            "nameFolderAlfresco": "Name Folder Alfresco",
+            "siteIdAlfresco": "Site Id Alfresco",
+            "nameSiteAlfresco": "Name Site Alfresco",
+            "valueField": "Value Field",
+            "customFieldId": "Custom Field Id",
+            "templateId": "Template Id"
+        }
+    }
+}

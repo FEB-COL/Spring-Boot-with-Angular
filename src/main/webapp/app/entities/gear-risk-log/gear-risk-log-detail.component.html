@@ -1,0 +1,53 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearRiskLog">
+            <h2><span jhiTranslate="geargatewayApp.gearRiskLog.detail.title">Gear Risk Log</span> {{gearRiskLog.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearRiskLog.log">Log</span></dt>
+                <dd>
+                    <span>{{gearRiskLog.log}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearRiskLog.date">Date</span></dt>
+                <dd>
+                    <span>{{gearRiskLog.date}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearRiskLog.createdBy">Created By</span></dt>
+                <dd>
+                    <span>{{gearRiskLog.createdBy}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearRiskLog.creationDate">Creation Date</span></dt>
+                <dd>
+                    <span>{{gearRiskLog.creationDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearRiskLog.lastModifiedBy">Last Modified By</span></dt>
+                <dd>
+                    <span>{{gearRiskLog.lastModifiedBy}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearRiskLog.lastModifiedDate">Last Modified Date</span></dt>
+                <dd>
+                    <span>{{gearRiskLog.lastModifiedDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearRiskLog.gearProjectRisk">Gear Project Risk</span></dt>
+                <dd>
+                    <div *ngIf="gearRiskLog.gearProjectRiskId">
+                        <a [routerLink]="['/gear-project-risk', gearRiskLog.gearProjectRiskId, 'view']">{{gearRiskLog.gearProjectRiskId}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-risk-log', gearRiskLog.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

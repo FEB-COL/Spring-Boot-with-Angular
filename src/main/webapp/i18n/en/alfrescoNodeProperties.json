@@ -1,0 +1,36 @@
+{
+    "geargatewayApp": {
+        "alfrescoNodeProperties": {
+            "home": {
+                "title": "Alfresco Node Properties",
+                "createLabel": "Create a new Alfresco Node Properties",
+                "createOrEditLabel": "Create or edit a Alfresco Node Properties"
+            },
+            "created": "A new Alfresco Node Properties is created with identifier {{ param }}",
+            "updated": "A Alfresco Node Properties is updated with identifier {{ param }}",
+            "deleted": "A Alfresco Node Properties is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Alfresco Node Properties {{ id }}?"
+            },
+            "detail": {
+                "title": "Alfresco Node Properties"
+            },
+            "documentType": "Document Type",
+            "documentTitle": "Document Title",
+            "fileName": "File Name",
+            "siteId": "Site Id",
+            "description": "Description",
+            "notes": "Notes",
+            "versionType": "Version Type",
+            "versionLabel": "Version Label",
+            "textField1": "Text Field 1",
+            "textField2": "Text Field 2",
+            "textField3": "Text Field 3",
+            "textField4": "Text Field 4",
+            "textField5": "Text Field 5",
+            "textField6": "Text Field 6",
+            "textField7": "Text Field 7",
+            "alfrescoNode": "Alfresco Node"
+        }
+    }
+}

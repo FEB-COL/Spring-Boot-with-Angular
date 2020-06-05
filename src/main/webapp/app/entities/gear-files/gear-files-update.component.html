@@ -1,0 +1,126 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-gear-files-heading" jhiTranslate="geargatewayApp.gearFiles.home.createOrEditLabel">Create or edit a Gear Files</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!gearFiles.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="gearFiles.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.idFile" for="field_idFile">Id File</label>
+                    <input type="text" class="form-control" name="idFile" id="field_idFile"
+                        [(ngModel)]="gearFiles.idFile" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.documentName" for="field_documentName">Document Name</label>
+                    <input type="text" class="form-control" name="documentName" id="field_documentName"
+                        [(ngModel)]="gearFiles.documentName" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.documentDomain" for="field_documentDomain">Document Domain</label>
+                    <input type="text" class="form-control" name="documentDomain" id="field_documentDomain"
+                        [(ngModel)]="gearFiles.documentDomain" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.documentTitle" for="field_documentTitle">Document Title</label>
+                    <input type="text" class="form-control" name="documentTitle" id="field_documentTitle"
+                        [(ngModel)]="gearFiles.documentTitle" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.documentType" for="field_documentType">Document Type</label>
+                    <input type="text" class="form-control" name="documentType" id="field_documentType"
+                        [(ngModel)]="gearFiles.documentType" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.documentDescription" for="field_documentDescription">Document Description</label>
+                    <input type="text" class="form-control" name="documentDescription" id="field_documentDescription"
+                        [(ngModel)]="gearFiles.documentDescription" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.documentIsCopy" for="field_documentIsCopy">Document Is Copy</label>
+                    <input type="checkbox" class="form-control" name="documentIsCopy" id="field_documentIsCopy"
+                        [(ngModel)]="gearFiles.documentIsCopy" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.documentIsDraft" for="field_documentIsDraft">Document Is Draft</label>
+                    <input type="checkbox" class="form-control" name="documentIsDraft" id="field_documentIsDraft"
+                        [(ngModel)]="gearFiles.documentIsDraft" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.labelField" for="field_labelField">Label Field</label>
+                    <input type="text" class="form-control" name="labelField" id="field_labelField"
+                        [(ngModel)]="gearFiles.labelField" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.typeField" for="field_typeField">Type Field</label>
+                    <input type="text" class="form-control" name="typeField" id="field_typeField"
+                        [(ngModel)]="gearFiles.typeField" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.propertieName" for="field_propertieName">Propertie Name</label>
+                    <input type="text" class="form-control" name="propertieName" id="field_propertieName"
+                        [(ngModel)]="gearFiles.propertieName" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.documentIdAlfresco" for="field_documentIdAlfresco">Document Id Alfresco</label>
+                    <input type="text" class="form-control" name="documentIdAlfresco" id="field_documentIdAlfresco"
+                        [(ngModel)]="gearFiles.documentIdAlfresco" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.folderIdAlfresco" for="field_folderIdAlfresco">Folder Id Alfresco</label>
+                    <input type="text" class="form-control" name="folderIdAlfresco" id="field_folderIdAlfresco"
+                        [(ngModel)]="gearFiles.folderIdAlfresco" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.nameFolderAlfresco" for="field_nameFolderAlfresco">Name Folder Alfresco</label>
+                    <input type="text" class="form-control" name="nameFolderAlfresco" id="field_nameFolderAlfresco"
+                        [(ngModel)]="gearFiles.nameFolderAlfresco" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.siteIdAlfresco" for="field_siteIdAlfresco">Site Id Alfresco</label>
+                    <input type="text" class="form-control" name="siteIdAlfresco" id="field_siteIdAlfresco"
+                        [(ngModel)]="gearFiles.siteIdAlfresco" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.nameSiteAlfresco" for="field_nameSiteAlfresco">Name Site Alfresco</label>
+                    <input type="text" class="form-control" name="nameSiteAlfresco" id="field_nameSiteAlfresco"
+                        [(ngModel)]="gearFiles.nameSiteAlfresco" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.valueField" for="field_valueField">Value Field</label>
+                    <input type="text" class="form-control" name="valueField" id="field_valueField"
+                        [(ngModel)]="gearFiles.valueField" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.customFieldId" for="field_customFieldId">Custom Field Id</label>
+                    <input type="number" class="form-control" name="customFieldId" id="field_customFieldId"
+                        [(ngModel)]="gearFiles.customFieldId" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.templateId" for="field_templateId">Template Id</label>
+                    <input type="number" class="form-control" name="templateId" id="field_templateId"
+                        [(ngModel)]="gearFiles.templateId" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearFiles.gearDomain" for="field_gearDomain">Gear Domain</label>
+                    <select class="form-control" id="field_gearDomain" name="gearDomain" [(ngModel)]="gearFiles.gearDomainId" >
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="gearDomainOption.id" *ngFor="let gearDomainOption of geardomains; trackBy: trackGearDomainById">{{gearDomainOption.name}}</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

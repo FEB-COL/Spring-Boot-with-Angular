@@ -1,0 +1,38 @@
+/* ==========================================================================
+INDICADORES
+========================================================================== */
+
+.strategy {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    background-color: #79d4ff;
+    border-radius: 50%;
+    border: 1.5px solid #0060b0;
+}
+.strategy:hover {
+    color: #000000;
+    background-color: #a2eeff;
+    border: 2px solid #0060b0;
+}
+
+.objective {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    background-color: #ffd632;
+    border-radius: 50%;
+    border: 1px solid #b07d0b;
+}
+
+.objective:hover {
+    color: #000000;
+    background-color: #edff4a;
+    border: 2px solid #ffd92e;
+}

@@ -1,0 +1,23 @@
+{
+    "geargatewayApp": {
+        "gearDiagnosisType": {
+            "home": {
+                "title": "Gear Diagnosis Types",
+                "createLabel": "Create a new Gear Diagnosis Type",
+                "createOrEditLabel": "Create or edit a Gear Diagnosis Type"
+            },
+            "created": "A new Gear Diagnosis Type is created with identifier {{ param }}",
+            "updated": "A Gear Diagnosis Type is updated with identifier {{ param }}",
+            "deleted": "A Gear Diagnosis Type is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Diagnosis Type {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Diagnosis Type"
+            },
+            "name": "Name",
+            "description": "Description",
+            "gearDiagnosis": "Gear Diagnosis"
+        }
+    }
+}

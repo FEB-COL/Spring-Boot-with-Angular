@@ -1,0 +1,23 @@
+{
+    "geargatewayApp": {
+        "gearDocumentType": {
+            "home": {
+                "title": "Gear Document Types",
+                "createLabel": "Create a new Gear Document Type",
+                "createOrEditLabel": "Create or edit a Gear Document Type"
+            },
+            "created": "A new Gear Document Type is created with identifier {{ param }}",
+            "updated": "A Gear Document Type is updated with identifier {{ param }}",
+            "deleted": "A Gear Document Type is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Document Type {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Document Type"
+            },
+            "name": "Name",
+            "gearcustomfieldtemplate": "Gearcustomfieldtemplate",
+            "geardomain": "Geardomain"
+        }
+    }
+}

@@ -1,0 +1,71 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearDomain">
+            <h2><span jhiTranslate="geargatewayApp.gearDomain.detail.title">Gear Domain</span> {{gearDomain.name}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearDomain.name">Name</span></dt>
+                <dd>
+                    <span>{{gearDomain.name}}</span>
+                </dd>
+                <!--<dt><span jhiTranslate="geargatewayApp.gearDomain.domainId">Domain Id</span></dt>-->
+                <!--<dd>-->
+                    <!--<span>{{gearDomain.domainId}}</span>-->
+                <!--</dd>-->
+                <!--<dt><span jhiTranslate="geargatewayApp.gearDomain.companyId">Company Id</span></dt>-->
+                <!--<dd>-->
+                    <!--<span>{{gearDomain.companyId}}</span>-->
+                <!--</dd>-->
+                <!--<dt><span jhiTranslate="geargatewayApp.gearDomain.companyDescription">Company Description</span></dt>-->
+                <!--<dd>-->
+                    <!--<span>{{gearDomain.companyDescription}}</span>-->
+                <!--</dd>-->
+                <!--<dt><span jhiTranslate="geargatewayApp.gearDomain.siteId">Site Id</span></dt>-->
+                <!--<dd>-->
+                    <!--<span>{{gearDomain.siteId}}</span>-->
+                <!--</dd>-->
+                <!--<dt><span jhiTranslate="geargatewayApp.gearDomain.jhiStorage">Jhi Storage</span></dt>-->
+                <!--<dd>-->
+                    <!--<span>{{gearDomain.jhiStorage}}</span>-->
+                <!--</dd>-->
+                <!--<dt><span jhiTranslate="geargatewayApp.gearDomain.storageUsed">Storage Used</span></dt>-->
+                <!--<dd>-->
+                    <!--<span>{{gearDomain.storageUsed}}</span>-->
+                <!--</dd>-->
+                <!--<dt><span jhiTranslate="geargatewayApp.gearDomain.levelMaturity">Level Maturity</span></dt>-->
+                <!--<dd>-->
+                    <!--<span>{{gearDomain.levelMaturity}}</span>-->
+                <!--</dd>-->
+                <!--<dt><span jhiTranslate="geargatewayApp.gearDomain.totalWiki">Total Wiki</span></dt>-->
+                <!--<dd>-->
+                    <!--<span>{{gearDomain.totalWiki}}</span>-->
+                <!--</dd>-->
+                <!--<dt><span jhiTranslate="geargatewayApp.gearDomain.totalFileFinalVersion">Total File Final Version</span></dt>-->
+                <!--<dd>-->
+                    <!--<span>{{gearDomain.totalFileFinalVersion}}</span>-->
+                <!--</dd>-->
+                <!--<dt><span jhiTranslate="geargatewayApp.gearDomain.totalFileDraft">Total File Draft</span></dt>-->
+                <!--<dd>-->
+                    <!--<span>{{gearDomain.totalFileDraft}}</span>-->
+                <!--</dd>-->
+                <!--<dt><span jhiTranslate="geargatewayApp.gearDomain.totalFileUpload">Total File Upload</span></dt>-->
+                <!--<dd>-->
+                    <!--<span>{{gearDomain.totalFileUpload}}</span>-->
+                <!--</dd>-->
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-domain', gearDomain.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

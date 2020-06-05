@@ -1,0 +1,64 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="geargatewayApp.gearProcessInfoSystem.home.title">Gear Process Info Systems</span>
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-gear-process-info-system" [routerLink]="['/gear-process-info-system/new']">
+            <fa-icon [icon]="'plus'"></fa-icon>
+            <span  jhiTranslate="geargatewayApp.gearProcessInfoSystem.home.createLabel">
+            Create new Gear Process Info System
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+    <br/>
+    <div class="table-responsive" *ngIf="gearProcessInfoSystems">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+            <th><span jhiTranslate="global.field.id">ID</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearProcessInfoSystem.gearinformationsystems">Gearinformationsystems</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearProcessInfoSystem.gearvaluechainprocess">Gearvaluechainprocess</span></th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let gearProcessInfoSystem of gearProcessInfoSystems ;trackBy: trackId">
+                <td><a [routerLink]="['/gear-process-info-system', gearProcessInfoSystem.id, 'view' ]">{{gearProcessInfoSystem.id}}</a></td>
+                <td>
+                    <div *ngIf="gearProcessInfoSystem.gearinformationsystemsId">
+                        <a [routerLink]="['../gear-information-systems', gearProcessInfoSystem.gearinformationsystemsId , 'view' ]" >{{gearProcessInfoSystem.gearinformationsystemsId}}</a>
+                    </div>
+                </td>
+                <td>
+                    <div *ngIf="gearProcessInfoSystem.gearvaluechainprocessId">
+                        <a [routerLink]="['../gear-value-chain-process', gearProcessInfoSystem.gearvaluechainprocessId , 'view' ]" >{{gearProcessInfoSystem.gearvaluechainprocessId}}</a>
+                    </div>
+                </td>
+                <td class="text-right">
+                    <div class="btn-group flex-btn-group-container">
+                        <button type="submit"
+                                [routerLink]="['/gear-process-info-system', gearProcessInfoSystem.id, 'view' ]"
+                                class="btn btn-info btn-sm">
+                            <fa-icon [icon]="'eye'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/gear-process-info-system', gearProcessInfoSystem.id, 'edit']"
+                                class="btn btn-primary btn-sm">
+                            <fa-icon [icon]="'pencil-alt'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'gear-process-info-system/'+ gearProcessInfoSystem.id + '/delete'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-danger btn-sm">
+                            <fa-icon [icon]="'times'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

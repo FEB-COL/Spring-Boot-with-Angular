@@ -1,0 +1,51 @@
+entity GearForm {
+	name String,
+    description String,
+    totalValue Long,
+    qualifiable Boolean,
+    numberQuestion Long
+}
+entity GearFormInstance {
+	creationDate LocalDate,
+    calculatePercentage String
+}
+
+entity GearFormInstanceGroup {
+	name String
+}
+
+
+entity GearFormType {
+	name String,
+    description String
+}
+
+// Clase form pero no tiene conexion directa con GearForm
+
+entity GearFormAnswer {
+	value String
+}
+entity GearFormQuestion {
+	question String,
+    statement String
+}
+
+entity GearFormLevel {
+	name String,
+    description String
+}
+entity GearFormToBe {
+	description String,
+    date LocalDate
+}
+entity GearFormAspect {
+	name String,
+    minimumPercentage Long
+}
+entity GearFormQuestionType {
+	name String,
+   description String
+}
+
+
+

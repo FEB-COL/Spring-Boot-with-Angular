@@ -1,0 +1,69 @@
+entity GearInformationSystems {
+	name String,
+    description String,
+    version String,
+    acquisitionDate LocalDate,
+    startDate LocalDate,
+    responsible String,
+    responsibleEmail String,
+    provider String,
+    initialCost Double,
+    mainteinanceCost Double,
+    creationDate LocalDate,
+    modifyDate LocalDate
+}
+
+entity GearSystemsFunctionality {
+	name String,
+    description String,
+    creationDate LocalDate,
+    modifyDate LocalDate
+}
+// Relacion de System-Functionality
+relationship OneToMany{
+GearInformationSystems {gearsystemsfunctionality} to GearSystemsFunctionality{gearinformationsystems}
+}
+/*
+//bloque 2
+entity GearValueChainProcess {
+	name String,
+    decription String,
+    creationDate LocalDate,
+    lastUpdate LocalDate,
+    attach String,
+    draft Boolean,
+    inputs String,
+    outputs String
+    
+}
+entity GearValueChainMacroprocess {
+	name String,
+    decription String,
+    creationDate LocalDate,
+    lastUpdate LocalDate,
+    draft Boolean,
+    order Integer  
+}
+entity GearValueChainCategory {
+	name String,
+    decription String,
+    color String,
+    creationDate LocalDate,
+    lastUpdate LocalDate
+}
+
+// Relacion de System-Chain process
+relationship OneToMany{
+GearInformationSystems {gearvaluechainprocess} to GearValueChainProcess{gearinformationsystems}
+}
+
+//Relacion chain process- chainm macroprocess
+relationship ManyToOne{
+GearValueChainProcess {gearvaluechainmacroprocess} to GearValueChainMacroprocess {gearvaluechainprocess}
+}
+
+//Relacion chain process- chainm macroprocess
+relationship ManyToOne{
+GearValueChainMacroprocess {gearvaluechaincategory} to GearValueChainCategory {Ggearvaluechainmacroprocess}
+}
+*/

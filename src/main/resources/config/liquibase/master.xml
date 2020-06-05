@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181121233058_added_entity_GearDomain.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181121233059_added_entity_GearDocumentType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181121233100_added_entity_GearCustomFieldTemplate.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181121233101_added_entity_GearDecision.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181121233102_added_entity_GearCriteria.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181121233103_added_entity_GearOption.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181122214401_added_entity_GearValueChainCategory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181122214402_added_entity_GearValueChainProcess.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181122214403_added_entity_GearValueChainMacroprocess.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181122214404_added_entity_GearInformationSystems.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181122214405_added_entity_GearSystemsFunctionality.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181122214406_added_entity_GearProcessInfoSystem.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181204170517_added_entity_GearGoalsStrategyAE.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181204170518_added_entity_GearSmartStrategyAE.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181204090112_added_entity_ParCoinType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181204090113_added_entity_ParSystemType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181204090114_added_entity_ParLicenceType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190114135445_added_entity_AlfrescoSite.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190114135446_added_entity_AlfrescoNodeProperties.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190114135447_added_entity_AfrescoNode.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190117153206_added_entity_GearDiagnosisType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190117153207_added_entity_GearDiagnosis.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190117153208_added_entity_GearDiagQuestion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190117153209_added_entity_GearDiagAnswer.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190117153210_added_entity_GearAmbit.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121011102_added_entity_GearSurvey.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121011103_added_entity_GearSurveyQuestion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121011104_added_entity_GearSurveyQuestionType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121011105_added_entity_GearSurveyAnswer.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121080435_added_entity_GearSurveySolve.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121114216_added_entity_GearPortfolio.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121114217_added_entity_GearProject.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121114218_added_entity_GearIteration.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121114219_added_entity_GearProjectRisk.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121114220_added_entity_GearRiskLog.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190124070210_added_entity_GearFiles.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190124165238_added_entity_GearOrganizationalUnit.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190124172745_added_entity_GearUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190220151101_added_entity_GearLibrary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190227142135_added_entity_GearWiki.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20181121233059_added_entity_constraints_GearDocumentType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181121233100_added_entity_constraints_GearCustomFieldTemplate.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181121233101_added_entity_constraints_GearDecision.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181121233102_added_entity_constraints_GearCriteria.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181121233103_added_entity_constraints_GearOption.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181122214402_added_entity_constraints_GearValueChainProcess.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181122214403_added_entity_constraints_GearValueChainMacroprocess.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181122214405_added_entity_constraints_GearSystemsFunctionality.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181122214406_added_entity_constraints_GearProcessInfoSystem.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181204170518_added_entity_constraints_GearSmartStrategyAE.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190114135446_added_entity_constraints_AlfrescoNodeProperties.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190114135447_added_entity_constraints_AfrescoNode.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190117153207_added_entity_constraints_GearDiagnosis.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190117153208_added_entity_constraints_GearDiagQuestion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190117153209_added_entity_constraints_GearDiagAnswer.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190117153210_added_entity_constraints_GearAmbit.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121011103_added_entity_constraints_GearSurveyQuestion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121011105_added_entity_constraints_GearSurveyAnswer.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121080435_added_entity_constraints_GearSurveySolve.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121114217_added_entity_constraints_GearProject.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121114219_added_entity_constraints_GearProjectRisk.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121114220_added_entity_constraints_GearRiskLog.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190124070210_added_entity_constraints_GearFiles.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181121233058_added_entity_constraints_GearDomain.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190124172745_added_entity_constraints_GearUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121114216_added_entity_constraints_GearPortfolio.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181204170517_added_entity_constraints_GearGoalsStrategyAE.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181122214401_added_entity_constraints_GearValueChainCategory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181122214404_added_entity_constraints_GearInformationSystems.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190121011102_added_entity_constraints_GearSurvey.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+    <include file="config/liquibase/changelog/201901170245_Add_data_GearDomain.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/201901170250_Add_data_GearDiagnosisType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/201901170255_Add_data_GearAmbit.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/201901221035_Add_data_GearQuestionType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/201901301305_Add_data_GearOrganizationalUnit.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/201902190935_Add_data_ParCoinType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/201902251645_Add_data_GearSurvey.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/201902251825_Add_data_GearSurveyQuestion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/201902251835_Add_data_GearSurveyAnswer.xml" relativeToChangelogFile="false"/>
+</databaseChangeLog>

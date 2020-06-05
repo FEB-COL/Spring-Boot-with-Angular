@@ -1,0 +1,63 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-gear-systems-functionality-heading" jhiTranslate="geargatewayApp.gearSystemsFunctionality.home.createOrEditLabel">Create or edit a Gear Systems Functionality</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!gearSystemsFunctionality.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="gearSystemsFunctionality.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearSystemsFunctionality.name" for="field_name">Name</label>
+                    <input type="text" class="form-control" name="name" id="field_name"
+                        [(ngModel)]="gearSystemsFunctionality.name" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearSystemsFunctionality.description" for="field_description">Description</label>
+                    <input type="text" class="form-control" name="description" id="field_description"
+                        [(ngModel)]="gearSystemsFunctionality.description" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearSystemsFunctionality.creationDate" for="field_creationDate">Creation Date</label>
+                    <div class="input-group">
+                        <input id="field_creationDate" type="text" class="form-control" name="creationDate" ngbDatepicker  #creationDateDp="ngbDatepicker" [(ngModel)]="gearSystemsFunctionality.creationDate"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="creationDateDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearSystemsFunctionality.modifyDate" for="field_modifyDate">Modify Date</label>
+                    <div class="input-group">
+                        <input id="field_modifyDate" type="text" class="form-control" name="modifyDate" ngbDatepicker  #modifyDateDp="ngbDatepicker" [(ngModel)]="gearSystemsFunctionality.modifyDate"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="modifyDateDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearSystemsFunctionality.gearinformationsystems" for="field_gearinformationsystems">Gearinformationsystems</label>
+                    <select class="form-control" id="field_gearinformationsystems" name="gearinformationsystems" [(ngModel)]="gearsystemtemporal">
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="gearInformationSystemsOption" *ngFor="let gearInformationSystemsOption of gearinformationsystems; trackBy: trackGearInformationSystemsById">{{gearInformationSystemsOption.name}}</option>
+
+
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,106 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-alfresco-node-properties-heading" jhiTranslate="geargatewayApp.alfrescoNodeProperties.home.createOrEditLabel">Create or edit a Alfresco Node Properties</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!alfrescoNodeProperties.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="alfrescoNodeProperties.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.documentType" for="field_documentType">Document Type</label>
+                    <input type="text" class="form-control" name="documentType" id="field_documentType"
+                        [(ngModel)]="alfrescoNodeProperties.documentType" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.documentTitle" for="field_documentTitle">Document Title</label>
+                    <input type="text" class="form-control" name="documentTitle" id="field_documentTitle"
+                        [(ngModel)]="alfrescoNodeProperties.documentTitle" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.fileName" for="field_fileName">File Name</label>
+                    <input type="text" class="form-control" name="fileName" id="field_fileName"
+                        [(ngModel)]="alfrescoNodeProperties.fileName" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.siteId" for="field_siteId">Site Id</label>
+                    <input type="text" class="form-control" name="siteId" id="field_siteId"
+                        [(ngModel)]="alfrescoNodeProperties.siteId" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.description" for="field_description">Description</label>
+                    <input type="text" class="form-control" name="description" id="field_description"
+                        [(ngModel)]="alfrescoNodeProperties.description" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.notes" for="field_notes">Notes</label>
+                    <input type="text" class="form-control" name="notes" id="field_notes"
+                        [(ngModel)]="alfrescoNodeProperties.notes" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.versionType" for="field_versionType">Version Type</label>
+                    <input type="text" class="form-control" name="versionType" id="field_versionType"
+                        [(ngModel)]="alfrescoNodeProperties.versionType" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.versionLabel" for="field_versionLabel">Version Label</label>
+                    <input type="text" class="form-control" name="versionLabel" id="field_versionLabel"
+                        [(ngModel)]="alfrescoNodeProperties.versionLabel" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.textField1" for="field_textField1">Text Field 1</label>
+                    <input type="text" class="form-control" name="textField1" id="field_textField1"
+                        [(ngModel)]="alfrescoNodeProperties.textField1" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.textField2" for="field_textField2">Text Field 2</label>
+                    <input type="text" class="form-control" name="textField2" id="field_textField2"
+                        [(ngModel)]="alfrescoNodeProperties.textField2" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.textField3" for="field_textField3">Text Field 3</label>
+                    <input type="text" class="form-control" name="textField3" id="field_textField3"
+                        [(ngModel)]="alfrescoNodeProperties.textField3" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.textField4" for="field_textField4">Text Field 4</label>
+                    <input type="text" class="form-control" name="textField4" id="field_textField4"
+                        [(ngModel)]="alfrescoNodeProperties.textField4" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.textField5" for="field_textField5">Text Field 5</label>
+                    <input type="text" class="form-control" name="textField5" id="field_textField5"
+                        [(ngModel)]="alfrescoNodeProperties.textField5" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.textField6" for="field_textField6">Text Field 6</label>
+                    <input type="text" class="form-control" name="textField6" id="field_textField6"
+                        [(ngModel)]="alfrescoNodeProperties.textField6" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.textField7" for="field_textField7">Text Field 7</label>
+                    <input type="text" class="form-control" name="textField7" id="field_textField7"
+                        [(ngModel)]="alfrescoNodeProperties.textField7" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.alfrescoNodeProperties.alfrescoNode" for="field_alfrescoNode">Alfresco Node</label>
+                    <select class="form-control" id="field_alfrescoNode" name="alfrescoNode" [(ngModel)]="alfrescoNodeProperties.alfrescoNodeId" >
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="afrescoNodeOption.id" *ngFor="let afrescoNodeOption of afresconodes; trackBy: trackAfrescoNodeById">{{afrescoNodeOption.id}}</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

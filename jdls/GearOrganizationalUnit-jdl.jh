@@ -1,0 +1,27 @@
+entity GearOrganizationalUnit {
+	name String,
+    idAlfresco String,
+    lowercaseRestrictions Integer,
+    uppercaseRestrictions Integer,
+    specialCharactersRestrictions Integer,
+    digitsRestrictions Integer,
+    minimumLengthRestrictions Integer,
+    maximumLengthRestriction Integer,
+    regexCorreoRestriction String,
+    maximumAttempsRestriction Integer,
+    automaticLockEmail String,
+    manualLockEmail String,
+    resetPasswordEmail String,
+    passwordExpiresDays Integer
+}
+
+
+
+// Use Data Transfert Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service * with serviceImpl 
+
+
+

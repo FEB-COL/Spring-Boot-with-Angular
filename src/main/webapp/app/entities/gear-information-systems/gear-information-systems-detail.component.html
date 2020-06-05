@@ -1,0 +1,73 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+
+        <div *ngIf="gearInformationSystems">
+
+            <h2><span jhiTranslate="geargatewayApp.gearInformationSystems.detail.title">Gear Information Systems</span> {{gearInformationSystems.name}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearInformationSystems.name">Name</span></dt>
+                <dd>
+                    <span>{{gearInformationSystems.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearInformationSystems.description">Description</span></dt>
+                <dd>
+                    <span>{{gearInformationSystems.description}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearInformationSystems.version">Version</span></dt>
+                <dd>
+                    <span>{{gearInformationSystems.version}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearInformationSystems.acquisitionDate">Acquisition Date</span></dt>
+                <dd>
+                    <span>{{gearInformationSystems.acquisitionDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearInformationSystems.startDate">Start Date</span></dt>
+                <dd>
+                    <span>{{gearInformationSystems.startDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearInformationSystems.responsible">Responsible</span></dt>
+                <dd>
+                    <span>{{gearInformationSystems.responsible}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearInformationSystems.responsibleEmail">Responsible Email</span></dt>
+                <dd>
+                    <span>{{gearInformationSystems.responsibleEmail}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearInformationSystems.provider">Provider</span></dt>
+                <dd>
+                    <span>{{gearInformationSystems.provider}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearInformationSystems.initialCost">Initial Cost</span></dt>
+                <dd>
+                    <span>{{gearInformationSystems.initialCost}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearInformationSystems.mainteinanceCost">Mainteinance Cost</span></dt>
+                <dd>
+                    <span>{{gearInformationSystems.mainteinanceCost}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearInformationSystems.creationDate">Creation Date</span></dt>
+                <dd>
+                    <span>{{gearInformationSystems.creationDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearInformationSystems.modifyDate">Modify Date</span></dt>
+                <dd>
+                    <span>{{gearInformationSystems.modifyDate}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-information-systems', gearInformationSystems.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

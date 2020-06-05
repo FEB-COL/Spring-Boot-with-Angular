@@ -1,0 +1,27 @@
+{
+    "geargatewayApp": {
+        "alfrescoSite": {
+            "home": {
+                "title": "Alfresco Sites",
+                "createLabel": "Create a new Alfresco Site",
+                "createOrEditLabel": "Create or edit a Alfresco Site"
+            },
+            "created": "A new Alfresco Site is created with identifier {{ param }}",
+            "updated": "A Alfresco Site is updated with identifier {{ param }}",
+            "deleted": "A Alfresco Site is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Alfresco Site {{ id }}?"
+            },
+            "detail": {
+                "title": "Alfresco Site"
+            },
+            "guid": "Guid",
+            "identify": "Identify",
+            "role": "Role",
+            "title": "Title",
+            "description": "Description",
+            "visibility": "Visibility",
+            "alfrescoNode": "Alfresco Node"
+        }
+    }
+}

@@ -1,0 +1,52 @@
+<h2 mat-dialog-title>Datos de Criterios</h2>
+
+<form [formGroup]="form" (ngSubmit)="save()">
+    <mat-dialog-content>
+
+        <!--Input Name-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Nombre</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <input
+                    type="text"
+                    formControlName="name"
+                    matInput
+                    required>
+            </mat-form-field>
+        </div>
+
+        <!--Input Description-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Descripción</mat-label>
+
+                <textarea
+                    rows="5"
+                    cols="9"
+                    formControlName="description"
+                    matInput
+                    required>
+                </textarea>
+
+            </mat-form-field>
+        </div>
+
+
+        <!-- Select Decision  -->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <!--Valor por defecto en el select-->
+                <mat-label>{{defaultSelect}}</mat-label>
+                <mat-select  [(value)]="geardecision" disabled >
+                    <mat-option [value]="geardecisionOption" *ngFor="let geardecisionOption of gearDecisions">{{geardecisionOption.name}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+
+    </mat-dialog-content>
+    <mat-dialog-actions fxLayout="row" fxLayoutAlign="end center">
+        <button *ngIf="isCreateMode()" mat-button [disabled]="!form.valid">Crear Criterio</button>
+        <button *ngIf="isUpdateMode()" mat-button [disabled]="!form.valid">Actualizar Criterio</button>
+    </mat-dialog-actions>
+</form>

@@ -1,0 +1,71 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-gear-value-chain-macroprocess-heading" jhiTranslate="geargatewayApp.gearValueChainMacroprocess.home.createOrEditLabel">Create or edit a Gear Value Chain Macroprocess</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!gearValueChainMacroprocess.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="gearValueChainMacroprocess.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearValueChainMacroprocess.name" for="field_name">Name</label>
+                    <input type="text" class="form-control" name="name" id="field_name"
+                        [(ngModel)]="gearValueChainMacroprocess.name" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearValueChainMacroprocess.decription" for="field_decription">Decription</label>
+                    <input type="text" class="form-control" name="decription" id="field_decription"
+                        [(ngModel)]="gearValueChainMacroprocess.decription" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearValueChainMacroprocess.creationDate" for="field_creationDate">Creation Date</label>
+                    <div class="input-group">
+                        <input id="field_creationDate" type="text" class="form-control" name="creationDate" ngbDatepicker  #creationDateDp="ngbDatepicker" [(ngModel)]="gearValueChainMacroprocess.creationDate"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="creationDateDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearValueChainMacroprocess.lastUpdate" for="field_lastUpdate">Last Update</label>
+                    <div class="input-group">
+                        <input id="field_lastUpdate" type="text" class="form-control" name="lastUpdate" ngbDatepicker  #lastUpdateDp="ngbDatepicker" [(ngModel)]="gearValueChainMacroprocess.lastUpdate"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="lastUpdateDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearValueChainMacroprocess.draft" for="field_draft">Draft</label>
+                    <input type="checkbox" class="form-control" name="draft" id="field_draft"
+                        [(ngModel)]="gearValueChainMacroprocess.draft" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearValueChainMacroprocess.order" for="field_order">Order</label>
+                    <input type="number" class="form-control" name="order" id="field_order"
+                        [(ngModel)]="gearValueChainMacroprocess.order" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearValueChainMacroprocess.gearvaluechaincategory" for="field_gearvaluechaincategory">Gearvaluechaincategory</label>
+                    <select class="form-control" id="field_gearvaluechaincategory" name="gearvaluechaincategory" [(ngModel)]="gearcategoryTemporal" >
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="gearValueChainCategoryOption" *ngFor="let gearValueChainCategoryOption of gearvaluechaincategories; trackBy: trackGearValueChainCategoryById">{{gearValueChainCategoryOption.name}}</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,383 @@
+id;text;description;correct_answer;gearsurvey_id;gearsurveyquestiontype_id
+1;Para identificar los grupos de valor y sus características (sociales, geográficas, económicas o las que la entidad considere de acuerdo con su misión), así como los grupos de interés (organizaciones sociales, academia, investigadores y las asociaciones) la entidad:;Pregunta 1;0;1;3
+2;La entidad previo al ejercicio de planeación, definió su direccionamiento estratégico teniendo en cuenta los siguientes aspectos:;Pregunta 2;0;1;3
+3;Las decisiones en el ejercicio de planeación se toman con base en: Identificación de las necesidades de los grupos de valor;Pregunta 3.1;0;1;3
+4;Las decisiones en el ejercicio de planeación se toman con base en: Recomendaciones del equipo directivo y sus equipos de trabajo;Pregunta 3.2;0;1;3
+5;Las decisiones en el ejercicio de planeación se toman con base en: La evaluación y retroalimentación  ciudadana realizada en las actividades de rendición de cuentas;Pregunta 3.3;0;1;3
+6;Las decisiones en el ejercicio de planeación se toman con base en:  Resultados de las auditorías internas y externas;Pregunta 3.4;0;1;3
+7;Las decisiones en el ejercicio de planeación se toman con base en: Resultados de la evaluación de la gestión de riesgos;Pregunta 3.5;0;1;3
+8;Las decisiones en el ejercicio de planeación se toman con base en: Resultados de la evaluación de la gestión financiera;Pregunta 3.6;0;1;3
+9;Las decisiones en el ejercicio de planeación se toman con base en: Medición del desempeño en los  periodos anteriores;Pregunta 3.7;0;1;3
+10;Las decisiones en el ejercicio de planeación se toman con base en: Medición de la satisfacción de los grupos de valor en periodos anteriores;Pregunta 3.8;0;1;3
+11;El plan estratégico de la entidad:;Pregunta 4;0;1;3
+12;El plan de acción anual institucional de la entidad:;Pregunta 5;0;1;3
+13;La entidad cuenta con un acto administrativo a través del cual se crean o modifican las funciones del Comité de Gestión y Desempeño Institucional o el que haga sus veces, donde se incluyan los temas y funciones de:;Pregunta 6;0;1;3
+14;¿Los planes, proyectos o programas de la entidad cuentan con recursos presupuestados (independientemente de su fuente)?;Pregunta 7;0;1;3
+15;¿La entidad hace seguimiento a las políticas de seguridad definidas por el Comité Directivo del SIIF Nación?;Pregunta 8;0;1;3
+16;¿La entidad evalúa los resultados de la gestión presupuestal del año anterior para la elaboración del anteproyecto de presupuesto?;Pregunta 9;0;1;3
+17;¿La entidad cuenta con indicadores que permitan relacionar el cumplimiento de su ejecución presupuestal versus las metas misionales traducidas en la entrega final de bienes y servicios?;Pregunta 10;0;1;3
+18;¿Cuál fue el porcentaje de ejecución presupuestal (entiéndase como obligación/apropiación) de la entidad en la última vigencia fiscal?;Pregunta 11;0;1;1
+19;¿Coincide el progreso y cumplimiento de las metas misionales de la entidad con la ejecución de las metas del Plan Nacional de Desarrollo?;Pregunta 12;0;1;3
+20;El porcentaje de reservas presupuestales de la entidad en la vigencia evaluada ha sido:;Pregunta 13;0;1;3
+21;¿La gestión presupuestal y de planificación de la entidad ha contribuido a reducir el porcentaje de reservas constituido frente a las apropiaciones de la vigencia?;Pregunta 14;0;1;3
+22;Frente a las reservas constituidas indique:;Pregunta 15;0;1;3
+23;¿Anualmente la entidad ha seguido las directrices ordenadas por el Gobierno Nacional sobre austeridad del gasto y es verificable en su programación presupuestal?;Pregunta 16;0;1;3
+24;Frente al cumplimiento de las directrices de austeridad, indique el porcentaje de reducción de gastos (con respecto a la vigencia 2017), en los siguientes rubros:;Pregunta 17;0;1;3
+25;Con respecto al presupuesto de la entidad indique:;Pregunta 18;0;1;3
+26;¿La entidad utiliza el SECOP II como plataforma para hacer sus procesos de contratación?;Pregunta 19;0;1;3
+27;¿La entidad utiliza la Tienda Virtual del Estado Colombiano para hacer compras de los bienes y servicios de características técnicas uniformes disponibles en la plataforma?;Pregunta 20;0;1;3
+28;Para la planeación del talento humano, la entidad tiene en cuenta:;Pregunta 21;0;1;3
+29;¿La planeación estratégica del talento humano se construye a partir de las metas y objetivos de la entidad?;Pregunta 22;0;1;3
+30;La planeación estratégica del talento humano de la entidad incorpora actividades para los siguientes aspectos:;Pregunta 23;0;1;3
+31;La entidad cuenta con la caracterización de todos sus servidores y está en capacidad de generar reportes de forma inmediata sobre: Características de los servidores (edad, género, estudios, experiencia laboral, personas sindicalizadas, idiomas, etnia, limitaciones físicas).;Pregunta 24.1;0;1;3
+32;La entidad cuenta con la caracterización de todos sus servidores y está en capacidad de generar reportes de forma inmediata sobre: Características de los empleos (vacantes definitivas, vacantes temporales, perfiles de empleos, funciones de empleos).;Pregunta 24.2;0;1;3
+33;La planta de personal de la entidad (o documento que contempla los empleos de la entidad);Pregunta 25;0;1;3
+34;Los perfiles de los empleos definidos en el manual de funciones contemplan:;Pregunta 26;0;1;3
+35;¿El manual de funciones vigente en la entidad se ajustó de acuerdo con el Decreto 815 de 2018?;Pregunta 27;0;1;3
+36;¿Al menos el 10% de los nuevos empleos del nivel profesional que se han creado desde mayo de 2016 en la planta de personal de la entidad no exigen como requisito experiencia profesional?;Pregunta 28;0;1;3
+37;Indique el número total de empleos con que cuenta la entidad en su planta de personal, con corte al 31 de diciembre;Pregunta 29;0;1;3
+38;Registre el nivel de avance en el diligenciamiento y actualización del SIGEP en los módulos de organizaciones y empleo;Pregunta 30;0;1;3
+39;Si el resultado está por debajo del 60% señale las razones:;Pregunta 31;0;1;3
+40;Indique el número total de empleos con que cuenta la entidad en su planta de personal con corte al 31 de diciembre, a nivel de:;Pregunta 32;0;1;3
+41;Para llevar a cabo la selección de un gerente público o de un empleo de libre nombramiento y remoción, la entidad:;Pregunta 33;0;1;3
+42;¿Qué mecanismos emplea la entidad para seleccionar a los gerentes públicos y/o los empleos de libre nombramiento y remoción?;Pregunta 34;0;1;3
+43;Indique el número total de empleos de carrera administrativa por nivel jerárquico con corte al 31 de diciembre:;Pregunta 35;0;1;3
+44;Indique el número de empleos vacantes definitivos de carrera administrativa, por nivel jerárquico con corte al 31 de diciembre:;Pregunta 36;0;1;3
+45;¿La entidad reportó las vacantes en la Oferta Pública de Empleos de Carrera (OPEC)?;Pregunta 37;0;1;3
+46;Indique el número de las vacantes definitivas por nivel jerárquico que se sometieron o están sometiendo a concurso de mérito con corte a 31 de diciembre;Pregunta 38;0;1;3
+47;Indique el número de servidores públicos vinculados a través de procesos de selección meritocrática que llevó a cabo la entidad para:;Pregunta 39;0;1;3
+48;La inducción para servidores nuevos en la entidad se lleva a cabo:;Pregunta 40;0;1;3
+49;Indique el número total de cargos de gerencia pública en la entidad al 31 de diciembre de 2018:;Pregunta 41;0;1;3
+50;Con respecto a los cargos de gerencia pública que tenía la entidad al 31 de diciembre de 2018, indique:;Pregunta 42;0;1;3
+51;La inducción para gerentes públicos en la entidad se hace de manera:;Pregunta 43;0;1;3
+52;Indique el número total de servidores públicos de carrera administrativa y de libre nombramiento y remoción con evaluación del desempeño;Pregunta 44;0;1;3
+53;¿Los resultados de la evaluación de desempeño laboral y de los acuerdos de gestión son coherentes con el cumplimiento de las metas de la entidad?;Pregunta 45;0;1;3
+54;La reinducción para los servidores de la entidad se hace:;Pregunta 46;0;1;3
+55;¿Los recursos invertidos en capacitación se asignan con base en las necesidades priorizadas?;Pregunta 47;0;1;3
+56;La entidad ha desarrollado jornadas de capacitación y/o divulgación a sus servidores y contratistas sobre:;Pregunta 48;0;1;3
+57;De acuerdo con el nuevo plan de formación y capacitación, indique cuáles de sus ejes ha implementado en sus programas de aprendizaje institucional;Pregunta 49;0;1;3
+58;Frente a la medición del clima organizacional, realizada en los últimos dos años, la entidad:;Pregunta 50;0;1;3
+59;Con respecto a la implementación en la entidad de los siguientes programas o estrategias indique:;Pregunta 51;0;1;3
+60;Con respecto a los servidores que se retiran, la entidad:;Pregunta 52;0;1;3
+61;Los mecanismos que implementa la entidad para transferir el conocimiento de los servidores que se retiran a quienes continúan vinculados:;Pregunta 53;0;1;3
+62;El mecanismo de la entidad para gestionar el cumplimiento de la política de integridad por parte de los servidores:;Pregunta 54;0;1;3
+63;¿La entidad implementa estrategias para socializar y apropiar el Código de Integridad?;Pregunta 55;0;1;3
+64;La entidad mejora la implementación del Código de Integridad a partir de:;Pregunta 56;0;1;3
+65;¿La entidad implementa estrategias para la identificación y declaración de conflictos de interés?;Pregunta 57;0;1;3
+66;¿En la entidad se han implementado canales de denuncia y seguimiento frente a situaciones disciplinarias y de conflictos de interés?;Pregunta 58;0;1;3
+67;¿La declaración de bienes y renta de los servidores públicos de la entidad, se presenta en los términos y condiciones de los artículos 13 al 16 de la ley 190 de 1995?;Pregunta 59;0;1;3
+68;Indique el número máximo de niveles en la cadena de mando para la toma de decisiones estratégicas de la entidad;Pregunta 60;0;1;1
+69;La estructura organizacional de la entidad facilita:;Pregunta 61;0;1;3
+70;El modelo de operación de los procesos de la entidad:;Pregunta 62;0;1;3
+71;La documentación de los procesos de la entidad incluye:;Pregunta 63;0;1;3
+72;¿Se han racionalizado los procesos y procedimientos durante los últimos 5 años?;Pregunta 64;0;1;3
+73;La entidad mejora sus procesos y procedimientos a partir de:;Pregunta 65;0;1;3
+74;Los bienes y servicios contratados por la entidad:;Pregunta 66;0;1;3
+75;Para la adecuada gestión de los bienes y servicios de apoyo la entidad:;Pregunta 67;0;1;3
+76;¿La entidad dentro de sus políticas de seguridad y salud en el trabajo, toma en cuenta la prevención de riesgos laborales asociados al uso y mantenimiento de bienes y espacios físicos?;Pregunta 68;0;1;3
+77;Al ingresar los bienes de carácter devolutivo a la entidad estos:;Pregunta 69;0;1;3
+78;Con relación a los bienes de carácter devolutivo que agotan su vida útil, la entidad:;Pregunta 70;0;1;3
+79;Las acciones implementadas para optimizar el consumo de bienes y servicios, la gestión de residuos, el reciclaje y ahorro de agua y energía ¿han sido suficientes y efectivos?;Pregunta 71;0;1;3
+80;¿La entidad cuenta con un plan de mantenimiento para asegurar el óptimo funcionamiento de la infraestructura física y de los equipos?;Pregunta 72;0;1;3
+81;El plan de mantenimiento preventivo de las instalaciones físicas y de los equipos de la entidad cuenta con:;Pregunta 73;0;1;3
+82;¿La entidad cuenta con una política ambiental?;Pregunta 74;0;1;3
+83;La entidad en compromiso con el medio ambiente:;Pregunta 75;0;1;3
+84;Con respecto a los datos abiertos indique:;Pregunta 76;0;1;3
+85;Señale los criterios de accesibilidad que cumple la entidad en su sitio Web:;Pregunta 77;0;1;3
+86;Señale las directrices de usabilidad que cumple la entidad en su sitio Web:;Pregunta 78;0;1;3
+87;El Plan Estratégico de Tecnologías de la Información (PETI):;Pregunta 79;0;1;3
+88;El Plan Estratégico de Tecnologías de la Información (PETI) incluye:;Pregunta 80;0;1;3
+89;Con respecto a lo planeado, indique el nivel de avance de las iniciativas/proyectos del PETI, al 31 de diciembre de 2018;Pregunta 81;0;1;1
+90;Con respecto a la arquitectura empresarial, la entidad:;Pregunta 82;0;1;3
+91;En la documentación de los servicios de tecnologías de la información (TI) y la arquitectura empresarial, la entidad:;Pregunta 83;0;1;3
+92;Señale los aspectos incorporados en el esquema de gobierno de tecnologías de la información (TI) de la entidad:;Pregunta 84;0;1;3
+93;Para la optimización de las compras de tecnologías de información (TI), la entidad:;Pregunta 85;0;1;3
+94;Frente a la gestión integral de proyectos de tecnologías de la información (TI), la entidad:;Pregunta 86;0;1;3
+95;Con relación a la gestión y planeación de los componentes de información, la entidad:;Pregunta 87;0;1;3
+96;Frente a la calidad de los componentes de información, la entidad:;Pregunta 88;0;1;3
+97;¿La entidad usa el estándar GEL-XML en la implementación de servicios para el intercambio de información con otras entidades? ;Pregunta 89;0;1;3
+98;Frente a la planeación y gestión de los sistemas de información, la entidad:;Pregunta 90;0;1;3
+99;Para el soporte de los sistemas de información, la entidad:;Pregunta 91;0;1;3
+100;Con respecto al ciclo de vida de los sistemas de información, la entidad:;Pregunta 92;0;1;3
+101;Para el soporte de los servicios tecnológicos, la entidad:;Pregunta 93;0;1;3
+102;Con respecto a la operación de los servicios tecnológicos, la entidad:;Pregunta 94;0;1;3
+103;¿En qué fase de la adopción de IPv6 se encontraba la entidad al 31 de diciembre de 2018?;Pregunta 95;0;1;3
+104;¿Qué documentación ha adelantado la entidad en la adopción de IPV6?;Pregunta 96;0;1;3
+105;Frente a la estrategia para el uso y apropiación de TI, la entidad:;Pregunta 97;0;1;3
+106;¿La entidad realizó un diagnóstico de seguridad de la información?;Pregunta 98;0;1;3
+107;¿La entidad ha adoptado una política de seguridad de la información?;Pregunta 99;0;1;3
+108;¿La entidad definió y apropió procedimientos de seguridad de la información?;Pregunta 100;0;1;3
+109;Con respecto a la gestión de activos de seguridad de la información, la entidad:;Pregunta 101;0;1;3
+110;¿La entidad realiza gestión de riesgos de seguridad de la información?;Pregunta 102;0;1;3
+111;¿La entidad implementó el plan de tratamiento de riesgos de seguridad de la información?;Pregunta 103;0;1;3
+112;Con respecto al plan operacional de seguridad de la información, la entidad:;Pregunta 104;0;1;3
+113;¿La entidad ha definido indicadores de gestión para la seguridad de la información?;Pregunta 105;0;1;3
+114;¿La entidad definió un plan de seguimiento y evaluación a la implementación de seguridad de la información?;Pregunta 106;0;1;3
+115;¿La entidad realiza auditorias de seguridad de la información?;Pregunta 107;0;1;3
+116;¿La entidad definió un plan de mejoramiento continuo de seguridad de la información?;Pregunta 108;0;1;3
+117;¿La entidad tiene el buzón de contacto seguridaddigital@dominio.gov.co?;Pregunta 109;0;1;3
+118;¿La entidad informó al Coordinador Nacional de Seguridad Digital (email: seguridaddigital@presidencia.gov.co) los datos de contacto de los enlaces institucional y/o sectorial de seguridad digital?;Pregunta 110;0;1;3
+119;Seleccione las acciones realizadas por la entidad para fortalecer las capacidades en seguridad digital;Pregunta 111;0;1;3
+120;Seleccione las instancias de política de seguridad digital que la entidad conoce:;Pregunta 112;0;1;3
+121;Cuáles de las siguientes herramientas o instrumentos en seguridad digital definidas por el Gobierno Nacional conoce la entidad:;Pregunta 113;0;1;3
+122;Seleccione las campañas relacionadas con seguridad digital que la entidad conoce:;Pregunta 114;0;1;3
+123;Indique las convocatorias para el fortalecimiento de capacidades en Seguridad digital realizadas por Gobierno Nacional, en las cuales ha participado el personal de su entidad;Pregunta 115;0;1;3
+124;¿La entidad designó un delegado para participar en las mesas de infraestructura crítica cibernética convocadas por el Comando Conjunto Cibernético del Ministerio de Defensa?;Pregunta 116;0;1;3
+125;¿Personal de la entidad han participado en los ejercicios de simulación nacional o internacional, para desarrollar habilidades y destrezas en materia de seguridad digital?;Pregunta 117;0;1;3
+126;¿Qué acciones ha realizado la entidad para la gestión sistemática y cíclica del riesgo de seguridad digital?;Pregunta 118;0;1;3
+127;¿La entidad formula políticas de prevención de daño antijurídico?;Pregunta 119;0;1;3
+128;¿La entidad recibió solicitudes de conciliación extrajudicial en la vigencia evaluada?;Pregunta 120;0;1;3
+129;¿Los apoderados de la entidad alimentan el módulo prejudicial en eKOGUI?;Pregunta 121;0;1;3
+130;¿La entidad ha formulado directrices de conciliación?;Pregunta 122;0;1;3
+131;Acerca de la procedencia de las solicitudes de conciliación elevadas ante la entidad, ¿se deciden en los términos previstos por la normatividad?;Pregunta 123;0;1;3
+132;¿Se ha promovido que los conflictos suscitados entre la entidad y otras entidades y/o organismos del orden nacional sean sometidos al trámite de mediación ante la Agencia Nacional de Defensa Jurídica del Estado?;Pregunta 124;0;1;3
+133;¿La entidad contaba con demandas activas en su contra a 31 de diciembre de 2018?;Pregunta 125;0;1;3
+134;¿Los apoderados de la entidad alimentan el módulo judicial del aplicativo eKOGUI?;Pregunta 126;0;1;3
+135;¿La entidad diseña las políticas generales que orientan la defensa técnica de los intereses de la entidad?;Pregunta 127;0;1;3
+136;En los estudios y/o análisis que realiza la entidad de los procesos que cursan o hayan cursado en su contra, con el fin de proponer correctivos, se determina:;Pregunta 128;0;1;3
+137;¿La entidad cuenta con apoderados externos para la defensa de sus intereses litigiosos?;Pregunta 129;0;1;3
+138;¿La entidad define los criterios para la selección de los apoderados externos?;Pregunta 130;0;1;3
+139;¿La entidad realiza seguimiento a los procesos encomendados a los apoderados externos?;Pregunta 131;0;1;3
+140;Cuántos pagos efectuó la entidad en la vigencia evaluada por concepto de cumplimiento o pago de:;Pregunta 132;0;1;3
+141;Especifique el valor de los pagos efectuados por la entidad durante la vigencia evaluada, por concepto de:;Pregunta 133;0;1;3
+142;A qué valor asciende la deuda de la entidad a 31 de diciembre de 2018 evaluada por concepto de:;Pregunta 134;0;1;3
+143;¿Cuenta la entidad con un sistema de información o base de datos que contenga el inventario completo de los trámites de cumplimiento y/o pago de sentencias, conciliaciones o laudos?;Pregunta 135;0;1;3
+144;A qué valor ascendió la provisión contable del rubro de sentencias y conciliaciones al cierre de la vigencia evaluada, discriminada por:;Pregunta 136;0;1;3
+145;¿El procedimiento de cumplimiento y pago de sentencias y conciliaciones de la entidad está de acuerdo con el previsto en el Decreto Único del Sector Hacienda y Crédito Público?;Pregunta 137;0;1;3
+146;¿Ha adoptado formalmente la entidad una metodología de reconocido valor técnico para la provisión contable del rubro de sentencias y conciliaciones?;Pregunta 138;0;1;3
+147;¿La entidad realiza los estudios de procedencia de la acción de repetición dentro de los términos previstos?;Pregunta 139;0;1;3
+148;¿La entidad informa acerca de sus decisiones con respecto a la procedencia de la acción de repetición al Ministerio Público?140.;Pregunta 140;0;1;3
+149;¿La entidad determina la procedencia o improcedencia del llamamiento en garantía con fines de repetición?;Pregunta 141;0;1;3
+150;¿La entidad cuenta con un plan y/o programa de entrenamiento y actualización para los abogados que llevan la defensa jurídica?;Pregunta 142;0;1;3
+151;Seleccione los componentes del Plan Anticorrupción y de Atención al Ciudadano de la entidad a los cuales se les hizo seguimiento:;Pregunta 143;0;1;3
+152;¿El Plan Anticorrupción y de Atención al Ciudadano de su entidad, contiene otras iniciativas, estrategias, mecanismos o actividades adicionales para luchar contra la corrupción?;Pregunta 144;0;1;3
+153;Seleccione los grupos de valor y otras instancias, que participaron en la formulación del Plan Anticorrupción y de Atención al Ciudadano;Pregunta 145;0;1;3
+154;¿Cuáles mecanismos utiliza la entidad para dar a conocer los lineamientos establecidos en el Plan Anticorrupción y de Atención al Ciudadano a sus grupos de valor y a la ciudadanía?;Pregunta 146;0;1;3
+155;¿Existen lineamientos en la entidad para que los ciudadanos realicen denuncias por actos de corrupción?;Pregunta 147;0;1;3
+156;¿Cuántos riesgos de corrupción tiene identificados la entidad?;Pregunta 148;0;1;1
+157;Seleccione los procesos /subprocesos sobre los cuáles la entidad ha identificado riesgos de corrupción;Pregunta 149;0;1;3
+158;Durante la vigencia evaluada, ¿cuántos riesgos de corrupción se materializaron?;Pregunta 150;0;1;1
+159;Los riesgos de corrupción materializados se pusieron en conocimiento de las autoridades:siguientes;Pregunta 151;0;1;3
+160;Los controles definidos por la entidad para mitigar los riesgos de corrupción incluyen:;Pregunta 152;0;1;3
+161;¿La entidad ajustó el mapa de riesgos de corrupción por la materialización de estos?;Pregunta 153;0;1;3
+162;¿El patrimonio de la entidad se ha visto afectado por la materialización de hechos de corrupción?;Pregunta 154;0;1;3
+163;La entidad publica en la sección transparencia y acceso a la información pública de su sitio web oficial:;Pregunta 155;0;1;3
+164;La política o estrategia de servicio al ciudadano:;Pregunta 156;0;1;3
+165;En la entidad, la dependencia de atención al ciudadano:;Pregunta 157;0;1;3
+166;Señale el número de puntos de atención físicos con que cuenta la entidad:;Pregunta 158;0;1;1
+167;Señale el número de personas y/o servidores públicos están asignados a la atención al ciudadano o usuario en los siguientes canales de la entidad;Pregunta 159;0;1;3
+168;Señale el número de ciudadanos o usuarios atendidos a través de los siguientes canales, con corte a 31 de diciembre de 2018;Pregunta 160;0;1;3
+169;¿Se realiza de forma periódica un análisis de la suficiencia del talento humano asignado a cada uno de los canales de atención?;Pregunta 161;0;1;3
+170;¿Qué mecanismos utiliza la entidad para que los ciudadanos gestionen sus trámites y servicios en el territorio?;Pregunta 162;0;1;3
+171;La entidad cuenta con:;Pregunta 163;0;1;3
+172;¿Cuáles de los siguientes indicadores de medición y seguimiento del desempeño son calculados y utilizados por la entidad en el marco de su política de servicio al ciudadano?;Pregunta 164;0;1;3
+173;La entidad cuenta con:;Pregunta 165;0;1;3
+174;Señale los canales de atención que tiene la entidad a disposición de la ciudadanía y que se encuentran en operación:;Pregunta 166;0;1;3
+175;La entidad cuenta con una estrategia para interactuar de manera virtual con los ciudadanos a través de:;Pregunta 167;0;1;3
+176;¿Existen mecanismos de control para garantizar que la información entregada a los ciudadanos a través de los diferentes canales sea la misma?;Pregunta 168;0;1;3
+177;Con respecto a las peticiones, quejas, reclamos, solicitudes y denuncias (PQRSD), la entidad:;Pregunta 169;0;1;3
+178;¿La entidad cuenta con una herramienta de software que permita a los ciudadanos hacer seguimiento al estado de sus trámites en línea?;Pregunta 170;0;1;3
+179;¿Cuenta la entidad con una herramienta tecnológica de gestión que permita detectar y analizar las necesidades de los grupos de valor a fin de mejorar la satisfacción ciudadana?;Pregunta 171;0;1;3
+180;¿La entidad dispone de una herramienta de software que actúe como asistente automatizado para la atención y asesoría a grupos de valor a través de canales virtuales y permita el escalamiento de peticiones a personal especializado, de acuerdo con sus niveles de complejidad?;Pregunta 172;0;1;3
+181;¿Cuenta la entidad con Módulos de Autogestión (totems o similares) en los puntos de atención presencial y con posibilidad de itinerancia, que permitan a los usuarios la autogestión de sus trámites?;Pregunta 173;0;1;3
+182;La entidad cuenta con programas de cualificación en atención preferencial e incluyente a:;Pregunta 174;0;1;3
+183;De los siguientes canales de atención, ¿Cuáles fueron adecuados por la entidad para garantizar la atención de personas con discapacidad, adultos mayores, niños, etnias y otros grupos de valor?;Pregunta 175;0;1;3
+184;Para garantizar unas condiciones de acceso, la infraestructura física de la entidad cuenta con:;Pregunta 176;0;1;3
+185;Indique los tipos de señalización inclusiva que utiliza la entidad:;Pregunta 177;0;1;3
+186;Con el fin de promover la accesibilidad y atender las necesidades particulares, la entidad aprueba recursos para:;Pregunta 178;0;1;3
+187;La línea de atención de la entidad, el PBX o conmutador de la entidad:;Pregunta 179;0;1;3
+188;Para mejorar la accesibilidad de los usuarios a los trámites y servicios, la entidad se asesora en temas de:;Pregunta 180;0;1;3
+189;En las auditorías de gestión se evalúan los criterios de accesibilidad conforme a:;Pregunta 181;0;1;3
+190;La entidad genera o apropia:;Pregunta 182;0;1;3
+191;La entidad cuenta con herramientas para evaluar la complejidad de los documentos utilizados para comunicarse con sus grupos de valor (formularios, guías, respuestas a derechos de petición, etc.), tales como:;Pregunta 183;0;1;3
+192;Señale las herramientas implementadas por la entidad para mejorar el lenguaje con el que se comunica con sus grupos de valor:;Pregunta 184;0;1;3
+193;¿Cuántos servidores públicos han tomado el Curso virtual de Lenguaje Claro del DNP u otros cursos de capacitación relacionados con esta temática:;Pregunta 185;0;1;3
+194;Los servidores públicos que se beneficiaron de las herramientas implementadas por la entidad, para mejorar la comunicación con sus clientes internos y externos pertenecen a:;Pregunta 186;0;1;3
+195;De los siguientes tipos de documentos, ¿cuántos han sido traducidos a lenguaje claro en la vigencia evaluada?;Pregunta 187;0;1;3
+196;Del total de documentos traducidos a lenguaje claro:;Pregunta 188;0;1;3
+197;En las actividades adelantadas para la traducción de documentos a lenguaje claro participaron:;Pregunta 189;0;1;3
+198;¿Cuántos trámites incluyen documentos traducidos a lenguaje claro?;Pregunta 190;0;1;1
+199;¿La entidad evalúa los resultados del uso de los documentos traducidos a lenguaje claro?;Pregunta 191;0;1;3
+200;¿La entidad está vinculada a la Red Nacional de Lenguaje Claro?;Pregunta 192;0;1;3
+201;Indique el valor de los recursos de inversión destinados a acciones, estrategias o proyectos que mejoren directa o indirectamente la atención al ciudadano;Pregunta 193;0;1;1
+202;La entidad de acuerdo con su naturaleza jurídica está obligada a tener:;Pregunta 194;0;1;3
+203;¿Cuántos trámites/otros procedimientos administrativos tiene la entidad?;Pregunta 195;0;1;3
+204;Del total de trámites que tiene la entidad, ¿cuántos se encuentran inscritos en el Sistema Único de Información de trámites - SUIT?;Pregunta 196;0;1;1
+205;Del total de otros procedimientos administrativos que tiene la entidad, ¿cuántos se encuentran inscritos en el Sistema Único de Información de trámites - SUIT?;Pregunta 197;0;1;1
+206;Del total de trámites inscritos en el SUIT que tiene la entidad cuántos pueden realizarse:;Pregunta 198;0;1;3
+207;Del total de otros procedimientos administrativos inscritos en el SUIT que tiene la entidad cuántos pueden realizarse:;Pregunta 199;0;1;3
+208;Del total de trámites parcial y totalmente en línea, ¿cuántos contaron con caracterización de los usuarios?;Pregunta 200;0;1;3
+209;Del total de otros procedimientos administrativos parcial y totalmente en línea, ¿cuántos contaron con caracterización de los usuarios?;Pregunta 201;0;1;3
+210;Del total de trámites parcial y totalmente en línea, ¿cuántos cumplieron criterios de accesibilidad web?;Pregunta 202;0;1;3
+211;Del total de otros procedimientos administrativos parcial y totalmente en línea, ¿cuántos cumplieron criterios de accesibilidad web?;Pregunta 203;0;1;3
+212;Del total de trámites parcial y totalmente en línea, ¿cuántos cumplieron criterios de usabilidad?;Pregunta 204;0;1;3
+213;Del total de otros procedimientos administrativos parcial y totalmente en línea, ¿cuántos cumplieron criterios de usabilidad?;Pregunta 205;0;1;3
+214;Del total de trámites parcial y totalmente en línea, ¿cuántos fueron promocionados para incrementar su uso?;Pregunta 206;0;1;3
+215;Del total de otros procedimientos administrativos parcial y totalmente en línea, ¿cuántos fueron promocionados para incrementar su uso?;Pregunta 207;0;1;3
+216;Seleccione los factores que la entidad tuvo en cuenta para priorizar los trámites u otros procedimientos:;Pregunta 208;0;1;3
+217;¿La entidad formuló estrategia de racionalización de trámites en la presente vigencia?;Pregunta 209;0;1;3
+218;Señale los grupos de valor que la entidad incluyó en las actividades de participación implementadas:;Pregunta 210;0;1;3
+219;Con respecto a los ejercicios, iniciativas o acciones de participación realizados por la entidad con sus grupos de valor para la consulta o toma de decisiones, durante la vigencia evaluada:;Pregunta 211;0;1;3
+220;Indique las acciones que la entidad implementó para cualificar la participación ciudadana:;Pregunta 212;0;1;3
+221;De las actividades formuladas en la estrategia de participación ciudadana, señale cuáles se realizaron por medios electrónicos:;Pregunta 213;0;1;3
+222;Los resultados de la participación de los grupos de valor en la gestión institucional permitieron mejorar las siguientes actividades:;Pregunta 214;0;1;3
+223;La entidad retroalimentó a la ciudadanía y demás grupos de valor sobre los resultados de su participación a través de los siguientes medios:;Pregunta 215;0;1;3
+224;La entidad utiliza las bases de datos de ciudadanos, grupos de valor o grupos de interés para:;Pregunta 216;0;1;3
+225;Indique:;Pregunta 217;0;1;3
+226;La estrategia de rendición de cuentas de la entidad define fechas y acciones detalladas por grupo de valor para:;Pregunta 218;0;1;3
+227;Como resultado de los ejercicios de rendición de cuentas realizados por la entidad:;Pregunta 219;0;1;3
+228;El nivel de satisfacción de los grupos de valor frente al ejercicio de rendición de cuentas de la entidad fue:;Pregunta 220;0;1;3
+229;Para divulgar la información en el proceso de rendición de cuentas la entidad utilizó los siguientes medios:;Pregunta 221;0;1;3
+230;Seleccione los temas sobre los cuáles la entidad divulga información en el proceso de rendición de cuentas:;Pregunta 222;0;1;3
+231;Seleccione las acciones de diálogo implementadas por la entidad para la rendición de cuentas:;Pregunta 223;0;1;3
+232;Las acciones de diálogo presenciales implementadas por la entidad permitieron:;Pregunta 224;0;1;3
+233;Seleccione los grupos de valor que participaron en las acciones de diálogo presenciales:;Pregunta 225;0;1;3
+234;¿En la vigencia evaluada la entidad ejecutó actividades para cumplir las obligaciones establecidas en la implementación del acuerdo de paz?;Pregunta 226;0;1;3
+235;Describa las actividades realizadas para rendir cuentas, precisando el subpunto del acuerdo de paz al cual contribuye:;Pregunta 227;0;1;1
+236;Los indicadores utilizados por la entidad para hacer seguimiento y evaluación de su gestión:;Pregunta 228;0;1;3
+237;El área o responsable de consolidar y analizar los resultados de los indicadores de la gestión institucional de la entidad:;Pregunta 229;0;1;3
+238;A partir del análisis de los indicadores de la gestión institucional, el equipo directivo:;Pregunta 230;0;1;3
+239;¿La entidad logró los resultados definidos en su planeación?;Pregunta 231;0;1;3
+240;Para la gestión de la información, la entidad:;Pregunta 232;0;1;3
+241;Existe un proceso documentado e implementado para el procesamiento y análisis de la información que incluya:;Pregunta 233;0;1;3
+242;Para la gestión de la comunicación externa e interna, la entidad:;Pregunta 234;0;1;3
+243;¿En las evaluaciones del clima organizacional se mide la percepción de los servidores de la entidad frente a la comunicación interna?;Pregunta 235;0;1;3
+244;¿La entidad cuenta con un procedimiento para traducir la información pública que solicita un grupo étnico a su respectiva lengua?;Pregunta 236;0;1;3
+245;Las respuestas que la entidad da a las solicitudes de información hechas por los ciudadanos:;Pregunta 237;0;1;3
+246;La información que publica la entidad:;Pregunta 238;0;1;3
+247;Para garantizar el acceso a la información de personas con discapacidad, la entidad:;Pregunta 239;0;1;3
+248;La publicación de la información permite que la entidad:;Pregunta 240;0;1;3
+249;Durante la vigencia evaluada, cuántas solicitudes de información:;Pregunta 241;0;1;3
+250;Frente al proceso de planeación de la función archivística, la entidad:;Pregunta 242;0;1;3
+251;¿La entidad establece las competencias, requisitos y condiciones necesarios para el cumplimiento de las funciones y responsabilidades inherentes a los procesos de gestión documental y administración de archivos?;Pregunta 243;0;1;3
+252;¿La gestión documental se encuentra alineada con las políticas, lineamientos y atributos de calidad de las dimensiones que componen MIPG?;Pregunta 244;0;1;3
+253;¿La entidad incluye en su presupuesto anual los rubros necesarios para el funcionamiento del archivo y la ejecución de las actividades de gestión documental?;Pregunta 245;0;1;3
+254;¿La entidad tiene asignados los espacios físicos y las instalaciones necesarias para el funcionamiento de sus archivos, teniendo en cuenta las especificaciones técnicas existentes? ;Pregunta 246;0;1;3
+255;Reporte el valor en pesos de los recursos asignados para la gestión documental dentro de la vigencia objeto de medición:;Pregunta 247;0;1;1
+256;Con respecto a la Tabla de Retención Documental - TRD, la entidad:;Pregunta 248;0;1;3
+257;La Tabla de Retención Documental -TRD:;Pregunta 249;0;1;3
+258;Con respecto a la producción, recepción, radicación y producción de documentos la entidad:;Pregunta 250;0;1;3
+259;¿La entidad tiene Fondos Documentales Acumulados - FDA?:;Pregunta 251;0;1;3
+260;¿Qué acciones ha realizado la entidad para organizar el Fondo Documental Acumulado -FDA?;Pregunta 252;0;1;3
+261;Frente al Cuadro de Clasificación Documental -CCD, la entidad:;Pregunta 253;0;1;3
+262;La entidad tiene inventariada la documentación de sus archivos de gestión en el Formato Único de Inventario Documental - FUID:;Pregunta 254;0;1;3
+263;La entidad tiene inventariada la documentación de su archivo central en el Formato Único de Inventario Documental - FUID:;Pregunta 255;0;1;3
+264;¿La entidad realizó transferencias de documentos de los archivos de gestión al archivo central?;Pregunta 256;0;1;3
+265;¿Qué criterio aplicó la entidad para la transferencia de los archivos de gestión al archivo central?:;Pregunta 257;0;1;3
+266;Con respecto al documento Sistema Integrado de Conservación - SIC, la entidad:;Pregunta 258;0;1;3
+267;Frente a la conservación documental de los soportes físicos, la entidad:;Pregunta 259;0;1;3
+268;Frente a la preservación digital a largo plazo de documentos digitales y/o electrónicos de archivo, la entidad:;Pregunta 260;0;1;3
+269;¿En la entidad se han identificado archivos de derechos humanos, memoria histórica y conflicto armado, para su protección y conservación temporal de acuerdo con la Circular 01 de 2017 del Archivo General de la Nación?;Pregunta 261;0;1;3
+270;Para la conformación de los expedientes documentales de la entidad:;Pregunta 262;0;1;3
+271;¿La entidad tiene procedimientos para controlar el préstamo de documentos internos que dé cuenta de la devolución de estos?;Pregunta 263;0;1;3
+272;¿Los documentos audiovisuales (video, audio, fotográficos) en cualquier soporte y medio (análogo, digital, electrónico) se encuentran incluidos en los instrumentos archivísticos de la entidad?;Pregunta 264;0;1;3
+273;¿Qué acciones ha realizado la entidad para alinear la gestión documental con la política de gestión ambiental?;Pregunta 265;0;1;3
+274;¿El archivo de la entidad pone a disposición de sus usuarios (internos y externos) la documentación que administra?;Pregunta 266;0;1;3
+275;¿La entidad durante la vigencia evaluada realizó eliminación documental?;Pregunta 267;0;1;3
+276;¿La entidad publicó en su sitio web los inventarios de las unidades documentales objeto de eliminación, por aplicación de TRD o TVD y Actas de eliminación de documentos?;Pregunta 268;0;1;3
+277;¿La entidad produce documentos electrónicos de archivo?;Pregunta 269;0;1;3
+278;¿La entidad ha realizado un diagnóstico de los documentos electrónicos de archivo que produce?;Pregunta 270;0;1;3
+279;Señale el estado del programa de documento electrónico de archivo en la entidad:;Pregunta 271;0;1;3
+280;¿La entidad crea expedientes electrónicos con sus respectivos componentes tecnológicos?;Pregunta 272;0;1;3
+281;¿Las Tablas de Retención Documental -TRD- permiten la identificación de los expedientes electrónicos de archivo?;Pregunta 273;0;1;3
+282;Con relación al Sistema de Gestión de Documentos Electrónicos de Archivo -SGDEA, la entidad:;Pregunta 274;0;1;3
+283;La entidad utiliza la digitalización de documentos que están en soporte papel para:;Pregunta 275;0;1;3
+284;Con respecto al proceso de preservación digital a largo plazo, la entidad:;Pregunta 276;0;1;3
+285;La entidad para identificar las necesidades de conocimiento:;Pregunta 277;0;1;3
+286;La incorporación de la innovación en los procesos de la entidad contribuye a:;Pregunta 278;0;1;3
+287;La entidad tiene definidos los proyectos y metas de innovación en los cuales va a trabajar a:;Pregunta 279;0;1;3
+288;Con respecto a los proyectos de investigación, la entidad: Tiene definidos los proyectos y metas de investigación en los cuales va a trabajar en el corto, mediano o largo plazo ;Pregunta 280.1;0;1;3
+289;Con respecto a los proyectos de investigación, la entidad: Cuenta con un grupo, unidad, equipo o personal encargado de gestionar proyectos de investigación.;Pregunta 280.2;0;1;3
+290;Con respecto a los proyectos de investigación, la entidad: La unidad, grupo o equipo ya ha sido formalizada;Pregunta 280.3;0;1;3
+291;Con respecto a los proyectos de investigación, la entidad: Tiene líneas de investigación establecidas;Pregunta 280.4;0;1;3
+292;Con respecto a los proyectos de investigación, la entidad: Cuenta con grupos de investigación reconocidos por Colciencias;Pregunta 280.5;0;1;3
+293;Con respecto a los proyectos de investigación, la entidad: Cuenta con grupos de investigación clasificados por Colciencias;Pregunta 280.6;0;1;3
+294;Con respecto a los proyectos de investigación, la entidad: Trabaja con semilleros, grupos o equipos de investigación externos;Pregunta 280.7;0;1;3
+295;Con respecto a los proyectos de investigación, la entidad: Ha publicado artículos en alguna revista académica o medio de comunicación;Pregunta 280.8;0;1;3
+296;Con respecto a los proyectos de investigación, la entidad: Ha participado en eventos de investigación;Pregunta 280.9;0;1;3
+297;¿Qué acciones desarrolla la entidad para conservar el conocimiento de los servidores públicos?;Pregunta 281;0;1;3
+298;Al efectuar procesos de experimentación, la entidad:;Pregunta 282;0;1;3
+299;¿La entidad cuenta con un grupo, unidad, equipo o personal encargado de promover la gestión del conocimiento y la innovación en el sector público?;Pregunta 283;0;1;3
+300;¿Qué actividades de innovación se aplican en la entidad?;Pregunta 284;0;1;3
+301;Señale los métodos de innovación utilizados por la entidad:;Pregunta 285;0;1;3
+302;Señale las iniciativas en las cuales ha participado o concursado la entidad:;Pregunta 286;0;1;3
+303;Con respecto a la innovación, la entidad:;Pregunta 287;0;1;3
+304;En la entidad el uso de técnicas, métodos o metodologías de gestión del conocimiento e innovación:;Pregunta 288;0;1;3
+305;¿Cuáles son las fortalezas para innovar dentro de la entidad?;Pregunta 289;0;1;3
+306;Las acciones implementadas por la entidad para interoperar o compartir información, aplicativos o bases de datos le han permitido:;Pregunta 290;0;1;3
+307;En la entidad, la documentación de su memorias o informes:;Pregunta 291;0;1;3
+308;Los procesos (o cultura) de medición y análisis en la entidad:;Pregunta 292;0;1;3
+309;Con la organización, clasificación y validación de los datos e información, la entidad:;Pregunta 293;0;1;3
+310;Con el desarrollo de actividades de investigación, desarrollo e innovación (I+D+I) la entidad:;Pregunta 294;0;1;3
+311;Las acciones para desarrollar la cultura organizacional en la entidad:;Pregunta 295;0;1;3
+312;Las distintas formas de comunicación de la entidad le permiten que su talento humano:;Pregunta 296;0;1;3
+313;¿Qué hace la entidad para difundir los datos e información relevante a sus grupos de valor?;Pregunta 297;0;1;3
+314;Con la organización o participación en espacios/eventos de innovación externos, la entidad:;Pregunta 298;0;1;3
+315;Las acciones implementadas en la entidad para mejorar los procesos de enseñanza-aprendizaje:;Pregunta 299;0;1;3
+316;La construcción de conocimiento con entidades externas (redes de conocimiento, comunidades de práctica o equipos transversales), ha permitido que la entidad:300.;Pregunta 300;0;1;3
+317;La entidad evalúa las conductas asociadas o valores y principios del servicio público -código de integridad, a través de:;Pregunta 301;0;1;3
+318;A través de cuál de las siguientes instancias, la entidad da tratamiento al incumplimiento de las normas de conducta y ética:;Pregunta 302;0;1;3
+319;El comité institucional de coordinación de control interno ha promovido y/o liderado:;Pregunta 303;0;1;3
+320;La alta dirección y el comité institucional de coordinación de control interno:;Pregunta 304;0;1;3
+321;La alta dirección y comité institucional de coordinación de control interno han propiciado la consolidación de la gestión del riesgo a través de:;Pregunta 305;0;1;3
+322;Frente al plan anual de auditoría aprobado por el comité institucional de coordinación de control interno, se desarrollan las siguientes acciones:;Pregunta 306;0;1;3
+323;Para la mejora continua del sistema de control interno, la entidad:;Pregunta 307;0;1;3
+324;Frente al ambiente de control de la entidad, los resultados de los seguimientos y evaluaciones hechos por el jefe de control interno, han permitido:;Pregunta 308;0;1;3
+325;La oficina de planeación o quien haga sus veces ¿consolida y hace seguimiento a los mapas de riesgo establecidos por los gerentes públicos y los líderes de los procesos?;Pregunta 309;0;1;3
+326;A partir de la política de administración del riesgo, los líderes de los procesos, programas o proyectos:;Pregunta 310;0;1;3
+327;El monitoreo efectuado por la alta dirección y el comité institucional de coordinación de control interno a la gestión del riesgo ha generado:;Pregunta 311;0;1;3
+328;Los líderes de procesos, programas o proyectos diseñan los controles a los riesgos teniendo en cuenta los siguientes requisitos:;Pregunta 312;0;1;3
+329;Los responsables designados para el seguimiento y monitoreo de los riesgos de la entidad:;Pregunta 313;0;1;3
+330;Los controles establecidos en los mapas de riesgos le han permitido a la entidad mitigar la materialización de riesgos:;Pregunta 314;0;1;3
+331;La gestión del riesgo efectuada en la entidad ha permitido:;Pregunta 315;0;1;3
+332;Los mapas de riesgos de la entidad:;Pregunta 316;0;1;3
+333;La entidad cuenta con una estrategia de comunicación adecuada y efectiva que permite:;Pregunta 317;0;1;3
+334;En la entidad, la alta dirección y comité institucional de coordinación de control interno (o en su defecto el representante legal) responden por:;Pregunta 318;0;1;3
+335;Los líderes de proceso, proyectos o programas (o en su defecto el representante legal) en materia de información y comunicación clave para el sistema de control interno:;Pregunta 319;0;1;3
+336;Los jefes de planeación, líderes de otros sistemas de gestión o comités de riesgos en materia de información y comunicación clave para el sistema de control interno:;Pregunta 320;0;1;3
+337;El jefe de control interno, en materia de información y comunicación clave para el sistema de control interno;Pregunta 321;0;1;3
+338;¿El jefe de control interno o quien haga sus veces lleva a cabo el seguimiento al plan anticorrupción y de atención al ciudadano?;Pregunta 322;0;1;3
+339;El representante legal y el comité institucional de control interno realiza las siguientes actividades de monitoreo:;Pregunta 323;0;1;3
+340;Los líderes de procesos, programas o proyectos, realizan las siguientes actividades de monitoreo:;Pregunta 324;0;1;3
+341;Los jefes de planeación, líderes de otros sistemas de gestión o comités de riesgos realiza las siguientes actividades de monitoreo:;Pregunta 325;0;1;3
+342;Los informes de los seguimientos y/o auditorías efectuadas por el jefe de control interno conducen a:;Pregunta 326;0;1;3
+343;Los planes de mejoramiento de la entidad han sido eficaces para:;Pregunta 327;0;1;3
+344;De las siguientes instancias de articulación del sistema de Control Interno, identifique cuales de ellas conoce y se encuentran operando:;Pregunta 328;0;1;3
+345;Indique el número de servidores públicos pertenecientes a grupos étnicos con que cuenta la entidad al 31 de diciembre:;Pregunta 329;0;1;3
+346;Relacione el número de servidores de la planta de personal con discapacidad, vinculadas a la planta de la entidad:;Pregunta 330;0;1;3
+347;Indique el número de servidores de la planta temporal con discapacidad, vinculadas a la planta de la entidad:;Pregunta 331;0;1;3
+348;Indique el número de trabajadores oficiales con discapacidad, vinculadas a la planta de la entidad:;Pregunta 332;0;1;3
+349;Indique el número de personas con discapacidad, vinculadas a la planta de régimen privado de la entidad:;Pregunta 333;0;1;3
+350;Indique el número de personas con discapacidad vinculadas a la entidad según el tipo de discapacidad:;Pregunta 334;0;1;3
+351;Reporte con corte al 31 de diciembre:;Pregunta 335;0;1;3
+352;Indique el número de servidores públicos nombrados en provisionalidad en cargos de carrera administrativa, que se encuentran en vacancia definitiva, con corte a 31 de diciembre:;Pregunta 336;0;1;3
+353;Indique el número de servidores públicos nombrados en encargo en cargos de carrera administrativa, que se encuentran en vacancia definitiva, con corte a 31 de diciembre:;Pregunta 337;0;1;3
+354;Reporte el número total de cargos de carrera administrativa sin proveer, de las vacantes definitivas, con corte al 31 de diciembre:;Pregunta 338;0;1;3
+355;Indique cuántos recursos tiene su entidad para adelantar concursos de méritos con la Comisión Nacional del Servicio Civil;Pregunta 339;0;1;1
+356;Indique a cuántos servidores públicos de su entidad se le han otorgado becas de:;Pregunta 340;0;1;3
+357;Indique el número total de servidores beneficiados en formación y capacitación por nivel jerárquico;Pregunta 341;0;1;3
+358;Indique el monto total de recursos invertidos en formación y capacitación para los servidores públicos;Pregunta 342;0;1;1
+359;¿Cuenta con algún instrumento para medir el impacto de los procesos de formación y capacitación de sus servidores?;Pregunta 343;0;1;3
+360;Indique el número total de servidores públicos y familiares beneficiados por programas de bienestar por nivel jerárquico;Pregunta 344;0;1;3
+361;Indique el monto total de recursos invertidos en bienestar para los servidores públicos;Pregunta 345;0;1;1
+362;La entidad ha desarrollado otros programas o estrategias para generar el bienestar y desarrollo del talento humano;Pregunta 346;0;1;3
+363;Indique el número de servidores públicos de carrera administrativa y de libre nombramiento y remoción desvinculados como resultado de la evaluación de desempeño.;Pregunta 347;0;1;3
+364;¿Cuántos servidores de carrera en periodo de prueba se han desvinculado por evaluación del desempeño?;Pregunta 348;0;1;3
+365;¿En qué nivel de madurez de la Gestión Estratégico del Talento Humano se ubica su entidad?;Pregunta 349;0;1;3
+366;Indique el nivel del área de talento humano en su entidad;Pregunta 350;0;1;3
+367;¿Cuántos empleos de la planta de personal están asignados a las siguientes dependencias?;Pregunta 351;0;1;3
+368;En los últimos 4 años, ¿cuántas modificaciones realizó al manual de funciones y competencias?;Pregunta 352;0;1;1
+369;Las actualizaciones hechas al manual de funciones durante el 2018 fueron motivadas por:;Pregunta 353;0;1;3
+370;En los últimos 4 años, ¿cuántos rediseños organizacionales (reestructuraciones administrativas) realizó la entidad?;Pregunta 354;0;1;1
+371;El último rediseño organizacional obedeció a:;Pregunta 355;0;1;3
+372;Del total de procesos de la entidad documentados e implementados en su modelo de gestión, ¿cuántos son de tipo estratégico, cuántos misionales, cuántos de apoyo, y cuántos de evaluación?;Pregunta 356;0;1;3
+373;¿Cuántas dependencias existen formalmente en la estructura actual de la entidad de los siguientes tipos?;Pregunta 357;0;1;3
+374;¿Cuántos grupos internos de trabajo existen formalmente asignados a las dependencias de los siguientes tipos?;Pregunta 358;0;1;3
+375;De acuerdo con las funciones y competencias asignadas a la entidad versus la capacidad instalada ¿Cómo percibe esta relación?;Pregunta 359;0;1;3
+376;Para dar inicio a la implementación del Modelo Integrado de Planeación y Gestión MIPG en la entidad es indispensable el cumplimiento de actividades preliminares. Seleccione las actividades que ha llevado a cabo la entidad:;Pregunta 360;0;1;3
+377;¿La entidad desarrolla políticas, programas, proyectos o acciones específicas orientadas al cierre de brechas entre hombres y mujeres?;Pregunta 361;0;1;3
+378;Indique las categorías que abordan las políticas, programas, proyectos o acciones que desarrolla la entidad para la garantía de Derechos de las mujeres:;Pregunta 362;0;1;3
+379;¿La entidad cuenta con un equipo o grupo de trabajo que se encarga de manera específica de los temas de mujer y género?;Pregunta 363;0;1;3
+380;Ubique al equipo o grupo según sus características en las siguientes categorías:;Pregunta 364;0;1;3
+381;¿La entidad cuenta con una línea presupuestal específica para el desarrollo de planes, programas, proyectos o acciones para la garantía de Derechos de las mujeres?;Pregunta 365;0;1;3
+382;Clasificación de la entidad:;Pregunta 366;0;1;3

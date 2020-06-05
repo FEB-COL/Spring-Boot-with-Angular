@@ -1,0 +1,25 @@
+{
+    "geargatewayApp": {
+        "gearSystemsFunctionality": {
+            "home": {
+                "title": "Gear Systems Functionalities",
+                "createLabel": "Create a new Gear Systems Functionality",
+                "createOrEditLabel": "Create or edit a Gear Systems Functionality"
+            },
+            "created": "A new Gear Systems Functionality is created with identifier {{ param }}",
+            "updated": "A Gear Systems Functionality is updated with identifier {{ param }}",
+            "deleted": "A Gear Systems Functionality is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Systems Functionality {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Systems Functionality"
+            },
+            "name": "Name",
+            "description": "Description",
+            "creationDate": "Creation Date",
+            "modifyDate": "Modify Date",
+            "gearinformationsystems": "Gearinformationsystems"
+        }
+    }
+}

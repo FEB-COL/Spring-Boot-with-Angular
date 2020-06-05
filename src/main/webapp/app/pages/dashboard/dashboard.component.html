@@ -1,0 +1,47 @@
+<div class="dashboard padding" fxLayout="column" [fxLayoutGap]="gap">
+    <!--esta parte es para la validacion de usuario en jhipster ojo -->
+    <div class="col-md-12">
+        <div class="alert alert-danger" *ngIf="authenticationError" jhiTranslate="login.messages.error.authentication">
+            <strong>Failed to sign in!</strong> Please check your credentials and try again.
+        </div>
+    </div>
+    <!-- FIRST ROW -->
+    <div fxFlex="noshrink" fxLayout="column" [fxLayoutGap]="gap"
+         fxLayout.gt-lg="row">
+
+        <!--Grafica Uno  Arana-->
+        <div fxLayout="column" [fxLayoutGap]="gap" [fxFlex]="col(2)"
+             fxLayout.gt-sm="row">
+
+            <div furyAspectRatio="2:1" class="colcustom" furyAspectRatio.sm="3:1"
+                 fxFlex="auto" [fxFlex.gt-sm]="col(4)">
+                <div class="summary-content">
+                    <div class="header-info">
+                        <div class="header-icon header-chart"><i class="fa fa-pie-chart fa-3x"
+                                                                 aria-hidden="true"></i></div>
+                        <div class="header-title">
+                            <div class="h-title">Evaluación</div>
+                        </div>
+                    </div>
+                    <!--esta parte es la implementacion de arana OJo con esta parte -->
+                    <!--<div id="myDiv" style="width: 480px; height: 400px;">-->
+                    <!--Implementacion de la arana por llamado de modulo-->
+                    <jhi-gear-arana></jhi-gear-arana>
+                </div>
+            </div>
+
+            <!--Grafica Dos-->
+            <div furyAspectRatio="2:1" furyAspectRatio.sm="3:1"
+                 fxFlex="auto" class="colcustom" [fxFlex.gt-sm]="col(4)">
+                <fury-line-chart-widget class="route-animations-elements" furyAspectRatioContent
+                                        [data]="clicksData$ | async"
+                                        [options]="totalClicksOptions">
+                </fury-line-chart-widget>
+            </div>
+        </div>
+    </div>
+
+    <div fxFlex="grow" class="colcustom">
+        <jhi-diagrama-estrategia></jhi-diagrama-estrategia>
+    </div>
+</div>

@@ -1,0 +1,205 @@
+
+<div class="padding">
+    <fury-breadcrumbs current="Biblioteca Documentos"></fury-breadcrumbs>
+
+    <mat-tab-group dynamicHeight>
+
+        <mat-tab label="Listado Documentos">
+            <div class="example-large-box mat-elevation-z4">
+
+
+                <fury-list name="Biblioteca Documentos" [columns]="columns" (filterChange)="onFilterChange($event)">
+
+
+                    <mat-table #table [dataSource]="dataSource" matSort>
+
+                        <!--- Note that these columns can be defined in any order.
+                              The actual rendered columns are set as a property on the row definition" -->
+
+                        <!-- Checkbox Column -->
+                        <ng-container matColumnDef="checkbox">
+                            <mat-header-cell class="actions-cell" *matHeaderCellDef>
+                                <mat-checkbox color="primary" (click)="$event.stopPropagation()"></mat-checkbox>
+                            </mat-header-cell>
+                            <mat-cell class="actions-cell" *matCellDef="let row">
+                                <span class="fury-mobile-label"></span>
+                                <mat-checkbox color="primary" (click)="$event.stopPropagation()"></mat-checkbox>
+                            </mat-cell>
+                        </ng-container>
+
+                        <!-- ID Column -->
+                        <ng-container matColumnDef="image">
+                            <mat-header-cell class="image-cell" *matHeaderCellDef></mat-header-cell>
+                            <mat-cell class="image-cell" *matCellDef="let row">
+                                <span class="fury-mobile-label"></span>
+                                <img src="http://i.pravatar.cc/30?u={{ row.name }}">
+                            </mat-cell>
+                        </ng-container>
+
+                        <!-- fullName Column -->
+                        <ng-container *ngFor="let column of columns">
+                            <ng-container *ngIf="column.isModelProperty" [matColumnDef]="column.property">
+                                <mat-header-cell *matHeaderCellDef mat-sort-header> {{ column.name }}</mat-header-cell>
+                                <mat-cell *matCellDef="let row">
+                                    <span class="fury-mobile-label">{{ column.name }}</span>
+                                    {{ row[column.property] }}
+                                </mat-cell>
+                            </ng-container>
+                        </ng-container>
+
+
+                        <!-- actions Column -->
+                        <ng-container matColumnDef="actions">
+                            <mat-header-cell class="actions-cell" *matHeaderCellDef mat-sort-header></mat-header-cell>
+                            <mat-cell class="actions-cell" *matCellDef="let row">
+                                <span class="fury-mobile-label"></span>
+                                <button type="button" mat-icon-button [matMenuTriggerFor]="actionsMenu"
+                                        (click)="$event.stopPropagation()">
+                                    <mat-icon>more_horiz</mat-icon>
+                                </button>
+
+                                <mat-menu #actionsMenu="matMenu" yPosition="below" xPosition="before">
+
+
+                                    <!--Aplicando Sweealert-->
+                                    <swal
+                                        #deleteSwal
+                                        title="Eliminar {{row.name}} ?"
+                                        text="Deseas Eliminarlo !"
+                                        type="error"
+                                        showCancelButton=true,
+                                        confirmButtonText="Si, Eliminar"
+
+                                        [showCancelButton]="true"
+                                        [focusCancel]="true"
+                                        (confirm)="deleteDocumentLibrary(row)">
+                                    </swal>
+
+                                    <button (click)="deleteSwal.show()" mat-menu-item>
+                                        <span>Eliminar</span>
+                                    </button>
+                                    <!--Aplicando Sweealert-->
+
+                                    <swal
+                                        #DescargaSwal
+                                        title="Descargar Archivo {{row.name}} ?"
+                                        text="Deseas Descargar el Archivo !"
+                                        type="info"
+                                        showCancelButton=true,
+                                        confirmButtonText="Si, Descargar"
+
+                                        [showCancelButton]="true"
+                                        [focusCancel]="true"
+                                        (confirm)="download(row)">
+                                    </swal>
+
+                                    <button (click)="DescargaSwal.show()" mat-menu-item>
+                                        <span>Descargar</span>
+                                    </button>
+                                </mat-menu>
+                            </mat-cell>
+                        </ng-container>
+
+                        <mat-header-row *matHeaderRowDef="visibleColumns"></mat-header-row>
+                        <mat-row *matRowDef="let row; columns: visibleColumns;"
+                                 class="clickable route-animations-elements"></mat-row>
+                    </mat-table>
+                    <mat-paginator class="paginator" [pageSize]="pageSize"></mat-paginator>
+                </fury-list>
+
+
+            </div>
+        </mat-tab>
+        <mat-tab label="Subir Documentos" *jhiLibraryAuthority ="['ROLE_ADMIN','ROLE_MANAGER']">
+            <div class="example-large-box mat-elevation-z4">
+
+                <div class="form-wizard" fxFlex="grow" fxLayout="column" fxLayoutAlign="start center">
+
+                    <div class="card route-animations-elements">
+                        <mat-horizontal-stepper #stepper="matHorizontalStepper" [linear]="true">
+                            <mat-step [stepControl]="accountFormGroup">
+                                <form [formGroup]="accountFormGroup">
+                                    <ng-template matStepLabel>Datos Básicos</ng-template>
+
+                                    <div class="heading">Subir Documento</div>
+                                    <div class="subheading">Coloque datos básicos</div>
+
+                                    <div class="content" fxLayout="column" fxLayoutGap="8px">
+                                        <mat-form-field>
+                                            <mat-label>Título del Documento</mat-label>
+                                            <input [(ngModel)]="titulo" matInput formControlName="username" required>
+                                            <mat-hint>Agrega un título Por favor</mat-hint>
+                                        </mat-form-field>
+
+                                        <mat-form-field fxFlex="grow">
+                                            <mat-label>Descripción</mat-label>
+
+                                            <textarea
+                                                [(ngModel)]="descripcion"
+                                                rows="5"
+                                                cols="9"
+                                                formControlName="name"
+                                                matInput
+                                                required>
+                                            </textarea>
+
+                                            <!--<input [(ngModel)]="descripcion" matInput formControlName="name">-->
+                                            <mat-hint>Agrega una Descripción</mat-hint>
+                                        </mat-form-field>
+
+
+                                    </div>
+
+                                    <div class="actions" fxLayout="row" fxLayoutAlign="end center" fxLayoutGap="8px">
+                                        <button mat-button type="button" (click)="stepper.reset()"
+                                                [disabled]="accountFormGroup.pristine"
+                                                color="primary">CANCELAR
+                                        </button>
+                                        <button mat-raised-button matStepperNext color="primary"
+                                                [disabled]="accountFormGroup.invalid">SIGUIENTE
+                                        </button>
+                                    </div>
+                                </form>
+                            </mat-step>
+
+
+                            <mat-step [stepControl]="confirmFormGroup">
+                                <form [formGroup]="confirmFormGroup">
+                                    <ng-template matStepLabel>Selección de Archivo</ng-template>
+                                    <div class="heading">Este Documento es Borrador</div>
+                                    <div class="content" fxLayout="column" fxLayoutGap="8px">
+                                        <mat-checkbox class="checkbox" formControlName="terms">
+                                            Confirma si este Documento es Borrador *
+                                        </mat-checkbox>
+                                    </div>
+                                    <div class="form-group" style="padding-top: 20px; padding-bottom: 20px;">
+                                        <div class="upload-btn-wrapper">
+                                            <button class="btnUpload">Selecione un archivo</button>
+                                            <input
+                                                type="file"
+                                                name="myfile"
+                                                (change)="onFileSelected($event)"
+                                                required/>
+                                        </div>
+                                    </div>
+
+                                    <div class="actions" fxLayout="row" fxLayoutAlign="end center" fxLayoutGap="8px">
+                                        <button mat-button type="button" matStepperPrevious color="primary">ATRAS
+                                        </button>
+                                        <button mat-raised-button matStepperNext color="primary" (click)="upload()"
+                                                [disabled]="confirmFormGroup.invalid">
+                                            SUBIR DOCUMENTO
+                                        </button>
+                                    </div>
+                                </form>
+
+                            </mat-step>
+                        </mat-horizontal-stepper>
+                    </div>
+                </div>
+
+            </div>
+        </mat-tab>
+
+    </mat-tab-group>
+</div>

@@ -1,0 +1,67 @@
+<!--login con fondo de video ojo (FEB)-->
+<div class="fullscreen-video-wrap">
+
+    <video id="video" src="./content/Home_work.mp4" autoplay="" loop="">
+
+    </video>
+
+</div>
+
+<div class="header-overlay"></div>
+
+<div class="page" fxLayout="column" fxLayoutAlign="center center">
+    <div class="card border-radius elevation">
+        <div class="header padding" fxLayout="column" fxLayoutAlign="center center">
+            <img src="../../../../content/images/icon.png">
+        </div>
+                <div class="padding" fxLayout="column" fxLayoutGap="16px">
+
+                    <form class="form" role="form" (ngSubmit)="login()">
+
+                        <div fxFlex="auto" fxLayout="column">
+                            <div class="form-group">
+
+                                <mat-form-field fxFlex="grow">
+                                    <!--<input type="text" class="form-control" name="username" id="username" [(ngModel)]="username">-->
+                                    <mat-label>Usuario</mat-label>
+                                    <input matInput required name="username" id="username" [(ngModel)]="username" required>
+                                    <!--<mat-error *ngIf="formulario.get('username').hasError('required')">Por favor necesita un usuario</mat-error>-->
+                                </mat-form-field>
+                            </div>
+                            <div class="form-group">
+                                <!--<label for="password">Password</label>-->
+                                <!--<input type="password" class="form-control" name="password" id="password" [(ngModel)]="password">-->
+                                <mat-form-field fxFlex="grow">
+                                    <mat-label>Contraseña</mat-label>
+                                    <input matInput [type]="inputType" name="password" id="password" [(ngModel)]="password" required>
+                                    <button type="button" mat-icon-button matSuffix (click)="toggleVisibility()" matTooltip="Toggle Visibility">
+                                        <mat-icon *ngIf="visible">visibility</mat-icon>
+                                        <mat-icon *ngIf="!visible">visibility_off</mat-icon>
+                                    </button>
+                                    <mat-hint>Click para Visualizar su Contraseña</mat-hint>
+                                    <!--<mat-error *ngIf="formulario.get('password').hasError('required')">We need a password to log you in</mat-error>-->
+                                </mat-form-field>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label" for="rememberMe">
+                                    <input class="form-check-input" type="checkbox" name="rememberMe" id="rememberMe" [(ngModel)]="rememberMe" checked>
+                                    <span>Recordar Credenciales</span>
+                                </label>
+                            </div>
+                        <br>
+                            <div align="center">
+                                <button type="submit" color="primary" mat-raised-button>Login</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+    </div>
+</div>
+<script>
+    // este es el codigo de ejecucion del video
+    window.onload = function () {
+        var element = document.getElementById('video');
+        element.muted = "muted";
+    }
+</script>

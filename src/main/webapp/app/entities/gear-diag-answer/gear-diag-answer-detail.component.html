@@ -1,0 +1,41 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearDiagAnswer">
+            <h2><span jhiTranslate="geargatewayApp.gearDiagAnswer.detail.title">Gear Diag Answer</span> {{gearDiagAnswer.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearDiagAnswer.answer">Answer</span></dt>
+                <dd>
+                    <span>{{gearDiagAnswer.answer}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearDiagAnswer.creationDate">Creation Date</span></dt>
+                <dd>
+                    <span>{{gearDiagAnswer.creationDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearDiagAnswer.comment">Comment</span></dt>
+                <dd>
+                    <span>{{gearDiagAnswer.comment}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearDiagAnswer.gearDiagquestion">Gear Diagquestion</span></dt>
+                <dd>
+                    <div *ngIf="gearDiagAnswer.gearDiagquestionId">
+                        <a [routerLink]="['/gear-diag-question', gearDiagAnswer.gearDiagquestionId, 'view']">{{gearDiagAnswer.gearDiagquestionId}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-diag-answer', gearDiagAnswer.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+entity GearGoalsStrategyAE {
+	name String,
+    drescription String
+}
+
+entity GearSmartStrategyAE {
+	name String,
+    drescription String
+}
+
+
+//Relacion con Gaol-smartStrategy
+relationship OneToMany{                                 //Tipo de relacion
+GearGoalsStrategyAE{gearsmartstrategyae} to GearSmartStrategyAE{geargoalsstrategyae} //Entidades padre a hija lo que esta dentro 
+                                                    //de {} son los nombres de las entidades relacionadas
+}
+// Use Data Transfert Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service * with serviceImpl 
+

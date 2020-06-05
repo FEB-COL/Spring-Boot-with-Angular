@@ -1,0 +1,23 @@
+{
+    "geargatewayApp": {
+        "gearCriteria": {
+            "home": {
+                "title": "Gear Criteria",
+                "createLabel": "Create a new Gear Criteria",
+                "createOrEditLabel": "Create or edit a Gear Criteria"
+            },
+            "created": "A new Gear Criteria is created with identifier {{ param }}",
+            "updated": "A Gear Criteria is updated with identifier {{ param }}",
+            "deleted": "A Gear Criteria is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Criteria {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Criteria"
+            },
+            "name": "Name",
+            "description": "Description",
+            "geardecision": "Geardecision"
+        }
+    }
+}

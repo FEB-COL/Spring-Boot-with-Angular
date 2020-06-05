@@ -1,0 +1,288 @@
+@import './../../../content/scss/var';
+
+.clickable {
+    cursor: pointer;
+}
+
+.image-cell {
+    img {
+        background: $theme-app-bar;
+    }
+}
+
+/* ==========================================================================
+ START HEXAGON
+========================================================================== */
+.pyramid-container1 {
+    text-align: center;
+    transform: rotate(0deg);
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 144px;
+}
+
+.pyramid-container2 {
+    text-align: center;
+    transform: rotate(60deg);
+    position: absolute;
+    margin-top: 108px;
+    margin-left: 38px;
+}
+
+.pyramid-container3 {
+    text-align: center;
+    transform: rotate(180deg);
+    position: absolute;
+    margin-left: 100px;
+}
+
+.pyramid-container4 {
+    text-align: center;
+    transform: rotate(120deg);
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 38px;
+}
+
+.pyramid-container5 {
+    text-align: center;
+    transform: rotate(240deg);
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 160px;
+}
+
+.pyramid-container6 {
+    text-align: center;
+    transform: rotate(300deg);
+    position: absolute;
+    margin-top: 108px;
+    margin-left: 162px;
+}
+
+.pyramid-container99 {
+    text-align: center;
+    transform: rotate(0deg);
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.pyramid-level-6 {
+    position: relative;
+    border-bottom: 20px solid rgb(223, 246, 251);
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    height: 0;
+    width: 142px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 3px;
+}
+
+.pyramid-level-5 {
+    position: relative;
+    border-bottom: 20px solid rgb(223, 246, 251);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    height: 0;
+    width: 118px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 3px;
+}
+
+.pyramid-level-4 {
+    position: relative;
+    border-bottom: 20px solid rgb(223, 246, 251);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    height: 0;
+    width: 95px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 3px;
+}
+
+.pyramid-level-3 {
+    position: relative;
+    border-bottom: 20px solid rgb(223, 246, 251);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    height: 0;
+    width: 71px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 3px;
+}
+
+.pyramid-level-2 {
+    position: relative;
+    border-bottom: 20px solid rgb(223, 246, 251);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    height: 0;
+    width: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 3px;
+}
+
+.pyramid-level-1 {
+    position: relative;
+    border-bottom: 21px solid rgb(223, 246, 251);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    height: 0;
+    width: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 3px;
+}
+
+.pyramid-container99-0 {
+    text-align: center;
+    transform: rotate(0deg);
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 144px;
+}
+
+.pyramid-container99-1 {
+    text-align: center;
+    transform: rotate(60deg);
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 50px;
+}
+
+.pyramid-container99-2 {
+    text-align: center;
+    transform: rotate(180deg);
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 100px;
+}
+
+.pyramid-container99-3 {
+    text-align: center;
+    transform: rotate(120deg);
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 50px;
+}
+
+.pyramid-container99-4 {
+    text-align: center;
+    transform: rotate(240deg);
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 150px;
+}
+
+.pyramid-container99-5 {
+    text-align: center;
+    transform: rotate(300deg);
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 150px;
+}
+
+.hexagon {
+    margin-top: 0px;
+    margin-left: 56px;
+}
+#temp-data-grap {
+    position: absolute;
+    bottom: 55px;
+    right: 0;
+    width: 200px;
+}
+.info {
+    font-weight: bold;
+    margin-left: 184px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.serv-tec {
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 56px;
+    position: absolute;
+    height: 100px;
+    width: 53px;
+}
+
+.sist-infor {
+    font-weight: bold;
+    margin-left: 354px;
+    margin-top: 56px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.gob-ti {
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 190px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.uso-aprob {
+    font-weight: bold;
+    margin-left: 165px;
+    margin-top: 274px;
+    position: absolute;
+}
+
+.est-ti {
+    font-weight: bold;
+    margin-left: 354px;
+    margin-top: 190px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.hexagon div {
+    padding: 0 0;
+}
+
+.chartComponent {
+    height: 300px;
+    width: 100%;
+    padding: 5px;
+    min-height: 200px;
+}
+
+.gear_chart {
+    min-height: 200px;
+    height: 100%;
+}
+
+.pass-setting-input {
+    width: 50%;
+}
+.trial-alert {
+    width: 90%;
+    display: inline-block;
+    margin: 10px 0px;
+}
+.colcustom {
+    padding: 6px;
+    background: white;
+    border: 2px solid #dae0e8;
+}
+.h-title {
+    text-align: center;
+    font-size: 1.6em;
+    padding: 3px;
+}
+
+/* ==========================================================================
+ END HEXAGON
+========================================================================== */

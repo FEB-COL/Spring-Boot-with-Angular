@@ -1,0 +1,33 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearDocumentType">
+            <h2><span jhiTranslate="geargatewayApp.gearDocumentType.detail.title">Gear Document Type</span> {{gearDocumentType.name}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearDocumentType.name">Name</span></dt>
+                <dd>
+                    <span>{{gearDocumentType.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearDocumentType.geardomain">Geardomain</span></dt>
+                <dd>
+                    <div *ngIf="gearDocumentType.geardomainName">
+                        <a [routerLink]="['/gear-domain', gearDocumentType.geardomainId, 'view']">{{gearDocumentType.geardomainName}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-document-type', gearDocumentType.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

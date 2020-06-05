@@ -1,0 +1,37 @@
+{
+    "geargatewayApp": {
+        "gearDomain": {
+            "home": {
+                "title": "Gear Domains",
+                "createLabel": "Create a new Gear Domain",
+                "createOrEditLabel": "Create or edit a Gear Domain"
+            },
+            "created": "A new Gear Domain is created with identifier {{ param }}",
+            "updated": "A Gear Domain is updated with identifier {{ param }}",
+            "deleted": "A Gear Domain is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Domain {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Domain"
+            },
+            "name": "Name",
+            "domainId": "Domain Id",
+            "companyId": "Company Id",
+            "companyDescription": "Company Description",
+            "siteId": "Site Id",
+            "jhiStorage": "Jhi Storage",
+            "storageUsed": "Storage Used",
+            "levelMaturity": "Level Maturity",
+            "totalWiki": "Total Wiki",
+            "totalFileFinalVersion": "Total File Final Version",
+            "totalFileDraft": "Total File Draft",
+            "totalFileUpload": "Total File Upload",
+            "geardocumenttype": "Geardocumenttype",
+            "gearAmbit": "Gear Ambit",
+            "gearFiles": "Gear Files",
+            "gearOrganizationalUnit": "Gear Organizational Unit",
+            "gearDiagnosis": "Gear Diagnosis"
+        }
+    }
+}

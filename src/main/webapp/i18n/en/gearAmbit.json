@@ -1,0 +1,24 @@
+{
+    "geargatewayApp": {
+        "gearAmbit": {
+            "home": {
+                "title": "Gear Ambits",
+                "createLabel": "Create a new Gear Ambit",
+                "createOrEditLabel": "Create or edit a Gear Ambit"
+            },
+            "created": "A new Gear Ambit is created with identifier {{ param }}",
+            "updated": "A Gear Ambit is updated with identifier {{ param }}",
+            "deleted": "A Gear Ambit is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Ambit {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Ambit"
+            },
+            "name": "Name",
+            "description": "Description",
+            "gearDiagQuestion": "Gear Diag Question",
+            "gearDomain": "Gear Domain"
+        }
+    }
+}

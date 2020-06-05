@@ -1,0 +1,53 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-gear-survey-question-heading" jhiTranslate="geargatewayApp.gearSurveyQuestion.home.createOrEditLabel">Create or edit a Gear Survey Question</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!gearSurveyQuestion.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="gearSurveyQuestion.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearSurveyQuestion.text" for="field_text">Text</label>
+                    <input type="text" class="form-control" name="text" id="field_text"
+                        [(ngModel)]="gearSurveyQuestion.text" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearSurveyQuestion.description" for="field_description">Description</label>
+                    <input type="text" class="form-control" name="description" id="field_description"
+                        [(ngModel)]="gearSurveyQuestion.description" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearSurveyQuestion.correctAnswer" for="field_correctAnswer">Correct Answer</label>
+                    <input type="number" class="form-control" name="correctAnswer" id="field_correctAnswer"
+                        [(ngModel)]="gearSurveyQuestion.correctAnswer" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearSurveyQuestion.gearsurvey" for="field_gearsurvey">Gearsurvey</label>
+                    <select class="form-control" id="field_gearsurvey" name="gearsurvey" [(ngModel)]="gearSurveyQuestion.gearsurveyId" >
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="gearSurveyOption.id" *ngFor="let gearSurveyOption of gearsurveys; trackBy: trackGearSurveyById">{{gearSurveyOption.id}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearSurveyQuestion.gearsurveyquestiontype" for="field_gearsurveyquestiontype">Gearsurveyquestiontype</label>
+                    <select class="form-control" id="field_gearsurveyquestiontype" name="gearsurveyquestiontype" [(ngModel)]="gearSurveyQuestion.gearsurveyquestiontypeId" >
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="gearSurveyQuestionTypeOption.id" *ngFor="let gearSurveyQuestionTypeOption of gearsurveyquestiontypes; trackBy: trackGearSurveyQuestionTypeById">{{gearSurveyQuestionTypeOption.id}}</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

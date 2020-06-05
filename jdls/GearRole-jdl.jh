@@ -1,0 +1,16 @@
+/*entity GearRole {
+	name String,
+    description String
+}
+/*
+entity GearPrivilege {
+	name String,
+    description String,
+    key String
+}
+
+entity GearModule {
+	name String,
+    description String
+}
+*/

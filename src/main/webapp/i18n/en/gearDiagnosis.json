@@ -1,0 +1,27 @@
+{
+    "geargatewayApp": {
+        "gearDiagnosis": {
+            "home": {
+                "title": "Gear Diagnoses",
+                "createLabel": "Create a new Gear Diagnosis",
+                "createOrEditLabel": "Create or edit a Gear Diagnosis"
+            },
+            "created": "A new Gear Diagnosis is created with identifier {{ param }}",
+            "updated": "A Gear Diagnosis is updated with identifier {{ param }}",
+            "deleted": "A Gear Diagnosis is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Diagnosis {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Diagnosis"
+            },
+            "name": "Name",
+            "description": "Description",
+            "creationDate": "Creation Date",
+            "levelMaturity": "Level Maturity",
+            "gearDiagQuestion": "Gear Diag Question",
+            "gearDiagnosisType": "Gear Diagnosis Type",
+            "gearDomain": "Gear Domain"
+        }
+    }
+}

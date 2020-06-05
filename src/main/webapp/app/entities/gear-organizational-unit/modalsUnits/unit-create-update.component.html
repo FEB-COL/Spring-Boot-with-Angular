@@ -1,0 +1,26 @@
+<h2 mat-dialog-title>Datos de Unidad Organizacional</h2>
+
+<form [formGroup]="form" (ngSubmit)="save()">
+    <mat-dialog-content>
+
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="35px">
+            <mat-form-field fxFlex>
+                <mat-label>Nombre</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <input
+                    type="text"
+                    formControlName="name"
+                    matInput
+                    required
+                width="50px">
+            </mat-form-field>
+        </div>
+
+    </mat-dialog-content>
+    <mat-dialog-actions fxLayout="row" fxLayoutAlign="end center">
+        <button *ngIf="isCreateMode()" mat-button [disabled]="!form.valid">Crear  Unidad Organizacional</button>
+        <button *ngIf="isUpdateMode()" mat-button [disabled]="!form.valid">Actualizar  Unidad Organizacional</button>
+    </mat-dialog-actions>
+</form>
+
+

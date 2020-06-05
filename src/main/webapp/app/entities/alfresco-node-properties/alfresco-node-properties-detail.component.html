@@ -1,0 +1,89 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="alfrescoNodeProperties">
+            <h2><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.detail.title">Alfresco Node Properties</span> {{alfrescoNodeProperties.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.documentType">Document Type</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.documentType}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.documentTitle">Document Title</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.documentTitle}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.fileName">File Name</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.fileName}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.siteId">Site Id</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.siteId}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.description">Description</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.description}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.notes">Notes</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.notes}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.versionType">Version Type</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.versionType}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.versionLabel">Version Label</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.versionLabel}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.textField1">Text Field 1</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.textField1}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.textField2">Text Field 2</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.textField2}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.textField3">Text Field 3</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.textField3}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.textField4">Text Field 4</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.textField4}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.textField5">Text Field 5</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.textField5}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.textField6">Text Field 6</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.textField6}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.textField7">Text Field 7</span></dt>
+                <dd>
+                    <span>{{alfrescoNodeProperties.textField7}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.alfrescoNodeProperties.alfrescoNode">Alfresco Node</span></dt>
+                <dd>
+                    <div *ngIf="alfrescoNodeProperties.alfrescoNodeId">
+                        <a [routerLink]="['/afresco-node', alfrescoNodeProperties.alfrescoNodeId, 'view']">{{alfrescoNodeProperties.alfrescoNodeId}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/alfresco-node-properties', alfrescoNodeProperties.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

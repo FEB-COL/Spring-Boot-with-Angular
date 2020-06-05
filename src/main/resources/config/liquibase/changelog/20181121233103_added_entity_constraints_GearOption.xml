@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity GearOption.
+    -->
+    <changeSet id="20181121233103-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="geardecision_id"
+                                 baseTableName="gear_option"
+                                 constraintName="fk_gear_option_geardecision_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="gear_decision"/>
+
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,32 @@
+
+entity GearFiles {
+
+      idFile String,
+      documentName String,
+      documentDomain String,
+      documentTitle String,
+      documentType String,
+      documentDescription String,
+      documentIsCopy Boolean,
+      documentIsDraft Boolean,
+      labelField String,
+      typeField String,
+      propertieName String,
+      documentIdAlfresco String,
+      folderIdAlfresco String,
+      nameFolderAlfresco String,
+      siteIdAlfresco String,
+      nameSiteAlfresco String,
+      valueField String,
+      customFieldId Long,
+      templateId Long
+}
+
+// Use Data Transfert Objects (DTO)
+ dto * with mapstruct
+
+// Set service options to all except few
+service * with serviceImpl
+
+
+

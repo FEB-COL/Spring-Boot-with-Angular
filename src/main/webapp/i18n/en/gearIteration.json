@@ -1,0 +1,29 @@
+{
+    "geargatewayApp": {
+        "gearIteration": {
+            "home": {
+                "title": "Gear Iterations",
+                "createLabel": "Create a new Gear Iteration",
+                "createOrEditLabel": "Create or edit a Gear Iteration"
+            },
+            "created": "A new Gear Iteration is created with identifier {{ param }}",
+            "updated": "A Gear Iteration is updated with identifier {{ param }}",
+            "deleted": "A Gear Iteration is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Iteration {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Iteration"
+            },
+            "name": "Name",
+            "description": "Description",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "createdBy": "Created By",
+            "creationDate": "Creation Date",
+            "lastModifiedBy": "Last Modified By",
+            "lastModifiedDate": "Last Modified Date",
+            "gearProject": "Gear Project"
+        }
+    }
+}

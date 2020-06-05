@@ -1,0 +1,131 @@
+<h2 mat-dialog-title>Datos de Usuarios</h2>
+
+<form [formGroup]="form" (ngSubmit)="save()">
+    <mat-dialog-content>
+
+
+        <!--Input Avatar en BD-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="35px">
+            <mat-form-field fxFlex>
+                <mat-label>Login</mat-label>
+                <input
+                    type="text"
+                    formControlName="avatar"
+                    matInput
+                    required
+                    width="50px">
+                <mat-icon matSuffix>person</mat-icon>
+            </mat-form-field>
+        </div>
+
+
+        <!--Input Password-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="35px">
+            <mat-form-field fxFlex>
+                <mat-label>Password</mat-label>
+                <input
+                    [type]="inputType"
+                    formControlName="password"
+                    matInput
+                    required
+                    width="50px">
+                <button type="button" mat-icon-button matSuffix (click)="toggleVisibility()" matTooltip="Ver Password">
+                    <mat-icon *ngIf="visible">visibility</mat-icon>
+                    <mat-icon *ngIf="!visible">visibility_off</mat-icon>
+                </button>
+                <mat-hint>Click para Visualizar su Contraseña</mat-hint>
+            </mat-form-field>
+        </div>
+
+        <!--Input Nombre Usuario-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="35px">
+            <mat-form-field fxFlex>
+                <mat-label>Nombre Usuario</mat-label>
+                <input
+                    type="text"
+                    formControlName="name"
+                    matInput
+                    required
+                    width="50px">
+            </mat-form-field>
+        </div>
+
+        <!--Input Email-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="35px">
+            <mat-form-field fxFlex>
+                <mat-label>Email</mat-label>
+                <input
+                    type="email"
+                    formControlName="email"
+                    matInput
+                    required
+                    width="50px">
+                <mat-hint>e.g. david@example.com</mat-hint>
+            </mat-form-field>
+        </div>
+
+
+        <!--&lt;!&ndash;Slide Toggle Status&ndash;&gt;-->
+        <!--<div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="35px">-->
+            <!--<mat-label>Estatus</mat-label>-->
+            <!--<mat-slide-toggle-->
+                <!--[(ngModel)]="checked"-->
+                <!--class="example-margin"-->
+                <!--[color]="color"-->
+                <!--(change)="changed()">-->
+                <!--Slide me! {{checked}}-->
+            <!--</mat-slide-toggle>-->
+        <!--</div>-->
+
+
+        <!-- Select Status -->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="35px">
+            <mat-form-field fxFlex>
+                <mat-label>{{defaultSelectState}}</mat-label>
+                <mat-select  [(value)]="gearstate"  required>
+                    <mat-option>-Seleccione Estado-</mat-option>
+                    <mat-option
+                        *ngFor="let gearstateOption of status"
+                        [value]="gearstateOption">
+                        {{gearstateOption.name}}
+                    </mat-option>
+                </mat-select>
+                <mat-hint>Seleccione Estado</mat-hint>
+            </mat-form-field>
+        </div>
+
+
+
+        <!-- Select Perfil -->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="35px">
+            <mat-form-field fxFlex>
+                <mat-label>{{defaultSelectProfile}}</mat-label>
+                <mat-select  [(value)]="gearuser" required >
+                    <mat-option>-Seleccione Perfil-</mat-option>
+                    <mat-option
+                        *ngFor="let gearuserOption of profiles"
+                        [value]="gearuserOption">
+                        {{gearuserOption.name}}
+                    </mat-option>
+                </mat-select>
+                <mat-hint>Seleccione Perfil</mat-hint>
+            </mat-form-field>
+        </div>
+
+        <!--&lt;!&ndash; Select Unidad Organizacional &ndash;&gt;-->
+        <!--<div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">-->
+            <!--<mat-form-field fxFlex>-->
+                <!--<mat-label>{{defaultSelect}}</mat-label>-->
+                <!--<mat-select  [(value)]="gearUnit" >-->
+                    <!--<mat-option [value]="gearUnitOption" *ngFor="let gearUnitOption of gearOrganizationals">{{gearUnitOption.name}}</mat-option>-->
+                <!--</mat-select>-->
+            <!--</mat-form-field>-->
+        <!--</div>-->
+
+    </mat-dialog-content>
+    <mat-dialog-actions fxLayout="row" fxLayoutAlign="end center">
+        <button *ngIf="isCreateMode()" mat-button [disabled]="!form.valid">Crear Usuarios</button>
+        <button *ngIf="isUpdateMode()" mat-button [disabled]="!form.valid">Actualizar Usuarios</button>
+    </mat-dialog-actions>
+</form>
+

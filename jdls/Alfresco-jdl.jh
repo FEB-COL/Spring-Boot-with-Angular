@@ -1,0 +1,55 @@
+entity AlfrescoSite {
+	 guid String,
+     identify String,
+     role String,
+     title String,
+     description String,
+     visibility String
+}
+
+
+entity AlfrescoNodeProperties {
+     documentType String,
+     documentTitle String,
+     fileName String,
+     siteId String,
+     description String,
+     notes String,
+     versionType String,
+     versionLabel String,
+     textField1 String,
+     textField2 String,
+     textField3 String,
+     textField4 String,
+     textField5 String,
+     textField6 String,
+     textField7 String
+    
+}
+
+entity AfrescoNode  {
+	 createdAt String,
+     modifiedAt String,
+     name String,
+     location String,
+     id String,
+     nType String,
+     parentId String
+}
+
+relationship OneToMany{
+AlfrescoSite  {alfrescoNode} to AfrescoNode {alfrescoSite} 
+}
+
+relationship OneToMany{
+AfrescoNode  {alfrescoProperties} to AlfrescoNodeProperties {alfrescoNode} 
+}
+
+// Use Data Transfert Objects (DTO)
+ dto * with mapstruct
+
+// Set service options to all except few
+service * with serviceImpl
+
+
+

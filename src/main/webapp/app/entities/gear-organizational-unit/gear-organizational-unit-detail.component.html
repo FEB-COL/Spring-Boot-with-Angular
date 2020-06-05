@@ -1,0 +1,87 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearOrganizationalUnit">
+            <h2><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.detail.title">Gear Organizational Unit</span> {{gearOrganizationalUnit.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.name">Name</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.nodeIdAlfresco">Node Id Alfresco</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.nodeIdAlfresco}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.siteId">Site Id</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.siteId}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.siteGuid">Site Guid</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.siteGuid}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.lowercaseRestrictions">Lowercase Restrictions</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.lowercaseRestrictions}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.uppercaseRestrictions">Uppercase Restrictions</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.uppercaseRestrictions}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.specialCharactersRestrictions">Special Characters Restrictions</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.specialCharactersRestrictions}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.digitsRestrictions">Digits Restrictions</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.digitsRestrictions}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.minimumLengthRestrictions">Minimum Length Restrictions</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.minimumLengthRestrictions}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.maximumLengthRestriction">Maximum Length Restriction</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.maximumLengthRestriction}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.regexCorreoRestriction">Regex Correo Restriction</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.regexCorreoRestriction}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.maximumAttempsRestriction">Maximum Attemps Restriction</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.maximumAttempsRestriction}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.automaticLockEmail">Automatic Lock Email</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.automaticLockEmail}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.manualLockEmail">Manual Lock Email</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.manualLockEmail}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.resetPasswordEmail">Reset Password Email</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.resetPasswordEmail}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearOrganizationalUnit.passwordExpiresDays">Password Expires Days</span></dt>
+                <dd>
+                    <span>{{gearOrganizationalUnit.passwordExpiresDays}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-organizational-unit', gearOrganizationalUnit.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

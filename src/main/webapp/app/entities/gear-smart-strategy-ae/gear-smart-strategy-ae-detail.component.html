@@ -1,0 +1,37 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearSmartStrategyAE">
+            <h2><span jhiTranslate="geargatewayApp.gearSmartStrategyAE.detail.title">Gear Smart Strategy AE</span> {{gearSmartStrategyAE.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearSmartStrategyAE.name">Name</span></dt>
+                <dd>
+                    <span>{{gearSmartStrategyAE.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearSmartStrategyAE.drescription">Drescription</span></dt>
+                <dd>
+                    <span>{{gearSmartStrategyAE.drescription}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearSmartStrategyAE.geargoalsstrategyae">Geargoalsstrategyae</span></dt>
+                <dd>
+                    <div *ngIf="gearSmartStrategyAE.geargoalsstrategyaeId">
+                        <a [routerLink]="['/gear-goals-strategy-ae', gearSmartStrategyAE.geargoalsstrategyaeId, 'view']">{{gearSmartStrategyAE.geargoalsstrategyaeName}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-smart-strategy-ae', gearSmartStrategyAE.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

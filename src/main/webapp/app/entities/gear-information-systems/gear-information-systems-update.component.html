@@ -1,0 +1,104 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-gear-information-systems-heading" jhiTranslate="geargatewayApp.gearInformationSystems.home.createOrEditLabel">Create or edit a Gear Information Systems</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!gearInformationSystems.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="gearInformationSystems.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearInformationSystems.name" for="field_name">Name</label>
+                    <input type="text" class="form-control" name="name" id="field_name"
+                        [(ngModel)]="gearInformationSystems.name" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearInformationSystems.description" for="field_description">Description</label>
+                    <input type="text" class="form-control" name="description" id="field_description"
+                        [(ngModel)]="gearInformationSystems.description" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearInformationSystems.version" for="field_version">Version</label>
+                    <input type="text" class="form-control" name="version" id="field_version"
+                        [(ngModel)]="gearInformationSystems.version" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearInformationSystems.acquisitionDate" for="field_acquisitionDate">Acquisition Date</label>
+                    <div class="input-group">
+                        <input id="field_acquisitionDate" type="text" class="form-control" name="acquisitionDate" ngbDatepicker  #acquisitionDateDp="ngbDatepicker" [(ngModel)]="gearInformationSystems.acquisitionDate"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="acquisitionDateDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearInformationSystems.startDate" for="field_startDate">Start Date</label>
+                    <div class="input-group">
+                        <input id="field_startDate" type="text" class="form-control" name="startDate" ngbDatepicker  #startDateDp="ngbDatepicker" [(ngModel)]="gearInformationSystems.startDate"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="startDateDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearInformationSystems.responsible" for="field_responsible">Responsible</label>
+                    <input type="text" class="form-control" name="responsible" id="field_responsible"
+                        [(ngModel)]="gearInformationSystems.responsible" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearInformationSystems.responsibleEmail" for="field_responsibleEmail">Responsible Email</label>
+                    <input type="text" class="form-control" name="responsibleEmail" id="field_responsibleEmail"
+                        [(ngModel)]="gearInformationSystems.responsibleEmail" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearInformationSystems.provider" for="field_provider">Provider</label>
+                    <input type="text" class="form-control" name="provider" id="field_provider"
+                        [(ngModel)]="gearInformationSystems.provider" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearInformationSystems.initialCost" for="field_initialCost">Initial Cost</label>
+                    <input type="number" class="form-control" name="initialCost" id="field_initialCost"
+                        [(ngModel)]="gearInformationSystems.initialCost" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearInformationSystems.mainteinanceCost" for="field_mainteinanceCost">Mainteinance Cost</label>
+                    <input type="number" class="form-control" name="mainteinanceCost" id="field_mainteinanceCost"
+                        [(ngModel)]="gearInformationSystems.mainteinanceCost" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearInformationSystems.creationDate" for="field_creationDate">Creation Date</label>
+                    <div class="input-group">
+                        <input id="field_creationDate" type="text" class="form-control" name="creationDate" ngbDatepicker  #creationDateDp="ngbDatepicker" [(ngModel)]="gearInformationSystems.creationDate"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="creationDateDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearInformationSystems.modifyDate" for="field_modifyDate">Modify Date</label>
+                    <div class="input-group">
+                        <input id="field_modifyDate" type="text" class="form-control" name="modifyDate" ngbDatepicker  #modifyDateDp="ngbDatepicker" [(ngModel)]="gearInformationSystems.modifyDate"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="modifyDateDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

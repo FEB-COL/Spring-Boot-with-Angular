@@ -1,0 +1,27 @@
+{
+    "geargatewayApp": {
+        "gearValueChainCategory": {
+            "home": {
+                "title": "Gear Value Chain Categories",
+                "createLabel": "Crear nuevo Gear Value Chain Category",
+                "createOrEditLabel": "Crear o editar Gear Value Chain Category"
+            },
+            "created": "Un nuevo Gear Value Chain Category ha sido creado con el identificador {{ param }}",
+            "updated": "Un Gear Value Chain Category ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Gear Value Chain Category ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Gear Value Chain Category {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Value Chain Category"
+            },
+            "name": "Name",
+            "decription": "Decription",
+            "color": "Color",
+            "creationDate": "Creation Date",
+            "lastUpdate": "Last Update",
+            "gearvaluechainmacroprocess": "Gearvaluechainmacroprocess",
+            "gearOrganizationalUnit": "Gear Organizational Unit"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+<h2 mat-dialog-title>Datos de Plantillas</h2>
+
+<form [formGroup]="form" (ngSubmit)="save()">
+    <mat-dialog-content>
+        <!--Input LabelField -->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Etiqueta</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <input
+                    type="text"
+                    formControlName="labelField"
+                    matInput
+                    required>
+            </mat-form-field>
+        </div>
+
+        <!--Input DefaultValue-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Valor por Defecto</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <input
+                    type="text"
+                    formControlName="defaultValue"
+                    matInput>
+            </mat-form-field>
+        </div>
+
+        <!--Input DefaultValue-->
+        <!--<div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">-->
+            <!--<mat-form-field fxFlex>-->
+                <!--<mat-label>Tipo Atributo</mat-label>-->
+                <!--&lt;!&ndash;formControlName es el campo que esta en mi api &ndash;&gt;-->
+                <!--<input-->
+                    <!--type="number"-->
+                    <!--formControlName="fieldType"-->
+                    <!--matInput>-->
+            <!--</mat-form-field>-->
+        <!--</div>-->
+
+        <!--Input ListOptions-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Lista de Opciones</mat-label>
+                <mat-chip-list #chipList>
+                    <mat-chip
+                        *ngFor="let list of optionList"
+                        [selectable]="selectable"
+                              [removable]="removable" (removed)="remove(list)">
+                        {{list.name}}
+                        <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+                    </mat-chip>
+
+                    <input
+                        formControlName="listOptions"
+                        [matChipInputFor]="chipList"
+                        [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+                        [matChipInputAddOnBlur]="addOnBlur"
+                        (matChipInputTokenEnd)="add($event)">
+                </mat-chip-list>
+            </mat-form-field>
+        </div>
+
+
+        <!-- Select Tipo documento -->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <!--Valor por defecto en el select-->
+                <mat-label>{{defaultSelect}}</mat-label>
+                <mat-select [(value)]="gearDocumentType" disabled>
+                    <mat-option [value]="gearDocumentTypeOption"
+                                *ngFor="let gearDocumentTypeOption of gearDocumentTypes">{{gearDocumentTypeOption.name}}</mat-option>
+
+                </mat-select>
+            </mat-form-field>
+        </div>
+
+
+    </mat-dialog-content>
+    <mat-dialog-actions fxLayout="row" fxLayoutAlign="end center">
+        <button *ngIf="isCreateMode()" mat-button [disabled]="!form.valid">Crear Plantilla</button>
+        <button *ngIf="isUpdateMode()" mat-button [disabled]="!form.valid">Actualizar Plantilla</button>
+    </mat-dialog-actions>
+</form>

@@ -1,0 +1,55 @@
+entity GearDiagnosisType {
+	name String,
+    description String
+}
+
+
+entity GearDiagnosis {
+	name String,
+    description String,
+    creationDate LocalDate,
+    levelMaturity Double,
+}
+
+entity GearDiagQuestion {
+	name String,
+    description String,
+    creationDate LocalDate,
+}
+
+
+entity GearDiagAnswer {
+	answer Double,
+    creationDate LocalDate,
+}
+
+entity GearAmbit {
+	name String,
+    description String
+}
+
+relationship OneToMany{
+GearDiagnosisType  {gearDiagnosis} to GearDiagnosis {gearDiagnosisType} 
+}
+
+relationship OneToMany{
+GearDiagnosis  {gearDiagQuestion} to GearDiagQuestion {gearDiagnosis} 
+}
+
+relationship OneToMany{
+GearDiagQuestion  {gearDiagAnswer} to GearDiagAnswer {gearDiagquestion} 
+}
+
+relationship OneToMany{
+GearAmbit  {gearDiagQuestion} to GearDiagQuestion {gearAmbit}
+}
+
+
+// Use Data Transfert Objects (DTO)
+ dto * with mapstruct
+
+// Set service options to all except few
+service * with serviceImpl
+
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity GearValueChainMacroprocess.
+    -->
+    <changeSet id="20181122214403-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="gearvaluechaincategory_id"
+                                 baseTableName="gear_value_chain_macroprocess"
+                                 constraintName="fk_gear_value_chain_macroprocess_gearvaluechaincategory_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="gear_value_chain_category"/>
+
+    </changeSet>
+</databaseChangeLog>

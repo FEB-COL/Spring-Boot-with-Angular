@@ -1,0 +1,54 @@
+<div class="search-wrapper" fxLayout="row" [ngClass]="{ 'focus': focused, 'has-input': input }" fxFlex
+     (furyClickOutside)="closeDropdown()">
+  <mat-icon class="search-icon">search</mat-icon>
+  <input type="search"
+         autocomplete="off"
+         spellcheck="false"
+         class="search-input"
+         [(ngModel)]="input"
+         (focus)="openDropdown()"
+         placeholder="Buscar...">
+
+  <div class="search-dropdown mat-elevation-z1">
+    <div class="content results" *ngIf="input" fxLayout="column">
+      <div class="heading" fxLayout="row" fxLayoutAlign="start center">
+        <mat-icon class="icon">search</mat-icon>
+        Search results for: {{ input }}
+      </div>
+      <div class="items">
+        <div class="item" matRipple [routerLink]="['/']">Home</div>
+        <div class="item" matRipple [routerLink]="['/domains']">Dominios</div>
+        <div class="item" matRipple [routerLink]="['/document-types']">Tipos de Documentos</div>
+        <div class="item" matRipple [routerLink]="['/categories']">Categoria</div>
+        <div class="item" matRipple [routerLink]="['/macroprocesses']">Macroprocesos</div>
+      </div>
+    </div>
+
+    <div class="content recents" fxLayout="row" *ngIf="!input">
+      <div class="recently" fxLayout="column" fxFlex>
+        <div class="heading" fxLayout="row" fxLayoutAlign="start center">
+          <mat-icon class="icon">restore</mat-icon>
+            Recientemente visitado
+        </div>
+        <div class="items">
+          <div class="item" matRipple *ngFor="let item of recentlyVisited" [routerLink]="item.routeOrFunction"
+               (click)="closeDropdown()">{{ item.name }}
+          </div>
+        </div>
+      </div>
+      <div class="frequently" fxLayout="column" fxFlex fxFlexOffset="16px">
+        <div class="heading" fxLayout="row" fxLayoutAlign="start center">
+          <mat-icon class="icon">youtube_searched_for</mat-icon>
+            Visitado con frecuencia
+        </div>
+        <div class="items">
+            <div class="item" matRipple [routerLink]="['/']">Home</div>
+            <div class="item" matRipple [routerLink]="['/domains']">Dominios</div>
+            <div class="item" matRipple [routerLink]="['/document-types']">Tipos de Documentos</div>
+            <div class="item" matRipple [routerLink]="['/categories']">Categoria</div>
+            <div class="item" matRipple [routerLink]="['/macroprocesses']">Macroprocesos</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

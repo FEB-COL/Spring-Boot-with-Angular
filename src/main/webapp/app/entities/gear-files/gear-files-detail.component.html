@@ -1,0 +1,105 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearFiles">
+            <h2><span jhiTranslate="geargatewayApp.gearFiles.detail.title">Gear Files</span> {{gearFiles.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.idFile">Id File</span></dt>
+                <dd>
+                    <span>{{gearFiles.idFile}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.documentName">Document Name</span></dt>
+                <dd>
+                    <span>{{gearFiles.documentName}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.documentDomain">Document Domain</span></dt>
+                <dd>
+                    <span>{{gearFiles.documentDomain}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.documentTitle">Document Title</span></dt>
+                <dd>
+                    <span>{{gearFiles.documentTitle}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.documentType">Document Type</span></dt>
+                <dd>
+                    <span>{{gearFiles.documentType}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.documentDescription">Document Description</span></dt>
+                <dd>
+                    <span>{{gearFiles.documentDescription}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.documentIsCopy">Document Is Copy</span></dt>
+                <dd>
+                    <span>{{gearFiles.documentIsCopy}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.documentIsDraft">Document Is Draft</span></dt>
+                <dd>
+                    <span>{{gearFiles.documentIsDraft}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.labelField">Label Field</span></dt>
+                <dd>
+                    <span>{{gearFiles.labelField}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.typeField">Type Field</span></dt>
+                <dd>
+                    <span>{{gearFiles.typeField}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.propertieName">Propertie Name</span></dt>
+                <dd>
+                    <span>{{gearFiles.propertieName}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.documentIdAlfresco">Document Id Alfresco</span></dt>
+                <dd>
+                    <span>{{gearFiles.documentIdAlfresco}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.folderIdAlfresco">Folder Id Alfresco</span></dt>
+                <dd>
+                    <span>{{gearFiles.folderIdAlfresco}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.nameFolderAlfresco">Name Folder Alfresco</span></dt>
+                <dd>
+                    <span>{{gearFiles.nameFolderAlfresco}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.siteIdAlfresco">Site Id Alfresco</span></dt>
+                <dd>
+                    <span>{{gearFiles.siteIdAlfresco}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.nameSiteAlfresco">Name Site Alfresco</span></dt>
+                <dd>
+                    <span>{{gearFiles.nameSiteAlfresco}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.valueField">Value Field</span></dt>
+                <dd>
+                    <span>{{gearFiles.valueField}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.customFieldId">Custom Field Id</span></dt>
+                <dd>
+                    <span>{{gearFiles.customFieldId}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.templateId">Template Id</span></dt>
+                <dd>
+                    <span>{{gearFiles.templateId}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearFiles.gearDomain">Gear Domain</span></dt>
+                <dd>
+                    <div *ngIf="gearFiles.gearDomainId">
+                        <a [routerLink]="['/gear-domain', gearFiles.gearDomainId, 'view']">{{gearFiles.gearDomainName}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-files', gearFiles.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearPortfolio">
+            <h2><span jhiTranslate="geargatewayApp.gearPortfolio.detail.title">Gear Portfolio</span> {{gearPortfolio.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearPortfolio.name">Name</span></dt>
+                <dd>
+                    <span>{{gearPortfolio.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearPortfolio.description">Description</span></dt>
+                <dd>
+                    <span>{{gearPortfolio.description}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearPortfolio.startDate">Start Date</span></dt>
+                <dd>
+                    <span>{{gearPortfolio.startDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearPortfolio.createdBy">Created By</span></dt>
+                <dd>
+                    <span>{{gearPortfolio.createdBy}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearPortfolio.creationDate">Creation Date</span></dt>
+                <dd>
+                    <span>{{gearPortfolio.creationDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearPortfolio.lastModifiedBy">Last Modified By</span></dt>
+                <dd>
+                    <span>{{gearPortfolio.lastModifiedBy}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearPortfolio.lastModifiedDate">Last Modified Date</span></dt>
+                <dd>
+                    <span>{{gearPortfolio.lastModifiedDate}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-portfolio', gearPortfolio.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

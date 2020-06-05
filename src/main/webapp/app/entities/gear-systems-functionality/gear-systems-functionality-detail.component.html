@@ -1,0 +1,60 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearSystemsFunctionality">
+            <h2><span
+                jhiTranslate="geargatewayApp.gearSystemsFunctionality.detail.title">Gear Systems Functionality</span>
+                {{gearSystemsFunctionality.name}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearSystemsFunctionality.name">Name</span></dt>
+                <dd>
+                    <span>{{gearSystemsFunctionality.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearSystemsFunctionality.description">Description</span></dt>
+                <dd>
+                    <span>{{gearSystemsFunctionality.description}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearSystemsFunctionality.creationDate">Creation Date</span></dt>
+                <dd>
+                    <span>{{gearSystemsFunctionality.creationDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearSystemsFunctionality.modifyDate">Modify Date</span></dt>
+                <dd>
+                    <span>{{gearSystemsFunctionality.modifyDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearSystemsFunctionality.gearinformationsystems">Gearinformationsystems</span>
+                </dt>
+                <dd>
+                    <div *ngIf="gearSystemsFunctionality.gearInformationSystemName">
+                        <a [routerLink]="['/gear-information-systems', gearSystemsFunctionality.gearInformationSystemName, 'view']">{{gearSystemsFunctionality.gearInformationSystemName}}</a>
+                    </div>
+                     </dd>
+            </dl>
+            <!--para traer nombre system-->
+
+           <!-- <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearInformationSystems.name">Name</span></dt>
+                <dd>
+                    <span>{{gearInformationSystems.name}}</span>
+                </dd>
+
+            </dl>-->
+
+
+         <!--final-->
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-systems-functionality', gearSystemsFunctionality.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

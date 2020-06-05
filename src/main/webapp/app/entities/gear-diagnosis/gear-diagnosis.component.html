@@ -1,0 +1,220 @@
+<div class="padding">
+    <fury-breadcrumbs current="Diagnósticos"></fury-breadcrumbs>
+    <div class="elevation border-radius overflow-hidden route-animations-elements">
+
+
+        <mat-tab-group dynamicHeight style="padding-top: 10 0 0 0">
+
+            <mat-tab label="Administrador Diagnósticos">
+                <div class="example-large-box mat-elevation-z4">
+                    <fury-list name="Diagnósticos" [columns]="columns" (filterChange)="onFilterChange($event)">
+                        <div class="actions">
+
+                            <button class="create" (click)="createDiagnosis()" type="button" mat-mini-fab
+                                    color="primary">
+                                <mat-icon>add</mat-icon>
+                            </button>
+
+                        </div>
+
+                        <mat-table #table [dataSource]="dataSource" matSort>
+
+                            <!--- Note that these columns can be defined in any order.
+                                  The actual rendered columns are set as a property on the row definition" -->
+
+                            <!-- Checkbox Column -->
+                            <ng-container matColumnDef="checkbox">
+                                <mat-header-cell class="actions-cell" *matHeaderCellDef>
+                                    <mat-checkbox color="primary" (click)="$event.stopPropagation()"></mat-checkbox>
+                                </mat-header-cell>
+                                <mat-cell class="actions-cell" *matCellDef="let row">
+                                    <span class="fury-mobile-label"></span>
+                                    <mat-checkbox color="primary" (click)="$event.stopPropagation()"></mat-checkbox>
+                                </mat-cell>
+                            </ng-container>
+
+                            <!-- ID Column -->
+                            <ng-container matColumnDef="image">
+                                <mat-header-cell class="image-cell" *matHeaderCellDef></mat-header-cell>
+                                <mat-cell class="image-cell" *matCellDef="let row">
+                                    <span class="fury-mobile-label"></span>
+                                    <img src="http://i.pravatar.cc/30?u={{ row.name }}">
+                                </mat-cell>
+                            </ng-container>
+
+                            <!-- Name Column -->
+                            <ng-container *ngFor="let column of columns">
+                                <ng-container *ngIf="column.isModelProperty" [matColumnDef]="column.property">
+                                    <mat-header-cell *matHeaderCellDef
+                                                     mat-sort-header> {{ column.name }}</mat-header-cell>
+                                    <mat-cell *matCellDef="let row">
+                                        <span class="fury-mobile-label">{{ column.name }}</span>
+                                        {{ row[column.property] }}
+                                    </mat-cell>
+                                </ng-container>
+                            </ng-container>
+
+                            <!-- actions Column -->
+                            <ng-container matColumnDef="actions">
+                                <mat-header-cell class="actions-cell" *matHeaderCellDef
+                                                 mat-sort-header></mat-header-cell>
+                                <mat-cell class="actions-cell" *matCellDef="let row">
+                                    <span class="fury-mobile-label"></span>
+                                    <button type="button" mat-icon-button [matMenuTriggerFor]="actionsMenu"
+                                            (click)="$event.stopPropagation()">
+                                        <mat-icon>more_horiz</mat-icon>
+                                    </button>
+
+                                    <mat-menu #actionsMenu="matMenu" yPosition="below" xPosition="before">
+
+                                        <button (click)="listQuestion(row.id, row.name)" mat-menu-item>
+                                            <span>Gestionar Preguntas</span>
+                                        </button>
+
+                                        <button (click)="answerDiagnostic(row.id)" mat-menu-item>
+                                            <span>Responder Diagnostico</span>
+                                        </button>
+
+                                        <button (click)="updateDiagnosis(row)" mat-menu-item>
+                                            <span>Actualizar</span>
+                                        </button>
+
+                                        <!--Aplicando Sweealert-->
+                                        <swal
+                                            #deleteSwal
+                                            title="Eliminar {{row.name}} ?"
+                                            text="Deseas Eliminarlo !"
+                                            type="error"
+                                            showCancelButton=true,
+                                            confirmButtonText="Si, Eliminar"
+
+                                            [showCancelButton]="true"
+                                            [focusCancel]="true"
+                                            (confirm)="deleteDiagnosis(row)">
+                                        </swal>
+
+                                        <button (click)="deleteSwal.show()" mat-menu-item>
+                                            <span>Eliminar</span>
+                                        </button>
+
+
+                                    </mat-menu>
+                                </mat-cell>
+                            </ng-container>
+
+                            <mat-header-row *matHeaderRowDef="visibleColumns"></mat-header-row>
+                            <mat-row *matRowDef="let row; columns: visibleColumns;"
+                                     class="clickable route-animations-elements"></mat-row>
+                        </mat-table>
+                        <mat-paginator class="paginator" [pageSize]="pageSize"></mat-paginator>
+                    </fury-list>
+
+                </div>
+            </mat-tab>
+
+            <mat-tab label="Arañas Diagnóstico">
+                <div class="example-large-box mat-elevation-z4">
+
+                    <div class="summary-content">
+                        <div class="header-info">
+                            <div class="header-icon header-chart"><i class="fa fa-pie-chart fa-3x"
+                                                                     aria-hidden="true"></i></div>
+                            <div class="header-title">
+                                <div class="h-title">Evaluación</div>
+                            </div>
+                        </div>
+                        <div class="body-info" style="min-height: 316px">
+                            <div class="col-md-8 col-md-offset-1">
+                                <span class="txt1 info">Información</span>
+                                <span class="txt1 serv-tec">Sistemas de Información</span>
+                                <span class="txt1 sist-infor">Servicios Tecnológicos</span>
+                                <span class="txt1 gob-ti">Gobierno TI</span>
+                                <span class="txt1 uso-aprob">Estrategia TI</span>
+                                <span class="txt1 est-ti">Uso y Apropiación</span>
+                                <div class="hexagon">
+                                    <div id="pyramid-container1-0" class="pyramid-container99-0">
+                                        <div class="pyramid-level-1"></div>
+                                        <div class="pyramid-level-2"></div>
+                                        <div class="pyramid-level-3"></div>
+                                        <div class="pyramid-level-4"></div>
+                                        <div class="pyramid-level-5"></div>
+                                        <div class="pyramid-level-6"></div>
+                                    </div>
+
+                                    <div id="pyramid-container1-1" class="pyramid-container99-1 ">
+                                        <div class="pyramid-level-1"></div>
+                                        <div class="pyramid-level-2"></div>
+                                        <div class="pyramid-level-3"></div>
+                                        <div class="pyramid-level-4"></div>
+                                        <div class="pyramid-level-5"></div>
+                                        <div class="pyramid-level-6"></div>
+                                    </div>
+
+                                    <div id="pyramid-container1-2" class="pyramid-container99-2 ">
+                                        <div class="pyramid-level-1"></div>
+                                        <div class="pyramid-level-2"></div>
+                                        <div class="pyramid-level-3"></div>
+                                        <div class="pyramid-level-4"></div>
+                                        <div class="pyramid-level-5"></div>
+                                        <div class="pyramid-level-6"></div>
+                                    </div>
+
+                                    <div id="pyramid-container1-3" class="pyramid-container99-3 ">
+                                        <div class="pyramid-level-1"></div>
+                                        <div class="pyramid-level-2"></div>
+                                        <div class="pyramid-level-3"></div>
+                                        <div class="pyramid-level-4"></div>
+                                        <div class="pyramid-level-5"></div>
+                                        <div class="pyramid-level-6"></div>
+                                    </div>
+
+                                    <div id="pyramid-container1-4" class="pyramid-container99-4 ">
+                                        <div class="pyramid-level-1"></div>
+                                        <div class="pyramid-level-2"></div>
+                                        <div class="pyramid-level-3"></div>
+                                        <div class="pyramid-level-4"></div>
+                                        <div class="pyramid-level-5"></div>
+                                        <div class="pyramid-level-6"></div>
+                                    </div>
+
+                                    <div id="pyramid-container1-5" class="pyramid-container99-5 ">
+                                        <div class="pyramid-level-1"></div>
+                                        <div class="pyramid-level-2"></div>
+                                        <div class="pyramid-level-3"></div>
+                                        <div class="pyramid-level-4"></div>
+                                        <div class="pyramid-level-5"></div>
+                                        <div class="pyramid-level-6"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="temp-data-grap">
+
+                                <!--<input type="number"  min="0" max="5" step="1"-->
+                                <!--ng-repeat="value in vm.valores track by $index" ng-model="value" ng-change="vm.update($index, value)"-->
+                                <!--style="width: 55px;" onkeydown="return false"/>-->
+
+                                <!--<input type="number"-->
+                                <!--min="0"-->
+                                <!--max="5"-->
+                                <!--step="1"-->
+                                <!--style="width: 55px;"-->
+                                <!--onkeydown="return false"-->
+                                <!--*ngFor="let color in valuesArray"-->
+                                <!--[(ngModel)]="color">-->
+
+                                <!--<input type="number"-->
+                                <!--*ngFor="let value in valuesArray"-->
+                                <!--&gt;-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </mat-tab>
+        </mat-tab-group>
+
+    </div>
+</div>
+
+
+

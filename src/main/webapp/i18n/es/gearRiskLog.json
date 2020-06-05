@@ -1,0 +1,27 @@
+{
+    "geargatewayApp": {
+        "gearRiskLog": {
+            "home": {
+                "title": "Gear Risk Logs",
+                "createLabel": "Crear nuevo Gear Risk Log",
+                "createOrEditLabel": "Crear o editar Gear Risk Log"
+            },
+            "created": "Un nuevo Gear Risk Log ha sido creado con el identificador {{ param }}",
+            "updated": "Un Gear Risk Log ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Gear Risk Log ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Gear Risk Log {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Risk Log"
+            },
+            "log": "Log",
+            "date": "Date",
+            "createdBy": "Created By",
+            "creationDate": "Creation Date",
+            "lastModifiedBy": "Last Modified By",
+            "lastModifiedDate": "Last Modified Date",
+            "gearProjectRisk": "Gear Project Risk"
+        }
+    }
+}

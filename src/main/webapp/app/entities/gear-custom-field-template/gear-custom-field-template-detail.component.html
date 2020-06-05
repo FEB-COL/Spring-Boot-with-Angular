@@ -1,0 +1,45 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearCustomFieldTemplate">
+            <h2><span jhiTranslate="geargatewayApp.gearCustomFieldTemplate.detail.title">Gear Custom Field Template</span> {{gearCustomFieldTemplate.name}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearCustomFieldTemplate.labelField">Label Field</span></dt>
+                <dd>
+                    <span>{{gearCustomFieldTemplate.labelField}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearCustomFieldTemplate.defaultValue">Default Value</span></dt>
+                <dd>
+                    <span>{{gearCustomFieldTemplate.defaultValue}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearCustomFieldTemplate.fieldType">Field Type</span></dt>
+                <dd>
+                    <span>{{gearCustomFieldTemplate.fieldType}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearCustomFieldTemplate.listOptions">List Options</span></dt>
+                <dd>
+                    <span>{{gearCustomFieldTemplate.listOptions}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearCustomFieldTemplate.gearDdocumenttype">Gear Ddocumenttype</span></dt>
+                <dd>
+                    <div *ngIf="gearCustomFieldTemplate.gearDdocumenttypeName">
+                        <a [routerLink]="['/gear-document-type', gearCustomFieldTemplate.gearDdocumenttypeId, 'view']">{{gearCustomFieldTemplate.gearDdocumenttypeName}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-custom-field-template', gearCustomFieldTemplate.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

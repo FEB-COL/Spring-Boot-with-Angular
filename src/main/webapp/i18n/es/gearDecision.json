@@ -1,0 +1,27 @@
+{
+    "geargatewayApp": {
+        "gearDecision": {
+            "home": {
+                "title": "Herramienta Decisiones",
+                "placeHolderOne": "Nombre Decisión",
+                "placeHolderTwo": "Nombre Meta",
+                "createLabel": "Crear nuevo Decisión",
+                "createOrEditLabel": "Crear o editar Decisión"
+            },
+            "created": "Una nueva Decisión ha sido creado con el identificador {{ param }}",
+            "updated": "Una Decisión ha sido actualizada con el identificador {{ param }}",
+            "deleted": "Una Decisión ha sido eliminada con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Decisión <strong>({{ id }})</strong>?"
+            },
+            "detail": {
+                "title": "Decisión"
+            },
+            "name": "Nombre",
+            "goal": "Meta",
+            "gearoption": "Opción",
+            "gearcriteria": "Criterio",
+            "geardomain": "Dominio"
+        }
+    }
+}

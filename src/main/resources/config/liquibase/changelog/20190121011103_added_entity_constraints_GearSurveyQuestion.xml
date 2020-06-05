@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity GearSurveyQuestion.
+    -->
+    <changeSet id="20190121011103-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="gearsurvey_id"
+                                 baseTableName="gear_survey_question"
+                                 constraintName="fk_gear_survey_question_gearsurvey_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="gear_survey"/>
+
+        <addForeignKeyConstraint baseColumnNames="gearsurveyquestiontype_id"
+                                 baseTableName="gear_survey_question"
+                                 constraintName="fk_gear_survey_question_gearsurveyquestiontype_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="gear_survey_question_type"/>
+
+    </changeSet>
+</databaseChangeLog>

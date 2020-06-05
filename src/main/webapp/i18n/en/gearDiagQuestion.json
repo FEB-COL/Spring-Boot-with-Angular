@@ -1,0 +1,26 @@
+{
+    "geargatewayApp": {
+        "gearDiagQuestion": {
+            "home": {
+                "title": "Gear Diag Questions",
+                "createLabel": "Create a new Gear Diag Question",
+                "createOrEditLabel": "Create or edit a Gear Diag Question"
+            },
+            "created": "A new Gear Diag Question is created with identifier {{ param }}",
+            "updated": "A Gear Diag Question is updated with identifier {{ param }}",
+            "deleted": "A Gear Diag Question is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Diag Question {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Diag Question"
+            },
+            "name": "Name",
+            "description": "Description",
+            "creationDate": "Creation Date",
+            "gearDiagAnswer": "Gear Diag Answer",
+            "gearDiagnosis": "Gear Diagnosis",
+            "gearAmbit": "Gear Ambit"
+        }
+    }
+}

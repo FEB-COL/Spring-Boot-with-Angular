@@ -1,0 +1,29 @@
+{
+    "geargatewayApp": {
+        "gearPortfolio": {
+            "home": {
+                "title": "Gear Portfolios",
+                "createLabel": "Create a new Gear Portfolio",
+                "createOrEditLabel": "Create or edit a Gear Portfolio"
+            },
+            "created": "A new Gear Portfolio is created with identifier {{ param }}",
+            "updated": "A Gear Portfolio is updated with identifier {{ param }}",
+            "deleted": "A Gear Portfolio is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Portfolio {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Portfolio"
+            },
+            "name": "Name",
+            "description": "Description",
+            "startDate": "Start Date",
+            "createdBy": "Created By",
+            "creationDate": "Creation Date",
+            "lastModifiedBy": "Last Modified By",
+            "lastModifiedDate": "Last Modified Date",
+            "gearProject": "Gear Project",
+            "gearOrganizationalUnit": "Gear Organizational Unit"
+        }
+    }
+}

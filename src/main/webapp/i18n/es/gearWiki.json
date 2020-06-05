@@ -1,0 +1,23 @@
+{
+    "geargatewayApp": {
+        "gearWiki": {
+            "home": {
+                "title": "Gear Wikis",
+                "createLabel": "Crear nuevo Gear Wiki",
+                "createOrEditLabel": "Crear o editar Gear Wiki"
+            },
+            "created": "Un nuevo Gear Wiki ha sido creado con el identificador {{ param }}",
+            "updated": "Un Gear Wiki ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Gear Wiki ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Gear Wiki {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Wiki"
+            },
+            "title": "Title",
+            "text": "Text",
+            "idImage": "Id Image"
+        }
+    }
+}

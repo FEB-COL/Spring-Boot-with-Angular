@@ -1,0 +1,92 @@
+ entity GearDomain {
+	name String,
+    domainId String,
+    companyId Integer,
+    companyDescription String,
+    siteId String,
+    jhiStorage Double,
+    storageUsed Double,
+    levelMaturity Integer,
+    totalWiki Integer,
+    totalFileFinalVersion Integer,
+    totalFileDraft Integer,
+    totalFileUpload Integer
+}
+
+entity GearDocumentType {
+	name String
+}
+
+entity GearCustomFieldTemplate {
+	labelField String,
+    defaultValue String,
+    fieldType Integer,
+    listOptions String    
+}
+
+entity GearDecision {
+	name String,
+    goal String
+}
+
+//Bloque 1
+
+
+
+/*
+entity GearFormAspect {
+	name String,
+    minimumPercentage Long
+}*/
+
+//Bloque 2
+entity GearCriteria {
+	name String,
+    description String
+}
+entity GearOption {
+	name String,
+    description String
+}
+
+
+//Relacion con Dominio-decision
+relationship ManyToOne{    //Tipo de relacion
+GearDecision{geardomain} to GearDomain //Entidades padre a hija lo que esta dentro 
+                                                    //de {} son los nombres de las entidades relacionadas
+}
+
+
+//relacion document-domain  bidireccional 
+relationship OneToMany{                     //Tipo de relacion
+GearDomain{geardocumenttype} to GearDocumentType{geardomain}           //Entidades padre a hija lo que esta dentro 
+                                                     //de {} son los nombres de las entidades relacionadas
+}
+
+
+//Relacion con decision-option  bidireccional
+relationship OneToMany{                     //Tipo de relacion
+GearDecision{gearoption} to GearOption{geardecision}           //Entidades padre a hija lo que esta dentro 
+                                                    //de {} son los nombres de las entidades relacionadas
+}
+
+//Relacion con decision-criterio  bidireccional 
+relationship OneToMany{                     //Tipo de relacion
+GearDecision{gearcriteria} to GearCriteria{geardecision}           //Entidades padre a hija lo que esta dentro 
+                                                    //de {} son los nombres de las entidades relacionadas
+}
+
+
+//relacion document-custom  bidireccional 
+relationship OneToMany{                     //Tipo de relacion
+GearDocumentType{gearcustomfieldtemplate} to GearCustomFieldTemplate{gearDdocumenttype}           //Entidades padre a hija lo que esta dentro 
+                                                    //de {} son los nombres de las entidades relacionadas
+}
+// Use Data Transfert Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service * with serviceImpl 
+
+
+

@@ -1,0 +1,53 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearValueChainMacroprocess">
+            <h2><span jhiTranslate="geargatewayApp.gearValueChainMacroprocess.detail.title">Gear Value Chain Macroprocess</span> {{gearValueChainMacroprocess.name}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearValueChainMacroprocess.name">Name</span></dt>
+                <dd>
+                    <span>{{gearValueChainMacroprocess.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearValueChainMacroprocess.decription">Decription</span></dt>
+                <dd>
+                    <span>{{gearValueChainMacroprocess.decription}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearValueChainMacroprocess.creationDate">Creation Date</span></dt>
+                <dd>
+                    <span>{{gearValueChainMacroprocess.creationDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearValueChainMacroprocess.lastUpdate">Last Update</span></dt>
+                <dd>
+                    <span>{{gearValueChainMacroprocess.lastUpdate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearValueChainMacroprocess.draft">Draft</span></dt>
+                <dd>
+                    <span>{{gearValueChainMacroprocess.draft}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearValueChainMacroprocess.order">Order</span></dt>
+                <dd>
+                    <span>{{gearValueChainMacroprocess.order}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearValueChainMacroprocess.gearvaluechaincategory">Gearvaluechaincategory</span></dt>
+                <dd>
+                    <div *ngIf="gearValueChainMacroprocess.gearvaluechaincategoryId">
+                        <a [routerLink]="['/gear-value-chain-category', gearValueChainMacroprocess.gearvaluechaincategoryId, 'view']">{{gearValueChainMacroprocess.gearvaluechaincategoryName}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-value-chain-macroprocess', gearValueChainMacroprocess.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

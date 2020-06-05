@@ -1,0 +1,72 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-par-system-type-heading" jhiTranslate="geargatewayApp.parSystemType.home.createOrEditLabel">Create or edit a Par System Type</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!parSystemType.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="parSystemType.id" readonly />
+                </div>
+                <!--<div class="form-group">-->
+                    <!--<label class="form-control-label" jhiTranslate="geargatewayApp.parSystemType.name" for="field_name">Name</label>-->
+                    <!--<input type="text" class="form-control" name="name" id="field_name"-->
+                        <!--[(ngModel)]="parSystemType.name" />-->
+                <!--</div>-->
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.parSystemType.name" for="field_name">Name</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        name="name"
+                        id="field_name"
+                        #field_name="ngModel"
+                        [(ngModel)]="parSystemType.name"
+                        placeholder="{{'geargatewayApp.gearDomain.home.placeHolder' | translate}}"
+                        required>
+
+                    <div *ngIf="field_name.dirty && field_name.invalid">
+                        <small class="form-text text-danger" *ngIf="field_name.errors.required">
+                            Su nombre de Tipo Sistema es obligatorio.
+                        </small>
+                    </div>
+                </div>
+
+                <!--<div class="form-group">-->
+                    <!--<label class="form-control-label" jhiTranslate="geargatewayApp.parSystemType.description" for="field_description">Description</label>-->
+                    <!--<input type="text" class="form-control" name="description" id="field_description"-->
+                        <!--[(ngModel)]="parSystemType.description" />-->
+                <!--</div>-->
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.parSystemType.description" for="field_description">Description</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        name="description"
+                        id="field_description"
+                        #field_description="ngModel"
+                        [(ngModel)]="parSystemType.description"
+                        placeholder="{{'geargatewayApp.parSystemType.description' | translate}}"
+                        required>
+                    <div *ngIf="field_description.dirty && field_description.invalid">
+                        <small class="form-text text-danger" *ngIf="field_name.errors.required">
+                            Su descripción de Tipo Sistema es obligatorio.
+                        </small>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

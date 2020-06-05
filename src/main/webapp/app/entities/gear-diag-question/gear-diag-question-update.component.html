@@ -1,0 +1,58 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-gear-diag-question-heading" jhiTranslate="geargatewayApp.gearDiagQuestion.home.createOrEditLabel">Create or edit a Gear Diag Question</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!gearDiagQuestion.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="gearDiagQuestion.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearDiagQuestion.name" for="field_name">Name</label>
+                    <input type="text" class="form-control" name="name" id="field_name"
+                        [(ngModel)]="gearDiagQuestion.name" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearDiagQuestion.description" for="field_description">Description</label>
+                    <input type="text" class="form-control" name="description" id="field_description"
+                        [(ngModel)]="gearDiagQuestion.description" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearDiagQuestion.creationDate" for="field_creationDate">Creation Date</label>
+                    <div class="input-group">
+                        <input id="field_creationDate" type="text" class="form-control" name="creationDate" ngbDatepicker  #creationDateDp="ngbDatepicker" [(ngModel)]="gearDiagQuestion.creationDate"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="creationDateDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearDiagQuestion.gearDiagnosis" for="field_gearDiagnosis">Gear Diagnosis</label>
+                    <select class="form-control" id="field_gearDiagnosis" name="gearDiagnosis" [(ngModel)]="gearDiagQuestion.gearDiagnosisId" >
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="gearDiagnosisOption.id" *ngFor="let gearDiagnosisOption of geardiagnoses; trackBy: trackGearDiagnosisById">{{gearDiagnosisOption.id}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearDiagQuestion.gearDiagquestion" for="field_gearDiagquestion">Gear Diagquestion</label>
+                    <select class="form-control" id="field_gearDiagquestion" name="gearDiagquestion" [(ngModel)]="gearDiagQuestion.gearDiagquestionId" >
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="gearAmbitOption.id" *ngFor="let gearAmbitOption of gearambits; trackBy: trackGearAmbitById">{{gearAmbitOption.id}}</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,100 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-gear-domain-heading" jhiTranslate="geargatewayApp.gearDomain.home.createOrEditLabel">Create or edit a Gear Domain</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!gearDomain.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="gearDomain.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearDomain.name" for="field_name">Name</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        name="name"
+                        id="field_name"
+                        [(ngModel)]="gearDomain.name"
+                        required minlength="4"
+                        #name="ngModel">
+
+                    <div *ngIf="name.invalid && (name.dirty || name.touched)"
+                         class="alert alert-danger">
+
+                        <div *ngIf="name.errors.required">
+                            Dominio es Requerido.
+                        </div>
+                        <div *ngIf="name.errors.minlength">
+                            El nombre debe tener al menos 4 caracteres.
+                        </div>
+                    </div>
+                <!--<div class="form-group">-->
+                    <!--<label class="form-control-label" jhiTranslate="geargatewayApp.gearDomain.domainId" for="field_domainId">Domain Id</label>-->
+                    <!--<input type="text" class="form-control" name="domainId" id="field_domainId"-->
+                        <!--[(ngModel)]="gearDomain.domainId" />-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label class="form-control-label" jhiTranslate="geargatewayApp.gearDomain.companyId" for="field_companyId">Company Id</label>-->
+                    <!--<input type="number" class="form-control" name="companyId" id="field_companyId"-->
+                        <!--[(ngModel)]="gearDomain.companyId" />-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label class="form-control-label" jhiTranslate="geargatewayApp.gearDomain.companyDescription" for="field_companyDescription">Company Description</label>-->
+                    <!--<input type="text" class="form-control" name="companyDescription" id="field_companyDescription"-->
+                        <!--[(ngModel)]="gearDomain.companyDescription" />-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label class="form-control-label" jhiTranslate="geargatewayApp.gearDomain.siteId" for="field_siteId">Site Id</label>-->
+                    <!--<input type="text" class="form-control" name="siteId" id="field_siteId"-->
+                        <!--[(ngModel)]="gearDomain.siteId" />-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label class="form-control-label" jhiTranslate="geargatewayApp.gearDomain.jhiStorage" for="field_jhiStorage">Jhi Storage</label>-->
+                    <!--<input type="number" class="form-control" name="jhiStorage" id="field_jhiStorage"-->
+                        <!--[(ngModel)]="gearDomain.jhiStorage" />-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label class="form-control-label" jhiTranslate="geargatewayApp.gearDomain.storageUsed" for="field_storageUsed">Storage Used</label>-->
+                    <!--<input type="number" class="form-control" name="storageUsed" id="field_storageUsed"-->
+                        <!--[(ngModel)]="gearDomain.storageUsed" />-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label class="form-control-label" jhiTranslate="geargatewayApp.gearDomain.levelMaturity" for="field_levelMaturity">Level Maturity</label>-->
+                    <!--<input type="number" class="form-control" name="levelMaturity" id="field_levelMaturity"-->
+                        <!--[(ngModel)]="gearDomain.levelMaturity" />-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label class="form-control-label" jhiTranslate="geargatewayApp.gearDomain.totalWiki" for="field_totalWiki">Total Wiki</label>-->
+                    <!--<input type="number" class="form-control" name="totalWiki" id="field_totalWiki"-->
+                        <!--[(ngModel)]="gearDomain.totalWiki" />-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label class="form-control-label" jhiTranslate="geargatewayApp.gearDomain.totalFileFinalVersion" for="field_totalFileFinalVersion">Total File Final Version</label>-->
+                    <!--<input type="number" class="form-control" name="totalFileFinalVersion" id="field_totalFileFinalVersion"-->
+                        <!--[(ngModel)]="gearDomain.totalFileFinalVersion" />-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label class="form-control-label" jhiTranslate="geargatewayApp.gearDomain.totalFileDraft" for="field_totalFileDraft">Total File Draft</label>-->
+                    <!--<input type="number" class="form-control" name="totalFileDraft" id="field_totalFileDraft"-->
+                        <!--[(ngModel)]="gearDomain.totalFileDraft" />-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label class="form-control-label" jhiTranslate="geargatewayApp.gearDomain.totalFileUpload" for="field_totalFileUpload">Total File Upload</label>-->
+                    <!--<input type="number" class="form-control" name="totalFileUpload" id="field_totalFileUpload"-->
+                        <!--[(ngModel)]="gearDomain.totalFileUpload" />-->
+                <!--</div>-->
+
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

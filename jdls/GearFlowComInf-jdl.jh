@@ -1,0 +1,10 @@
+entity GearFlowComInf {
+	name String,
+    description String,
+    attach String,
+    providers String,
+    consumers String,
+    scheduleText String,
+    creationDate LocalDate,
+    lastUpdateDate LocalDate
+}

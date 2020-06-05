@@ -1,0 +1,37 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearSurveyAnswer">
+            <h2><span jhiTranslate="geargatewayApp.gearSurveyAnswer.detail.title">Gear Survey Answer</span> {{gearSurveyAnswer.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearSurveyAnswer.text">Text</span></dt>
+                <dd>
+                    <span>{{gearSurveyAnswer.text}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearSurveyAnswer.isCorrect">Is Correct</span></dt>
+                <dd>
+                    <span>{{gearSurveyAnswer.isCorrect}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearSurveyAnswer.gearsurveyquestion">Gearsurveyquestion</span></dt>
+                <dd>
+                    <div *ngIf="gearSurveyAnswer.gearsurveyquestionId">
+                        <a [routerLink]="['/gear-survey-question', gearSurveyAnswer.gearsurveyquestionId, 'view']">{{gearSurveyAnswer.gearsurveyquestionId}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-survey-answer', gearSurveyAnswer.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

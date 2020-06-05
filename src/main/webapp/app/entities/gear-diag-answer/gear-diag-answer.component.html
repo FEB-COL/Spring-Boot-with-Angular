@@ -1,0 +1,78 @@
+
+<div class="padding">
+    <div class="elevation border-radius overflow-hidden route-animations-elements">
+        <fury-list name="Tipo Documentos" [columns]="columns" (filterChange)="onFilterChange($event)">
+            <section class="wrapper site-min-height">
+                <div class="grid">
+                    <div class="row"
+                         style="margin-left: 0px !important; margin-right: 0px !important;padding-top: 10px">
+                        <div id="step0" class="col-md-12 Ftb32"
+                             style="padding: 10px;
+                                text-align: center;
+                                font-size: 22px;
+                                font-weight: 600;
+                                color: #31303f;">
+                            Diagnóstico
+                        </div>
+                    </div>
+
+                    <!--<form action="" (ngSubmit)="saveAnswer()">-->
+                    <div>
+                            <table class="table" cellspacing="0"
+                                   width="100%">
+                                <thead>
+                                <tr>
+                                    <!--<th>Identificador</th>-->
+                                    <th id="step3">Pregunta</th>
+                                    <th id="step4">Respuesta</th>
+                                    <th id="step5">Justificación</th>
+                                </tr>
+                                </thead>
+
+
+                                <tbody>
+                                <tr *ngFor="let row of viewTable">
+                                    <!--<td>{{ row.idQuestion }}</td>-->
+                                    <td>{{ row.nameQuestion }}</td>
+                                    <ng-container>
+                                        <td>
+                                            <mat-form-field>
+                                                <select style="padding: 12px" [(ngModel)]="row.valueAnswer">
+                                                    <option *ngFor="let select of valuesSelect"
+                                                            [ngValue]="select">{{select}}</option>
+                                                </select>
+                                            </mat-form-field>
+                                        </td>
+                                    </ng-container>
+                                    <td class="text-center">
+                                    <textarea
+                                        style="resize:none; border-radius: 5px"
+                                        cols="40"
+                                        rows="2"
+                                        [(ngModel)]="row.comment">
+                                    </textarea>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        <div style="padding-top: 20px">
+                            <button mat-raised-button
+                                    style="padding: 10px;
+                                           width: 30%;
+                                            background: #12149a;
+                                            color: white;
+                                            border-radius: 7px;
+                                            align-items: center;
+                                            margin-bottom: 5px;
+                                            float: right;"
+                                    color="primary"
+                                    (click)="saveAnswer()">
+                                <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span>Guardar</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </fury-list>
+    </div>
+</div>

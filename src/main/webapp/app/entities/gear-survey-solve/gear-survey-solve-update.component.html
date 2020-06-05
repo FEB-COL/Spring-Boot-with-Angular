@@ -1,0 +1,50 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-gear-survey-solve-heading" jhiTranslate="geargatewayApp.gearSurveySolve.home.createOrEditLabel">Create or edit a Gear Survey Solve</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!gearSurveySolve.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="gearSurveySolve.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearSurveySolve.text" for="field_text">Text</label>
+                    <input type="text" class="form-control" name="text" id="field_text"
+                        [(ngModel)]="gearSurveySolve.text" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearSurveySolve.gearsurvey" for="field_gearsurvey">Gearsurvey</label>
+                    <select class="form-control" id="field_gearsurvey" name="gearsurvey" [(ngModel)]="gearSurveySolve.gearsurveyId" >
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="gearSurveyOption.id" *ngFor="let gearSurveyOption of gearsurveys; trackBy: trackGearSurveyById">{{gearSurveyOption.id}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearSurveySolve.gearsurveyquestion" for="field_gearsurveyquestion">Gearsurveyquestion</label>
+                    <select class="form-control" id="field_gearsurveyquestion" name="gearsurveyquestion" [(ngModel)]="gearSurveySolve.gearsurveyquestionId" >
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="gearSurveyQuestionOption.id" *ngFor="let gearSurveyQuestionOption of gearsurveyquestions; trackBy: trackGearSurveyQuestionById">{{gearSurveyQuestionOption.id}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearSurveySolve.gearsurveyanswer" for="field_gearsurveyanswer">Gearsurveyanswer</label>
+                    <select class="form-control" id="field_gearsurveyanswer" name="gearsurveyanswer" [(ngModel)]="gearSurveySolve.gearsurveyanswerId" >
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="gearSurveyAnswerOption.id" *ngFor="let gearSurveyAnswerOption of gearsurveyanswers; trackBy: trackGearSurveyAnswerById">{{gearSurveyAnswerOption.id}}</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

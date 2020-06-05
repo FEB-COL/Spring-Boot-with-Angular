@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity GearSurveySolve.
+    -->
+    <changeSet id="20190121080435-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="gearsurvey_id"
+                                 baseTableName="gear_survey_solve"
+                                 constraintName="fk_gear_survey_solve_gearsurvey_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="gear_survey"/>
+
+        <addForeignKeyConstraint baseColumnNames="gearsurveyquestion_id"
+                                 baseTableName="gear_survey_solve"
+                                 constraintName="fk_gear_survey_solve_gearsurveyquestion_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="gear_survey_question"/>
+
+        <addForeignKeyConstraint baseColumnNames="gearsurveyanswer_id"
+                                 baseTableName="gear_survey_solve"
+                                 constraintName="fk_gear_survey_solve_gearsurveyanswer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="gear_survey_answer"/>
+
+        <addForeignKeyConstraint baseColumnNames="gear_user_id"
+                                 baseTableName="gear_survey_solve"
+                                 constraintName="fk_gear_survey_solve_gear_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="gear_user"/>
+
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,37 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearDecision">
+            <h2><span jhiTranslate="geargatewayApp.gearDecision.detail.title">Gear Decision</span> {{gearDecision.name}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearDecision.name">Name</span></dt>
+                <dd>
+                    <span>{{gearDecision.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearDecision.goal">Goal</span></dt>
+                <dd>
+                    <span>{{gearDecision.goal}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearDecision.geardomain">Geardomain</span></dt>
+                <dd>
+                    <div *ngIf="gearDecision.geardomainName">
+                        <a [routerLink]="['/gear-domain', gearDecision.geardomainId, 'view']">{{gearDecision.geardomainName}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-decision', gearDecision.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

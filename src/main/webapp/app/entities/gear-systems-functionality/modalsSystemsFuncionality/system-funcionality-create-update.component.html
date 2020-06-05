@@ -1,0 +1,53 @@
+<h2 mat-dialog-title>Datos de Funcionalidades</h2>
+
+<form [formGroup]="form" (ngSubmit)="save()">
+    <mat-dialog-content>
+
+        <!--Input Name-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Nombre</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <input
+                    type="text"
+                    formControlName="name"
+                    matInput
+                    required>
+            </mat-form-field>
+        </div>
+
+        <!--Input Description-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Descripción</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <textarea
+                    rows="5"
+                    cols="9"
+                    formControlName="description"
+                    matInput
+                    required>
+                </textarea>
+            </mat-form-field>
+        </div>
+
+        <!-- Select Sistemas Información-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <!--Valor por defecto en el select-->
+                <mat-label>{{defaultSelect}}</mat-label>
+                <mat-select  [(value)]="gearInformation" disabled>
+                    <mat-option [value]="gearInformationOption" *ngFor="let gearInformationOption of gearInformationSystems">{{gearInformationOption.name}}</mat-option>
+
+                </mat-select>
+            </mat-form-field>
+        </div>
+
+
+
+    </mat-dialog-content>
+    <mat-dialog-actions fxLayout="row" fxLayoutAlign="end center">
+        <button *ngIf="isCreateMode()" mat-button [disabled]="!form.valid">Crear Funcionalidad</button>
+        <button *ngIf="isUpdateMode()" mat-button [disabled]="!form.valid">Actualizar Funcionalidad</button>
+    </mat-dialog-actions>
+</form>

@@ -1,0 +1,30 @@
+{
+    "geargatewayApp": {
+        "gearValueChainProcess": {
+            "home": {
+                "title": "Gear Value Chain Processes",
+                "createLabel": "Create a new Gear Value Chain Process",
+                "createOrEditLabel": "Create or edit a Gear Value Chain Process"
+            },
+            "created": "A new Gear Value Chain Process is created with identifier {{ param }}",
+            "updated": "A Gear Value Chain Process is updated with identifier {{ param }}",
+            "deleted": "A Gear Value Chain Process is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Value Chain Process {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Value Chain Process"
+            },
+            "name": "Name",
+            "decription": "Decription",
+            "creationDate": "Creation Date",
+            "lastUpdate": "Last Update",
+            "attach": "Attach",
+            "draft": "Draft",
+            "inputs": "Inputs",
+            "outputs": "Outputs",
+            "gearprocessinfosystem": "Gearprocessinfosystem",
+            "gearvaluechainmacroprocess": "Gearvaluechainmacroprocess"
+        }
+    }
+}

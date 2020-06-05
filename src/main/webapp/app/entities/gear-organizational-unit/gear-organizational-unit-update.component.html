@@ -1,0 +1,104 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-gear-organizational-unit-heading" jhiTranslate="geargatewayApp.gearOrganizationalUnit.home.createOrEditLabel">Create or edit a Gear Organizational Unit</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!gearOrganizationalUnit.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="gearOrganizationalUnit.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.name" for="field_name">Name</label>
+                    <input type="text" class="form-control" name="name" id="field_name"
+                        [(ngModel)]="gearOrganizationalUnit.name" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.nodeIdAlfresco" for="field_nodeIdAlfresco">Node Id Alfresco</label>
+                    <input type="text" class="form-control" name="nodeIdAlfresco" id="field_nodeIdAlfresco"
+                        [(ngModel)]="gearOrganizationalUnit.nodeIdAlfresco" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.siteId" for="field_siteId">Site Id</label>
+                    <input type="text" class="form-control" name="siteId" id="field_siteId"
+                        [(ngModel)]="gearOrganizationalUnit.siteId" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.siteGuid" for="field_siteGuid">Site Guid</label>
+                    <input type="text" class="form-control" name="siteGuid" id="field_siteGuid"
+                        [(ngModel)]="gearOrganizationalUnit.siteGuid" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.lowercaseRestrictions" for="field_lowercaseRestrictions">Lowercase Restrictions</label>
+                    <input type="number" class="form-control" name="lowercaseRestrictions" id="field_lowercaseRestrictions"
+                        [(ngModel)]="gearOrganizationalUnit.lowercaseRestrictions" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.uppercaseRestrictions" for="field_uppercaseRestrictions">Uppercase Restrictions</label>
+                    <input type="number" class="form-control" name="uppercaseRestrictions" id="field_uppercaseRestrictions"
+                        [(ngModel)]="gearOrganizationalUnit.uppercaseRestrictions" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.specialCharactersRestrictions" for="field_specialCharactersRestrictions">Special Characters Restrictions</label>
+                    <input type="number" class="form-control" name="specialCharactersRestrictions" id="field_specialCharactersRestrictions"
+                        [(ngModel)]="gearOrganizationalUnit.specialCharactersRestrictions" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.digitsRestrictions" for="field_digitsRestrictions">Digits Restrictions</label>
+                    <input type="number" class="form-control" name="digitsRestrictions" id="field_digitsRestrictions"
+                        [(ngModel)]="gearOrganizationalUnit.digitsRestrictions" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.minimumLengthRestrictions" for="field_minimumLengthRestrictions">Minimum Length Restrictions</label>
+                    <input type="number" class="form-control" name="minimumLengthRestrictions" id="field_minimumLengthRestrictions"
+                        [(ngModel)]="gearOrganizationalUnit.minimumLengthRestrictions" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.maximumLengthRestriction" for="field_maximumLengthRestriction">Maximum Length Restriction</label>
+                    <input type="number" class="form-control" name="maximumLengthRestriction" id="field_maximumLengthRestriction"
+                        [(ngModel)]="gearOrganizationalUnit.maximumLengthRestriction" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.regexCorreoRestriction" for="field_regexCorreoRestriction">Regex Correo Restriction</label>
+                    <input type="text" class="form-control" name="regexCorreoRestriction" id="field_regexCorreoRestriction"
+                        [(ngModel)]="gearOrganizationalUnit.regexCorreoRestriction" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.maximumAttempsRestriction" for="field_maximumAttempsRestriction">Maximum Attemps Restriction</label>
+                    <input type="number" class="form-control" name="maximumAttempsRestriction" id="field_maximumAttempsRestriction"
+                        [(ngModel)]="gearOrganizationalUnit.maximumAttempsRestriction" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.automaticLockEmail" for="field_automaticLockEmail">Automatic Lock Email</label>
+                    <input type="text" class="form-control" name="automaticLockEmail" id="field_automaticLockEmail"
+                        [(ngModel)]="gearOrganizationalUnit.automaticLockEmail" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.manualLockEmail" for="field_manualLockEmail">Manual Lock Email</label>
+                    <input type="text" class="form-control" name="manualLockEmail" id="field_manualLockEmail"
+                        [(ngModel)]="gearOrganizationalUnit.manualLockEmail" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.resetPasswordEmail" for="field_resetPasswordEmail">Reset Password Email</label>
+                    <input type="text" class="form-control" name="resetPasswordEmail" id="field_resetPasswordEmail"
+                        [(ngModel)]="gearOrganizationalUnit.resetPasswordEmail" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearOrganizationalUnit.passwordExpiresDays" for="field_passwordExpiresDays">Password Expires Days</label>
+                    <input type="number" class="form-control" name="passwordExpiresDays" id="field_passwordExpiresDays"
+                        [(ngModel)]="gearOrganizationalUnit.passwordExpiresDays" />
+                </div>
+
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

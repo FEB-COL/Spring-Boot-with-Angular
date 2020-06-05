@@ -1,0 +1,43 @@
+{
+    "geargatewayApp": {
+        "gearOrganizationalUnit": {
+            "home": {
+                "title": "Gear Organizational Units",
+                "createLabel": "Create a new Gear Organizational Unit",
+                "createOrEditLabel": "Create or edit a Gear Organizational Unit"
+            },
+            "created": "A new Gear Organizational Unit is created with identifier {{ param }}",
+            "updated": "A Gear Organizational Unit is updated with identifier {{ param }}",
+            "deleted": "A Gear Organizational Unit is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Organizational Unit {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Organizational Unit"
+            },
+            "name": "Name",
+            "nodeIdAlfresco": "Node Id Alfresco",
+            "siteId": "Site Id",
+            "siteGuid": "Site Guid",
+            "lowercaseRestrictions": "Lowercase Restrictions",
+            "uppercaseRestrictions": "Uppercase Restrictions",
+            "specialCharactersRestrictions": "Special Characters Restrictions",
+            "digitsRestrictions": "Digits Restrictions",
+            "minimumLengthRestrictions": "Minimum Length Restrictions",
+            "maximumLengthRestriction": "Maximum Length Restriction",
+            "regexCorreoRestriction": "Regex Correo Restriction",
+            "maximumAttempsRestriction": "Maximum Attemps Restriction",
+            "automaticLockEmail": "Automatic Lock Email",
+            "manualLockEmail": "Manual Lock Email",
+            "resetPasswordEmail": "Reset Password Email",
+            "passwordExpiresDays": "Password Expires Days",
+            "gearDomain": "Gear Domain",
+            "gearUser": "Gear User",
+            "gearPortfolio": "Gear Portfolio",
+            "gearGoalsStrategyAE": "Gear Goals Strategy AE",
+            "gearValueChainCategory": "Gear Value Chain Category",
+            "gearInformationSystems": "Gear Information Systems",
+            "gearSurvey": "Gear Survey"
+        }
+    }
+}

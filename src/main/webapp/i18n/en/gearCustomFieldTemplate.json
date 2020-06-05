@@ -1,0 +1,25 @@
+{
+    "geargatewayApp": {
+        "gearCustomFieldTemplate": {
+            "home": {
+                "title": "Gear Custom Field Templates",
+                "createLabel": "Create a new Gear Custom Field Template",
+                "createOrEditLabel": "Create or edit a Gear Custom Field Template"
+            },
+            "created": "A new Gear Custom Field Template is created with identifier {{ param }}",
+            "updated": "A Gear Custom Field Template is updated with identifier {{ param }}",
+            "deleted": "A Gear Custom Field Template is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Custom Field Template {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Custom Field Template"
+            },
+            "labelField": "Label Field",
+            "defaultValue": "Default Value",
+            "fieldType": "Field Type",
+            "listOptions": "List Options",
+            "gearDdocumenttype": "Gear Ddocumenttype"
+        }
+    }
+}

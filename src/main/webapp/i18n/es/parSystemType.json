@@ -1,0 +1,22 @@
+{
+    "geargatewayApp": {
+        "parSystemType": {
+            "home": {
+                "title": "Tipo Sistemas",
+                "createLabel": "Crear nuevo Tipo Sistema",
+                "createOrEditLabel": "Crear o editar Tipo Sistema"
+            },
+            "created": "Un nuevo Tipo Sistema ha sido creado con el identificador {{ param }}",
+            "updated": "Un Tipo Sistema ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Tipo Sistema ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Tipo Sistema <strong>({{ id }})</strong>?"
+            },
+            "detail": {
+                "title": "Tipo Sistema"
+            },
+            "name": "Name",
+            "description": "Description"
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "co.fuziontek",
+      "nativeLanguage": "es",
+      "microservicePath": "../new-core-2018"
+    },
+    "jhipsterVersion": "5.6.1",
+    "applicationType": "gateway",
+    "baseName": "geargateway",
+    "packageName": "co.fuziontek",
+    "packageFolder": "co/fuziontek",
+    "serverPort": "8282",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTI2MDc1YTNkODlmOTE4M2M1NWYxNzY2MDg3OGIxYzFiMzI5ZmQxOTEzNzM3YTZiMmE3ZTUzZGYzZWE3ZWRjZjY0ZTYwNThhMDdiMDllYmFmOWE5ZWM0MTExYmQyNDNiMmE5OGJiMDYyMmI5MTFkMjAyODYxYWE1YThmODM3N2Q=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "es",
+      "en"
+    ]
+  }
+}

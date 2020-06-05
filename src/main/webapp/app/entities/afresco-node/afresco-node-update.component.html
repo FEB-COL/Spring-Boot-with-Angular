@@ -1,0 +1,61 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-afresco-node-heading" jhiTranslate="geargatewayApp.afrescoNode.home.createOrEditLabel">Create or edit a Afresco Node</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!afrescoNode.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="afrescoNode.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.afrescoNode.createdAt" for="field_createdAt">Created At</label>
+                    <input type="text" class="form-control" name="createdAt" id="field_createdAt"
+                        [(ngModel)]="afrescoNode.createdAt" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.afrescoNode.modifiedAt" for="field_modifiedAt">Modified At</label>
+                    <input type="text" class="form-control" name="modifiedAt" id="field_modifiedAt"
+                        [(ngModel)]="afrescoNode.modifiedAt" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.afrescoNode.name" for="field_name">Name</label>
+                    <input type="text" class="form-control" name="name" id="field_name"
+                        [(ngModel)]="afrescoNode.name" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.afrescoNode.location" for="field_location">Location</label>
+                    <input type="text" class="form-control" name="location" id="field_location"
+                        [(ngModel)]="afrescoNode.location" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.afrescoNode.nType" for="field_nType">N Type</label>
+                    <input type="text" class="form-control" name="nType" id="field_nType"
+                        [(ngModel)]="afrescoNode.nType" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.afrescoNode.parentId" for="field_parentId">Parent Id</label>
+                    <input type="text" class="form-control" name="parentId" id="field_parentId"
+                        [(ngModel)]="afrescoNode.parentId" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.afrescoNode.alfrescoSite" for="field_alfrescoSite">Alfresco Site</label>
+                    <select class="form-control" id="field_alfrescoSite" name="alfrescoSite" [(ngModel)]="afrescoNode.alfrescoSiteId" >
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="alfrescoSiteOption.id" *ngFor="let alfrescoSiteOption of alfrescosites; trackBy: trackAlfrescoSiteById">{{alfrescoSiteOption.id}}</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+{
+    "geargatewayApp": {
+        "gearCriteria": {
+            "home": {
+                "title": "Criterios",
+                "createLabel": "Crear nuevo Criterio",
+                "createOrEditLabel": "Crear o editar Criterio"
+            },
+            "created": "Un nuevo Criterio ha sido creado con el identificador {{ param }}",
+            "updated": "Un Criterio ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Criterio ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar <strong>{{ id }}</strong>?"
+            },
+            "detail": {
+                "title": "Criterio"
+            },
+            "name": "Nombre",
+            "description": "Descripción",
+            "geardecision": "Decisión"
+        }
+    }
+}

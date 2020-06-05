@@ -1,0 +1,47 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearSurveyQuestion">
+            <h2><span jhiTranslate="geargatewayApp.gearSurveyQuestion.detail.title">Gear Survey Question</span> {{gearSurveyQuestion.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearSurveyQuestion.text">Text</span></dt>
+                <dd>
+                    <span>{{gearSurveyQuestion.text}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearSurveyQuestion.description">Description</span></dt>
+                <dd>
+                    <span>{{gearSurveyQuestion.description}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearSurveyQuestion.correctAnswer">Correct Answer</span></dt>
+                <dd>
+                    <span>{{gearSurveyQuestion.correctAnswer}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearSurveyQuestion.gearsurvey">Gearsurvey</span></dt>
+                <dd>
+                    <div *ngIf="gearSurveyQuestion.gearsurveyId">
+                        <a [routerLink]="['/gear-survey', gearSurveyQuestion.gearsurveyId, 'view']">{{gearSurveyQuestion.gearsurveyId}}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearSurveyQuestion.gearsurveyquestiontype">Gearsurveyquestiontype</span></dt>
+                <dd>
+                    <div *ngIf="gearSurveyQuestion.gearsurveyquestiontypeId">
+                        <a [routerLink]="['/gear-survey-question-type', gearSurveyQuestion.gearsurveyquestiontypeId, 'view']">{{gearSurveyQuestion.gearsurveyquestiontypeId}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-survey-question', gearSurveyQuestion.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

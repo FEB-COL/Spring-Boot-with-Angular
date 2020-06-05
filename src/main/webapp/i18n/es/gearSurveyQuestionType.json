@@ -1,0 +1,23 @@
+{
+    "geargatewayApp": {
+        "gearSurveyQuestionType": {
+            "home": {
+                "title": "Gear Survey Question Types",
+                "createLabel": "Crear nuevo Gear Survey Question Type",
+                "createOrEditLabel": "Crear o editar Gear Survey Question Type"
+            },
+            "created": "Un nuevo Gear Survey Question Type ha sido creado con el identificador {{ param }}",
+            "updated": "Un Gear Survey Question Type ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Gear Survey Question Type ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Gear Survey Question Type {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Survey Question Type"
+            },
+            "name": "Name",
+            "description": "Description",
+            "gearsurveyquestion": "Gearsurveyquestion"
+        }
+    }
+}

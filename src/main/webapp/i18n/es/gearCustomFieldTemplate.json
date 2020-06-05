@@ -1,0 +1,25 @@
+{
+    "geargatewayApp": {
+        "gearCustomFieldTemplate": {
+            "home": {
+                "title": "Plantillas",
+                "createLabel": "Crear nuevo Plantilla",
+                "createOrEditLabel": "Crear o editar Plantilla"
+            },
+            "created": "Un nuevo Plantilla ha sido creado con el identificador {{ param }}",
+            "updated": "Un Plantilla ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Plantilla ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar <strong>{{ id }}</strong> ?"
+            },
+            "detail": {
+                "title": "Plantilla"
+            },
+            "labelField": "Campo de Etiqueta",
+            "defaultValue": "Valor por Defecto",
+            "fieldType": "Tipo de Campo",
+            "listOptions": "Opciones de Lista",
+            "gearDdocumenttype": "Tipo Documento"
+        }
+    }
+}

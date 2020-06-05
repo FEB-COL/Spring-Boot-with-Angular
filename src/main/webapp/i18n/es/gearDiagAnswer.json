@@ -1,0 +1,24 @@
+{
+    "geargatewayApp": {
+        "gearDiagAnswer": {
+            "home": {
+                "title": "Gear Diag Answers",
+                "createLabel": "Crear nuevo Gear Diag Answer",
+                "createOrEditLabel": "Crear o editar Gear Diag Answer"
+            },
+            "created": "Un nuevo Gear Diag Answer ha sido creado con el identificador {{ param }}",
+            "updated": "Un Gear Diag Answer ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Gear Diag Answer ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Gear Diag Answer {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Diag Answer"
+            },
+            "answer": "Answer",
+            "creationDate": "Creation Date",
+            "comment": "Comment",
+            "gearDiagquestion": "Gear Diagquestion"
+        }
+    }
+}

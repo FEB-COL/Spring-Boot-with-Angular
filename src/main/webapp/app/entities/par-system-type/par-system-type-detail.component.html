@@ -1,0 +1,31 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="parSystemType">
+            <h2><span jhiTranslate="geargatewayApp.parSystemType.detail.title">Par System Type</span> {{parSystemType.name}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.parSystemType.name">Name</span></dt>
+                <dd>
+                    <span>{{parSystemType.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.parSystemType.description">Description</span></dt>
+                <dd>
+                    <span>{{parSystemType.description}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/par-system-type', parSystemType.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

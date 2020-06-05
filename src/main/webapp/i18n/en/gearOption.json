@@ -1,0 +1,23 @@
+{
+    "geargatewayApp": {
+        "gearOption": {
+            "home": {
+                "title": "Gear Options",
+                "createLabel": "Create a new Gear Option",
+                "createOrEditLabel": "Create or edit a Gear Option"
+            },
+            "created": "A new Gear Option is created with identifier {{ param }}",
+            "updated": "A Gear Option is updated with identifier {{ param }}",
+            "deleted": "A Gear Option is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Option {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Option"
+            },
+            "name": "Name",
+            "description": "Description",
+            "geardecision": "Geardecision"
+        }
+    }
+}

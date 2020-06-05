@@ -1,0 +1,89 @@
+entity GearValueChainCategory {
+	name String,
+    decription String,
+    color String,
+    creationDate LocalDate,
+    lastUpdate LocalDate
+}
+
+entity GearValueChainProcess {
+	name String,
+    decription String,
+    creationDate LocalDate,
+    lastUpdate LocalDate,
+    attach String,
+    draft Boolean,
+    inputs String,
+    outputs String
+    
+}
+entity GearValueChainMacroprocess {
+	name String,
+    decription String,
+    creationDate LocalDate,
+    lastUpdate LocalDate,
+    draft Boolean,
+    order Integer  
+}
+
+//Entidades de sistemas de informacion!!
+
+
+entity GearInformationSystems {
+	name String,
+    description String,
+    version String,
+    acquisitionDate LocalDate,
+    startDate LocalDate,
+    responsible String,
+    responsibleEmail String,
+    provider String,
+    initialCost Double,
+    mainteinanceCost Double,
+    creationDate LocalDate,
+    modifyDate LocalDate
+}
+
+entity GearSystemsFunctionality {
+	name String,
+    description String,
+    creationDate LocalDate,
+    modifyDate LocalDate
+}
+// Relacion de System-Functionality
+relationship OneToMany{
+GearInformationSystems {gearsystemsfunctionality} to GearSystemsFunctionality{gearinformationsystems}
+}
+
+
+entity GearProcessInfoSystem {
+}
+
+// Relacion de ProcessInfo-system
+relationship OneToMany{
+GearInformationSystems {gearprocessinfosystem} to GearProcessInfoSystem{gearinformationsystems}
+}
+
+//Relacion ValueChain-GearProcessInfoSystem
+relationship OneToMany{
+GearValueChainProcess {gearprocessinfosystem} to GearProcessInfoSystem{gearvaluechainprocess}
+}
+
+
+// Relacion de macro -Chain process
+relationship OneToMany{
+GearValueChainMacroprocess {gearvaluechainprocess} to GearValueChainProcess{gearvaluechainmacroprocess}
+}
+
+//Relacion chain category - chainm macroprocess
+relationship OneToMany{
+GearValueChainCategory {gearvaluechainmacroprocess} to GearValueChainMacroprocess {gearvaluechaincategory} 
+}
+
+// Use Data Transfert Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service * with serviceImpl 
+
+

@@ -1,0 +1,23 @@
+{
+    "geargatewayApp": {
+        "gearOption": {
+            "home": {
+                "title": "Opciones",
+                "createLabel": "Crear nueva Opción",
+                "createOrEditLabel": "Crear o editar Opción"
+            },
+            "created": "Una nueva Opción ha sido creada con el identificador {{ param }}",
+            "updated": "Una Opción ha sido actualizada con el identificador {{ param }}",
+            "deleted": "Una Opción ha sido eliminada con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Opción <strong>({{ id }})</strong>?"
+            },
+            "detail": {
+                "title": "Opción"
+            },
+            "name": "Nombre",
+            "description": "Descripción",
+            "geardecision": "Decisión"
+        }
+    }
+}

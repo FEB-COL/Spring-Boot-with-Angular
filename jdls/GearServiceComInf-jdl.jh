@@ -1,0 +1,10 @@
+entity GearServiceComInf {
+	name String,
+    description String,
+    attach String,
+    technicalDescription String,
+    isWeb Boolean,
+    version String,
+    creationDate LocalDate,
+    lastUpdateDate LocalDate
+}

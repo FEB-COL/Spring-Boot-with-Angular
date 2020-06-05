@@ -1,0 +1,53 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="afrescoNode">
+            <h2><span jhiTranslate="geargatewayApp.afrescoNode.detail.title">Afresco Node</span> {{afrescoNode.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.afrescoNode.createdAt">Created At</span></dt>
+                <dd>
+                    <span>{{afrescoNode.createdAt}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.afrescoNode.modifiedAt">Modified At</span></dt>
+                <dd>
+                    <span>{{afrescoNode.modifiedAt}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.afrescoNode.name">Name</span></dt>
+                <dd>
+                    <span>{{afrescoNode.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.afrescoNode.location">Location</span></dt>
+                <dd>
+                    <span>{{afrescoNode.location}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.afrescoNode.nType">N Type</span></dt>
+                <dd>
+                    <span>{{afrescoNode.nType}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.afrescoNode.parentId">Parent Id</span></dt>
+                <dd>
+                    <span>{{afrescoNode.parentId}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.afrescoNode.alfrescoSite">Alfresco Site</span></dt>
+                <dd>
+                    <div *ngIf="afrescoNode.alfrescoSiteId">
+                        <a [routerLink]="['/alfresco-site', afrescoNode.alfrescoSiteId, 'view']">{{afrescoNode.alfrescoSiteId}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/afresco-node', afrescoNode.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

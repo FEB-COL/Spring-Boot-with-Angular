@@ -1,0 +1,28 @@
+{
+    "geargatewayApp": {
+        "gearValueChainMacroprocess": {
+            "home": {
+                "title": "Macroprocesos de la Cadena de Valor Gear",
+                "createLabel": "Crear un nuevo Macroprocesos de la Cadena de Valor",
+                "createOrEditLabel": "Crear o Editar un Macroprocesos de la Cadena de Valor"
+            },
+            "created": "Un nuevo Macroprocesos de la Cadena de Valor ha sido creado con el identificador {{ param }}",
+            "updated": "Un Macroprocesos de la Cadena de Valor ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Macroprocesos de la Cadena de Valor ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar el Macroprocesos de la Cadena de Valor {{ id }}?"
+            },
+            "detail": {
+                "title": "Macroprocesos de la Cadena de Valor Gear"
+            },
+            "name": "Nombre",
+            "decription": "Decripción",
+            "creationDate": "Fecha de Creación",
+            "lastUpdate": "Ultima Actualización",
+            "draft": "Borrador",
+            "order": "Orden",
+            "gearvaluechainprocess": "Gearvaluechainprocess",
+            "gearvaluechaincategory": "Categorías de la Cadena de Valor Gear"
+        }
+    }
+}

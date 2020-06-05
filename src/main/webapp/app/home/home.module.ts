@@ -1,0 +1,102 @@
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { RouterModule } from '@angular/router';
+
+import { GeargatewaySharedModule } from 'app/shared';
+import { HOME_ROUTE, HomeComponent } from './';
+// Implementacion del Angular Material
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {
+    MatButtonModule,
+    MatCheckboxModule,
+    MatTabsModule,
+    MatButtonToggleModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule,
+    MatAutocompleteModule,
+    MatBadgeModule,
+    MatCardModule,
+    MatChipsModule,
+    MatCommonModule,
+    MatDatepickerModule,
+    MatDialogModule,
+    MatDividerModule,
+    MatExpansionModule,
+    MatLineModule,
+    MatListModule,
+    MatMenuModule,
+    MatOptionModule,
+    MatPaginatorModule,
+    MatRadioModule,
+    MatRippleModule,
+    MatSelectModule,
+    MatSidenavModule,
+    MatSliderModule,
+    MatSortModule,
+    MatStepperModule,
+    MatTableModule,
+    MatToolbarModule,
+    MatTooltipModule,
+    MatTreeModule,
+    MatBottomSheetModule,
+    MatGridListModule,
+    MatNativeDateModule,
+    MatProgressBarModule,
+    MatProgressSpinnerModule,
+    MatPseudoCheckboxModule,
+    MatSlideToggleModule,
+    MatSnackBarModule
+} from '@angular/material';
+import 'hammerjs';
+
+@NgModule({
+    imports: [
+        GeargatewaySharedModule,
+        RouterModule.forChild([HOME_ROUTE]),
+        BrowserAnimationsModule,
+        // Implemetacion de Angular-Material
+        MatButtonModule,
+        MatCheckboxModule,
+        MatTabsModule,
+        MatButtonToggleModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatIconModule,
+        MatAutocompleteModule,
+        MatBadgeModule,
+        MatCardModule,
+        MatChipsModule,
+        MatCommonModule,
+        MatDatepickerModule,
+        MatDialogModule,
+        MatDividerModule,
+        MatExpansionModule,
+        MatLineModule,
+        MatListModule,
+        MatMenuModule,
+        MatOptionModule,
+        MatPaginatorModule,
+        MatRadioModule,
+        MatRippleModule,
+        MatSelectModule,
+        MatSidenavModule,
+        MatSliderModule,
+        MatSortModule,
+        MatStepperModule,
+        MatTableModule,
+        MatToolbarModule,
+        MatTooltipModule,
+        MatTreeModule,
+        MatBottomSheetModule,
+        MatGridListModule,
+        MatNativeDateModule,
+        MatProgressBarModule,
+        MatProgressSpinnerModule,
+        MatPseudoCheckboxModule,
+        MatSlideToggleModule,
+        MatSnackBarModule
+    ],
+    declarations: [HomeComponent],
+    schemas: [CUSTOM_ELEMENTS_SCHEMA]
+})
+export class GeargatewayHomeModule {}

@@ -1,0 +1,23 @@
+{
+    "geargatewayApp": {
+        "gearSmartStrategyAE": {
+            "home": {
+                "title": "Estrategia Inteligente AE",
+                "createLabel": "Crear Nueva Estrategia Inteligente AE",
+                "createOrEditLabel": "Crear o editar Estrategia Inteligente AE"
+            },
+            "created": "Una nueva Estrategia Inteligente AE ha sido creada con el identificador {{ param }}",
+            "updated": "Una nueva Estrategia Inteligente AE ha sido actualizada con el identificador{{ param }}",
+            "deleted": "Una nueva Estrategia Inteligente AE ha sido eliminada con el identificador{{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Estrategia Inteligente AE {{ id }}?"
+            },
+            "detail": {
+                "title": "Estrategia Inteligente AE"
+            },
+            "name": "Nombre",
+            "drescription": "Descripción",
+            "geargoalsstrategyae": "Estrategia de Objetivos AE "
+        }
+    }
+}

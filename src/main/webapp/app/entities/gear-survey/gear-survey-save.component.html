@@ -1,0 +1,220 @@
+<div class="padding">
+
+    <div class="padding" fxFlex="grow" fxLayout="column" fxLayoutAlign="start center">
+        <fury-card class="basic-forms route-animations-elements">
+            <fury-card-header>
+                <fury-card-header-title>Gestión de encuestas</fury-card-header-title>
+                <fury-card-header-sub-title>Permite crear tus Encuetas</fury-card-header-sub-title>
+            </fury-card-header>
+            <fury-card-content fxLayout="column">
+
+                <div class="result" fxLayout="column">
+
+                    <!--Input Titulo-->
+                    <mat-form-field>
+                        <mat-label>Titulo</mat-label>
+                        <input
+                            matInput
+                            type="text"
+                            placeholder="Titulo"
+                            [(ngModel)]="form.title" required>
+                    </mat-form-field>
+
+                    <!--Textarea Descripcion-->
+                    <mat-form-field>
+                    <textarea
+                        matInput
+                        placeholder="Descripción"
+                        [(ngModel)]="form.description"></textarea>
+                    </mat-form-field>
+
+                    <!--Fechas-->
+                    <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="32px">
+                        <mat-form-field fxFlex>
+                            <mat-label>Desde</mat-label>
+                            <input matInput placeholder="Desde" type="date" [(ngModel)]="form.start">
+                        </mat-form-field>
+
+                        <mat-form-field fxFlex>
+                            <mat-label>Hasta</mat-label>
+                            <input matInput placeholder="hasta" type="date" [(ngModel)]="form.end">
+                        </mat-form-field>
+                    </div>
+
+                    <div *ngFor="let question of form.questions; let question_index = index">
+                        <mat-form-field class="formif">
+                            <mat-label>Pregunta</mat-label>
+                            <input
+                                [(ngModel)]="question.text"
+                                matInput
+                                placeholder="Pregunta"
+                                required>
+                        </mat-form-field>
+
+                        <mat-form-field class="formif">
+                            <textarea [(ngModel)]="question.description" matInput placeholder="Descripción"></textarea>
+                        </mat-form-field>
+
+                        <mat-form-field class="formif">
+                            <mat-select [(ngModel)]="question.question_type_id" placeholder="Tipo:">
+                                <mat-option *ngFor="let question_type of question_types" [value]="question_type.id">
+                                    {{ question_type.name }}
+                                </mat-option>
+                            </mat-select>
+                        </mat-form-field>
+
+                        <div *ngIf="question.question_type_id == 3 || question.question_type_id == 5">
+
+                            <div *ngFor="let answer of question.answers; let answer_index = index" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="32px">
+                                <input class="emerger" [(ngModel)]="answer.text"/>
+                                <input type="radio" [name]="'question' + question_index"
+                                       [(ngModel)]="question.correct_answer"
+                                       [value]="answer_index"/>
+                                <button
+                                    mat-raised-button
+                                    color="warn" (click)="delAnswer(question_index, answer_index)"
+                                        *ngIf="question.answers.length > 1">
+                                    Eliminar Respuesta
+                                </button>
+                            </div>
+
+                            <button
+                                mat-raised-button
+                                color="primary"
+                                (click)="addAnswer(question)">
+                                Agregar respuesta
+                            </button>
+                        </div>
+
+                        <div *ngIf="question.question_type_id == 4">
+                            <div *ngFor="let answer of question.answers; let answer_index = index" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="32px">
+
+                                <input class="emerger" [(ngModel)]="answer.text"/>
+                                <input type="radio" [name]="'question' + question_index"
+                                       [(ngModel)]="question.correct_answer"
+                                       [value]="answer_index"/>
+                                <button mat-raised-button color="warn" (click)="delAnswer(question_index, answer_index)"
+                                        *ngIf="question.answers.length > 1">
+                                    Eliminar Respuesta
+                                </button>
+
+                            </div>
+                            <button mat-raised-button color="primary" (click)="addAnswer(question)">Agregar respuesta
+                            </button>
+                        </div>
+
+                        <!--Boton Eliminar Pregunta-->
+                        <button (click)="delQuestion(question_index)" *ngIf="form.questions.length > 1">
+                            Eliminar pregunta
+                        </button>
+
+
+
+                    </div>
+
+                    <div class="actions" fxLayout="row" fxLayoutAlign="end center" fxLayoutGap="8px">
+
+                        <button
+                            mat-button
+                            color="primary"
+                            (click)="addQuestion()">
+                            AGREGAR PREGUNTA
+                        </button>
+
+                        <button
+                            mat-raised-button
+                            (click)="save()">
+                            GUARDAR
+                        </button>
+
+                        <button mat-button
+                                type="button"
+                                (click)="cancel()"
+                                color="primary">CANCELAR
+                        </button>
+
+                        <!--<a mat-button color="warn" routerLink="/surveys">Cancelar</a>-->
+                    </div>
+                </div>
+            </fury-card-content>
+        </fury-card>
+    </div>
+
+
+    <!--<div class="padding formencuesta">-->
+
+        <!--<div fxLayout="column" [fxLayoutGap]="gap">-->
+
+            <!--<mat-form-field>-->
+                <!--<input [(ngModel)]="form.title" matInput placeholder="Titulo de la Encuesta" type="text" required>-->
+            <!--</mat-form-field>-->
+
+            <!--<mat-form-field>-->
+                <!--<textarea [(ngModel)]="form.description" matInput placeholder="Descripción"></textarea>-->
+            <!--</mat-form-field>-->
+
+            <!--<div fxLayout.gt-sm="row" fxLayoutGap.gt-sm="16px">-->
+                <!--<mat-form-field fxFlex>-->
+                    <!--<input matInput placeholder="Desde" type="date" [(ngModel)]="form.start">-->
+                <!--</mat-form-field>-->
+
+                <!--<mat-form-field fxFlex>-->
+                    <!--<input matInput placeholder="hasta" type="date" [(ngModel)]="form.end">-->
+                <!--</mat-form-field>-->
+
+            <!--</div>-->
+            <!--<div *ngFor="let question of form.questions; let question_index = index">-->
+                <!--<mat-form-field class="formif">-->
+                    <!--<input [(ngModel)]="question.text" matInput placeholder="Pregunta">-->
+                <!--</mat-form-field>-->
+
+                <!--<mat-form-field class="formif">-->
+                    <!--<textarea [(ngModel)]="question.description" matInput placeholder="Descripción"></textarea>-->
+                <!--</mat-form-field>-->
+
+                <!--<mat-form-field class="formif">-->
+                    <!--<mat-select [(ngModel)]="question.question_type_id" placeholder="Tipo:">-->
+                        <!--<mat-option *ngFor="let question_type of question_types" [value]="question_type.id">-->
+                            <!--{{ question_type.name }}-->
+                        <!--</mat-option>-->
+                    <!--</mat-select>-->
+                <!--</mat-form-field>-->
+
+                <!--<div *ngIf="question.question_type_id == 3 || question.question_type_id == 5">-->
+                    <!--<div *ngFor="let answer of question.answers; let answer_index = index">-->
+
+                        <!--<input class="emerger" [(ngModel)]="answer.text"/>-->
+                        <!--<input type="radio" [name]="'question' + question_index" [(ngModel)]="question.correct_answer"-->
+                               <!--[value]="answer_index"/>-->
+                        <!--<button mat-raised-button color="warn" (click)="delAnswer(question_index, answer_index)"-->
+                                <!--*ngIf="question.answers.length > 1">-->
+                            <!--Eliminar pregunta-->
+                        <!--</button>-->
+
+                    <!--</div>-->
+                    <!--<button mat-raised-button color="primary" (click)="addAnswer(question)">Agregar respuesta</button>-->
+                <!--</div>-->
+
+                <!--<div *ngIf="question.question_type_id == 4">-->
+                    <!--<div *ngFor="let answer of question.answers; let answer_index = index">-->
+
+                        <!--<input class="emerger" [(ngModel)]="answer.text"/>-->
+                        <!--<input type="radio" [name]="'question' + question_index" [(ngModel)]="question.correct_answer"-->
+                               <!--[value]="answer_index"/>-->
+                        <!--<button mat-raised-button color="warn" (click)="delAnswer(question_index, answer_index)"-->
+                                <!--*ngIf="question.answers.length > 1">-->
+                            <!--Eliminar pregunta-->
+                        <!--</button>-->
+
+                    <!--</div>-->
+                    <!--<button mat-raised-button color="primary" (click)="addAnswer(question)">Agregar respuesta</button>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<button mat-button (click)="save()">Guardar</button>-->
+        <!--<button mat-button color="primary" (click)="addQuestion()">Agregar pregunta</button>-->
+        <!--<a mat-button color="warn" routerLink="/surveys">Cancelar</a>-->
+    <!--</div>-->
+</div>
+
+

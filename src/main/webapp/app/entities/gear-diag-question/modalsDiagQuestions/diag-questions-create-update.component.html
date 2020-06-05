@@ -1,0 +1,66 @@
+<h2 mat-dialog-title>Datos de Preguntas</h2>
+
+<form [formGroup]="form" (ngSubmit)="save()">
+  <mat-dialog-content>
+
+      <!--Input Name-->
+      <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+          <mat-form-field fxFlex>
+              <mat-label>Pregunta</mat-label>
+              <!--formControlName es el campo que esta en mi api -->
+              <input
+                  type="text"
+                  formControlName="name"
+                  matInput
+                  required>
+          </mat-form-field>
+      </div>
+
+      <!--Input Description-->
+      <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+          <mat-form-field fxFlex>
+              <mat-label>Descripción</mat-label>
+
+              <textarea
+                  rows="5"
+                  cols="9"
+                  formControlName="description"
+                  matInput
+                  required>
+                </textarea>
+
+          </mat-form-field>
+      </div>
+
+
+      <!-- Select Tipo Diagnostico -->
+      <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+          <mat-form-field fxFlex>
+              <!--Valor por defecto en el select-->
+              <mat-label>{{defaultSelect}}</mat-label>
+              <mat-select  [(value)]="geardiagnosis" disabled >
+                  <mat-option [value]="geardiagnosisOption" *ngFor="let geardiagnosisOption of geardiagnostics">{{geardiagnosisOption.name}}</mat-option>
+              </mat-select>
+          </mat-form-field>
+      </div>
+
+      <!-- Select Ambito -->
+      <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+          <mat-form-field fxFlex>
+              <!--Valor por defecto en el select-->
+              <mat-label>{{defaultSelectTwo}}</mat-label>
+              <mat-select  [(value)]="gearambits" >
+                  <mat-option [value]="gearambitsOption" *ngFor="let gearambitsOption of gearallambits">{{gearambitsOption.name}}</mat-option>
+              </mat-select>
+          </mat-form-field>
+      </div>
+
+
+
+
+  </mat-dialog-content>
+  <mat-dialog-actions fxLayout="row" fxLayoutAlign="end center">
+    <button *ngIf="isCreateMode()" mat-button [disabled]="!form.valid">Crear Pregunta</button>
+    <button *ngIf="isUpdateMode()" mat-button [disabled]="!form.valid">Actualizar Pregunta</button>
+  </mat-dialog-actions>
+</form>

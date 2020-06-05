@@ -1,0 +1,401 @@
+<!--<div class="padding">-->
+
+<!--<div *ngIf="form">-->
+<!--<mat-list class="list mat-elevation-z1 respuesta">-->
+<!--<h3 mat-subheader>Encuesta</h3>-->
+<!--<mat-list-item>-->
+<!--<p matLine>-->
+<!--<span>Titulo</span>-->
+<!--<span class="subline"> {{ form.title }}</span>-->
+<!--</p>-->
+<!--<p matLine>-->
+<!--<span>Descripcion</span>-->
+<!--<span class="subline"> {{ form.description }}</span>-->
+<!--</p>-->
+<!--</mat-list-item>-->
+<!--<mat-divider></mat-divider>-->
+<!--<h3 mat-subheader>Fecha de encuesta </h3>-->
+<!--<mat-list-item>-->
+<!--<p matLine>-->
+<!--<span>Desde</span>-->
+<!--<span class="subline">{{ form.start }}</span>-->
+<!--</p>-->
+<!--<mat-divider></mat-divider>-->
+<!--<p matLine>-->
+<!--<span>Hasta</span>-->
+<!--<span class="subline">{{ form.end }}</span>-->
+<!--</p>-->
+<!--</mat-list-item>-->
+<!--<mat-divider></mat-divider>-->
+<!--<h3 mat-subheader></h3>-->
+<!--<mat-list-item>-->
+
+<!--<div *ngFor="let question of form.questions; let question_index = index">-->
+<!--<div *ngIf="question_index >= page && question_index < (page + pagination)">-->
+
+<!--<p matLine>-->
+<!--<span>Pregunta:</span>-->
+<!--<span class="subline">{{ question.text }}</span>-->
+<!--</p>-->
+<!--<p matLine>-->
+<!--<span>Descripción:</span>-->
+<!--<span class="subline">{{ question.description }}</span>-->
+<!--</p>-->
+
+<!--<div *ngIf="question.question_type_id == 1">-->
+
+<!--<input [(ngModel)]="question.response"/>-->
+<!--</div>-->
+
+<!--<div *ngIf="question.question_type_id == 2">-->
+
+<!--<textarea [(ngModel)]="question.response"></textarea>-->
+<!--</div>-->
+
+<!--<div *ngIf="question.question_type_id == 3">-->
+
+<!--<div *ngFor="let answer of question.answers; let answer_index = index">-->
+<!--<input type="radio" [name]="'question' + question_index" [value]="answer.id"-->
+<!--[(ngModel)]="question.response"/>-->
+<!--{{ answer.text }}-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div *ngIf="question.question_type_id == 4">-->
+
+<!--<div *ngFor="let answer of question.answers">-->
+<!--<input type="checkbox" [(ngModel)]="answer.is_selected"/>-->
+<!--{{ answer.text }}-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div *ngIf="question.question_type_id == 5">-->
+
+<!--<select [(ngModel)]="question.response">-->
+<!--<option *ngFor="let answer of question.answers; let answer_index = index"-->
+<!--[value]="answer.id">-->
+<!--{{ answer.text }}-->
+<!--</option>-->
+<!--</select>-->
+<!--</div>-->
+
+<!--<div *ngIf="question.question_type_id == 6">-->
+
+<!--<input type="date" [(ngModel)]="question.response"/>-->
+<!--</div>-->
+
+<!--<div *ngIf="question.question_type_id == 7">-->
+
+<!--<input type="time" [(ngModel)]="question.response"/>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--</div>-->
+
+
+<!--</mat-list-item>-->
+<!--<h3 mat-subheader></h3>-->
+<!--<mat-list-item>-->
+<!--<button mat-button *ngFor="let page_number of pages"-->
+<!--(click)="goToPage(page_number)">{{ page_number }}</button>-->
+
+<!--<a mat-button color="warn" routerLink="/surveys">Cancelar</a>-->
+<!--<button mat-button color="primary" (click)="save()">Enviar</button>-->
+<!--</mat-list-item>-->
+<!--</mat-list>-->
+<!--</div>-->
+<!--</div>-->
+
+
+<!--<div class="padding">-->
+
+<!--<div class="padding" fxFlex="grow" fxLayout="column" fxLayoutAlign="start center">-->
+<!--<fury-card class="basic-forms route-animations-elements">-->
+
+<!--<fury-card-content fxLayout="column">-->
+
+<!--<div class="result" fxLayout="column">-->
+<!--<div *ngIf="form">-->
+<!--<mat-list class="list mat-elevation-z1">-->
+<!--<h3 mat-subheader>Encuesta</h3>-->
+<!--<mat-list-item>-->
+<!--<p matLine>-->
+<!--<span>Titulo</span>-->
+<!--<span class="subline"> {{ form.title }}</span>-->
+<!--</p>-->
+<!--<p matLine>-->
+<!--<span>Descripcion</span>-->
+<!--<span class="subline"> {{ form.description }}</span>-->
+<!--</p>-->
+<!--</mat-list-item>-->
+<!--<mat-divider></mat-divider>-->
+<!--<h3 mat-subheader>Fecha de encuesta </h3>-->
+<!--<mat-list-item>-->
+<!--<p matLine>-->
+<!--<span>Desde</span>-->
+<!--<span class="subline">{{ form.start }}</span>-->
+<!--</p>-->
+<!--<mat-divider></mat-divider>-->
+<!--<p matLine>-->
+<!--<span>Hasta</span>-->
+<!--<span class="subline">{{ form.end }}</span>-->
+<!--</p>-->
+<!--</mat-list-item>-->
+<!--<mat-divider></mat-divider>-->
+<!--<h3 mat-subheader></h3>-->
+<!--<mat-list-item>-->
+
+<!--<div *ngFor="let question of form.questions">-->
+<!--&lt;!&ndash;<div *ngIf="question_index >= page && question_index < (page + pagination)" >&ndash;&gt;-->
+
+<!--<div style="width: 100%;">-->
+
+<!--<p matLine>-->
+<!--<span>Pregunta:</span>-->
+<!--<span class="subline">{{ question.text }}</span>-->
+<!--</p>-->
+<!--</div>-->
+<!--<div style="width: 100%;">-->
+<!--<p matLine>-->
+<!--<span>Descripción:</span>-->
+<!--<span class="subline">{{ question.description }}</span>-->
+<!--</p>-->
+<!--</div>-->
+
+<!--&lt;!&ndash;<div *ngIf="question.question_type_id == 1" style="width: 20px">&ndash;&gt;-->
+
+<!--&lt;!&ndash;<input [(ngModel)]="question.response"/>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<div *ngIf="question.question_type_id == 2" style="width: 20px">&ndash;&gt;-->
+
+<!--&lt;!&ndash;<textarea [(ngModel)]="question.response"></textarea>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<div *ngIf="question.question_type_id == 3" style="width: 20px">&ndash;&gt;-->
+
+<!--&lt;!&ndash;<div *ngFor="let answer of question.answers; let answer_index = index">&ndash;&gt;-->
+<!--&lt;!&ndash;<input type="radio" [name]="'question' + question_index"&ndash;&gt;-->
+<!--&lt;!&ndash;[value]="answer.id"&ndash;&gt;-->
+<!--&lt;!&ndash;[(ngModel)]="question.response"/>&ndash;&gt;-->
+<!--&lt;!&ndash;{{ answer.text }}&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<div *ngIf="question.question_type_id == 4" style="width: 20px">&ndash;&gt;-->
+
+<!--&lt;!&ndash;<div *ngFor="let answer of question.answers">&ndash;&gt;-->
+<!--&lt;!&ndash;<input type="checkbox" [(ngModel)]="answer.is_selected"/>&ndash;&gt;-->
+<!--&lt;!&ndash;{{ answer.text }}&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<div *ngIf="question.question_type_id == 5" style="width: 20px">&ndash;&gt;-->
+
+<!--&lt;!&ndash;<select [(ngModel)]="question.response">&ndash;&gt;-->
+<!--&lt;!&ndash;<option&ndash;&gt;-->
+<!--&lt;!&ndash;*ngFor="let answer of question.answers; let answer_index = index"&ndash;&gt;-->
+<!--&lt;!&ndash;[value]="answer.id">&ndash;&gt;-->
+<!--&lt;!&ndash;{{ answer.text }}&ndash;&gt;-->
+<!--&lt;!&ndash;</option>&ndash;&gt;-->
+<!--&lt;!&ndash;</select>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<div *ngIf="question.question_type_id == 6" style="width: 20px">&ndash;&gt;-->
+
+<!--&lt;!&ndash;<input type="date" [(ngModel)]="question.response"/>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<div *ngIf="question.question_type_id == 7" style="width: 20px">&ndash;&gt;-->
+
+<!--&lt;!&ndash;<input type="time" [(ngModel)]="question.response"/>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--</div>-->
+
+<!--</mat-list-item>-->
+<!--<h3 mat-subheader></h3>-->
+<!--<mat-list-item>-->
+<!--&lt;!&ndash;<button mat-button *ngFor="let page_number of pages"&ndash;&gt;-->
+<!--&lt;!&ndash;(click)="goToPage(page_number)">{{ page_number }}&ndash;&gt;-->
+<!--&lt;!&ndash;</button>&ndash;&gt;-->
+
+<!--<a mat-button color="warn" routerLink="/surveys">Cancelar</a>-->
+<!--<button mat-button color="primary" (click)="save()">Enviar</button>-->
+<!--</mat-list-item>-->
+<!--</mat-list>-->
+<!--</div>-->
+
+<!--</div>-->
+<!--</fury-card-content>-->
+<!--</fury-card>-->
+<!--</div>-->
+<!--</div>-->
+
+
+<div class="padding">
+    <div class="padding" fxFlex="grow" fxLayout="column" fxLayoutAlign="start center">
+        <fury-card class="basic-forms route-animations-elements">
+            <fury-card-header>
+                <fury-card-header-title>Responder encuestas</fury-card-header-title>
+                <fury-card-header-sub-title>Permite responder Encuetas</fury-card-header-sub-title>
+            </fury-card-header>
+            <fury-card-content fxLayout="column">
+                <div class="ejemploUno" fxLayout="column">
+
+                    <div *ngIf="form">
+                        <mat-list class="list mat-elevation-z1">
+
+                            <h3 mat-subheader>Datos Encuesta</h3>
+                            <mat-list-item>
+                                <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="64px">
+
+                                    <p matLine>
+                                        <span>Titulo</span>
+                                        <span class="subline"> {{ form.title }}</span>
+                                    </p>
+                                    <div>
+                                        <p matLine>
+                                            <span>Descripcion</span>
+                                            <span class="subline"> {{ form.description }}</span>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </mat-list-item>
+
+                            <mat-divider></mat-divider>
+
+                            <h3 mat-subheader>Fecha Encuesta</h3>
+                            <mat-list-item>
+                                <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="64px">
+
+                                    <p matLine>
+                                        <span>Desde</span>
+                                        <span class="subline">{{ form.start }}</span>
+                                    </p>
+                                    <mat-divider></mat-divider>
+                                    <p matLine>
+                                        <span>Hasta</span>
+                                        <span class="subline">{{ form.end }}</span>
+                                    </p>
+
+                                </div>
+                            </mat-list-item>
+
+                            <mat-divider></mat-divider>
+
+
+                            <div *ngFor="let question of form.questions; let question_index = index">
+                                <div *ngIf="question_index >= page && question_index < (page + pagination)">
+
+                                    <!--divisor por pregunta-->
+                                    <mat-divider></mat-divider>
+
+                                    <p matLine>
+                                        <span>Pregunta:</span>
+                                        <span class="subline">{{ question.text }}</span>
+                                    </p>
+
+
+                                    <p matLine>
+                                        <span>Descripción:</span>
+                                        <span class="subline">{{ question.description }}</span>
+                                    </p>
+
+                                    <!--Input Respuesta Tipo 1-->
+                                    <mat-form-field class="ejemploDos" *ngIf="question.question_type_id == 1">
+                                        <mat-label>Respuesta</mat-label>
+                                        <input
+                                            matInput
+                                            [(ngModel)]="question.response"
+                                            required>
+                                    </mat-form-field>
+
+                                    <!--Textarea Respuesta tipo dos-->
+                                    <mat-form-field *ngIf="question.question_type_id == 2">
+                                    <textarea
+                                        matInput
+                                        [(ngModel)]="question.response"
+                                        required>
+                                    </textarea>
+                                    </mat-form-field>
+
+                                    <div *ngIf="question.question_type_id == 3">
+
+                                        <div *ngFor="let answer of question.answers; let answer_index = index">
+
+                                            <input type="radio" [name]="'question' + question_index"
+                                                   [value]="answer.id"
+                                                   [(ngModel)]="question.response"/>
+
+
+                                            <span>
+                                               -  {{ answer.text }}
+                                            </span>
+
+                                        </div>
+                                    </div>
+
+                                    <div *ngIf="question.question_type_id == 4">
+
+                                        <div *ngFor="let answer of question.answers">
+                                            <input type="checkbox" [(ngModel)]="answer.is_selected"/>
+                                            {{ answer.text }}
+                                        </div>
+                                    </div>
+
+                                    <div *ngIf="question.question_type_id == 5">
+
+                                        <select [(ngModel)]="question.response">
+                                            <option
+                                                *ngFor="let answer of question.answers; let answer_index = index"
+                                                [value]="answer.id">
+                                                {{ answer.text }}
+                                            </option>
+                                        </select>
+                                    </div>
+
+                                    <div *ngIf="question.question_type_id == 6">
+
+                                        <input type="date" [(ngModel)]="question.response"/>
+                                    </div>
+
+                                    <div *ngIf="question.question_type_id == 7">
+
+                                        <input type="time" [(ngModel)]="question.response"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </mat-list>
+
+
+
+                            <button *ngFor="let page_number of pages" (click)="goToPage(page_number)">{{ page_number }}</button>
+
+
+
+                        <div class="actions" fxLayout="row" fxLayoutAlign="end center" fxLayoutGap="8px"
+                             style="padding-top: 20px">
+                            <button mat-button
+                                    type="button"
+                                    (click)="cancel()"
+                                    color="primary">CANCELAR
+                            </button>
+
+                            <button
+                                (click)="save()"
+                                color="primary"
+                                mat-raised-button>GUARDAR
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </fury-card-content>
+        </fury-card>
+    </div>
+</div>
+

@@ -1,0 +1,80 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="geargatewayApp.gearUser.home.title">Gear Users</span>
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-gear-user" [routerLink]="['/gear-user/new']">
+            <fa-icon [icon]="'plus'"></fa-icon>
+            <span  jhiTranslate="geargatewayApp.gearUser.home.createLabel">
+            Create new Gear User
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+    <br/>
+    <div class="table-responsive" *ngIf="gearUsers">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+            <th><span jhiTranslate="global.field.id">ID</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearUser.name">Name</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearUser.password">Password</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearUser.email">Email</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearUser.avatar">Avatar</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearUser.profile">Profile</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearUser.state">State</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearUser.idAlfresco">Id Alfresco</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearUser.loginAttempts">Login Attempts</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearUser.lastUpdatePasswordDate">Last Update Password Date</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearUser.passwordResetKey">Password Reset Key</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearUser.pin">Pin</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearUser.gearOrganizationalUnit">Gear Organizational Unit</span></th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let gearUser of gearUsers ;trackBy: trackId">
+                <td><a [routerLink]="['/gear-user', gearUser.id, 'view' ]">{{gearUser.id}}</a></td>
+                <td>{{gearUser.name}}</td>
+                <td>{{gearUser.password}}</td>
+                <td>{{gearUser.email}}</td>
+                <td>{{gearUser.avatar}}</td>
+                <td>{{gearUser.profile}}</td>
+                <td>{{gearUser.state}}</td>
+                <td>{{gearUser.idAlfresco}}</td>
+                <td>{{gearUser.loginAttempts}}</td>
+                <td>{{gearUser.lastUpdatePasswordDate | date:'mediumDate'}}</td>
+                <td>{{gearUser.passwordResetKey}}</td>
+                <td>{{gearUser.pin}}</td>
+                <td>
+                    <div *ngIf="gearUser.gearOrganizationalUnitId">
+                        <a [routerLink]="['../gear-organizational-unit', gearUser.gearOrganizationalUnitId , 'view' ]" >{{gearUser.gearOrganizationalUnitName}}</a>
+                    </div>
+                </td>
+                <td class="text-right">
+                    <div class="btn-group flex-btn-group-container">
+                        <button type="submit"
+                                [routerLink]="['/gear-user', gearUser.id, 'view' ]"
+                                class="btn btn-info btn-sm">
+                            <fa-icon [icon]="'eye'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/gear-user', gearUser.id, 'edit']"
+                                class="btn btn-primary btn-sm">
+                            <fa-icon [icon]="'pencil-alt'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'gear-user/'+ gearUser.id + '/delete'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-danger btn-sm">
+                            <fa-icon [icon]="'times'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

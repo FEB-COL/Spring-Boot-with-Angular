@@ -1,0 +1,34 @@
+{
+    "geargatewayApp": {
+        "gearProjectRisk": {
+            "home": {
+                "title": "Gear Project Risks",
+                "createLabel": "Create a new Gear Project Risk",
+                "createOrEditLabel": "Create or edit a Gear Project Risk"
+            },
+            "created": "A new Gear Project Risk is created with identifier {{ param }}",
+            "updated": "A Gear Project Risk is updated with identifier {{ param }}",
+            "deleted": "A Gear Project Risk is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Project Risk {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Project Risk"
+            },
+            "status": "Status",
+            "impact": "Impact",
+            "probability": "Probability",
+            "description": "Description",
+            "firstImpactDate": "First Impact Date",
+            "mitigationStrategy": "Mitigation Strategy",
+            "mitigationDescription": "Mitigation Description",
+            "expectedCloseDate": "Expected Close Date",
+            "createdBy": "Created By",
+            "creationDate": "Creation Date",
+            "lastModifiedBy": "Last Modified By",
+            "lastModifiedDate": "Last Modified Date",
+            "gearRiskLog": "Gear Risk Log",
+            "gearProject": "Gear Project"
+        }
+    }
+}

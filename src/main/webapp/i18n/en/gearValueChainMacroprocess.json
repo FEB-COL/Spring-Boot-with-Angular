@@ -1,0 +1,28 @@
+{
+    "geargatewayApp": {
+        "gearValueChainMacroprocess": {
+            "home": {
+                "title": "Gear Value Chain Macroprocesses",
+                "createLabel": "Create a new Gear Value Chain Macroprocess",
+                "createOrEditLabel": "Create or edit a Gear Value Chain Macroprocess"
+            },
+            "created": "A new Gear Value Chain Macroprocess is created with identifier {{ param }}",
+            "updated": "A Gear Value Chain Macroprocess is updated with identifier {{ param }}",
+            "deleted": "A Gear Value Chain Macroprocess is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Value Chain Macroprocess {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Value Chain Macroprocess"
+            },
+            "name": "Name",
+            "decription": "Decription",
+            "creationDate": "Creation Date",
+            "lastUpdate": "Last Update",
+            "draft": "Draft",
+            "order": "Order",
+            "gearvaluechainprocess": "Gearvaluechainprocess",
+            "gearvaluechaincategory": "Gearvaluechaincategory"
+        }
+    }
+}

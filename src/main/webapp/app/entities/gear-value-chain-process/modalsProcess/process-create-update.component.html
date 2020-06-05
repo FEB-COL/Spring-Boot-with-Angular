@@ -1,0 +1,96 @@
+<h2 mat-dialog-title>Datos de Procesos</h2>
+
+<form [formGroup]="form" (ngSubmit)="save()">
+    <mat-dialog-content>
+
+        <!--Input Name-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Nombre</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <input
+                    type="text"
+                    formControlName="name"
+                    matInput
+                    required>
+            </mat-form-field>
+        </div>
+
+        <!--Input Decription-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Decripción</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <textarea
+                    rows="5"
+                    cols="9"
+                    formControlName="decription"
+                    matInput
+                    required>
+                </textarea>
+            </mat-form-field>
+        </div>
+
+        <!--Input Attach-->
+        <div class="upload-btn-wrapper">
+            <button class="btnUpload">Selecione un archivo</button>
+            <input
+                type="file"
+                name="myfile"
+                (change)="onFileSelected($event)"
+                required/>
+        </div>
+        <!--<div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">-->
+            <!--<mat-form-field fxFlex>-->
+                <!--<mat-label>Adjuntar</mat-label>-->
+                <!--&lt;!&ndash;formControlName es el campo que esta en mi api &ndash;&gt;-->
+                <!--<input-->
+                    <!--type="text"-->
+                    <!--formControlName="attach"-->
+                    <!--matInput>-->
+            <!--</mat-form-field>-->
+        <!--</div>-->
+
+        <!--Input inputs-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Inputs</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <input
+                    type="text"
+                    formControlName="inputs"
+                    matInput>
+            </mat-form-field>
+        </div>
+
+        <!--Input outputs-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Outputs</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <input
+                    type="text"
+                    formControlName="outputs"
+                    matInput>
+            </mat-form-field>
+        </div>
+
+        <!-- Select Proceso -->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <!--Valor por defecto en el select-->
+                <mat-label>{{defaultSelect}}</mat-label>
+                <mat-select  [(value)]="gearMacroprocess" disabled>
+                    <mat-option [value]="gearMacroprocessOption" *ngFor="let gearMacroprocessOption of gearChainMacroprocess">{{gearMacroprocessOption.name}}</mat-option>
+
+                </mat-select>
+            </mat-form-field>
+        </div>
+
+
+    </mat-dialog-content>
+    <mat-dialog-actions fxLayout="row" fxLayoutAlign="end center">
+        <button *ngIf="isCreateMode()" mat-button [disabled]="!form.valid">Crear Proceso</button>
+        <button *ngIf="isUpdateMode()" mat-button [disabled]="!form.valid">Actualizar Proceso</button>
+    </mat-dialog-actions>
+</form>

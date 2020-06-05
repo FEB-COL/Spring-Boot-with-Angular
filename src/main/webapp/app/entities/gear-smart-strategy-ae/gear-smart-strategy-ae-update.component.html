@@ -1,0 +1,91 @@
+<div class="row justify-content-center">
+
+
+    <!--Prueba Diagrama -->
+    <div class="row">
+        <div class="col-xs-10">
+            <!--<div id="chart-eastern" class="chart-container" style="text-align: left;"></div>-->
+            <div id="goals-smart-portfolio-diagram"></div>
+        </div>
+        <div class="col-xs-2">
+            <div class="row margin-bottom-15px" data-translate="geargatewayApp.gearGoalsStrategyAE.home.conventions">
+                Convenciones
+            </div>
+            <div class="row margin-bottom-15px">
+                <div class="col-xs-3">
+                    <i class="fab fa-empire fa-2x color-gray-goal"></i>
+                </div>
+                <div class="col-xs-9" data-translate="geargatewayApp.gearGoalsStrategyAE.home.goals">
+                    Goals
+                </div>
+            </div>
+            <div class="row margin-bottom-15px">
+                <div class="col-xs-3">
+                    <i class="fas fa-bullseye fa-2x color-blue-smart"></i>
+                </div>
+                <div class="col-xs-9" data-translate="geargatewayApp.gearGoalsStrategyAE.home.smart">
+                    Smart
+                </div>
+            </div>
+
+            <div class="row margin-bottom-15px">
+                <div class="col-xs-3">
+                    <i class="fas fa-puzzle-piece fa-2x color-green-portfolio"></i>
+                </div>
+                <div class="col-xs-9" data-translate="geargatewayApp.gearGoalsStrategyAE.home.portfolio">
+                    Portfolio Project
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--FIN Prueba Diagrama -->
+
+
+    <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+        <h2 id="jhi-gear-smart-strategy-ae-heading"
+            jhiTranslate="geargatewayApp.gearSmartStrategyAE.home.createOrEditLabel">Create or edit a Gear Smart
+            Strategy AE</h2>
+        <div>
+            <jhi-alert-error></jhi-alert-error>
+            <div class="form-group" [hidden]="!gearSmartStrategyAE.id">
+                <label for="id" jhiTranslate="global.field.id">ID</label>
+                <input type="text" class="form-control" id="id" name="id"
+                       [(ngModel)]="gearSmartStrategyAE.id" readonly/>
+            </div>
+            <div class="form-group">
+                <label class="form-control-label" jhiTranslate="geargatewayApp.gearSmartStrategyAE.name"
+                       for="field_name">Name</label>
+                <input type="text" class="form-control" name="name" id="field_name"
+                       [(ngModel)]="gearSmartStrategyAE.name"/>
+            </div>
+            <div class="form-group">
+                <label class="form-control-label" jhiTranslate="geargatewayApp.gearSmartStrategyAE.drescription"
+                       for="field_drescription">Drescription</label>
+                <input type="text" class="form-control" name="drescription" id="field_drescription"
+                       [(ngModel)]="gearSmartStrategyAE.drescription"/>
+            </div>
+
+            <div class="form-group">
+                <label class="form-control-label" jhiTranslate="geargatewayApp.gearSmartStrategyAE.geargoalsstrategyae"
+                       for="field_geargoalsstrategyae">Geargoalsstrategyae</label>
+                <select class="form-control" id="field_geargoalsstrategyae" name="geargoalsstrategyae"
+                        [(ngModel)]="geargoalsstrategyaestemporal">
+                    <option [ngValue]="null"></option>
+                    <option [ngValue]="gearGoalsStrategyAEOption"
+                            *ngFor="let gearGoalsStrategyAEOption of geargoalsstrategyaes; trackBy: trackGearGoalsStrategyAEById">{{gearGoalsStrategyAEOption.name}}</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <button type="button" id="cancel-save" class="btn btn-secondary" (click)="previousState()">
+                <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+            </button>
+            <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+            </button>
+        </div>
+    </form>
+</div>

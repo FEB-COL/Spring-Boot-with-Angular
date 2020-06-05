@@ -1,0 +1,23 @@
+{
+    "geargatewayApp": {
+        "gearSmartStrategyAE": {
+            "home": {
+                "title": "Gear Smart Strategy AES",
+                "createLabel": "Create a new Gear Smart Strategy AE",
+                "createOrEditLabel": "Create or edit a Gear Smart Strategy AE"
+            },
+            "created": "A new Gear Smart Strategy AE is created with identifier {{ param }}",
+            "updated": "A Gear Smart Strategy AE is updated with identifier {{ param }}",
+            "deleted": "A Gear Smart Strategy AE is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Smart Strategy AE {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Smart Strategy AE"
+            },
+            "name": "Name",
+            "drescription": "Drescription",
+            "geargoalsstrategyae": "Geargoalsstrategyae"
+        }
+    }
+}

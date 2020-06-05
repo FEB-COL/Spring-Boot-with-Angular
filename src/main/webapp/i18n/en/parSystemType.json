@@ -1,0 +1,22 @@
+{
+    "geargatewayApp": {
+        "parSystemType": {
+            "home": {
+                "title": "Par System Types",
+                "createLabel": "Create a new Par System Type",
+                "createOrEditLabel": "Create or edit a Par System Type"
+            },
+            "created": "A new Par System Type is created with identifier {{ param }}",
+            "updated": "A Par System Type is updated with identifier {{ param }}",
+            "deleted": "A Par System Type is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Par System Type {{ id }}?"
+            },
+            "detail": {
+                "title": "Par System Type"
+            },
+            "name": "Name",
+            "description": "Description"
+        }
+    }
+}

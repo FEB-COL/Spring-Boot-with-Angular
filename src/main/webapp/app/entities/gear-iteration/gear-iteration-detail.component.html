@@ -1,0 +1,55 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearIteration">
+            <h2><span jhiTranslate="geargatewayApp.gearIteration.detail.title">Gear Iteration</span> {{gearIteration.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearIteration.name">Name</span></dt>
+                <dd>
+                    <span>{{gearIteration.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearIteration.description">Description</span></dt>
+                <dd>
+                    <span>{{gearIteration.description}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearIteration.startDate">Start Date</span></dt>
+                <dd>
+                    <span>{{gearIteration.startDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearIteration.endDate">End Date</span></dt>
+                <dd>
+                    <span>{{gearIteration.endDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearIteration.createdBy">Created By</span></dt>
+                <dd>
+                    <span>{{gearIteration.createdBy}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearIteration.creationDate">Creation Date</span></dt>
+                <dd>
+                    <span>{{gearIteration.creationDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearIteration.lastModifiedBy">Last Modified By</span></dt>
+                <dd>
+                    <span>{{gearIteration.lastModifiedBy}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearIteration.lastModifiedDate">Last Modified Date</span></dt>
+                <dd>
+                    <span>{{gearIteration.lastModifiedDate}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-iteration', gearIteration.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

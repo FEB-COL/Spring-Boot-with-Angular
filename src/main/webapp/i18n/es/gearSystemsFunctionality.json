@@ -1,0 +1,25 @@
+{
+    "geargatewayApp": {
+        "gearSystemsFunctionality": {
+            "home": {
+                "title": "Funcionalidad del Sistema Gear",
+                "createLabel": "Crear nuevo Funcionalidad del Sistema Gear",
+                "createOrEditLabel": "Crear o editar las Funcionalidad del Sistema Gear"
+            },
+            "created": "Una nueva Funcionalidad del Sistema Gear ha sido creada con el identificador {{ param }}",
+            "updated": "Una Funcionalidad del Sistema Gear ha sido actualizada con el identificador {{ param }}",
+            "deleted": "Una Funcionalidad del Sistema Gear ha sido eliminada con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar la Funcionalidad del Sistema Gear {{ id }}?"
+            },
+            "detail": {
+                "title": "Funcionalidad del Sistema Gear"
+            },
+            "name": "Nombre",
+            "description": "Descripción",
+            "creationDate": "Fecha de Creación",
+            "modifyDate": "Fecha de Modificación",
+            "gearinformationsystems": "Sistemas de Información Gear"
+        }
+    }
+}

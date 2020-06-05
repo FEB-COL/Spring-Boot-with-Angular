@@ -1,0 +1,96 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="geargatewayApp.gearFiles.home.title">Gear Files</span>
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-gear-files" [routerLink]="['/gear-files/new']">
+            <fa-icon [icon]="'plus'"></fa-icon>
+            <span  jhiTranslate="geargatewayApp.gearFiles.home.createLabel">
+            Create new Gear Files
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+    <br/>
+    <div class="table-responsive" *ngIf="gearFiles">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+            <th><span jhiTranslate="global.field.id">ID</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.idFile">Id File</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.documentName">Document Name</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.documentDomain">Document Domain</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.documentTitle">Document Title</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.documentType">Document Type</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.documentDescription">Document Description</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.documentIsCopy">Document Is Copy</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.documentIsDraft">Document Is Draft</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.labelField">Label Field</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.typeField">Type Field</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.propertieName">Propertie Name</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.documentIdAlfresco">Document Id Alfresco</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.folderIdAlfresco">Folder Id Alfresco</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.nameFolderAlfresco">Name Folder Alfresco</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.siteIdAlfresco">Site Id Alfresco</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.nameSiteAlfresco">Name Site Alfresco</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.valueField">Value Field</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.customFieldId">Custom Field Id</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.templateId">Template Id</span></th>
+            <th><span jhiTranslate="geargatewayApp.gearFiles.gearDomain">Gear Domain</span></th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let gearFiles of gearFiles ;trackBy: trackId">
+                <td><a [routerLink]="['/gear-files', gearFiles.id, 'view' ]">{{gearFiles.id}}</a></td>
+                <td>{{gearFiles.idFile}}</td>
+                <td>{{gearFiles.documentName}}</td>
+                <td>{{gearFiles.documentDomain}}</td>
+                <td>{{gearFiles.documentTitle}}</td>
+                <td>{{gearFiles.documentType}}</td>
+                <td>{{gearFiles.documentDescription}}</td>
+                <td>{{gearFiles.documentIsCopy}}</td>
+                <td>{{gearFiles.documentIsDraft}}</td>
+                <td>{{gearFiles.labelField}}</td>
+                <td>{{gearFiles.typeField}}</td>
+                <td>{{gearFiles.propertieName}}</td>
+                <td>{{gearFiles.documentIdAlfresco}}</td>
+                <td>{{gearFiles.folderIdAlfresco}}</td>
+                <td>{{gearFiles.nameFolderAlfresco}}</td>
+                <td>{{gearFiles.siteIdAlfresco}}</td>
+                <td>{{gearFiles.nameSiteAlfresco}}</td>
+                <td>{{gearFiles.valueField}}</td>
+                <td>{{gearFiles.customFieldId}}</td>
+                <td>{{gearFiles.templateId}}</td>
+                <td>
+                    <div *ngIf="gearFiles.gearDomainId">
+                        <a [routerLink]="['../gear-domain', gearFiles.gearDomainId , 'view' ]" >{{gearFiles.gearDomainName}}</a>
+                    </div>
+                </td>
+                <td class="text-right">
+                    <div class="btn-group flex-btn-group-container">
+                        <button type="submit"
+                                [routerLink]="['/gear-files', gearFiles.id, 'view' ]"
+                                class="btn btn-info btn-sm">
+                            <fa-icon [icon]="'eye'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/gear-files', gearFiles.id, 'edit']"
+                                class="btn btn-primary btn-sm">
+                            <fa-icon [icon]="'pencil-alt'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'gear-files/'+ gearFiles.id + '/delete'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-danger btn-sm">
+                            <fa-icon [icon]="'times'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

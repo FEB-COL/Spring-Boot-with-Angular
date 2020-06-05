@@ -1,0 +1,36 @@
+{
+    "geargatewayApp": {
+        "gearInformationSystems": {
+            "home": {
+                "title": "Gear Information Systems",
+                "createLabel": "Create a new Gear Information Systems",
+                "createOrEditLabel": "Create or edit a Gear Information Systems"
+            },
+            "created": "A new Gear Information Systems is created with identifier {{ param }}",
+            "updated": "A Gear Information Systems is updated with identifier {{ param }}",
+            "deleted": "A Gear Information Systems is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Information Systems {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Information Systems"
+            },
+            "name": "Name",
+            "description": "Description",
+            "version": "Version",
+            "acquisitionDate": "Acquisition Date",
+            "startDate": "Start Date",
+            "responsible": "Responsible",
+            "responsibleEmail": "Responsible Email",
+            "provider": "Provider",
+            "initialCost": "Initial Cost",
+            "mainteinanceCost": "Mainteinance Cost",
+            "creationDate": "Creation Date",
+            "modifyDate": "Modify Date",
+            "gearsystemsfunctionality": "Gearsystemsfunctionality",
+            "gearprocessinfosystem": "Gearprocessinfosystem",
+            "gearOrganizationalUnit": "Gear Organizational Unit",
+            "parCoinType": "Par Coin Type"
+        }
+    }
+}

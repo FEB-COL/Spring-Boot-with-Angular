@@ -1,0 +1,30 @@
+{
+    "geargatewayApp": {
+        "gearValueChainProcess": {
+            "home": {
+                "title": "Procesos de la Cadena de valor Gear",
+                "createLabel": "Crear nuevos Procesos de Cadena de Valor",
+                "createOrEditLabel": "Crear o Editar Procesos de Cadena de Valor"
+            },
+            "created": "Un nuevo Proceso de Cadena de Valor ha sido creado con el identificador {{ param }}",
+            "updated": "Un Proceso de Cadena de Valor ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Procesos de Cadena de Valor ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar el Proceso de Cadena de Valor {{ id }}?"
+            },
+            "detail": {
+                "title": "Procesos de Cadena de Valor"
+            },
+            "name": "Nombre",
+            "decription": "Decripción",
+            "creationDate": "Fecha de Creación",
+            "lastUpdate": "Ultima Actualización",
+            "attach": "Adjuntar",
+            "draft": "Borrador",
+            "inputs": "Entrada",
+            "outputs": "Salida",
+            "gearprocessinfosystem": "Gearprocessinfosystem",
+            "gearvaluechainmacroprocess": "Macroprocesos de la Cadena de Valor Gear"
+        }
+    }
+}

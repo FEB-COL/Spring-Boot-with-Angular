@@ -1,0 +1,28 @@
+{
+    "geargatewayApp": {
+        "afrescoNode": {
+            "home": {
+                "title": "Afresco Nodes",
+                "createLabel": "Create a new Afresco Node",
+                "createOrEditLabel": "Create or edit a Afresco Node"
+            },
+            "created": "A new Afresco Node is created with identifier {{ param }}",
+            "updated": "A Afresco Node is updated with identifier {{ param }}",
+            "deleted": "A Afresco Node is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Afresco Node {{ id }}?"
+            },
+            "detail": {
+                "title": "Afresco Node"
+            },
+            "createdAt": "Created At",
+            "modifiedAt": "Modified At",
+            "name": "Name",
+            "location": "Location",
+            "nType": "N Type",
+            "parentId": "Parent Id",
+            "alfrescoProperties": "Alfresco Properties",
+            "alfrescoSite": "Alfresco Site"
+        }
+    }
+}

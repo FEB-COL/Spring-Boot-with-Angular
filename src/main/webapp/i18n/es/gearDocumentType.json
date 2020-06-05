@@ -1,0 +1,24 @@
+{
+    "geargatewayApp": {
+        "gearDocumentType": {
+            "home": {
+                "title": "Tipo Documentos",
+                "placeHolder": "Nombre Tipo Documento",
+                "createLabel": "Crear nuevo Tipo Documento",
+                "createOrEditLabel": "Crear o editar Tipo Documento"
+            },
+            "created": "Un nuevo Tipo Documento ha sido creado con el identificador {{ param }}",
+            "updated": "Un Tipo Documento ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Tipo Documento ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Tipo Documento <strong>({{ id }})</strong>?"
+            },
+            "detail": {
+                "title": "Tipo Documento"
+            },
+            "name": "Nombre",
+            "gearcustomfieldtemplate": "Plantilla",
+            "geardomain": "Dominio"
+        }
+    }
+}

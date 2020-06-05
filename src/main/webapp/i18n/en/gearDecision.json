@@ -1,0 +1,25 @@
+{
+    "geargatewayApp": {
+        "gearDecision": {
+            "home": {
+                "title": "Gear Decisions",
+                "createLabel": "Create a new Gear Decision",
+                "createOrEditLabel": "Create or edit a Gear Decision"
+            },
+            "created": "A new Gear Decision is created with identifier {{ param }}",
+            "updated": "A Gear Decision is updated with identifier {{ param }}",
+            "deleted": "A Gear Decision is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Decision {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Decision"
+            },
+            "name": "Name",
+            "goal": "Goal",
+            "gearoption": "Gearoption",
+            "gearcriteria": "Gearcriteria",
+            "geardomain": "Geardomain"
+        }
+    }
+}

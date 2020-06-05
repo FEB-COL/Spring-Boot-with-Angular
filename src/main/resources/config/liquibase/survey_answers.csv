@@ -1,0 +1,1903 @@
+id;text;is_correct;gearsurveyquestion_id
+1;Recopila y organiza la información.;FALSE;1
+2;Analiza la información.;FALSE;1
+3;Utiliza la información para definir sus planes, proyectos o programas.;FALSE;1
+4;Utiliza la información para definir sus estrategias de servicio al ciudadano, rendición de cuentas, trámites y participación ciudadana en la gestión.;FALSE;1
+5;Actualiza la información.;FALSE;1
+6;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;1
+7;Ninguna de las anteriores.;FALSE;1
+8;El propósito para el cual fue creada;FALSE;2
+9;Las necesidades o problemas de sus grupos de valor;FALSE;2
+10;Las propuestas o iniciativas de los grupos de interés;FALSE;2
+11;Los bienes y/o servicios para atender las necesidades o problemas de sus grupos de valor;FALSE;2
+12;Otro. ¿Cuál?;FALSE;2
+13;Ingrese la URL documento o evidencia de las respuestas seleccionadas:;FALSE;2
+14;Ninguna de las anteriores;FALSE;2
+15;Si, y cuenta con las evidencias:;FALSE;3
+16;Parcialmente, y cuenta con las evidencias:;FALSE;3
+17;No;FALSE;3
+18;Si, y cuenta con las evidencias:;FALSE;4
+19;Parcialmente, y cuenta con las evidencias:;FALSE;4
+20;No;FALSE;4
+21;Si, y cuenta con las evidencias:;FALSE;5
+22;Parcialmente, y cuenta con las evidencias:;FALSE;5
+23;No;FALSE;5
+24;Si, y cuenta con las evidencias:;FALSE;6
+25;Parcialmente, y cuenta con las evidencias:;FALSE;6
+26;No;FALSE;6
+27;Si, y cuenta con las evidencias:;FALSE;7
+28;Parcialmente, y cuenta con las evidencias:;FALSE;7
+29;No;FALSE;7
+30;Si, y cuenta con las evidencias:;FALSE;8
+31;Parcialmente, y cuenta con las evidencias:;FALSE;8
+32;No;FALSE;8
+33;Si, y cuenta con las evidencias:;FALSE;9
+34;Parcialmente, y cuenta con las evidencias:;FALSE;9
+35;No;FALSE;9
+36;Si, y cuenta con las evidencias:;FALSE;10
+37;Parcialmente, y cuenta con las evidencias:;FALSE;10
+38;No;FALSE;10
+39;Incluye objetivos estratégicos articulados con las líneas de acción, objetivos, programas o proyectos del plan de desarrollo;FALSE;11
+40;Contempla metas que cuantifican los objetivos estratégicos de la entidad;FALSE;11
+41;Define actividades que permiten alcanzar las metas y objetivos definidos;FALSE;11
+42;Establece responsables de la ejecución de las actividades;FALSE;11
+43;Contempla tiempos de ejecución de las actividades;FALSE;11
+44;Identifica recursos (financieros, humanos, físicos, tecnológicos) asignados para lograr los objetivos definidos;FALSE;11
+45;Incluye indicadores de seguimiento y evaluación;FALSE;11
+46;Contempla un enfoque étnico diferencial en los objetivos estratégicos, programas o proyectos del plan de desarrollo;FALSE;11
+47;Incluye lineamientos para el manejo o mitigación de los riesgos de gestión, seguridad digital y corrupción;FALSE;11
+48;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;11
+49;No se ha definido;FALSE;11
+50;Contempla objetivos articulados con el plan estratégico de la entidad;FALSE;12
+51;Incluye metas que viabilizan los objetivos del plan;FALSE;12
+52;Describe actividades que permiten alcanzar las metas y objetivos del plan;FALSE;12
+53;Establece responsables de la ejecución de las actividades;FALSE;12
+54;Contempla tiempos de ejecución de las actividades;FALSE;12
+55;Identifica recursos (financieros, humanos, físicos, tecnológicos) asignados para lograr los objetivos definidos;FALSE;12
+56;Contiene indicadores de seguimiento al cumplimiento de las metas;FALSE;12
+57;Se aprueba en el Consejo de Gobierno;FALSE;12
+58;Contiene los proyectos para cada vigencia según lo especificado en el plan indicativo cuatrienal;FALSE;12
+59;Identifica los mecanismos a través de los cuales se facilita y promueve la participación de las personas en los asuntos de su competencia;FALSE;12
+60;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;12
+61;No se ha definido;FALSE;12
+62;Seguridad digital;FALSE;13
+63;Participación ciudadana en la gestión;FALSE;13
+64;Rendición de cuentas;FALSE;13
+65;Trámites;FALSE;13
+66;Servicio al ciudadano;FALSE;13
+67;Transparencia y lucha contra la corrupción;FALSE;13
+68;Comité Interno de Archivo;FALSE;13
+69;Otros. ¿Cuáles?;FALSE;13
+70;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;13
+71;Ninguno de los anteriores;FALSE;13
+72;Si, y cuenta con las evidencias:;FALSE;14
+73;Parcialmente, y cuenta con las evidencias:;FALSE;14
+74;No;FALSE;14
+75;Si, y cuenta con las evidencias:;FALSE;15
+76;No;FALSE;15
+77;Si, y cuenta con las evidencias:;FALSE;16
+78;No;FALSE;16
+79;Si. Especifique cuáles son esos indicadores;FALSE;17
+80;No;FALSE;17
+81;Si. Indique las metas y el porcentaje de cumplimiento de las metas del Plan Nacional de Desarrollo en la última vigencia fiscal y las misionales de la entidad;FALSE;19
+82;No;FALSE;19
+83;Inferior al 2% en funcionamiento;FALSE;20
+84;Superior al 2% en funcionamiento. Indique el porcentaje:;FALSE;20
+85;Inferior al 15% de inversión;FALSE;20
+86;Superior al 15% de inversión. Indique el porcentaje:;FALSE;20
+87;Si;FALSE;21
+88;No;FALSE;21
+89;Porcentaje de reservas constituidas en 2017:;FALSE;22
+90;Porcentaje de reservas constituidas en 2018:;FALSE;22
+91;Si;FALSE;23
+92;No;FALSE;23
+93;Impuestos:;FALSE;24
+94;Viáticos:;FALSE;24
+95;Contratos de prestación de servicios:;FALSE;24
+96;Publicidad:;FALSE;24
+97;Valor total del presupuesto inicial de los ingresos de la vigencia (en pesos):;FALSE;25
+98;Valor total del presupuesto final de los ingresos de la vigencia (en pesos):;FALSE;25
+99;Si, y cuenta con las evidencias:;FALSE;26
+100;Parcialmente, y cuenta con las evidencias:;FALSE;26
+101;No;FALSE;26
+102;No tiene conocimiento;FALSE;26
+103;Si, y cuenta con las evidencias:;FALSE;27
+104;Parcialmente, y cuenta con las evidencias:;FALSE;27
+105;No;FALSE;27
+106;No tiene conocimiento19;FALSE;27
+107;La información del direccionamiento y la planeación estratégica de la entidad;FALSE;28
+108;La normatividad aplicable a la gestión del talento humano;FALSE;28
+109;Los actos administrativos de creación o modificación de planta de personal;FALSE;28
+110;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;28
+111;Ninguna de las anteriores;FALSE;28
+112;Si, y cuenta con las evidencias:;FALSE;29
+113;Parcialmente, y cuenta con las evidencias:;FALSE;29
+114;No;FALSE;29
+115;Inducción y reinducción;FALSE;30
+116;Capacitación;FALSE;30
+117;Bienestar;FALSE;30
+118;Incentivos;FALSE;30
+119;Provisión de empleos vacantes;FALSE;30
+120;Estrategias para la vinculación de integrantes de grupos étnicos;FALSE;30
+121;Situaciones de discapacidad de los servidores;FALSE;30
+122;Seguridad y salud en el trabajo;FALSE;30
+123;Evaluación de desempeño;FALSE;30
+124;Promoción y apropiación de la integridad en el ejercicio de las funciones de los servidores;FALSE;30
+125;Clima organizacional;FALSE;30
+126;Actualización de la información en el SIGEP;FALSE;30
+127;Programa de desvinculación asistida para pensionados;FALSE;30
+128;Programa de desvinculación asistida por otras causales;FALSE;30
+129;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;30
+130;Ninguno de los anteriores;FALSE;30
+131;Parcialmente, y cuenta con las evidencias:;FALSE;31
+132;No;FALSE;31
+133;Si;FALSE;31
+134;Parcialmente, y cuenta con las evidencias:;FALSE;32
+135;No;FALSE;32
+136;Si;FALSE;32
+137;Cuenta con la identificación clara del número de empleos, el nivel al que pertenece (directivo, asesor, profesional, asistencial u otro), su denominación, su código y grado salarial, con base en el Sistema de Nomenclatura y Clasificación de Empleos que le aplica;FALSE;33
+138;Establece los empleos suficientes para cumplir con los planes y proyectos;FALSE;33
+139;Define los perfiles de los empleos teniendo en cuenta la misión, los planes, programas y proyectos;FALSE;33
+140;Contempla los niveles jerárquicos ajustados a la estructura organizacional para una fácil asignación de;FALSE;33
+141;responsabilidades;FALSE;33
+142;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;33
+143;Ninguna de las anteriores;FALSE;33
+144;La identificación del empleo de acuerdo con la planta de personal de la entidad (denominación, código y grado salarial);FALSE;34
+145;Las profesiones, artes u oficios que responden al desempeño de las funciones del empleo;FALSE;34
+146;La experiencia específica o relacionada que responda al desempeño de las funciones del empleo;FALSE;34
+147;Las competencias comportamentales requeridas para el desempeño de las funciones del empleo;FALSE;34
+148;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;34
+149;Ninguna de las anteriores;FALSE;34
+150;Si, y cuenta con las evidencias:;FALSE;35
+151;Está en proceso de ajuste;FALSE;35
+152;No;FALSE;35
+153;No se tenía conocimiento de la norma;FALSE;35
+154;Si, y cuenta con las evidencias:;FALSE;36
+155;No;FALSE;36
+156;No, porque no se han creado nuevos empleos en la planta de personal;FALSE;36
+157;Aprobados por norma:;FALSE;37
+158;Aprobados por asignación presupuestal:;FALSE;37
+159;Total:;FALSE;37
+160;Del 0% al 20%;FALSE;38
+161;Del 21% al 40%;FALSE;38
+162;Del 41% al 60%;FALSE;38
+163;Del 61% al 80%;FALSE;38
+164;Del 81% al 100%;FALSE;38
+165;Baja conectividad a internet;FALSE;39
+166;Personal insuficiente;FALSE;39
+167;Sobrecarga laboral;FALSE;39
+168;No existen actos administrativos para sustentar la información (escala salarial, estructura administrativa y planta de personal);FALSE;39
+169;Falta de asistencia técnica;FALSE;39
+170;Dificultades técnicas del SIGEP (problemas de acceso, asignación de roles, fallas del sistema);FALSE;39
+171;No están enterados de la existencia del SIGEP;FALSE;39
+172;Otra. ¿Cuál?;FALSE;39
+173;Carrera administrativa:;FALSE;40
+174;Libre nombramiento y remoción:;FALSE;40
+175;Total:;FALSE;40
+176;Verifica en la planta de personal que existan servidores de carrera que puedan ocupar dichos empleos en encargo o comisión;FALSE;41
+177;Verifica que los candidatos cumplan con los requisitos del empleo;FALSE;41
+178;Aplica las pruebas necesarias para garantizar la idoneidad de los candidatos;FALSE;41
+179;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;41
+180;Ninguna de las anteriores;FALSE;41
+181;Grupo de meritocracia de Función Pública;FALSE;42
+182;Empresas privadas de selección y reclutamiento de personal o cazatalentos (head-hunters);FALSE;42
+183;Universidades;FALSE;42
+184;Área de talento humano de la entidad;FALSE;42
+185;No emplea ningún mecanismo;FALSE;42
+186;Asesor:;FALSE;43
+187;Profesional:;FALSE;43
+188;Técnico:;FALSE;43
+189;Asistencial:;FALSE;43
+190;Otros:;FALSE;43
+191;Total:;FALSE;43
+192;Asesor:;FALSE;44
+193;Profesional:;FALSE;44
+194;Técnico:;FALSE;44
+195;Asistencial:;FALSE;44
+196;Otros:;FALSE;44
+197;Total:;FALSE;44
+198;Sí. Indique el número total de vacantes reportadas a la OPEC:;FALSE;45
+199;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;45
+200;No ha reportado;FALSE;45
+201;Asesor:;FALSE;46
+202;Profesional:;FALSE;46
+203;Técnico:;FALSE;46
+204;Asistencial:;FALSE;46
+205;Otros:;FALSE;46
+206;Total:;FALSE;46
+207;Cargos de libre nombramiento y remoción:;FALSE;47
+208;Provisionales:;FALSE;47
+209;Planta temporal:;FALSE;47
+210;Total:;FALSE;47
+211;En el primer mes contado a partir de la posesión;FALSE;48
+212;En los primeros dos meses contados a partir de la posesión;FALSE;48
+213;En los primeros cuatro meses contados a partir de la posesión;FALSE;48
+214;Después de 4 meses contados a partir de la posesión;FALSE;48
+215;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;48
+216;No se realiza inducción a servidores nuevos;FALSE;48
+217;Total cargos de gerencia:;FALSE;49
+218;No tiene cargos de gerencia;FALSE;49
+219;Número total de acuerdos de gestión suscritos:;FALSE;50
+220;Número total de acuerdos de gestión evaluados:;FALSE;50
+221;Virtual;FALSE;51
+222;Presencial con la ESAP;FALSE;51
+223;Directamente en la entidad;FALSE;51
+224;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;51
+225;No hace inducción a gerentes públicos;FALSE;51
+226;Asesor:;FALSE;52
+227;Profesional:;FALSE;52
+228;Técnico:;FALSE;52
+229;Asistencial:;FALSE;52
+230;Total:;FALSE;52
+231;Si, y cuenta con las evidencias:;FALSE;53
+232;Parcialmente, y cuenta con las evidencias:;FALSE;53
+233;No se hace esta medición;FALSE;53
+234;Las metas de la entidad no tienen relación directa con la evaluación del desempeño y los acuerdos de gestión;FALSE;53
+235;Cada año;FALSE;54
+236;Cada 2 años;FALSE;54
+237;Con periodicidad superior a 2 años;FALSE;54
+238;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;54
+239;No se hacer reinducción a los servidores;FALSE;54
+240;Si, y cuenta con las evidencias:;FALSE;55
+241;No, porque no se cuenta con recursos para capacitación y cuenta con las evidencias;FALSE;55
+242;No, porque no se priorizaron las necesidades identificadas;FALSE;55
+243;No, porque no se ha hecho un diagnóstico de necesidades de capacitación;FALSE;55
+244;Participación ciudadana, rendición de cuentas y control social;FALSE;56
+245;El código de integridad, con el fin de guiar el actuar de los servidores públicos;FALSE;56
+246;Transparencia y derecho de acceso a la información pública;FALSE;56
+247;Política de servicio al ciudadano;FALSE;56
+248;Temas de archivo y gestión documental;FALSE;56
+249;Seguridad digital;FALSE;56
+250;Otros;FALSE;56
+251;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;56
+252;Ninguno de los anteriores;FALSE;56
+253;Gobernanza para la paz;FALSE;57
+254;Gestión del conocimiento;FALSE;57
+255;Creación de valor público;FALSE;57
+256;No ha implementado ninguno de estos ejes;FALSE;57
+257;No tiene conocimiento;FALSE;57
+258;Implementó mejoras con base en los resultados y cuenta con las evidencias;FALSE;58
+259;No se han realizado mediciones del clima organizacional en los últimos dos años;FALSE;58
+260;¿Cuántos practicantes se vincularon bajo el programa de Estado Joven en la vigencia evaluada?;FALSE;59
+261;¿Cuántos servidores se beneficiaron del programa (Servimos) en la vigencia evaluada?;FALSE;59
+262;¿Cuántos servidores participaron del programa de Bilingüismo en la vigencia evaluada?;FALSE;59
+263;¿Cuántos servidores se beneficiaron de la estrategia de horarios flexibles en la vigencia evaluada?;FALSE;59
+264;¿Cuántos servidores se beneficiaron de la estrategia de teletrabajo en la vigencia evaluada?;FALSE;59
+265;¿Cuántos servidores se beneficiaron de la estrategia de Entorno Laboral Saludable en la vigencia evaluada?;FALSE;59
+266;Identifica y documenta las razones del retiro;FALSE;60
+267;Analiza las causas del retiro y las tiene en cuenta para mejorar la gestión del talento humano;FALSE;60
+268;Propicia o promueve condiciones para la adecuación a su nueva etapa de vida;FALSE;60
+269;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;60
+270;Ninguna de las anteriores;FALSE;60
+271;Son suficientes y adecuados;FALSE;61
+272;Garantizan que quien ejecuta una actividad conoce su propósito y contribución al cumplimiento de los objetivos institucionales;FALSE;61
+273;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;61
+274;No existen mecanismos para transferir el conocimiento;FALSE;61
+275;Está documentado;FALSE;62
+276;Tiene un responsable o área encargada;FALSE;62
+277;Permite acciones pedagógicas para su apropiación;FALSE;62
+278;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;62
+279;Ninguna de las anteriores;FALSE;62
+280;Si, y cuenta con las evidencias:;FALSE;63
+281;Parcialmente, y cuenta con las evidencias:;FALSE;63
+282;No;FALSE;63
+283;No conoce el Código de Integridad;FALSE;63
+284;El análisis de la apropiación del Código por parte de los servidores;FALSE;64
+285;Las recomendaciones y/o sugerencias por parte de los servidores;FALSE;64
+286;Otra. ¿Cuál?;FALSE;64
+287;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;64
+288;Ninguna de las anteriores;FALSE;64
+289;Si, y cuenta con las evidencias:;FALSE;65
+290;Parcialmente, y cuenta con las evidencias:;FALSE;65
+291;No;FALSE;65
+292;No tiene conocimiento;FALSE;65
+293;Si, y cuenta con las evidencias:;FALSE;66
+294;Parcialmente, y cuenta con las evidencias:;FALSE;66
+295;No;FALSE;66
+296;No tiene conocimiento;FALSE;66
+297;Si, y cuenta con las evidencias:;FALSE;67
+298;Parcialmente, y cuenta con las evidencias:;FALSE;67
+299;No;FALSE;67
+300;El trabajo por procesos;FALSE;69
+301;La toma de decisiones oportuna;FALSE;69
+302;El flujo de la información interna;FALSE;69
+303;Claridad en la asignación de responsabilidades;FALSE;69
+304;Ninguna de las anteriores;FALSE;69
+305;Se diseñó en función de las necesidades de los grupos de valor y con el fin de contribuir al logro de los resultados de la organización;FALSE;70
+306;Le permite generar oportunamente bienes y servicios para resolver las necesidades de los grupos de valor;FALSE;70
+307;Se adapta a las contingencias que se puedan presentar en la ejecución de la planeación institucional;FALSE;70
+308;No se ha diseñado;FALSE;70
+309;Objetivo;FALSE;71
+310;Alcance;FALSE;71
+311;Responsables;FALSE;71
+312;Actividades;FALSE;71
+313;Indicadores;FALSE;71
+314;Riesgos;FALSE;71
+315;Controles;FALSE;71
+316;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;71
+317;Ninguna de las anteriores;FALSE;71
+318;Si, y cuenta con las evidencias:;FALSE;72
+319;Parcialmente, y cuenta con las evidencias:;FALSE;72
+320;No;FALSE;72
+321;Sugerencias, expectativas, quejas, peticiones, reclamos o denuncias por parte de la ciudadanía;FALSE;73
+322;Sugerencias por parte de los servidores;FALSE;73
+323;Resultados de los espacios de participación y/o rendición de cuentas con ciudadanos;FALSE;73
+324;Análisis de las necesidades y prioridades en la prestación del servicio;FALSE;73
+325;Análisis de costo-beneficio de los procesos;FALSE;73
+326;Los resultados de la gestión institucional;FALSE;73
+327;Seguimiento a los indicadores de gestión;FALSE;73
+328;Implementación y monitoreo de los controles a los riesgos;FALSE;73
+329;Ninguno de los anteriores;FALSE;73
+330;Permiten responder adecuadamente a los planes, programa, proyectos, y metas definidas por la entidad;FALSE;74
+331;Tienen correspondencia con el Plan Anual de Adquisiciones y Servicios, definido en la planeación institucional;FALSE;74
+332;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;74
+333;Ninguna de las anteriores;FALSE;74
+334;Dispone de espacios de trabajo adecuados a las necesidades de los diferentes procesos y áreas de trabajo de la organización;FALSE;75
+335;Elabora planes para la adecuación y mantenimiento de los edificios, sedes y espacios físicos;FALSE;75
+336;Dispone de bienes, por ejemplo, impresoras, las salas de reuniones adecuados a las necesidades de los diferentes procesos y áreas de trabajo;FALSE;75
+337;Cuenta con un sistema o mecanismo de mantenimiento, tanto preventivo como correctivo, para los;FALSE;75
+338;bienes que así lo requieren;FALSE;75
+339;Para los bienes con periodos de obsolescencia y renovación, hace un uso eficiente de los mismos;FALSE;75
+340;Ha adoptado acciones para optimizar el consumo de bienes y servicios, la gestión de residuos, reciclaje y ahorro de agua y energía;FALSE;75
+341;Ha adoptado acciones o planes para optimizar el uso de vehículos institucionales;FALSE;75
+342;Ninguna de las anteriores;FALSE;75
+343;Si, y cuenta con las evidencias:;FALSE;76
+344;No;FALSE;76
+345;Son verificados de acuerdo a las especificaciones técnicas requeridas;FALSE;77
+346;Se ingresan de manera inmediata a los inventarios de la entidad, cuando estos tienen el carácter de devolutivos;FALSE;77
+347;Se identifican (plaquetean) antes de entregarse al servicio;FALSE;77
+348;Se reportan a la compañía de seguros para su ingreso a la póliza de la entidad;FALSE;77
+349;Se entregan al área que lo requirió, asignándole un responsable en el inventario;FALSE;77
+350;No realiza ninguna acción;FALSE;77
+351;Cuenta y aplica un procedimiento para darlos de baja de sus inventarios;FALSE;78
+352;Se hace su disposición final sin que se genere afectación al medio ambiente;FALSE;78
+353;Se actualizan los inventarios teniendo en cuenta la baja de los bienes;FALSE;78
+354;No realiza ninguna acción;FALSE;78
+355;Si, y cuenta con las evidencias:;FALSE;79
+356;No;FALSE;79
+357;Si, y cuenta con las evidencias:;FALSE;80
+358;No;FALSE;80
+359;Recursos presupuestales para su ejecución;FALSE;81
+360;Responsables de efectuar el mantenimiento;FALSE;81
+361;Periodicidad del mantenimiento;FALSE;81
+362;Fechas de ejecución del mantenimiento;FALSE;81
+363;Ninguna de las anteriores;FALSE;81
+364;Si, y cuenta con las evidencias:;FALSE;82
+365;No;FALSE;82
+366;Promueve el uso racional de los recursos naturales;FALSE;83
+367;Desarrolla acciones de reciclaje;FALSE;83
+368;Identifica los riesgos de contaminación ambiental;FALSE;83
+369;Cuenta con política para el uso de bienes con material reciclado;FALSE;83
+370;Promueve el no uso de elementos contaminantes al medio ambiente;FALSE;83
+371;Adquiere bienes amigables con el medio ambiente;FALSE;83
+372;No realiza ninguna acción;FALSE;83
+373;¿Cuántos conjuntos de datos abiertos estratégicos fueron identificados?;FALSE;84
+374;¿Cuántos de los conjuntos de datos abiertos estratégicos identificados fueron publicados en el catálogo de datos del Estado colombiano www.datos.gov.co?;FALSE;84
+375;¿Cuántos de los conjuntos de datos abiertos fueron publicados, están actualizados y fueron difundidos?;FALSE;84
+376;¿Cuántas aplicaciones se desarrollaron a partir de los conjuntos de datos abiertos?;FALSE;84
+377;¿Cuántas publicaciones (papers, artículos, noticias, libros, etc.) hicieron uso de los conjuntos de datos abiertos?;FALSE;84
+378;No tiene conocimiento del uso de los datos abiertos de la entidad;FALSE;84
+379;Contenido no textual;FALSE;85
+380;Información y relaciones;FALSE;85
+381;Sugerencia significativa;FALSE;85
+382;Características sensoriales;FALSE;85
+383;Uso del color;FALSE;85
+384;Teclado;FALSE;85
+385;Sin trampas para el foco del teclado;FALSE;85
+386;Tiempo ajustable;FALSE;85
+387;Poner en pausa, detener, ocultar;FALSE;85
+388;Evitar bloques;FALSE;85
+389;Titulado de páginas;FALSE;85
+390;Orden del foco;FALSE;85
+391;Propósito de los enlaces (en contexto);FALSE;85
+392;Idioma de la página;FALSE;85
+393;Al recibir el foco;FALSE;85
+394;Al recibir entradas;FALSE;85
+395;Identificación de errores;FALSE;85
+396;Etiquetas o instrucciones;FALSE;85
+397;Procesamiento;FALSE;85
+398;Nombre, función, valor;FALSE;85
+399;Ninguno de los anteriores;FALSE;85
+400;No tiene conocimiento de los criterios de accesibilidad que debe cumplir la entidad en su sitio Web;FALSE;85
+401;El sitio web permite conocer la ruta recorrida por el usuario en la navegación del sitio (Ruta de migas);FALSE;86
+402;Las URL generadas en los diferentes niveles de navegación no tienen variables o caracteres especiales y son fáciles de leer (URL limpios);FALSE;86
+403;El diseño gráfico del sitio web se conserva en todos los sitios de navegación (Navegación global consistente);FALSE;86
+404;El logo de la entidad ubicado en el encabezado, direcciona al inicio del sitio web (Vínculo a página de inicio);FALSE;86
+405;El sitio web de la entidad permite el ingreso a través de diferentes navegadores como Google Chrome, Internet Explorar, Mozilla, entre otros (Independencia de navegador);FALSE;86
+406;Los enlaces del sitio web indican claramente el contenido al cual conducen. No tienen textos como (ver más), (clic aquí), entre otros. (Enlaces bien formulados);FALSE;86
+407;El sitio no cuenta con ventanas emergentes en ningún nivel de navegación;FALSE;86
+408;El sitio web hace un uso adecuado de títulos y encabezados con sus correspondientes etiquetas HTML, por ejemplo <h1>, <h2> …;FALSE;86
+409;El sitio web no tiene vínculos rotos;FALSE;86
+410;Todos los contenidos del sitio web están alineados a la izquierda (Justificación del texto);FALSE;86
+411;El cuerpo de texto no supera los 100 caracteres por línea (Ancho del cuerpo de texto);FALSE;86
+412;En ningún contenido del sitio web existen textos subrayados para destacar, excepto si son enlaces a otros contenidos (Texto subrayado);FALSE;86
+413;El sitio web no permite desplazamiento de izquierda a derecha para consultar contenidos.;FALSE;86
+414;El sitio web cuenta con diferentes hojas de estilo para su correcta navegación (pantalla, móvil, impresión). En caso de que el sitio web sea responsivo sólo requiere formato de impresión;FALSE;86
+415;El sitio web le indica al usuario cuando ha visitado contenidos de la página (Vínculos visitados);FALSE;86
+416;Los formularios del sitio web tienen correctamente señalizados los campos obligatorios;FALSE;86
+417;Es clara la correspondencia entre el título del campo en los formularios y el espacio dispuesto para el ingreso de la información;FALSE;86
+418;Ejemplos en los campos de formulario;FALSE;86
+419;Ninguno de los anteriores;FALSE;86
+420;No tiene conocimiento sobre las directrices de usabilidad que debe cumplir la entidad en su sitio Web;FALSE;86
+421;Está en proceso de construcción;FALSE;87
+422;Lo formuló, pero no está actualizado;FALSE;87
+423;Lo formuló, está actualizado y tiene la evidencia:;FALSE;87
+424;Está aprobado por la entidad y tiene la evidencia:;FALSE;87
+425;Está integrado al plan de acción institucional y publicado en la página web y tiene la evidencia:;FALSE;87
+426;No lo ha formulado la entidad;FALSE;87
+427;El portafolio o mapa de ruta de los proyectos;FALSE;88
+428;La proyección del presupuesto;FALSE;88
+429;El entendimiento estratégico;FALSE;88
+430;El análisis de la situación actual;FALSE;88
+431;El plan de comunicaciones del PETI;FALSE;88
+432;Tablero de indicadores para el seguimiento y control;FALSE;88
+433;Análisis desde cada uno de los dominios del Marco de Referencia;FALSE;88
+434;Diagnóstico de Interoperabilidad;FALSE;88
+435;Diagnóstico de Autenticación Electrónica;FALSE;88
+436;Diagnóstico de carpeta ciudadana;FALSE;88
+437;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;88
+438;Ninguna de las anteriores;FALSE;88
+439;Identifica las capacidades (personas, procesos y herramientas) necesarias para realizar ejercicios de arquitectura empresarial;FALSE;90
+440;Hace uso de una metodología de arquitectura empresarial para el diseño y planeación de las iniciativas de;FALSE;90
+441;tecnologías de información;FALSE;90
+442;Desarrolló o se encuentra en ejecución de uno o más ejercicios de arquitectura empresarial;FALSE;90
+443;Cuenta con un grupo de arquitectura empresarial que gobierna y toma decisiones frente al impacto o evolución de la arquitectura empresarial;FALSE;90
+444;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;90
+445;Ninguna de las anteriores;FALSE;90
+446;Documentó la arquitectura misional o de negocio;FALSE;91
+447;Tiene documentado un catálogo de servicios de TI actualizado;FALSE;91
+448;Documentó la arquitectura de información;FALSE;91
+449;Documentó la Arquitectura de sistemas de información;FALSE;91
+450;Documentó la arquitectura de servicios tecnológicos;FALSE;91
+451;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;91
+452;Ninguna de las anteriores;FALSE;91
+453;No tienen conocimiento sobre métodos de documentación de servicios de tecnologías de la información (TI) y arquitectura empresarial;FALSE;91
+454;Políticas de TI;FALSE;92
+455;Proceso de Gestión de TI claramente definido y documentado;FALSE;92
+456;Instancias o grupos de decisión de TI definidas;FALSE;92
+457;Estructura organizacional del área de TI;FALSE;92
+458;Indicadores para medir el desempeño de la Gestión de TI;FALSE;92
+459;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;92
+460;No cuenta con un esquema de gobierno de TI;FALSE;92
+461;Utilizó Acuerdos Marco de Precios para bienes y servicios de TI;FALSE;93
+462;Utilizó mecanismos o contratos de agregación de demanda para bienes y servicios de TI;FALSE;93
+463;Aplicó metodologías, casos de negocio y criterios documentados para la selección y/o evaluación de soluciones de TI;FALSE;93
+464;Ninguna de las anteriores;FALSE;93
+465;No tiene conocimiento sobre mecanismos de optimización de compras de tecnologías de información (TI);FALSE;93
+466;Aplicó una metodología para la gestión integral de Proyectos de TI;FALSE;94
+467;Garantizó que cualquier iniciativa, proyecto o plan de la entidad que incorpora TI, es liderado en conjunto entre las áreas misionales y el área de TI de la entidad;FALSE;94
+468;Utiliza el principio de incorporar desde la planeación la visión de los usuarios y la atención de las necesidades de los grupos de interés;FALSE;94
+469;Realiza la documentación y transferencia de conocimiento a proveedores, contratistas y/o responsables de TI, sobre los entregables o resultados de los proyectos ejecutados en la vigencia evaluada;FALSE;94
+470;Ninguna de las anteriores;FALSE;94
+471;No tiene conocimiento sobre gestión integral de proyectos de tecnologías de la información (TI);FALSE;94
+472;Documentó el catálogo de componentes de información;FALSE;95
+473;Definió un esquema de gobierno de los componentes de información;FALSE;95
+474;Implementó exitosamente un esquema para el gobierno de los componentes de información;FALSE;95
+475;Definió un esquema de roles y responsabilidades sobre los componentes de información;FALSE;95
+476;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;95
+477;Ninguna de las anteriores;FALSE;95
+478;No tiene conocimiento sobre la gestión y la planeación de los componentes de información de la entidad;FALSE;95
+479;Hizo la medición de la calidad de la información;FALSE;96
+480;Definió y documentó un plan de calidad de la información;FALSE;96
+481;Implementó exitosamente un plan de calidad de la información;FALSE;96
+482;Realizó seguimiento e implementó los controles de calidad o acciones de mejora sobre los componentes de información;FALSE;96
+483;Definió mecanismos o canales para el uso y aprovechamiento de la información por parte de los grupos de interés;FALSE;96
+484;Fomentó el uso y aprovechamiento de los componentes de información por parte de los grupos de interés;FALSE;96
+485;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;96
+486;Ninguna de las anteriores;FALSE;96
+487;Si, y cuenta con las evidencias:;FALSE;97
+488;No;FALSE;97
+489;No tiene conocimiento;FALSE;97
+490;Tiene actualizado el catálogo de sistemas de información;FALSE;98
+491;Definió e implementó una metodología de referencia para el desarrollo de software o sistemas de información;FALSE;98
+492;Incluyó características en sus sistemas de información que permitan la apertura de sus datos de forma automática y segura;FALSE;98
+493;Documentó o actualizó la arquitectura de sistemas de información o de soluciones de toda la entidad;FALSE;98
+494;Incorporó dentro de los contratos de desarrollo de sus sistemas de información, cláusulas que obliguen a realizar transferencia de derechos de autor a su favor;FALSE;98
+495;Implementó funcionalidades de trazabilidad, auditoría de transacciones o acciones para el registro de eventos de creación, actualización, modificación o borrado de información;FALSE;98
+496;Cuenta con la documentación técnica y funcional debidamente actualizada, para cada uno de los sistemas de información;FALSE;98
+497;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;98
+498;Ninguna de las anteriores;FALSE;98
+499;Definió un esquema de mantenimiento/soporte a los sistemas de información incluyendo si estos son mantenidos por terceros;FALSE;99
+500;Implementó un esquema de mantenimiento/soporte a los sistemas de información incluyendo si estos son;FALSE;99
+501;mantenidos por terceros;FALSE;99
+502;Estableció criterios de aceptación y definió Acuerdos de Nivel de Servicio (ANS) para el soporte y mantenimiento de los sistemas de información contratados con terceros;FALSE;99
+503;Tiene documentado y aplica un procedimiento para el mantenimiento preventivo de los sistemas de información;FALSE;99
+504;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;99
+505;Ninguna de las anteriores;FALSE;99
+506;Definió un proceso de construcción de software que incluya planeación, diseño, desarrollo, pruebas, puesta en producción y mantenimiento ;FALSE;100
+507;Implementó un plan de aseguramiento de la calidad durante el ciclo de vida de los sistemas de información que incluya criterios funcionales y no funcionales;FALSE;100
+508;Definió y aplicó una guía de estilo en el desarrollo de sus sistemas de información e incorpora especificaciones y lineamientos de usabilidad definidos por el MinTIC;FALSE;100
+509;Tienen las funcionalidades de accesibilidad que indica la Política de gobierno Digital, en los sistemas de;FALSE;100
+510;información de acuerdo con la caracterización de usuarios;FALSE;100
+511;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;100
+512;Ninguna de las anteriores;FALSE;100
+513;No tiene conocimiento sobre los ciclos de vida de los sistemas de información;FALSE;100
+514;Definió un proceso para atender los requerimientos de soporte de los servicios de TI;FALSE;101
+515;Definió un esquema de soporte con niveles de atención (primer, segundo y tercer nivel) a través de un punto único de contacto y soportado por una herramienta tecnológica;FALSE;101
+516;Implementó un plan de mantenimiento preventivo y evolutivo sobre los Servicios Tecnológicos;FALSE;101
+517;Evaluó el cumplimiento de ANS para los servicios tecnológicos que presta la entidad;FALSE;101
+518;Implementó un programa de correcta disposición final de los residuos tecnológicos de acuerdo con la normatividad del gobierno nacional;FALSE;101
+519;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;101
+520;Ninguna de las anteriores;FALSE;101
+521;Posee un catálogo actualizado de la infraestructura tecnológica;FALSE;102
+522;Documentó e implementó un plan de continuidad de los servicios tecnológicos mediante pruebas y verificaciones acordes a las necesidades de la organización;FALSE;102
+523;Implementó mecanismos de disponibilidad de los servicios tecnológicos de tal forma que se asegure el;FALSE;102
+524;cumplimiento de los ANS establecidos;FALSE;102
+525;Realiza monitoreo del consumo de recursos asociados a los servicios tecnológicos;FALSE;102
+526;Implementó controles de seguridad digital para los servicios tecnológicos;FALSE;102
+527;Gestionó y documentó los riesgos asociados a su infraestructura tecnológica y servicios tecnológicos;FALSE;102
+528;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;102
+529;Ninguna de las anteriores;FALSE;102
+530;Fase de planeación;FALSE;103
+531;Fase de implementación;FALSE;103
+532;Fase de pruebas de funcionalidad;FALSE;103
+533;Ha adoptado en su totalidad IPV6 en la entidad;FALSE;103
+534;No ha iniciado ninguna fase;FALSE;103
+535;No tiene conocimiento sobre qué es IPV6;FALSE;103
+536;Plan de diagnóstico (Fase planeación);FALSE;104
+537;Plan detallado del proceso de transición (Fase planeación);FALSE;104
+538;Plan de direccionamiento IPv6 (Fase planeación);FALSE;104
+539;Plan de contingencias para IPv6 (Fase planeación);FALSE;104
+540;Diseño detallado de la implementación de IPv6 (Fase implementación);FALSE;104
+541;Informe de pruebas piloto realizadas (Fase implementación);FALSE;104
+542;Informe de activación de políticas de seguridad en IPv6 (Fase implementación);FALSE;104
+543;Documento de pruebas de funcionalidad en IPv6 (Pruebas de funcionalidad);FALSE;104
+544;Acta de cumplimiento a satisfacción de la entidad sobre el funcionamiento de los elementos intervenidos en la fase de implementación (Pruebas de funcionalidad);FALSE;104
+545;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;104
+546;Ninguna de las anteriores;FALSE;104
+547;Ejecutó una estrategia de uso y apropiación para todos los proyectos de TI que se realizan, teniendo en cuenta el planteamiento de estrategias de gestión del cambio;FALSE;105
+548;Realizó la caracterización de los grupos de interés internos y externos;FALSE;105
+549;Ejecutó un plan de formación para el desarrollo de competencias requeridas según las funciones y hacer un uso adecuado de los servicios de TI;FALSE;105
+550;Realizó divulgación y comunicación interna de los proyectos de TI;FALSE;105
+551;Realizó seguimiento a través de indicadores para la medición del impacto del uso y apropiación de TI en la entidad;FALSE;105
+552;Ejecutó acciones de mejora o transformación a partir de los resultados obtenidos en el seguimiento y teniendo en cuenta la estrategia de gestión del cambio;FALSE;105
+553;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;105
+554;Ninguna de las anteriores;FALSE;105
+555;Si, y cuenta con las evidencias:;FALSE;106
+556;Lo está realizando, pero aún no está terminado;FALSE;106
+557;No;FALSE;106
+558;Sí, ya está adoptada y cuenta con las evidencias:;FALSE;107
+559;No, pero está en proceso de adopción;FALSE;107
+560;No;FALSE;107
+561;Ya están apropiados y cuenta con las evidencias:;FALSE;108
+562;Ya están definidos y cuenta con las evidencias:;FALSE;108
+563;Están en proceso de definición;FALSE;108
+564;No se han definido;FALSE;108
+565;Los gestiona y cuenta con las evidencias:;FALSE;109
+566;Aún no los gestiona, pero está en proceso de hacer dicha gestión;FALSE;109
+567;No los gestiona;FALSE;109
+568;Los gestiona y cuenta con un plan de tratamiento de riesgos;FALSE;110
+569;Está en proceso de evaluación de los riesgos de seguridad;FALSE;110
+570;No los gestiona;FALSE;110
+571;Sí, ya lo implementó y cuenta con las evidencias:;FALSE;111
+572;Está en proceso de implementarlo;FALSE;111
+573;No;FALSE;111
+574;Lo tiene y le realiza seguimiento;FALSE;112
+575;Lo definió;FALSE;112
+576;Está en proceso de construcción;FALSE;112
+577;No lo tiene;FALSE;112
+578;Si, y cuenta con las evidencias:;FALSE;113
+579;Se encuentra en proceso de definición de los indicadores;FALSE;113
+580;No;FALSE;113
+581;Si, y cuenta con las evidencias:;FALSE;114
+582;Está en proceso de construcción y cuenta con las evidencias;FALSE;114
+583;No;FALSE;114
+584;Si, y cuenta con las evidencias:;FALSE;115
+585;No, pero planea realizarlas;FALSE;115
+586;No y no se tiene planeado realizarlas;FALSE;115
+587;Si, y cuenta con las evidencias:;FALSE;116
+588;Está en proceso de construcción y cuenta con las evidencias;FALSE;116
+589;No;FALSE;116
+590;Si, y cuenta con las evidencias:;FALSE;117
+591;No;FALSE;117
+592;Si, y cuenta con las evidencias:;FALSE;118
+593;No;FALSE;118
+594;Participar en las jornadas de socialización y/o promoción del uso del modelo de gestión de riesgos de seguridad digital convocadas por MINTIC;FALSE;119
+595;Participar en las jornadas de sensibilización y/o capacitaciones del uso seguro de entorno digital o relacionadas con seguridad digital (ciberseguridad y/o ciberdefensa);FALSE;119
+596;Participar en los ejercicios de simulación nacional o internacional, para desarrollar habilidades y destrezas en materia de seguridad digital;FALSE;119
+597;Establecer convenios y o acuerdos de intercambio de información para fomentar la investigación, la innovación y el desarrollo en temas relacionados con la defensa y seguridad nacional en el entorno digital;FALSE;119
+598;Ninguna de las anteriores;FALSE;119
+599;Coordinación Nacional de Seguridad Digital (Presidencia de la República);FALSE;120
+600;Comité de Seguridad Digital;FALSE;120
+601;CCP (Centro Cibernético Policial);FALSE;120
+602;CCOC (Comando Conjunto Cibernético);FALSE;120
+603;ColCERT;FALSE;120
+604;Unidades cibernéticas de las Fuerzas Militares;FALSE;120
+605;CSIRT de Gobierno;FALSE;120
+606;Otros CSIRT;FALSE;120
+607;Ninguna de las anteriores;FALSE;120
+608;Política de seguridad digital CONPES 3854 de 2016;FALSE;121
+609;Guía para la Administración de los Riesgos de Gestión, Corrupción y Seguridad Digital y el Diseño de Controles en Entidades Públicas;FALSE;121
+610;Manual Carpeta Ciudadana;FALSE;121
+611;Manual Autenticación Electrónica;FALSE;121
+612;Manual Interoperabilidad;FALSE;121
+613;Guía para la identificación de infraestructura critica cibernética;FALSE;121
+614;Plan Nacional de protección de la infraestructura crítica cibernética;FALSE;121
+615;Estudios relacionados con Seguridad Digital (por ejemplo Estudio sobre el Impacto Económico de los Incidentes, Amenazas y Ataques Cibernéticos(Encuesta OEA);FALSE;121
+616;Modelo seguridad y privacidad de la Información (MSPI MinTIC);FALSE;121
+617;Ninguna de las anteriores;FALSE;121
+618;En TIC confío;FALSE;122
+619;Soy ciberseguro;FALSE;122
+620;Bajemos el tono;FALSE;122
+621;Hacker Girls;FALSE;122
+622;Otro. ¿Cuál?;FALSE;122
+623;Ninguna de las anteriores;FALSE;122
+624;Gobierno Electrónico;FALSE;123
+625;Posgrado en gestión TI y seguridad de la información;FALSE;123
+626;Capacitación gestión TI y seguridad de la información;FALSE;123
+627;Fondo para el fortalecimiento de las TI en el estado- Maestría en Ciberseguridad y Ciberdefensa de la Escuela Superior de Guerra – ESDEGUE;FALSE;123
+628;Convocatoria de Competencias Gerenciales;FALSE;123
+629;Encuentros de Gestores de Incidentes Cibernéticos convocados por el CSIRT Gobierno MINTIC;FALSE;123
+630;Desarrollo del Talento TI -Talento Digital;FALSE;123
+631;Ninguna de las anteriores;FALSE;123
+632;Si, y cuenta con las evidencias:;FALSE;124
+633;No;FALSE;124
+634;Si, y cuenta con las evidencias:;FALSE;125
+635;No;FALSE;125
+636;Registrarse en el CSIRT Gobierno y/o ColCERT;FALSE;126
+637;Adoptar e implementar la guía para la identificación de infraestructura critica cibernética;FALSE;126
+638;Realizar la identificación anual de la infraestructura critica cibernética e Informar al CCOC;FALSE;126
+639;Participar en la construcción de los planes sectoriales de protección de la infraestructura crítica cibernética Participar en las mesas de construcción y sensibilización del Modelo Nacional de Gestión de Riesgos de Seguridad Digital;FALSE;126
+640;Adoptar e implementar la Guía para la Administración de los Riesgos de Gestión, Corrupción y Seguridad Digital y el Diseño de Controles en Entidades Públicas;FALSE;126
+641;Ninguna de las anteriores;FALSE;126
+642;Si, y cuenta con las evidencias:;FALSE;127
+643;No;FALSE;127
+644;Si;FALSE;128
+645;No;FALSE;128
+646;Si, y cuenta con las evidencias:;FALSE;129
+647;Parcialmente, y cuenta con las evidencias:;FALSE;129
+648;No;FALSE;129
+649;Si, y cuenta con las evidencias:;FALSE;130
+650;No;FALSE;130
+651;Si, y cuenta con las evidencias:;FALSE;131
+652;Parcialmente, y cuenta con las evidencias:;FALSE;131
+653;No;FALSE;131
+654;Si, y cuenta con las evidencias:;FALSE;132
+655;No;FALSE;132
+656;No tiene casos objeto de mediación;FALSE;132
+657;Si;FALSE;133
+658;No;FALSE;133
+659;Si, y cuenta con las evidencias:;FALSE;134
+660;Parcialmente, y cuenta con las evidencias:;FALSE;134
+661;No;FALSE;134
+662;Si, y cuenta con las evidencias:;FALSE;135
+663;No;FALSE;135
+664;Las causas generadoras de los conflictos;FALSE;136
+665;El índice de condenas;FALSE;136
+666;Los tipos de daño por los cuales resulta demandada o condenada la entidad;FALSE;136
+667;Las deficiencias en las actuaciones administrativas de las entidades;FALSE;136
+668;Las deficiencias de las actuaciones procesales por parte de los apoderados de la entidad;FALSE;136
+669;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;136
+670;Ninguna de las anteriores;FALSE;136
+671;No aplica porque no han tenido ni tienen procesos en contra;FALSE;136
+672;Si;FALSE;137
+673;No;FALSE;137
+674;Si, y cuenta con las evidencias:;FALSE;138
+675;No;FALSE;138
+676;Si, y cuenta con las evidencias:;FALSE;139
+677;Parcialmente, y cuenta con las evidencias:;FALSE;139
+678;No;FALSE;139
+679;Conciliaciones:;FALSE;140
+680;Sentencias:;FALSE;140
+681;Laudos:;FALSE;140
+682;No realizó ningún pago;FALSE;140
+683;Capital de conciliaciones:;FALSE;141
+684;Intereses de conciliaciones:;FALSE;141
+685;Capital de sentencias:;FALSE;141
+686;Intereses de sentencias:;FALSE;141
+687;Capital de laudos:;FALSE;141
+688;Intereses de laudos:;FALSE;141
+689;Capital de conciliaciones:;FALSE;142
+690;Intereses de conciliaciones:;FALSE;142
+691;Capital de sentencias:;FALSE;142
+692;Intereses de sentencias:;FALSE;142
+693;Capital de laudos:;FALSE;142
+694;Intereses de laudos:;FALSE;142
+695;Si, y cuenta con las evidencias:;FALSE;143
+696;Parcialmente, y cuenta con las evidencias:;FALSE;143
+697;No;FALSE;143
+698;Conciliaciones:;FALSE;144
+699;Sentencias:;FALSE;144
+700;Laudos:;FALSE;144
+701;Si, y cuenta con las evidencias:;FALSE;145
+702;Parcialmente, y cuenta con las evidencias:;FALSE;145
+703;No;FALSE;145
+704;Si, y cuenta con las evidencias:;FALSE;146
+705;No;FALSE;146
+706;Si, y cuenta con las evidencias:;FALSE;147
+707;Parcialmente, y cuenta con las evidencias:;FALSE;147
+708;No;FALSE;147
+709;No ha sido necesario adelantar acciones de repetición por ausencia de sentencias condenatorias;FALSE;147
+710;Si, y cuenta con las evidencias:;FALSE;148
+711;Parcialmente, y cuenta con las evidencias:;FALSE;148
+712;No;FALSE;148
+713;Si, y cuenta con las evidencias:;FALSE;149
+714;Parcialmente, y cuenta con las evidencias:;FALSE;149
+715;No;FALSE;149
+716;Si, y cuenta con las evidencias:;FALSE;150
+717;No;FALSE;150
+718;Mapa de riesgos de corrupción y las medidas para mitigarlos;FALSE;151
+719;Estrategia anti-trámites;FALSE;151
+720;Rendición de cuentas;FALSE;151
+721;Participación ciudadana;FALSE;151
+722;Servicio al ciudadano;FALSE;151
+723;Transparencia y acceso a la Información;FALSE;151
+724;Otro. ¿Cuál?;FALSE;151
+725;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;151
+726;No hace seguimiento al Plan Anticorrupción y de Atención al Ciudadano;FALSE;151
+727;Si. Especifique cuáles;FALSE;152
+728;No;FALSE;152
+729;Servidores públicos;FALSE;153
+730;Contratistas de la entidad;FALSE;153
+731;Veedores;FALSE;153
+732;Ciudadanos;FALSE;153
+733;Academia;FALSE;153
+734;Gremios;FALSE;153
+735;Órganos de control;FALSE;153
+736;Organizaciones no gubernamentales;FALSE;153
+737;Otro. ¿Cuál?;FALSE;153
+738;Sitio web;FALSE;154
+739;Intranet;FALSE;154
+740;Televisores y pantallas;FALSE;154
+741;Carteleras;FALSE;154
+742;Megáfono;FALSE;154
+743;Otro. ¿Cuál?;FALSE;154
+744;Ninguno de los anteriores;FALSE;154
+745;Si, y cuenta con las evidencias:;FALSE;155
+746;No;FALSE;155
+747;Contratación;FALSE;157
+748;Talento humano;FALSE;157
+749;Archivo;FALSE;157
+750;Financieros;FALSE;157
+751;Jurídicos;FALSE;157
+752;Sistemas de información;FALSE;157
+753;Misionales;FALSE;157
+754;Evaluación;FALSE;157
+755;Estratégicos;FALSE;157
+756;Otro. ¿Cuál?;FALSE;157
+757;Ninguno de los anteriores;FALSE;157
+758;Fiscalía;FALSE;159
+759;Contraloría;FALSE;159
+760;Procuraduría;FALSE;159
+761;Control Interno Disciplinario;FALSE;159
+762;Otra autoridad;FALSE;159
+763;Ninguna de las anteriores;FALSE;159
+764;No se han materializado riesgos;FALSE;159
+765;Responsable del control;FALSE;160
+766;Propósito del control;FALSE;160
+767;Frecuencia del control;FALSE;160
+768;Descripción detallada de la operación del control;FALSE;160
+769;Manejo de las desviaciones del control;FALSE;160
+770;Evidencia del control;FALSE;160
+771;Nombre del control;FALSE;160
+772;No se han definido controles;FALSE;160
+773;Si, y cuenta con las evidencias:;FALSE;161
+774;No;FALSE;161
+775;Sí. Indique el monto:;FALSE;162
+776;Sí se afectó el patrimonio, pero no se cuenta con la información del monto afectado;FALSE;162
+777;No;FALSE;162
+778;Mecanismos para interponer PQRSD;FALSE;163
+779;Localización física, sucursales o regionales, horarios y días de atención al público;FALSE;163
+780;Funciones y deberes de la entidad;FALSE;163
+781;Organigrama de la entidad;FALSE;163
+782;Directorio de información de servidores públicos, empleados y contratistas o enlace al SIGEP;FALSE;163
+783;Normatividad general y reglamentaria;FALSE;163
+784;Presupuesto vigente asignado;FALSE;163
+785;Ejecución presupuestal histórica anual;FALSE;163
+786;Plan Estratégico Institucional y Plan de Acción anual;FALSE;163
+787;Políticas y lineamientos o manuales;FALSE;163
+788;Planes estratégicos, sectoriales e institucionales según sea el caso;FALSE;163
+789;El Plan anticorrupción y de atención al ciudadano;FALSE;163
+790;Plan de gasto público;FALSE;163
+791;Proyectos de inversión en ejecución;FALSE;163
+792;Mecanismos para la participación de los ciudadanos, grupos de valor o grupos de interés en la formulación de políticas;FALSE;163
+793;Informes de gestión, evaluación y auditoría;FALSE;163
+794;Entes de control que vigilan la entidad;FALSE;163
+795;Planes de mejoramiento (de organismos de control, internos y derivados de ejercicios de rendición de cuentas);FALSE;163
+796;Publicación de la información contractual (o enlace SECOP);FALSE;163
+797;Plan Anual de Adquisiciones (PAA);FALSE;163
+798;Oferta de la entidad (Programas, servicios);FALSE;163
+799;La totalidad de los trámites que ofrece al ciudadano;FALSE;163
+800;Registro de Activos de Información;FALSE;163
+801;Índice de Información Clasificada y Reservada;FALSE;163
+802;Esquema de publicación de información;FALSE;163
+803;Programa de Gestión Documental;FALSE;163
+804;Tablas de Retención Documental;FALSE;163
+805;Políticas de seguridad de la información del sitio web y protección de datos personales;FALSE;163
+806;Información sobre los grupos étnicos en el territorio;FALSE;163
+807;Respuestas de la entidad a las solicitudes de información;FALSE;163
+808;Directorio de agremiaciones, asociaciones, entidades del sector, grupos étnicos y otros grupos de interés;FALSE;163
+809;Calendario de actividades;FALSE;163
+810;Informes de rendición de cuentas;FALSE;163
+811;Ofertas de empleo;FALSE;163
+812;Informes de empalme;FALSE;163
+813;Preguntas y respuestas frecuentes;FALSE;163
+814;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;163
+815;No hay una sección de Transparencia y acceso a la información en la página web de la entidad;FALSE;163
+816;Está implementada y adoptada en todas las dependencias de la entidad;FALSE;164
+817;Está alineada con el plan sectorial;FALSE;164
+818;Cuenta con mecanismos de seguimiento y evaluación;FALSE;164
+819;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;164
+820;Ninguna de las anteriores;FALSE;164
+821;Existe y está constituida formalmente mediante acto administrativo;FALSE;165
+822;Se encarga de consolidar estadísticas del servicio de la entidad;FALSE;165
+823;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;165
+824;No está constituida formalmente;FALSE;165
+825;Presenciales:;FALSE;167
+826;Electrónicos:;FALSE;167
+827;Presenciales:;FALSE;168
+828;Electrónicos:;FALSE;168
+829;Si, y cuenta con las evidencias:;FALSE;169
+830;No;FALSE;169
+831;Punto u oficina física con servidores públicos permanentes (desconcentración de funciones);FALSE;170
+832;Modelos itinerantes como las ferias y unidades móviles;FALSE;170
+833;Enlaces territoriales sin punto de atención;FALSE;170
+834;Atención a través de otra entidad;FALSE;170
+835;Módulos de gestión virtual;FALSE;170
+836;Otra. ¿Cuál?;FALSE;170
+837;Ninguna de las anteriores;FALSE;170
+838;No se gestionan trámites ni servicios en territorio, por parte de los ciudadanos;FALSE;170
+839;Protocolos para la atención al ciudadano en todos los canales;FALSE;171
+840;Procesos y procedimientos para la atención al ciudadano en todos los canales;FALSE;171
+841;Estrategias para resolver PQRSD según su nivel de complejidad;FALSE;171
+842;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;171
+843;Ninguna de las anteriores;FALSE;171
+844;Indicadores que midan la satisfacción ciudadana;FALSE;172
+845;Indicadores que midan las características y preferencias de los ciudadanos;FALSE;172
+846;Indicadores que midan el tiempo de espera;FALSE;172
+847;Indicadores que midan el tiempo de atención;FALSE;172
+848;Indicadores que midan el uso de canales;FALSE;172
+849;Otra. ¿Cuál?;FALSE;172
+850;Ninguno de los anteriores;FALSE;172
+851;Personal que acredite las competencias establecidas en el Decreto 815 de 2018, relacionadas con la orientación al usuario y al ciudadano y en la Resolución 667 de 2018 (catálogo de competencias);FALSE;173
+852;Incentivos especiales para el personal de servicio al ciudadano, de acuerdo con lo previsto en el marco normativo vigente (Decreto 1567 de 1998, Ley 909 de 2004, Decreto 894 de 2017 y los que reglamentan sistemas propios de carrera administrativa);FALSE;173
+853;Formación específica en temas de servicio al ciudadano;FALSE;173
+854;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;173
+855;Ninguno de los anteriores;FALSE;173
+856;Presencial;FALSE;174
+857;Telefónico;FALSE;174
+858;Virtual;FALSE;174
+859;Itinerante;FALSE;174
+860;Página web;FALSE;175
+861;Redes sociales;FALSE;175
+862;Aplicaciones móviles;FALSE;175
+863;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;175
+864;Ninguno;FALSE;175
+865;Si, y cuenta con las evidencias:;FALSE;176
+866;No;FALSE;176
+867;Implementa procedimientos claros y precisos para la gestión de las PQRSD recibidas;FALSE;177
+868;Cuenta en su página Web con un formulario para la recepción de PQRSD;FALSE;177
+869;Ofrece la posibilidad de realizar PQRSD a través de dispositivos móviles;FALSE;177
+870;Centraliza todas las PQRSD que ingresan por los diversos medios o canales;FALSE;177
+871;Garantiza la asignación de un único número de radicado para las PQRSD presentadas por los ciudadanos;FALSE;177
+872;Cuenta con un aplicativo que permita al ciudadano hacer seguimiento al estado de sus PQRSD de forma fácil y oportuna;FALSE;177
+873;Cuenta con otros mecanismos que permitan al ciudadano hacer seguimiento al estado de sus PQRSD de forma fácil y oportuna;FALSE;177
+874;Cuenta con mecanismos para facilitar al ciudadano el reporte de posibles conflictos de interés;FALSE;177
+875;Cuenta con un reglamento interno de recibo y respuesta de peticiones;FALSE;177
+876;Elabora informes;FALSE;177
+877;Utiliza los informes de PQRSD para evaluar y mejorar el servicio al ciudadano;FALSE;177
+878;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;177
+879;Ninguna de las anteriores;FALSE;177
+880;Si, y cuenta con las evidencias;FALSE;178
+881;No;FALSE;178
+882;Si, y cuenta con las evidencias:;FALSE;179
+883;No;FALSE;179
+884;Si, y cuenta con las evidencias;FALSE;180
+885;No;FALSE;180
+886;Si, y cuenta con las evidencias;FALSE;181
+887;No;FALSE;181
+888;Personas en condición de discapacidad visual;FALSE;182
+889;Personas en condición de discapacidad auditiva;FALSE;182
+890;Personas en condición de discapacidad física o con movilidad reducida;FALSE;182
+891;Personas en condición de discapacidad psicosocial;FALSE;182
+892;Personas en condición de discapacidad intelectual;FALSE;182
+893;Menores de edad y niños;FALSE;182
+894;Adultos mayores;FALSE;182
+895;Mujeres en estado de embarazo o de niños en brazos;FALSE;182
+896;Personas desplazadas o en situación de extrema vulnerabilidad;FALSE;182
+897;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;182
+898;Ninguno de los grupos de valor anteriormente mencionados, pero sí en temas de servicio al ciudadano;FALSE;182
+899;Presencial;FALSE;183
+900;Telefónico;FALSE;183
+901;Virtual;FALSE;183
+902;Ninguno;FALSE;183
+903;Mecanismos adecuados para el acceso como rampas y ascensores;FALSE;184
+904;Controles de acceso de personas con un ancho de paso igual o mayor a 80 cm;FALSE;184
+905;Un acceso con espacio libre de maniobra antes y después de la puerta de al menos 1,50 metros;FALSE;184
+906;Un recorrido peatonal libre de obstáculos que impidan el acceso a personas con diferentes discapacidades (Ej.: andenes, postes, avisos, plantas, etc.);FALSE;184
+907;Señalización inclusiva (Ejemplo: alto relieve, braille, pictogramas, lengua de señas, otras lenguas, entre otros.);FALSE;184
+908;Espacios de libre paso entre objetos o muebles con un mínimo de 80 cm de ancho para el tránsito de personas con discapacidad física o con movilidad reducida (ej.: silla de ruedas);FALSE;184
+909;En los baños públicos cuenta con baterías sanitarias-baños acondicionados para personas en condición de discapacidad;FALSE;184
+910;Paraderos o estacionamientos para personas con discapacidad);FALSE;184
+911;Ninguna de las anteriores;FALSE;184
+912;Señalización en alto relieve;FALSE;185
+913;Señalización en braille;FALSE;185
+914;Señalización con imágenes en lengua de señas;FALSE;185
+915;Pictogramas;FALSE;185
+916;Señalización en otras lenguas o idiomas;FALSE;185
+917;Sistemas de orientación espacial (Wayfinding);FALSE;185
+918;Ninguna de las anteriores;FALSE;185
+919;Realizar ajustes razonables en infraestructura física para facilitar el acceso de personas con discapacidad;FALSE;186
+920;Tecnología que permita y facilite la comunicación de personas con discapacidad visual;FALSE;186
+921;Tecnología que permita y facilite la comunicación de personas con discapacidad auditiva;FALSE;186
+922;Contratación de talento humano que atienda las necesidades de los grupos de valor (ej.: traductores que hable otras lenguas o idiomas);FALSE;186
+923;Otra. ¿Cuál?;FALSE;186
+924;Ninguna de las anteriores;FALSE;186
+925;Tiene operadores capacitados en servicio y lenguaje claro;FALSE;187
+926;Tiene capacidad de grabar llamadas de etnias y otros grupos de valor que hablen en otras lenguas o idiomas diferentes al castellano para su posterior traducción;FALSE;187
+927;Tiene operadores que pueden brindar atención a personas que hablen otras lenguas o idiomas (Ej.: etnias) ;FALSE;187
+928;Cuenta con un menú interactivo con opciones para la atención de personas con discapacidad;FALSE;187
+929;Cuenta con operadores que conocen y hacen uso de herramientas como el Centro de Relevo o Sistema de Interpretación-SIEL en línea para la atención de personas con discapacidad auditiva;FALSE;187
+930;Ninguna de las anteriores;FALSE;187
+931;Discapacidad visual;FALSE;188
+932;Discapacidad auditiva;FALSE;188
+933;Discapacidad física;FALSE;188
+934;Discapacidad psicosocial (mental) o intelectual (cognitiva);FALSE;188
+935;Grupos étnicos;FALSE;188
+936;Ninguna de las anteriores;FALSE;188
+937;No considera necesario la asesoría;FALSE;188
+938;La norma técnica colombiana NTC 6047 (Infraestructura);FALSE;189
+939;La norma técnica colombiana NTC 5854 (accesibilidad web) y los lineamientos de Gobierno en Línea;FALSE;189
+940;Ninguna de las anteriores;FALSE;189
+941;Políticas, lineamientos, planes, programas y/o proyectos que garanticen el ejercicio total y efectivo de los derechos de las personas en condición de discapacidad física;FALSE;190
+942;Políticas, lineamientos, planes, programas y/o proyectos que garanticen el ejercicio total y efectivo de los derechos de las personas con discapacidad visual;FALSE;190
+943;Políticas, lineamientos, planes, programas y/o proyectos que garanticen el ejercicio total y efectivo de los derechos de las personas con discapacidad auditiva;FALSE;190
+944;Políticas, lineamientos, planes, programas y/o proyectos que garanticen el ejercicio total y efectivo de los derechos de las personas con discapacidad intelectual (cognitiva);FALSE;190
+945;Políticas, planes, programas y/o proyectos que garanticen el ejercicio total y efectivo de los derechos de las personas con discapacidad psicosocial (mental);FALSE;190
+946;Políticas, lineamientos planes, programas y/o proyectos que garanticen el ejercicio total y efectivo de los derechos de los adultos mayores;FALSE;190
+947;Políticas, lineamientos, planes, programas y/o proyectos que garanticen el ejercicio total y efectivo de los derechos de los niños;FALSE;190
+948;Políticas, lineamientos, planes, programas y/o proyectos que garanticen el ejercicio total y efectivo de los derechos de las mujeres embarazadas;FALSE;190
+949;Políticas, planes, programas y/o proyectos que garanticen el ejercicio total y efectivo de los derechos de las personas que hablen otras lenguas o dialectos en Colombia (indígena, afro y rom);FALSE;190
+950;Ninguna de las anteriores;FALSE;190
+951;Caracterizaciones de los documentos;FALSE;191
+952;Encuestas de percepción ciudadana;FALSE;191
+953;Otra. ¿Cuál?;FALSE;191
+954;Ninguna de las anteriores;FALSE;191
+955;Guía de Lenguaje Claro para servidores públicos del DNP;FALSE;192
+956;10 pasos para comunicarse en Lenguaje Claro del DNP;FALSE;192
+957;Curso virtual de Lenguaje Claro del DNP;FALSE;192
+958;Otra. ¿Cuál?;FALSE;192
+959;Ninguna;FALSE;192
+960;Curso virtual de Lenguaje Claro del DNP:;FALSE;193
+961;Otro:;FALSE;193
+962;Oficinas de atención al ciudadano;FALSE;194
+963;Todas las dependencias o sedes de la entidad;FALSE;194
+964;Ninguno;FALSE;194
+965;Guías:;FALSE;195
+966;Formatos:;FALSE;195
+967;Piezas informativas:;FALSE;195
+968;Manuales:;FALSE;195
+969;Normas:;FALSE;195
+970;Respuestas a PQRSD:;FALSE;195
+971;Otros:;FALSE;195
+972;Ninguno;FALSE;195
+973;¿Cuántos utilizaron la metodología de Laboratorios de Simplicidad del DNP?;FALSE;196
+974;¿Cuántos fueron adoptados y difundidos?;FALSE;196
+975;Servidores públicos de la entidad responsables de los documentos;FALSE;197
+976;Servidores públicos de la entidad no responsables de los documentos;FALSE;197
+977;Servidores públicos de otras entidades;FALSE;197
+978;Ciudadanos;FALSE;197
+979;Otros grupos de valor. ¿Cuáles?;FALSE;197
+980;Si, y cuenta con las evidencias:;FALSE;199
+981;No;FALSE;199
+982;Si;FALSE;200
+983;No;FALSE;200
+984;Trámites;FALSE;202
+985;Otros Procedimientos Administrativos;FALSE;202
+986;Ninguna de las anteriores;FALSE;202
+987;Trámites;FALSE;203
+988;Otros procedimientos administrativos:;FALSE;203
+989;196.;FALSE;204
+990;Presencialmente;FALSE;206
+991;Totalmente en línea:;FALSE;206
+992;Parcialmente en línea:;FALSE;206
+993;Presencialmente:;FALSE;207
+994;Totalmente en línea:;FALSE;207
+995;Parcialmente en línea:;FALSE;207
+996;Totalmente en línea:;FALSE;208
+997;Parcialmente en línea:;FALSE;208
+998;Totalmente en línea:;FALSE;209
+999;Parcialmente en línea:;FALSE;209
+1000;Totalmente en línea:;FALSE;210
+1001;Parcialmente en línea:;FALSE;210
+1002;Totalmente en línea:;FALSE;211
+1003;Parcialmente en línea:;FALSE;211
+1004;Totalmente en línea:;FALSE;212
+1005;Parcialmente en línea:;FALSE;212
+1006;Totalmente en línea:;FALSE;213
+1007;Parcialmente en línea:;FALSE;213
+1008;Totalmente en línea:;FALSE;214
+1009;Parcialmente en línea:;FALSE;214
+1010;Totalmente en línea:;FALSE;215
+1011;Parcialmente en línea:;FALSE;215
+1012;Planes de Desarrollo;FALSE;216
+1013;Políticas;FALSE;216
+1014;Ciudadanía;FALSE;216
+1015;Institución;FALSE;216
+1016;Racionalización de trámites;FALSE;216
+1017;Si;FALSE;217
+1018;No;FALSE;217
+1019;Academia;FALSE;218
+1020;Gremios;FALSE;218
+1021;Órganos de control;FALSE;218
+1022;Veedurías ciudadanas;FALSE;218
+1023;Organizaciones no gubernamentales;FALSE;218
+1024;Órganos internos (Asamblea, Junta Directiva, Junta de accionistas);FALSE;218
+1025;Ciudadanía;FALSE;218
+1026;Otro. ¿Cuál?;FALSE;218
+1027;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;218
+1028;No implementó actividades de participación con grupos de valor;FALSE;218
+1029;¿Cuántos ejercicios ha realizado la entidad?;FALSE;219
+1030;¿Cuántos de los ejercicios se han realizado usando medios electrónicos?;FALSE;219
+1031;Capacitación a los grupos de valor en participación ciudadana y control social;FALSE;220
+1032;Capacitación en temas de participación a los servidores de la entidad;FALSE;220
+1033;Difusión de información para la participación ciudadana y el control social;FALSE;220
+1034;Otra. ¿Cuál?;FALSE;220
+1035;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;220
+1036;Ninguna de las anteriores;FALSE;220
+1037;Elaboración de normatividad;FALSE;221
+1038;Formulación de la planeación;FALSE;221
+1039;Formulación de políticas, programas y proyectos;FALSE;221
+1040;Ejecución de programas, proyectos y servicios;FALSE;221
+1041;Rendición de cuentas;FALSE;221
+1042;Racionalización de trámites;FALSE;221
+1043;Ejercicios de innovación abierta para la solución de problemas;FALSE;221
+1044;Promoción del control social y veedurías ciudadanas;FALSE;221
+1045;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;221
+1046;Ninguna de las anteriores;FALSE;221
+1047;Elaboración de normatividad;FALSE;222
+1048;Formulación de la planeación;FALSE;222
+1049;Formulación de políticas, programas y proyectos;FALSE;222
+1050;Ejecución de programas, proyectos y servicios;FALSE;222
+1051;Rendición de cuentas;FALSE;222
+1052;Racionalización de trámites;FALSE;222
+1053;Solución de problemas a partir de la innovación abierta;FALSE;222
+1054;Promoción del control social y veedurías ciudadanas;FALSE;222
+1055;Otra. ¿Cuál?;FALSE;222
+1056;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;222
+1057;Ninguna de las anteriores;FALSE;222
+1058;Publicación en su página web;FALSE;223
+1059;Comunicación directa a los grupos de valor que participaron;FALSE;223
+1060;Ejercicios de rendición de cuentas;FALSE;223
+1061;Otro. ¿Cuál?;FALSE;223
+1062;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;223
+1063;Ninguna de las anteriores;FALSE;223
+1064;Ejercicios de colaboración e innovación abierta;FALSE;224
+1065;Actividades de rendición de cuentas;FALSE;224
+1066;Evaluación de la prestación del servicio;FALSE;224
+1067;Otro. ¿Cuál?;FALSE;224
+1068;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;224
+1069;Ninguna de las anteriores;FALSE;224
+1070;¿Cuántos ejercicios de rendición de cuentas realizó la entidad durante la vigencia evaluada?;FALSE;225
+1071;¿Cuántos de esos ejercicios de rendición de cuentas realizados por la entidad, utilizaron medios electrónicos?;FALSE;225
+1072;La divulgación y publicación de información;FALSE;226
+1073;El desarrollo de ejercicios de diálogo;FALSE;226
+1074;Incorporación de acciones de mejora viables a partir del resultado del diálogo;FALSE;226
+1075;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;226
+1076;Ninguna de las anteriores;FALSE;226
+1077;Se identificaron debilidades, retos, u oportunidades institucionales;FALSE;227
+1078;Se implementaron acciones de mejoramiento;FALSE;227
+1079;Se divulgaron las acciones de mejoramiento a los ciudadanos, usuarios o grupos de interés;FALSE;227
+1080;Se incrementó la participación ciudadana;FALSE;227
+1081;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;227
+1082;Ninguna de las anteriores;FALSE;227
+1083;Muy alto;FALSE;228
+1084;Alto;FALSE;228
+1085;Bajo;FALSE;228
+1086;Muy bajo;FALSE;228
+1087;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;228
+1088;No se realizó evaluación de satisfacción;FALSE;228
+1089;Mensajes de texto;FALSE;229
+1090;Redes sociales;FALSE;229
+1091;Radio;FALSE;229
+1092;Televisión;FALSE;229
+1093;Prensa;FALSE;229
+1094;Sitio web;FALSE;229
+1095;Correo electrónico;FALSE;229
+1096;Aplicación móvil;FALSE;229
+1097;Boletines impresos;FALSE;229
+1098;Carteleras;FALSE;229
+1099;Reuniones;FALSE;229
+1100;Centros de documentación;FALSE;229
+1101;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;229
+1102;Ninguno de los anteriores;FALSE;229
+1103;Productos y/o servicios;FALSE;230
+1104;Trámites;FALSE;230
+1105;Espacios de participación en línea;FALSE;230
+1106;Espacios de participación presenciales;FALSE;230
+1107;Oferta de información en canales electrónicos;FALSE;230
+1108;Oferta de información en canales presenciales;FALSE;230
+1109;Conjuntos de datos abiertos disponibles;FALSE;230
+1110;Avances y resultados de la gestión institucional;FALSE;230
+1111;Enfoque de derechos humanos en la rendición de cuentas;FALSE;230
+1112;El Plan anticorrupción y de atención al ciudadano;FALSE;230
+1113;Otro. ¿Cuál?;FALSE;230
+1114;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;230
+1115;Foros ciudadanos participativos por proyectos, temas o servicios;FALSE;231
+1116;Foros virtuales;FALSE;231
+1117;Ferias de la gestión con pabellones temáticos;FALSE;231
+1118;Audiencias públicas participativas;FALSE;231
+1119;Audiencias públicas participativas virtuales;FALSE;231
+1120;Observatorios ciudadanos;FALSE;231
+1121;Tiendas temáticas o sectoriales;FALSE;231
+1122;Mesas de diálogo regionales o temáticas;FALSE;231
+1123;Reuniones zonales;FALSE;231
+1124;Asambleas comunitarias;FALSE;231
+1125;Blogs;FALSE;231
+1126;Teleconferencias interactivas;FALSE;231
+1127;Redes sociales;FALSE;231
+1128;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;231
+1129;Ninguna de las anteriores;FALSE;231
+1130;Generar una evaluación de la gestión pública por parte de los grupos de valor;FALSE;232
+1131;Que el equipo directivo interactuara directamente con los grupos de valor;FALSE;232
+1132;Establecer acuerdos con los grupos de valor sobre acciones para mejorar la gestión institucional;FALSE;232
+1133;La participación de diversos representantes de los grupos de valor;FALSE;232
+1134;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;232
+1135;Ninguna de las anteriores;FALSE;232
+1136;Academia;FALSE;233
+1137;Gremios;FALSE;233
+1138;Órganos de control;FALSE;233
+1139;Veedurías ciudadanas;FALSE;233
+1140;Organizaciones no gubernamentales;FALSE;233
+1141;Órganos internos (Asamblea, Junta Directiva, Junta de accionistas);FALSE;233
+1142;Ciudadanía;FALSE;233
+1143;Otro. ¿Cuál?;FALSE;233
+1144;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;233
+1145;Si;FALSE;234
+1146;No;FALSE;234
+1147;Están documentadas (ficha técnica o documento equivalente);FALSE;236
+1148;Cuentan con un responsable (servidor o área) para su medición;FALSE;236
+1149;Son estimados con la periodicidad establecida;FALSE;236
+1150;Pueden ser consultados de manera oportuna por los servidores de la entidad;FALSE;236
+1151;Son insumos para la toma de decisiones;FALSE;236
+1152;Permiten identificar las desviaciones en las metas e implementar acciones para asegurar el logro de los resultados;FALSE;236
+1153;Son revisados y mejorados continuamente;FALSE;236
+1154;Son de fácil implementación (relación costo beneficio);FALSE;236
+1155;Ninguna de las anteriores;FALSE;236
+1156;Presenta al equipo directivo informes periódicos;FALSE;237
+1157;Genera alertas oportunas al equipo directivo para la toma de decisiones;FALSE;237
+1158;Hace recomendaciones al equipo directivo;FALSE;237
+1159;No se ha establecido área ni responsable para tal efecto;FALSE;237
+1160;Identifica puntos fuertes y puntos de mejora;FALSE;238
+1161;Define acciones de intervención para asegurar los resultados;FALSE;238
+1162;Ajusta los procesos que intervienen en el logro de los resultados;FALSE;238
+1163;Reorganiza equipos de trabajo y/o recursos para asegurar los resultados;FALSE;238
+1164;No hace seguimiento a los indicadores de gestión institucional;FALSE;238
+1165;Si, y cuenta con las evidencias:;FALSE;239
+1166;Parcialmente, y cuenta con las evidencias:;FALSE;239
+1167;No;FALSE;239
+1168;No se realizó evaluación de los resultados institucionales;FALSE;239
+1169;Identifica las necesidades de información interna;FALSE;240
+1170;Identifica las necesidades de información externa por parte de los grupos de valor;FALSE;240
+1171;Recolecta de manera sistemática la información necesaria y relevante para la toma de decisiones;FALSE;240
+1172;Identifica los flujos de la información (vertical, horizontal, hacia afuera de la entidad, entre otros);FALSE;240
+1173;Identifica y mantiene condiciones de almacenamiento, conservación y análisis de la información;FALSE;240
+1174;Identifica y mantiene condiciones de seguridad de la información;FALSE;240
+1175;Identifica y mantiene condiciones de uso de la información;FALSE;240
+1176;Promueve el uso de tecnologías para el manejo de la información (de acuerdo con las capacidades propias de la entidad);FALSE;240
+1177;No cuenta con un proceso para la gestión de la comunicación;FALSE;240
+1178;Mecanismos de transmisión de los datos;FALSE;241
+1179;Responsables de generar los datos;FALSE;241
+1180;Mecanismos de validación de los datos;FALSE;241
+1181;Utilidad de los datos;FALSE;241
+1182;Evaluación de la calidad de los datos;FALSE;241
+1183;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;241
+1184;No cuenta con un proceso documentado e implementado;FALSE;241
+1185;Dispone de diferentes mecanismos escritos, virtuales y audiovisuales tales como carteleras, portal web, intranet, redes sociales, campañas internas, sistema de sonido interno, comunicados de prensa, pantallas electrónicas, entre otros;FALSE;242
+1186;Cuenta con políticas, lineamientos o protocolos para el comunicar interna o externamente, la información que maneja;FALSE;242
+1187;Promueve el uso de tecnologías para comunicar la información que administra (de acuerdo con las capacidades propias de la entidad);FALSE;242
+1188;Cuenta con voceros autorizados para pronunciarse ante los medios de comunicación;FALSE;242
+1189;No cuenta con un proceso para la gestión de la información;FALSE;242
+1190;Si, y cuenta con las evidencias:;FALSE;243
+1191;Parcialmente, y cuenta con las evidencias:;FALSE;243
+1192;No;FALSE;243
+1193;Si, y cuenta con las evidencias:;FALSE;244
+1194;Parcialmente, y cuenta con las evidencias:;FALSE;244
+1195;No;FALSE;244
+1196;Se hacen dentro de los términos legales establecidos;FALSE;245
+1197;Son completas, veraces y objetivas;FALSE;245
+1198;Se entregan en formatos adecuados y prácticos de usar, que permiten al ciudadano o usuario encontrar fácilmente su respuesta;FALSE;245
+1199;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;245
+1200;Ninguna de las anteriores;FALSE;245
+1201;Cumple con los lineamientos de la guía de lenguaje claro del PNSC-DNP;FALSE;246
+1202;Se encuentra disponible en formato accesible para personas en condición de discapacidad visual;FALSE;246
+1203;Se encuentra disponible en formato accesible para personas en condición de discapacidad auditiva;FALSE;246
+1204;Se encuentra disponible para personas con discapacidad psicosocial (mental) o intelectual (Ejemplo: contenidos de lectura fácil, con un cuerpo de letra mayor, vídeos sencillos con ilustraciones y audio de fácil comprensión);FALSE;246
+1205;Se encuentra disponible en otras lenguas o idiomas;FALSE;246
+1206;Ninguna de las anteriores;FALSE;246
+1207;Apropia la norma que mejora la accesibilidad de sus archivos electrónicos (ISO 14289-1);FALSE;247
+1208;Envía las comunicaciones o repuestas a sus grupos de valor en un formato que garantiza su preservación digital a largo plazo y que a su vez es accesible (PDF/A-1b o PDF/A1a);FALSE;247
+1209;No tiene en cuenta esta norma (ISO 14289/2012);FALSE;247
+1210;Sea reconocida por sus grupos de valor por la veracidad y utilidad de los datos publicados;FALSE;248
+1211;Promueva la transparencia y la participación ciudadana y de sus grupos de valor;FALSE;248
+1212;Mejore los datos publicados a través de la atención de requerimientos de sus grupos de valor;FALSE;248
+1213;Promueva una cultura de análisis y medición entre su talento humano y grupos de valor;FALSE;248
+1214;Otra. ¿Cuál?;FALSE;248
+1215;Ninguna de las anteriores;FALSE;248
+1216;Ha recibido la entidad:;FALSE;249
+1217;Ha contestado la entidad dentro de los términos legales:;FALSE;249
+1218;Ha contestado la entidad sin entregar la información solicitada:;FALSE;249
+1219;Ha contestado la entidad sin entregar la información solicitada por inexistencia de la misma:;FALSE;249
+1220;Elaboró y aprobó en instancias del Comité Institucional de Gestión y Desempeño o Comité Interno de Archivo, el Plan institucional de archivos - PINAR;FALSE;250
+1221;Tiene actividades de gestión documental incluidas en la planeación estratégica;FALSE;250
+1222;Tiene proyectos sobre gestión documental inscritos o en desarrollo;FALSE;250
+1223;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;250
+1224;No tiene actividades planeadas;FALSE;250
+1225;Si, y cuenta con las evidencias:;FALSE;251
+1226;No;FALSE;251
+1227;Si, y cuenta con las evidencias:;FALSE;252
+1228;No;FALSE;252
+1229;Si, y cuenta con las evidencias:;FALSE;253
+1230;No;FALSE;253
+1231;Si, y cuenta con las evidencias:;FALSE;254
+1232;No;FALSE;254
+1233;La elaboró;FALSE;256
+1234;La aprobó el Comité Institucional de Gestión y Desempeño o Comité Interno de Archivo;FALSE;256
+1235;Tramitó el proceso de convalidación;FALSE;256
+1236;La implementó;FALSE;256
+1237;La publicó en el sitio web de su entidad en la sección de transparencia;FALSE;256
+1238;La inscribió en el Registro Único de series documentales;FALSE;256
+1239;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;256
+1240;No tiene TRD;FALSE;256
+1241;No está actualizada y refleja una estructura que no está vigente;FALSE;257
+1242;Refleja la estructura orgánica vigente de la entidad y tiene la evidencia;FALSE;257
+1243;Tiene normalizados las formas y formatos para elaborar documentos;FALSE;258
+1244;Genera y controla un consecutivo único para cada tipo de acto administrativo;FALSE;258
+1245;Tiene un control unificado del registro y radicación de documentos recibidos y tramitados;FALSE;258
+1246;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;258
+1247;No tiene ninguna clase de normalización del proceso de producción documental;FALSE;258
+1248;Si;FALSE;259
+1249;No;FALSE;259
+1250;Inventario documental del Fondo Documental Acumulado;FALSE;260
+1251;Elaboró las Tablas de Valoración Documental - TVD;FALSE;260
+1252;Aprobó TVD;FALSE;260
+1253;Tramitó el proceso de convalidación de la TVD;FALSE;260
+1254;Publicó TVD en la página web;FALSE;260
+1255;Implementó TVD;FALSE;260
+1256;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;260
+1257;Ninguna de las anteriores;FALSE;260
+1258;Lo elaboró;FALSE;261
+1259;Lo publicó en la página web;FALSE;261
+1260;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;261
+1261;No cuenta con Cuadro de Clasificación Documental;FALSE;261
+1262;En menos del 30%;FALSE;262
+1263;Entre el 30% y 59%;FALSE;262
+1264;Entre el 60% y 89%;FALSE;262
+1265;El 90% o más;FALSE;262
+1266;No tiene inventario;FALSE;262
+1267;En menos del 30%;FALSE;263
+1268;Entre el 30% y 59%;FALSE;263
+1269;Entre el 60% y 89%;FALSE;263
+1270;El 90% o más;FALSE;263
+1271;No tiene inventario;FALSE;263
+1272;Si, y cuenta con las evidencias:;FALSE;264
+1273;No;FALSE;264
+1274;Espacio insuficiente y se entregó inventariado los archivos;FALSE;265
+1275;Aplicación de TRD;FALSE;265
+1276;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;265
+1277;Ningún criterio, solo se trasladaron los archivos;FALSE;265
+1278;Lo elaboró;FALSE;266
+1279;Lo aprobó;FALSE;266
+1280;Lo implementó;FALSE;266
+1281;Lo publicó en su sitio web oficial, en la sección de “Transparencia y acceso a información pública”;FALSE;266
+1282;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;266
+1283;No tiene SIC;FALSE;266
+1284;Ha realizado capacitación y sensibilización en referencia a la conservación documental;FALSE;267
+1285;Ha realizado mantenimiento a los sistemas de almacenamiento e instalaciones físicas (reparación locativa, limpieza);FALSE;267
+1286;Ha realizado saneamiento ambiental de áreas de archivo (fumigación, desinfección, desratización, desinsectación);FALSE;267
+1287;Ha realizado monitoreo y control (con equipos de medición) de condiciones ambientales;FALSE;267
+1288;Ha realizado almacenamiento y re almacenamiento en unidades adecuadas (cajas, carpetas, estantería);FALSE;267
+1289;Ha realizado actividades de prevención de emergencias y atención de desastres en archivos;FALSE;267
+1290;Elaboró el programa de conservación preventiva;FALSE;267
+1291;Elaboró el Plan de Conservación Documental e incluye el Programa de Conservación Preventiva;FALSE;267
+1292;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;267
+1293;No ha realizado actividades de conservación;FALSE;267
+1294;Ha identificado los documentos electrónicos que genera y que son susceptibles de preservar a largo plazo;FALSE;268
+1295;Ha definido estrategias de preservación digital (migración, conversión, refreshing) para garantizar que la información que produce esté disponible a lo largo del tiempo;FALSE;268
+1296;Ha ejecutado y documentado estrategias de preservación digital (migración, conversión, refreshing) para garantizar que la información que produce esté disponible a lo largo del tiempo;FALSE;268
+1297;Elaboró el Plan de Preservación Digital;FALSE;268
+1298;Implementó el Plan de Preservación Digital;FALSE;268
+1299;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;268
+1300;No ha realizado actividades de preservación;FALSE;268
+1301;Si, y ha tomado las medidas pertinentes para su protección y conservación;FALSE;269
+1302;No ha realizado identificación;FALSE;269
+1303;No aplica, la entidad no maneja ningún tipo de archivos de derechos humanos, memoria histórica y conflicto armado para su protección y conservación;FALSE;269
+1304;Se tiene en cuenta los principios de orden original;FALSE;270
+1305;Se realiza foliación;FALSE;270
+1306;Se hace retiro de material abrasivo;FALSE;270
+1307;Ninguna de las anteriores;FALSE;270
+1308;Si, y cuenta con las evidencias:;FALSE;271
+1309;No;FALSE;271
+1310;Si, y cuenta con las evidencias:;FALSE;272
+1311;No;FALSE;272
+1312;Manejo de residuos de procesos de la gestión documental;FALSE;273
+1313;Implementación de la política de reducción del uso del papel;FALSE;273
+1314;Adquisición de equipos de apoyo al proceso de gestión documental, amigables con el medio ambiente;FALSE;273
+1315;No ha realizado acciones;FALSE;273
+1316;Si, y cuenta con las evidencias:;FALSE;274
+1317;No;FALSE;274
+1318;Si, aplicando TRD y TVD;FALSE;275
+1319;Si, pero no aplicó ningún criterio técnico;FALSE;275
+1320;No realizó eliminación durante la vigencia;FALSE;275
+1321;Si, y cuenta con las evidencias:;FALSE;276
+1322;No;FALSE;276
+1323;Si, y cuenta con las evidencias:;FALSE;277
+1324;No;FALSE;277
+1325;Si, y cuenta con las evidencias:;FALSE;278
+1326;No;FALSE;278
+1327;Está formulado y tiene la evidencia:;FALSE;279
+1328;Está implementado y tiene la evidencia:;FALSE;279
+1329;No tiene conocimiento;FALSE;279
+1330;No existe;FALSE;279
+1331;Si, y cuenta con las evidencias:;FALSE;280
+1332;No;FALSE;280
+1333;Si, y cuenta con las evidencias:;FALSE;281
+1334;No;FALSE;281
+1335;Definió el modelo de requisitos de gestión de documentos electrónicos;FALSE;282
+1336;Implementó el SGDEA y tiene la evidencia:;FALSE;282
+1337;No ha realizado ninguna acción;FALSE;282
+1338;Consulta;FALSE;283
+1339;Gestión y trámite;FALSE;283
+1340;Fines probatorios;FALSE;283
+1341;Fines de preservación;FALSE;283
+1342;Copia de seguridad;FALSE;283
+1343;Ninguna de las anteriores;FALSE;283
+1344;Ha generado la política de preservación digital integrada a la política de gestión documental;FALSE;284
+1345;Ha formulado el plan de preservación digital a largo plazo;FALSE;284
+1346;Ha implementado el plan de preservación digital a largo plazo;FALSE;284
+1347;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;284
+1348;No ha realizado ninguna acción;FALSE;284
+1349;Fortalece su estructura interna para desarrollar actividades de investigación, desarrollo e innovación (I+D+I);FALSE;285
+1350;Organiza sus datos e información, en sus diferentes sistemas de información y/o aplicativos;FALSE;285
+1351;Lleva a cabo el análisis de datos e información de los procesos de la entidad;FALSE;285
+1352;Analiza la operación de los procesos a su cargo;FALSE;285
+1353;Actualiza periódicamente sus datos e información;FALSE;285
+1354;Diseña espacios de ideación (generación de ideas por parte de los servidores públicos);FALSE;285
+1355;Diseña espacios de innovación;FALSE;285
+1356;Genera espacios de participación ciudadana;FALSE;285
+1357;Recopila información sobre el conocimiento que requieren sus dependencias;FALSE;285
+1358;Implementa nuevas metodologías de medición y evaluación de su gestión;FALSE;285
+1359;Diseña mecanismos para identificar las necesidades y expectativas de los grupos de valor;FALSE;285
+1360;Otra. ¿Cuál?;FALSE;285
+1361;Ninguna de las anteriores;FALSE;285
+1362;Enfocar su desarrollo en sus grupos de valor y la generación de valor público;FALSE;286
+1363;Fomentar la eficiencia administrativa, racionalizar sus trámites y agilizar su gestión;FALSE;286
+1364;Facilitar la adaptación de los procesos ante cambios en el entorno;FALSE;286
+1365;Facilitar la implementación de nuevas tecnologías;FALSE;286
+1366;Mejorar la apropiación del conocimiento de la entidad y de su visión estratégica;FALSE;286
+1367;Propiciar mejores herramientas de medición y análisis de los procesos de la entidad;FALSE;286
+1368;Facilitar la participación del talento humano en la generación de productos y servicios acordes con las necesidades de los grupos de valor;FALSE;286
+1369;Otra. ¿Cuál?;FALSE;286
+1370;Ninguna de las anteriores;FALSE;286
+1371;Corto plazo;FALSE;287
+1372;Mediano plazo;FALSE;287
+1373;Largo plazo;FALSE;287
+1374;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;287
+1375;No se definen los proyectos y metas de innovación;FALSE;287
+1376;Si, y cuenta con las evidencias: ;FALSE;288
+1377;No;FALSE;288
+1378;Si, y cuenta con las evidencias: ;FALSE;289
+1379;No;FALSE;289
+1380;Si, y cuenta con las evidencias: ;FALSE;290
+1381;No;FALSE;290
+1382;Si, y cuenta con las evidencias: ;FALSE;291
+1383;No;FALSE;291
+1384;Si, y cuenta con las evidencias: ;FALSE;292
+1385;No;FALSE;292
+1386;Si, y cuenta con las evidencias: ;FALSE;293
+1387;No;FALSE;293
+1388;Si, y cuenta con las evidencias: ;FALSE;294
+1389;No;FALSE;294
+1390;Si, y cuenta con las evidencias: ;FALSE;295
+1391;No;FALSE;295
+1392;Si, y cuenta con las evidencias: ;FALSE;296
+1393;No;FALSE;296
+1394;Clasifica el conocimiento asociado a la formación, capacitación y experiencia para su análisis respectivo;FALSE;297
+1395;Sistematiza el conocimiento de las personas de acuerdo con la clasificación establecida previamente;FALSE;297
+1396;Analiza qué personas tienen un conocimiento altamente demandado por la operación de la entidad;FALSE;297
+1397;Diseña mecanismos, procedimientos y/o procesos para transferir el conocimiento;FALSE;297
+1398;Planea la transferencia del conocimiento entre las personas de la entidad;FALSE;297
+1399;Gestiona los riesgos y controles relacionados con la fuga de capital intelectual;FALSE;297
+1400;Garantiza el cumplimiento de las políticas de seguridad de la información;FALSE;297
+1401;Replica y/o adapta buenas prácticas;FALSE;297
+1402;Otra. ¿Cuál?;FALSE;297
+1403;Ninguna de las anteriores;FALSE;297
+1404;Identifica y evalúa posibles soluciones a problemas complejos;FALSE;298
+1405;Diseña y prueba productos y servicios con nuevos métodos, procedimientos y/o tecnologías;FALSE;298
+1406;Analiza el comportamiento de futuros productos o servicios renovados o generados;FALSE;298
+1407;Optimiza en el uso de recursos;FALSE;298
+1408;Mejora la cultura organizacional;FALSE;298
+1409;Mejora el diseño de las políticas públicas a cargo de la entidad;FALSE;298
+1410;Mejora las habilidades y competencias del talento humano de la entidad;FALSE;298
+1411;Mejora la experiencia del ciudadano;FALSE;298
+1412;Mejora los productos y servicios de la entidad;FALSE;298
+1413;Otra. ¿Cuál?;FALSE;298
+1414;No implementa procesos de experimentación;FALSE;298
+1415;Si. Indique nombre y contacto de la persona a cargo;FALSE;299
+1416;No;FALSE;299
+1417;Talleres y espacios participativos;FALSE;300
+1418;Gestión de proyectos de innovación;FALSE;300
+1419;Desarrollo de proyectos de innovación con otras entidades, unidades, equipos o grupos;FALSE;300
+1420;Desarrollo de macroproyectos en innovación;FALSE;300
+1421;Desarrollo de proyectos de investigación;FALSE;300
+1422;Fortalecimiento de redes de conocimiento;FALSE;300
+1423;Participación en eventos, convocatorias, concursos, otros;FALSE;300
+1424;Otra. ¿Cuál?;FALSE;300
+1425;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;300
+1426;Ninguna de las anteriores;FALSE;300
+1427;Pensamiento en diseño (designó thinking);FALSE;301
+1428;Análisis sistémico/ pensamiento sistémico;FALSE;301
+1429;Etnografía;FALSE;301
+1430;Cocreación;FALSE;301
+1431;Ciencias del comportamiento;FALSE;301
+1432;Prospectiva;FALSE;301
+1433;Aprendiendo del otro/ aprendiendo haciendo;FALSE;301
+1434;Analítica de datos;FALSE;301
+1435;Innovación abierta (crowdsourcing);FALSE;301
+1436;Prototipado, testeo;FALSE;301
+1437;Otra. ¿Cuál?;FALSE;301
+1438;Ninguna de las anteriores;FALSE;301
+1439;Eventos nacionales de innovación como orador o panelista;FALSE;302
+1440;Eventos internacionales de innovación como orador o panelista;FALSE;302
+1441;Premios de innovación a nivel nacional en los últimos 5 años donde ha sido destacada y/o reconocida (premios nacionales de innovación);FALSE;302
+1442;Premios internacionales de innovación en los últimos 5 años donde ha sido destacada y/o reconocida;FALSE;302
+1443;Convocatorias a nivel nacional en los últimos 5 años donde ha sido destacada y/o reconocida;FALSE;302
+1444;Convocatorias o premios de índole internacional en los últimos 5 años donde ha sido destacada y/o reconocida;FALSE;302
+1445;Otra. ¿Cuál?;FALSE;302
+1446;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;302
+1447;Ninguna de las anteriores;FALSE;302
+1448;Publica los resultados de las actividades y/o proyectos de innovación;FALSE;303
+1449;Cuenta con documentación sobre buenas prácticas en innovación pública;FALSE;303
+1450;Cuenta con documentación sobre cómo replicar o escalar buenas prácticas en innovación pública;FALSE;303
+1451;Documenta y replica las experiencias ciudadanas que se han identificado como innovadoras;FALSE;303
+1452;Otra. ¿Cuál?;FALSE;303
+1453;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;303
+1454;Ninguna de las anteriores;FALSE;303
+1455;Cuenta con procedimientos y herramientas para capturar ideas;FALSE;304
+1456;Desarrolla procedimientos para evaluar las ideas;FALSE;304
+1457;Fomenta la creatividad en el análisis de problemáticas de la entidad;FALSE;304
+1458;Utiliza medios alternativos para identificar posibles soluciones;FALSE;304
+1459;Realiza mejores diagnósticos;FALSE;304
+1460;Aumenta la probabilidad de escalar prototipos;FALSE;304
+1461;Realiza mejores evaluaciones, estimaciones y/o mediciones;FALSE;304
+1462;Identifica y analiza otros grupos de valor no priorizados;FALSE;304
+1463;Fortalece la cultura de la innovación en la entidad;FALSE;304
+1464;Impulsa e implementa proyectos de investigación, desarrollo e innovación (I+D+I);FALSE;304
+1465;Genera eficiencia en el uso de recursos presupuestables;FALSE;304
+1466;Mejora la cultura organizacional;FALSE;304
+1467;Mejora el diseño de alguna política pública;FALSE;304
+1468;Mejora la entrega de un producto o servicio;FALSE;304
+1469;Fortalece las habilidades del talento humano de la entidad;FALSE;304
+1470;Fortalece su talento humano en el uso de nuevas tecnologías;FALSE;304
+1471;Mejora el acceso y evaluación a sus productos, servicios e información;FALSE;304
+1472;Interconecta con otras fuentes de información para mejorar la operación de la entidad;FALSE;304
+1473;Facilita el acceso al conocimiento de la entidad;FALSE;304
+1474;Optimiza el uso de los recursos asociados a los procesos de la entidad;FALSE;304
+1475;Diseña mejores mecanismos de participación para los grupos de valor de la entidad;FALSE;304
+1476;Otra. ¿Cuál?;FALSE;304
+1477;Ninguna de las anteriores;FALSE;304
+1478;Hay conocimiento de la innovación pública en el Estado colombiano;FALSE;305
+1479;Hay tiempo suficiente para implementar innovaciones;FALSE;305
+1480;La cultura organizacional apoya la innovación;FALSE;305
+1481;Los líderes de la entidad apoyan y valoran la innovación;FALSE;305
+1482;Existe conocimiento sobre la implementación de metodologías de innovación;FALSE;305
+1483;Se ha incorporado la innovación en la plataforma estratégica y en el mapa de procesos de la entidad;FALSE;305
+1484;Se cuenta con recursos para desarrollar o implementar innovaciones;FALSE;305
+1485;Hay grupos de trabajo con el talento humano idóneo para innovar;FALSE;305
+1486;Se cuenta con una estrategia de cooperación para trabajar con otras entidades en el fortalecimiento de la misión;FALSE;305
+1487;Otra. ¿Cuál?;FALSE;305
+1488;Ninguna de las anteriores;FALSE;305
+1489;Procesar de manera eficiente sus datos e información;FALSE;306
+1490;Mejorar la calidad de los datos entre sus diferentes sistemas de información y/o aplicativos;FALSE;306
+1491;Facilitar los análisis, mediciones y la generación de informes;FALSE;306
+1492;Contar con información confiable, veraz, oportuna y segura;FALSE;306
+1493;Facilitar al ciudadano el acceso a los trámites;FALSE;306
+1494;Intercambiar documentos o expedientes electrónicos;FALSE;306
+1495;Otra. ¿Cuál?;FALSE;306
+1496;No ha implementado acciones para interoperar;FALSE;306
+1497;Sistematiza sus buenas prácticas;FALSE;307
+1498;Favorece la identidad y generación del conocimiento organizacional;FALSE;307
+1499;Genera productos y servicios desde el aprendizaje organizacional (construir sobre lo construido);FALSE;307
+1500;Apoya los procesos de comunicación de la entidad;FALSE;307
+1501;Mejora su imagen institucional;FALSE;307
+1502;Otra. ¿Cuál?;FALSE;307
+1503;No se llevan a cabo estas acciones;FALSE;307
+1504;Responde eficientemente a preguntas y requerimientos sobre su quehacer;FALSE;308
+1505;Fomenta el desarrollo de proyectos de investigación dentro de la entidad;FALSE;308
+1506;Fomenta el desarrollo de proyectos de innovación dentro de la entidad;FALSE;308
+1507;Lleva a cabo análisis predictivos basados en datos históricos;FALSE;308
+1508;Mejora los procesos de control, medición, evaluación, estimación de sus datos e información;FALSE;308
+1509;Determina rápidamente aspectos de mejora;FALSE;308
+1510;Otra. ¿Cuál?;FALSE;308
+1511;Ninguna de las anteriores;FALSE;308
+1512;Cuenta con documentos estandarizados para estructurar, capturar y procesar los datos e información;FALSE;309
+1513;Documenta las operaciones estadísticas de la entidad;FALSE;309
+1514;Estandariza el proceso de actualización y publicación de los datos e información;FALSE;309
+1515;Mejora el acceso a los datos e información por parte de su talento humano y grupos de valor;FALSE;309
+1516;Desarrolla mejores procesos de análisis, reporte y atención a requerimientos;FALSE;309
+1517;Obtiene certificaciones de la calidad estadística por entidades externas;FALSE;309
+1518;Obtiene reconocimientos emitidos por parte de otras entidades;FALSE;309
+1519;Toma decisiones basadas en evidencia;FALSE;309
+1520;Otra. ¿Cuál?;FALSE;309
+1521;Ninguna de las anteriores;FALSE;309
+1522;Obtiene nuevo conocimiento acorde a su competencia;FALSE;310
+1523;Coopera con otras entidades para fortalecer su conocimiento;FALSE;310
+1524;Promueve la participación de su personal, en la generación de ponencias, artículos, otros;FALSE;310
+1525;Desarrolla investigaciones con semilleros, equipos o grupos;FALSE;310
+1526;Publica en grupos de investigación y/o revistas reconocidas y/o clasificadas;FALSE;310
+1527;Incorpora elementos de I+D+I en su plataforma estratégica;FALSE;310
+1528;Optimiza su gestión en la solución de problemas complejos;FALSE;310
+1529;Cuenta con una oferta institucional centrada en sus grupos de valor;FALSE;310
+1530;Mejora la difusión de su conocimiento, lo cual aporta a su imagen institucional;FALSE;310
+1531;Otra. ¿Cuál?;FALSE;310
+1532;Ninguna de las anteriores;FALSE;310
+1533;Impulsan la participación del talento humano en la identificación de necesidades, controles, soluciones y buenas prácticas;FALSE;311
+1534;Comparten el conocimiento entre las personas de la entidad y grupos de valor;FALSE;311
+1535;Optimizan los procesos de producción y divulgación de los productos y servicios;FALSE;311
+1536;Mejoran la adaptación de la entidad a lo largo del tiempo frente a cambios del entorno;FALSE;311
+1537;Otra. ¿Cuál?;FALSE;311
+1538;Ninguna de las anteriores;FALSE;311
+1539;Comparta su conocimiento y participe en actividades de aprendizaje dentro y fuera de la entidad;FALSE;312
+1540;Informe fácilmente al (a los) responsable(s), sobre aspectos a mejorar en la entidad;FALSE;312
+1541;Participe en eventos difusión y/o fortalecimiento del conocimiento relacionado con el quehacer de la entidad ;FALSE;312
+1542;Cuente (oportunamente) con información clara y veraz sobre iniciativas y proyectos de la entidad, que aportan a su trabajo;FALSE;312
+1543;Reconozca el aporte de otros equipos de trabajo;FALSE;312
+1544;Proponga (de manera individual o colectiva) soluciones a problemáticas, dificultades o aspectos por mejorar de la entidad;FALSE;312
+1545;Otra. ¿Cuál?;FALSE;312
+1546;Ninguna de las anteriores;FALSE;312
+1547;Desarrolla herramientas visuales de fácil interpretación sobre sus productos, servicios y resultados de gestión;FALSE;313
+1548;Genera campañas con la información que más se solicita;FALSE;313
+1549;Utiliza diferentes herramientas para facilitar la apropiación del conocimiento de la entidad;FALSE;313
+1550;Otra. ¿Cuál?;FALSE;313
+1551;Ninguna de las anteriores;FALSE;313
+1552;Capacita a su talento humano en procesos de experimentación y adopción de nuevas tecnologías;FALSE;314
+1553;Gestiona el riesgo inmerso en la generación de nuevos productos y servicios;FALSE;314
+1554;Coopera con otras entidades en la generación de soluciones para la entidad;FALSE;314
+1555;Coopera en la generación de soluciones para otras entidades;FALSE;314
+1556;Experimenta de manera controlada;FALSE;314
+1557;Acelera la generación de productos y servicios nuevos o mejorados;FALSE;314
+1558;Otra. ¿Cuál?;FALSE;314
+1559;Ninguna de las anteriores;FALSE;314
+1560;Planean la participación de la entidad en actividades de capacitación y/o formación;FALSE;315
+1561;Desarrollan herramientas y/o instrumentos para transferir el conocimiento y mejorar su apropiación;FALSE;315
+1562;Organizan actividades formales e informales de difusión del conocimiento;FALSE;315
+1563;Establecen convenios y/o acuerdos con otras organizaciones para fortalecer el conocimiento de la entidad;FALSE;315
+1564;Fortalecen el conocimiento del talento humano desde su propio capital intelectual;FALSE;315
+1565;Diseñan actividades en entornos que permiten enseñar-aprender desde varios enfoques;FALSE;315
+1566;Utilizan la pedagogía para resolver problemas de la entidad;FALSE;315
+1567;Evalúan sus productos y servicios antes de ser implementados;FALSE;315
+1568;Asumen retos de la entidad relacionados con la generación de productos y servicios;FALSE;315
+1569;Incentivan la creatividad para generar productos y servicios acordes con las necesidades de los grupos de valor;FALSE;315
+1570;Fomentan la transferencia del conocimiento hacia adentro y hacia afuera de la entidad;FALSE;315
+1571;Otra. ¿Cuál?;FALSE;315
+1572;Ninguna de las anteriores;FALSE;315
+1573;Genere proyectos y metas compartidas de fortalecimiento institucional;FALSE;316
+1574;Colabore en la gestión de proyectos de investigación o innovación relacionados con su misión institucional;FALSE;316
+1575;Participe en procesos de innovación abierta;FALSE;316
+1576;Desarrolle mejores herramientas y actividades de difusión de sus productos, servicios e información;FALSE;316
+1577;Fortalezca su oferta de datos e información y la atención a los requerimientos;FALSE;316
+1578;Establezca mejores mecanismos de evaluación de sus productos y servicios para su mejoramiento;FALSE;316
+1579;Otra. ¿Cuál?;FALSE;316
+1580;No construye conocimiento con otras entidades;FALSE;316
+1581;El instrumento para la evaluación de desempeño, en lo concerniente a las conductas comportamentales;FALSE;317
+1582;Un instrumento propio de medición de las conductas éticas. Especifique cuál:;FALSE;317
+1583;Ningún instrumento (no se evalúa);FALSE;317
+1584;Oficina o grupo interno de control disciplinario o quien haga sus veces;FALSE;318
+1585;Oficina de control interno, auditoría o quien haga sus veces;FALSE;318
+1586;Todas las situaciones que se presenten se envían directamente a la Procuraduría (General o Provincial según aplique);FALSE;318
+1587;Áreas de talento humano;FALSE;318
+1588;Otra. ¿Cuál?;FALSE;318
+1589;No se ha definido una instancia;FALSE;318
+1590;Actividades de socialización frente al esquema de las líneas de defensa;FALSE;319
+1591;Actividades que permitan la identificación del esquema de las líneas de defensa;FALSE;319
+1592;Una metodología que permita la documentación y formalización del esquema de las líneas de defensa;FALSE;319
+1593;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;319
+1594;No ha desarrollado acciones frente al esquema de las líneas de defensa;FALSE;319
+1595;Ha fortalecido el comité institucional de coordinación de control interno en términos de sus funciones y periodicidad de reunión;FALSE;320
+1596;Ha definido un mecanismo o líneas de reporte (fuentes de información internas) que le permitan evaluar de manera permanente la efectividad del sistema de control interno;FALSE;320
+1597;Ha establecido medios de comunicación internos para dar a conocer las decisiones y mejoras del sistema de control interno;FALSE;320
+1598;Ha generado lineamientos y acciones de mejora para ser aplicados por parte del comité institucional de gestión y desempeño;FALSE;320
+1599;No se han adelantado acciones;FALSE;320
+1600;La divulgación e implementación de la política de administración del riesgo;FALSE;321
+1601;La promoción de los espacios para capacitar a los líderes de los procesos y sus equipos de trabajo sobre la metodología de gestión del riesgo;FALSE;321
+1602;El seguimiento al cumplimiento de la política de administración del riesgo;FALSE;321
+1603;La identificación y análisis del riesgo desde la planeación estratégica;FALSE;321
+1604;La generación de acciones para apoyar a la segunda línea de defensa frente al seguimiento del riesgo;FALSE;321
+1605;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;321
+1606;Ninguna de las anteriores;FALSE;321
+1607;Se hacen seguimientos periódicos;FALSE;322
+1608;Se analizan los resultados de los informes presentados por parte del jefe de control interno o quien haga sus veces;FALSE;322
+1609;Se toman acciones de mejora acorde con los resultados presentados;FALSE;322
+1610;Se monitorean las acciones de mejora establecidas;FALSE;322
+1611;Se evalúa al final de la vigencia el nivel de cumplimiento del plan anual de auditoria;FALSE;322
+1612;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;322
+1613;Ninguna de las anteriores;FALSE;322
+1614;Analiza los resultados de la gestión presentados por parte de la oficina de planeación o quien haga sus veces u otras instancias, frente al sistema de control interno;FALSE;323
+1615;Analiza los resultados de la evaluación independiente desarrollada por el jefe de control interno o quien haga sus veces;FALSE;323
+1616;Analiza los informes de los organismos de control;FALSE;323
+1617;Analiza los resultados de otras evaluaciones externas (FURAG u otras);FALSE;323
+1618;Analiza las observaciones y solicitudes del comité institucional de gestión y desempeño;FALSE;323
+1619;Analiza los cambios en el entorno;FALSE;323
+1620;Analiza la normativa vigente;FALSE;323
+1621;No se adelantan acciones de mejora;FALSE;323
+1622;Fortalecer el diseño y ejecución de los controles y/o generar nuevos controles según sea el caso;FALSE;324
+1623;Establecer mecanismos para fortalecer la apropiación de los valores por parte de los servidores, generando mayor compromiso;FALSE;324
+1624;Fortalecer y/o mejorar la gestión de los procesos, programas o proyectos;FALSE;324
+1625;Mejorar la política de administración del riesgo, que garantice una adecuada gestión del riesgo y control;FALSE;324
+1626;Institucional  ;FALSE;324
+1627;Ninguna de las anteriores;FALSE;324
+1628;Si, y cuenta con las evidencias:;FALSE;325
+1629;Parcialmente, y cuenta con las evidencias:;FALSE;325
+1630;No;FALSE;325
+1631;Identifican los factores de riesgo de los procesos, programas o proyectos a su cargo;FALSE;326
+1632;Identifican los riesgos claves que afectan el cumplimiento de los objetivos de la entidad;FALSE;326
+1633;Identifican los procesos susceptibles de posibles actos de corrupción;FALSE;326
+1634;Definen responsables para el seguimiento y monitoreo de los riesgos;FALSE;326
+1635;Determinan la probabilidad de ocurrencia de los riesgos, sus consecuencias e impactos (riesgo inherente);FALSE;326
+1636;Establecen las acciones para mejorar los controles existentes o crear nuevos controles;FALSE;326
+1637;Ninguna de las anteriores;FALSE;326
+1638;Información sobre los cambios en el entorno que pueden afectar la efectividad del sistema de control interno y el cumplimiento de los objetivos;FALSE;327
+1639;Recomendaciones sobre riesgos que considera importantes que no han sido identificados en el proceso;FALSE;327
+1640;Alertas sobre los riesgos aceptados (apetito por el riesgo) por cambios que pueden afectar el funcionamiento de la entidad;FALSE;327
+1641;Alertas sobre e incumplimiento de la política de administración del riesgo;FALSE;327
+1642;Ninguna de las anteriores;FALSE;327
+1643;Un responsable de realizar la actividad de control;FALSE;328
+1644;Una periodicidad para su ejecución;FALSE;328
+1645;Un propósito del control;FALSE;328
+1646;Una descripción de cómo se realiza la actividad de control;FALSE;328
+1647;Una descripción del manejo frente a observaciones o desviaciones resultantes de ejecutar el control;FALSE;328
+1648;Una evidencia de la ejecución del control;FALSE;328
+1649;No cumple con los elementos para un adecuado diseño del control;FALSE;328
+1650;No se han diseñado controles;FALSE;328
+1651;Verifican que la ejecución de los controles corresponda al diseño de estos;FALSE;329
+1652;Verifican si la implementación de los controles ha evitado la materialización de riesgos;FALSE;329
+1653;Proponen acciones preventivas;FALSE;329
+1654;Documentan las acciones de seguimiento y monitoreo del riesgo;FALSE;329
+1655;No hay responsables designados para el seguimiento y monitoreo de los riesgos;FALSE;329
+1656;De corrupción;FALSE;330
+1657;Judiciales;FALSE;330
+1658;Contractuales;FALSE;330
+1659;Financieros;FALSE;330
+1660;Administrativos;FALSE;330
+1661;De seguridad y privacidad de la información;FALSE;330
+1662;Legales o de cumplimiento;FALSE;330
+1663;De imagen o confianza;FALSE;330
+1664;Asociados a la prestación del servicio o atención al ciudadano;FALSE;330
+1665;Operativos;FALSE;330
+1666;Evitar la materialización de los riesgos;FALSE;331
+1667;Controlar los puntos críticos de éxito;FALSE;331
+1668;Diseñar controles adecuados;FALSE;331
+1669;Ejecutar los controles de acuerdo a su diseño;FALSE;331
+1670;Garantizar de forma razonable el cumplimiento de los objetivos de los procesos;FALSE;331
+1671;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;331
+1672;La entidad no gestiona sus riesgos;FALSE;331
+1673;Contienen los riesgos con mayor impacto;FALSE;332
+1674;Contienen los riesgos relacionados con posibles actos de corrupción;FALSE;332
+1675;Cuentan con el monitoreo o seguimiento de acuerdo con la periodicidad establecida en la política de administración del riesgo;FALSE;332
+1676;Se actualiza de acuerdo con los resultados del monitoreo o seguimiento;FALSE;332
+1677;Se divulga oportunamente su actualización;FALSE;332
+1678;No cuenta con mapa de riesgos;FALSE;332
+1679;a Comunicar internamente la información requerida para apoyar el funcionamiento del Sistema de Control Interno ;FALSE;333
+1680;Comunicarse con los grupos de valor, sobre los aspectos claves que afectan el funcionamiento del control interno;FALSE;333
+1681;Tomar decisiones oportunas y soportadas en evidencias;FALSE;333
+1682;Generar espacios de participación con los servidores y la ciudadanía;FALSE;333
+1683;Promover la transparencia en su gestión y evitar la corrupción;FALSE;333
+1684;No cuenta con una estrategia de comunicación;FALSE;333
+1685;La confiabilidad, integridad, disponibilidad y seguridad de la información para el adecuado funcionamiento del sistema de control interno;FALSE;334
+1686;La información de la entidad independiente de cómo se genere y se conserve;FALSE;334
+1687;Gestionan información que da cuenta de las actividades cotidianas, bajo los lineamientos establecidos por la alta dirección;FALSE;335
+1688;Informan a todas las personas su cargo sus responsabilidades de control interno y verifican su cumplimiento ;FALSE;335
+1689;Facilitan canales de comunicación, tales como líneas de denuncia que permiten la comunicación anónima o confidencial, como complemento a los canales normales;FALSE;335
+1690;Aseguran que entre los procesos fluya información relevante y oportuna, así como hacia los ciudadanos,;FALSE;335
+1691;organismos de control y otros externos ;FALSE;335
+1692;Ninguna de las anteriores;FALSE;335
+1693;Recopila información del sistema de control interno y la comunica a la primera y la tercera línea de defensa Analiza costos y beneficios, asegurando que la naturaleza, cantidad y precisión de la información comunicada sea proporcional y apoye el logro de los objetivos;FALSE;336
+1694;Apoya el monitoreo de canales de comunicación, incluyendo líneas telefónicas de denuncias;FALSE;336
+1695;Proporcionar a la gerencia información sobre los resultados de sus actividades y sobre los aspectos que afectan el óptimo funcionamiento del sistema de control interno;FALSE;336
+1696;Ninguna de las anteriores;FALSE;336
+1697;Evalúa periódicamente la confiabilidad, disponibilidad, integridad y seguridad de la información de la entidad y recomienda según sea apropiado, mejoras o implementación de nuevos controles y salvaguardas;FALSE;337
+1698;Informa las posibles exposiciones a riesgos asociados a la información y las desviaciones a los lineamientos establecidos por la alta dirección;FALSE;337
+1699;Proporciona información pertinente para atender las necesidades de la alta dirección y en particular aquellas que tienen que ver con el sistema de control interno;FALSE;337
+1700;Comunica a la primera y la segunda línea, aquellos aspectos que se requieren fortalecer relacionados con la información y comunicación;FALSE;337
+1701;Ninguna de las anteriores;FALSE;337
+1702;Si y generó sugerencias, lo publicó y cuenta con las evidencias;FALSE;338
+1703;Parcialmente - a algunos de sus componentes y, cuenta con las evidencias;FALSE;338
+1704;No realizó los seguimientos de ley;FALSE;338
+1705;Aprueba el Plan Anual de Auditoría propuesto por el jefe de control interno o quien haga sus veces;FALSE;339
+1706;Analiza las evaluaciones de la gestión del riesgo, llevadas a cabo en la entidad por diferentes instancias;FALSE;339
+1707;Asegura que los servidores responsables cuenten con los conocimientos necesarios y que se generen recursos para la mejora de sus competencias al respecto;FALSE;339
+1708;No realiza actividades de monitoreo;FALSE;339
+1709;Seguimiento a los riesgos y controles de sus procesos, programas o proyectos a cargo;FALSE;340
+1710;Informa periódicamente a las instancias correspondientes sobre el desempeño de las actividades de gestión de riesgos;FALSE;340
+1711;Identifica deficiencias en los controles y propone los ajustes necesarios;FALSE;340
+1712;No realiza actividades de monitoreo;FALSE;340
+1713;Evaluaciones para monitorear el estado de los componentes del sistema de control interno;FALSE;341
+1714;Informa sobre deficiencias de los controles a las instancias correspondientes;FALSE;341
+1715;Suministra información a la alta dirección sobre el monitoreo llevado a cabo a los indicadores de gestión,;FALSE;341
+1716;determinando el logro de los objetivos y metas institucionales;FALSE;341
+1717;Consolida y genera información para la toma de decisiones;FALSE;341
+1718;Ninguna de las anteriores;FALSE;341
+1719;Diseñar y ejecutar acciones de mejora frente al sistema de control interno y el cumplimiento de los objetivos y metas institucionales;FALSE;342
+1720;Diseñar y ejecutar mejoras frente a la gestión del riesgo;FALSE;342
+1721;Ninguna de las anteriores;FALSE;342
+1722;Contribuir al logro de los objetivos y metas institucionales;FALSE;343
+1723;Mejorar la gestión por procesos;FALSE;343
+1724;Mejorar la gestión del riego control;FALSE;343
+1725;Dar respuesta oportuna y efectiva a las necesidades de los grupos de valor (ciudadanía);FALSE;343
+1726;Promover una gestión transparente que mitigue los riesgos de corrupción;FALSE;343
+1727;Ninguna de las anteriores;FALSE;343
+1728;Consejo Asesor del Gobierno Nacional en materia de Control Interno;FALSE;344
+1729;Comité Técnico del Consejo Asesor del Gobierno Nacional en materia de Control Interno;FALSE;344
+1730;Comités sectoriales de auditoria;FALSE;344
+1731;Subcomités centrales, regionales o locales de coordinación del sistema de control interno;FALSE;344
+1732;Comité institucional de coordinación de control interno;FALSE;344
+1733;Afrocolombiano:;FALSE;345
+1734;Indígena:;FALSE;345
+1735;Minorías:;FALSE;345
+1736;Negro:;FALSE;345
+1737;Palenquero:;FALSE;345
+1738;Raizal:;FALSE;345
+1739;Rom:;FALSE;345
+1740;Total:;FALSE;345
+1741;Ninguno de los anteriores;FALSE;345
+1742;Directivo:;FALSE;346
+1743;Asesor:;FALSE;346
+1744;Profesional:;FALSE;346
+1745;Técnico:;FALSE;346
+1746;Asistencial:;FALSE;346
+1747;Otro nivel:;FALSE;346
+1748;Total:;FALSE;346
+1749;Directivo:;FALSE;347
+1750;Asesor:;FALSE;347
+1751;Profesional:;FALSE;347
+1752;Técnico:;FALSE;347
+1753;Asistencial:;FALSE;347
+1754;Otro nivel:;FALSE;347
+1755;No tiene planta temporal;FALSE;347
+1756;Número trabajadores oficiales con discapacidad:;FALSE;348
+1757;No tiene trabajadores oficiales;FALSE;348
+1758;Número de personas con discapacidad:;FALSE;349
+1759;No tiene planta de régimen privado;FALSE;349
+1760;Auditiva:;FALSE;350
+1761;Cognitiva:;FALSE;350
+1762;Mental Psicológica:;FALSE;350
+1763;Mental Psiquiátrica:;FALSE;350
+1764;Motora:;FALSE;350
+1765;Visual:;FALSE;350
+1766;Múltiples:;FALSE;350
+1767;Otra:;FALSE;350
+1768;Número de contratos de apoyo a la gestión y prestación de servicios profesionales:;FALSE;351
+1769;Número de contratistas de apoyo a la gestión y prestación de servicios profesionales:;FALSE;351
+1770;Contratistas con más de un contrato de apoyo a la gestión y prestación de servicios profesionales:;FALSE;351
+1771;Asesor:;FALSE;352
+1772;Profesional:;FALSE;352
+1773;Técnico:;FALSE;352
+1774;Asistencial:;FALSE;352
+1775;Otros:;FALSE;352
+1776;Asesor:;FALSE;353
+1777;Profesional:;FALSE;353
+1778;Técnico:;FALSE;353
+1779;Asistencial:;FALSE;353
+1780;Otros:;FALSE;353
+1781;Asesor:;FALSE;354
+1782;Profesional:;FALSE;354
+1783;Técnico:;FALSE;354
+1784;Asistencial:;FALSE;354
+1785;Otros:;FALSE;354
+1786;Pregrado:;FALSE;356
+1787;Especialización:;FALSE;356
+1788;Maestría:;FALSE;356
+1789;Doctorado:;FALSE;356
+1790;Directivo:;FALSE;357
+1791;Asesor:;FALSE;357
+1792;Profesional:;FALSE;357
+1793;Técnico:;FALSE;357
+1794;Asistencial:;FALSE;357
+1795;Si, y cuenta con las evidencias:;FALSE;359
+1796;No;FALSE;359
+1797;Directivo:;FALSE;360
+1798;Asesor:;FALSE;360
+1799;Profesional:;FALSE;360
+1800;Técnico:;FALSE;360
+1801;Asistencial:;FALSE;360
+1802;Familiares:;FALSE;360
+1803;Si. ¿Cuáles?;FALSE;362
+1804;No;FALSE;362
+1805;Asesor:;FALSE;363
+1806;Profesional:;FALSE;363
+1807;Técnico:;FALSE;363
+1808;Asistencial:;FALSE;363
+1809;Asesor:;FALSE;364
+1810;Profesional:;FALSE;364
+1811;Técnico:;FALSE;364
+1812;Asistencial:;FALSE;364
+1813;Básico;FALSE;365
+1814;Transformación;FALSE;365
+1815;Consolidación;FALSE;365
+1816;No tiene conocimiento;FALSE;365
+1817;Ingrese la URL, documento o evidencia de las respuestas seleccionadas:;FALSE;365
+1818;Directivo de primer nivel (Dirección o secretaría de despacho);FALSE;366
+1819;Directivo de segundo nivel (Subdirección o subsecretaria);FALSE;366
+1820;Grupo de trabajo;FALSE;366
+1821;No tiene área de talento humano;FALSE;366
+1822;Estratégicas:;FALSE;367
+1823;Misionales:;FALSE;367
+1824;Apoyo:;FALSE;367
+1825;Evaluación:;FALSE;367
+1826;Modificación de perfiles;FALSE;369
+1827;Actualización normativa;FALSE;369
+1828;Reestructuración administrativa;FALSE;369
+1829;Nuevas funciones;FALSE;369
+1830;Otros. ¿Cuáles?;FALSE;369
+1831;Creación de la entidad;FALSE;371
+1832;Supresión o liquidación de la entidad;FALSE;371
+1833;Fusión de la entidad;FALSE;371
+1834;Modificación de estatutos de la entidad;FALSE;371
+1835;Modificación de estructura administrativa;FALSE;371
+1836;Modificación de planta de personal;FALSE;371
+1837;Modificación de escala salarial;FALSE;371
+1838;Otra. ¿Cuál?;FALSE;371
+1839;Procesos Estratégicos:;FALSE;372
+1840;Procesos Misionales:;FALSE;372
+1841;Procesos Apoyo:;FALSE;372
+1842;Procesos Evaluación:;FALSE;372
+1843;Estratégicas:;FALSE;373
+1844;Misionales:;FALSE;373
+1845;Apoyo:;FALSE;373
+1846;Evaluación:;FALSE;373
+1847;Estratégicas:;FALSE;374
+1848;Misionales:;FALSE;374
+1849;Apoyo:;FALSE;374
+1850;Evaluación:;FALSE;374
+1851;El personal y la capacidad instalada son adecuados para atender las funciones asignadas a la entidad;FALSE;375
+1852;Existen necesidades de personal pero son resueltas con contratistas por prestación de servicios;FALSE;375
+1853;La entidad está desbordada. El personal es insuficiente incluso con contratistas por prestación de servicios;FALSE;375
+1854;La entidad es insostenible y requiere con urgencia apoyo fiscal y fortalecimiento del recurso humano;FALSE;375
+1855;Requiere una reestructuración administrativa y/o fiscal;FALSE;375
+1856;Otra. ¿Cuál?;FALSE;375
+1857;Conocimiento y socialización del Modelo al equipo directivo y a todo el talento humano de la entidad;FALSE;376
+1858;Conformación de la Institucionalidad (creando según el tipo de entidad que corresponda: Comité Institucional de Gestión y Desempeño ó Comité Institucional Territorial (Municipal, Distrital o Departamental) de Gestión y Desempeño);FALSE;376
+1859;Análisis de los resultados del Índice de Desempeño Institucional;FALSE;376
+1860;Diligenciamiento de los autodiagnósticos de las políticas;FALSE;376
+1861;Elaboración y priorización de los planes de acción con fechas y responsables definidos por política;FALSE;376
+1862;Planes de acción aprobados por el Comité Institucional de Gestión y Desempeño;FALSE;376
+1863;Ninguna de las anteriores;FALSE;376
+1864;Si;FALSE;377
+1865;No;FALSE;377
+1866;Empoderamiento económico;FALSE;378
+1867;Empoderamiento político;FALSE;378
+1868;Empoderamiento educativo;FALSE;378
+1869;Empoderamiento físico;FALSE;378
+1870;Ninguna de las anteriores;FALSE;378
+1871;Si;FALSE;379
+1872;No;FALSE;379
+1873;Dependencia;FALSE;380
+1874;Dirección;FALSE;380
+1875;Sub dirección;FALSE;380
+1876;Coordinación;FALSE;380
+1877;Enlaces;FALSE;380
+1878;Si;FALSE;381
+1879;No;FALSE;381
+1880;Grupo 1;FALSE;382
+1881;Grupo 2;FALSE;382
+1882;Grupo 3;FALSE;382
+1883;Grupo 4;FALSE;382
+1884;Grupo 5;FALSE;382
+1885;Grupo 6;FALSE;382
+1886;Grupo 7;FALSE;382
+1887;Grupo 8;FALSE;382
+1888;Grupo 9;FALSE;382
+1889;Grupo 10;FALSE;382
+1890;Grupo 11;FALSE;382
+1891;Grupo 12;FALSE;382
+1892;Grupo 13;FALSE;382
+1893;Grupo 14;FALSE;382
+1894;Grupo 15;FALSE;382
+1895;Grupo 16;FALSE;382
+1896;Grupo 17;FALSE;382
+1897;Grupo 18;FALSE;382
+1898;Grupo 19;FALSE;382
+1899;Grupo 20;FALSE;382
+1900;Grupo 21;FALSE;382
+1901;Grupo 22;FALSE;382
+1902;Grupo 23;FALSE;382

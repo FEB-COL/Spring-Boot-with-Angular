@@ -1,0 +1,24 @@
+{
+    "geargatewayApp": {
+        "parCoinType": {
+            "home": {
+                "title": "Par Coin Types",
+                "createLabel": "Create a new Par Coin Type",
+                "createOrEditLabel": "Create or edit a Par Coin Type"
+            },
+            "created": "A new Par Coin Type is created with identifier {{ param }}",
+            "updated": "A Par Coin Type is updated with identifier {{ param }}",
+            "deleted": "A Par Coin Type is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Par Coin Type {{ id }}?"
+            },
+            "detail": {
+                "title": "Par Coin Type"
+            },
+            "name": "Name",
+            "description": "Description",
+            "symbol": "Symbol",
+            "gearInformationSystems": "Gear Information Systems"
+        }
+    }
+}

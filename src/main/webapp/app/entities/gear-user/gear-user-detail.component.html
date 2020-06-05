@@ -1,0 +1,73 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearUser">
+            <h2><span jhiTranslate="geargatewayApp.gearUser.detail.title">Gear User</span> {{gearUser.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearUser.name">Name</span></dt>
+                <dd>
+                    <span>{{gearUser.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearUser.password">Password</span></dt>
+                <dd>
+                    <span>{{gearUser.password}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearUser.email">Email</span></dt>
+                <dd>
+                    <span>{{gearUser.email}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearUser.avatar">Avatar</span></dt>
+                <dd>
+                    <span>{{gearUser.avatar}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearUser.profile">Profile</span></dt>
+                <dd>
+                    <span>{{gearUser.profile}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearUser.state">State</span></dt>
+                <dd>
+                    <span>{{gearUser.state}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearUser.idAlfresco">Id Alfresco</span></dt>
+                <dd>
+                    <span>{{gearUser.idAlfresco}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearUser.loginAttempts">Login Attempts</span></dt>
+                <dd>
+                    <span>{{gearUser.loginAttempts}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearUser.lastUpdatePasswordDate">Last Update Password Date</span></dt>
+                <dd>
+                    <span>{{gearUser.lastUpdatePasswordDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearUser.passwordResetKey">Password Reset Key</span></dt>
+                <dd>
+                    <span>{{gearUser.passwordResetKey}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearUser.pin">Pin</span></dt>
+                <dd>
+                    <span>{{gearUser.pin}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearUser.gearOrganizationalUnit">Gear Organizational Unit</span></dt>
+                <dd>
+                    <div *ngIf="gearUser.gearOrganizationalUnitId">
+                        <a [routerLink]="['/gear-organizational-unit', gearUser.gearOrganizationalUnitId, 'view']">{{gearUser.gearOrganizationalUnitName}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-user', gearUser.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

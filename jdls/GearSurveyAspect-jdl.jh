@@ -1,0 +1,66 @@
+entity GearSurvey {
+name String,
+start LocalDate,
+end LocalDate,
+description String
+}
+
+entity GearSurveyQuestion {
+text String,
+description String,
+correctAnswer Integer
+}
+
+entity GearSurveyQuestionType {
+name String,
+description String
+}
+
+entity GearSurveyAnswer {
+text String,
+isCorrect Boolean
+}
+
+//Relaciones
+
+//Relacion pregunta y encuesta
+relationship OneToMany {
+     GearSurvey {gearsurveyquestion} to GearSurveyQuestion {gearsurvey}
+}
+
+//Relacion tipos de pregunta y pregunta
+relationship OneToMany {
+	GearSurveyQuestionType {gearsurveyquestion} to GearSurveyQuestion {gearsurveyquestiontype}
+}
+
+//Relacion pregunta y respuesta
+relationship OneToMany {
+     GearSurveyQuestion {gearsurveyanswer} to GearSurveyAnswer {gearsurveyquestion}
+}
+
+entity GearSurveySolve {
+text String
+}
+
+//Relaciones
+
+//Relacion solucion y encuesta
+relationship OneToMany {
+     GearSurvey {gearsurveysolve} to GearSurveySolve {gearsurvey}
+}
+
+//Relacion solucion y pregunta
+relationship OneToMany {
+     GearSurveyQuestion {gearsurveysolve} to GearSurveySolve {gearsurveyquestion}
+}
+
+//Relacion solucion y respuesta
+relationship OneToMany {
+     GearSurveyAnswer {gearsurveysolve} to GearSurveySolve {gearsurveyanswer}
+}
+
+//Use Data Transfert Objects (DTO)
+dto * with mapstruct
+
+//Set service options to all
+service * with serviceImpl

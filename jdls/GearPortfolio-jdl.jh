@@ -1,0 +1,90 @@
+entity GearPortfolio {
+	name String,
+    description String
+    startDate LocalDate,
+    createdBy String,
+    creationDate LocalDate,
+    lastModifiedBy String,
+    lastModifiedDate LocalDate 
+}
+
+
+entity GearProject {
+	name String,
+    description String
+    budget Double,
+    percentageCompleted Integer,
+    spend Double,
+    startDate LocalDate,
+    endDate LocalDate,
+    attach String,
+    createdBy String,
+    creationDate LocalDate,
+    lastModifiedBy String,
+    lastModifiedDate LocalDate   
+}
+
+entity GearIteration {
+	name String,
+    description String,
+    startDate LocalDate,
+    endDate LocalDate,
+    createdBy String,
+    creationDate LocalDate,
+    lastModifiedBy String,
+    lastModifiedDate LocalDate   
+}
+
+
+entity GearProjectRisk {
+	status String,
+    impact Integer,
+    probability Integer,
+    description String,
+    firstImpactDate LocalDate,
+    mitigationStrategy String,
+    mitigationDescription String,
+    expectedCloseDate LocalDate
+    createdBy String,
+    creationDate LocalDate,
+    lastModifiedBy String,
+    lastModifiedDate LocalDate
+}
+
+entity GearRiskLog {
+     log String,
+     date LocalDate,
+     createdBy String,
+     creationDate LocalDate,
+     lastModifiedBy String,
+     lastModifiedDate LocalDate
+}
+
+// Relacion Portafolios - Proyectos  
+relationship OneToMany{
+GearPortfolio  {gearProject} to GearProject {gearPortfolio} 
+}
+
+// Relacion Proyectos - Riesgos
+relationship OneToMany{
+GearProject  {gearProjectRisk} to GearProjectRisk {gearProject} 
+}
+
+// Relacion Riesgos - Log de Riesgos
+relationship OneToMany{
+GearProjectRisk  {gearRiskLog} to GearRiskLog {gearProjectRisk} 
+}
+
+relationship ManyToMany{
+GearProject  {gearIteration} to GearIteration {gearProject} 
+}
+
+
+// Use Data Transfert Objects (DTO)
+ dto * with mapstruct
+
+// Set service options to all except few
+service * with serviceImpl
+
+
+

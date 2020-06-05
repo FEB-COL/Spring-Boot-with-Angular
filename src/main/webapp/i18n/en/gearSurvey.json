@@ -1,0 +1,27 @@
+{
+    "geargatewayApp": {
+        "gearSurvey": {
+            "home": {
+                "title": "Gear Surveys",
+                "createLabel": "Create a new Gear Survey",
+                "createOrEditLabel": "Create or edit a Gear Survey"
+            },
+            "created": "A new Gear Survey is created with identifier {{ param }}",
+            "updated": "A Gear Survey is updated with identifier {{ param }}",
+            "deleted": "A Gear Survey is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Survey {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Survey"
+            },
+            "name": "Name",
+            "start": "Start",
+            "end": "End",
+            "description": "Description",
+            "gearsurveyquestion": "Gearsurveyquestion",
+            "gearsurveysolve": "Gearsurveysolve",
+            "gearOrganizationalUnit": "Gear Organizational Unit"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearGoalsStrategyAE">
+            <h2><span jhiTranslate="geargatewayApp.gearGoalsStrategyAE.detail.title">Gear Goals Strategy AE</span> {{gearGoalsStrategyAE.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearGoalsStrategyAE.name">Name</span></dt>
+                <dd>
+                    <span>{{gearGoalsStrategyAE.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearGoalsStrategyAE.drescription">Drescription</span></dt>
+                <dd>
+                    <span>{{gearGoalsStrategyAE.drescription}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-goals-strategy-ae', gearGoalsStrategyAE.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

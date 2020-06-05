@@ -1,0 +1,22 @@
+
+entity GearUser {
+	  name String,
+      password String,
+      email String,
+      avatar String,
+      profile String,
+      state Boolean,
+      idAlfresco String,
+      loginAttempts Integer,
+      lastUpdatePasswordDate LocalDate,
+      passwordResetKey String,
+      pin Integer
+}
+// Use Data Transfert Objects (DTO)
+ dto * with mapstruct
+
+// Set service options to all except few
+service * with serviceImpl
+
+
+

@@ -1,0 +1,141 @@
+<h2 mat-dialog-title>Datos de Sistemas de información</h2>
+
+<form [formGroup]="form" (ngSubmit)="save()">
+    <mat-dialog-content>
+
+        <!--Input Name-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Nombre</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <input
+                    type="text"
+                    formControlName="name"
+                    matInput
+                    required>
+            </mat-form-field>
+        </div>
+
+        <!--Input Description-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Decripción</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <textarea
+                    rows="5"
+                    cols="9"
+                    formControlName="description"
+                    matInput
+                    required>
+                </textarea>
+
+            </mat-form-field>
+        </div>
+
+        <!--Input version-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Versión</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <input
+                    type="text"
+                    formControlName="version"
+                    matInput>
+            </mat-form-field>
+        </div>
+
+        <!--Input Responsible-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Responsable</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <input
+                    type="text"
+                    formControlName="responsible"
+                    matInput>
+            </mat-form-field>
+        </div>
+
+
+        <!--Input Responsible email-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Responsable Email</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <input
+                    type="email"
+                    formControlName="responsibleEmail"
+                    matInput
+                    required>
+            </mat-form-field>
+        </div>
+
+
+
+        <!--Input Provider-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Proveedor</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <input
+                    type="text"
+                    formControlName="provider"
+                    matInput>
+            </mat-form-field>
+        </div>
+
+        <!--Input Costo Inicial-->
+        <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">
+            <mat-form-field fxFlex>
+                <mat-label>Costo Inicial</mat-label>
+                <!--formControlName es el campo que esta en mi api -->
+                <input
+                    type="number"
+                    formControlName="initialCost"
+                    matInput
+                    required>
+            </mat-form-field>
+        </div>
+
+        <!--&lt;!&ndash;Input mainteinanceCost&ndash;&gt;-->
+        <!--<div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="24px">-->
+            <!--<mat-form-field fxFlex>-->
+                <!--<mat-label>Costo Mantenimiento</mat-label>-->
+                <!--&lt;!&ndash;formControlName es el campo que esta en mi api &ndash;&gt;-->
+                <!--<input-->
+                    <!--type="number"-->
+                    <!--formControlName="mainteinanceCost"-->
+                    <!--matInput>-->
+            <!--</mat-form-field>-->
+        <!--</div>-->
+
+
+        <div fxLayout.gt-sm="row" fxLayoutGap.gt-sm="16px">
+            <!--Input mainteinanceCost -->
+            <mat-form-field fxFlex>
+                <mat-label>Costo Mantenimiento</mat-label>
+                <input
+                    type="number"
+                    formControlName="mainteinanceCost"
+                    matInput
+                    format="currency"
+                    required>
+            </mat-form-field>
+
+            <!--Seleccionar Tipo Moneda-->
+            <mat-form-field fxFlex>
+                <!--Valor por defecto en el select-->
+                <mat-label>{{defaultSelect}}</mat-label>
+                <mat-select  [(value)]="coinType" required>
+                    <mat-option [value]="coinTypeOption" *ngFor="let coinTypeOption of parCoinTypes">{{coinTypeOption.name}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+
+
+    </mat-dialog-content>
+    <mat-dialog-actions fxLayout="row" fxLayoutAlign="end center">
+        <button *ngIf="isCreateMode()" mat-button [disabled]="!form.valid">Crear Sistema de información</button>
+        <button *ngIf="isUpdateMode()" mat-button [disabled]="!form.valid">Actualizar Sistema de información</button>
+    </mat-dialog-actions>
+</form>

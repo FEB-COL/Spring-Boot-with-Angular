@@ -1,0 +1,24 @@
+{
+    "geargatewayApp": {
+        "gearGoalsStrategyAE": {
+            "home": {
+                "title": "Gear Goals Strategy AES",
+                "createLabel": "Crear nuevo Gear Goals Strategy AE",
+                "createOrEditLabel": "Crear o editar Gear Goals Strategy AE"
+            },
+            "created": "Un nuevo Gear Goals Strategy AE ha sido creado con el identificador {{ param }}",
+            "updated": "Un Gear Goals Strategy AE ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Gear Goals Strategy AE ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Gear Goals Strategy AE {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Goals Strategy AE"
+            },
+            "name": "Name",
+            "drescription": "Drescription",
+            "gearsmartstrategyae": "Gearsmartstrategyae",
+            "gearOrganizationalUnit": "Gear Organizational Unit"
+        }
+    }
+}

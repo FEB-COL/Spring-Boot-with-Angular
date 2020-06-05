@@ -1,0 +1,83 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gearProject">
+            <h2><span jhiTranslate="geargatewayApp.gearProject.detail.title">Gear Project</span> {{gearProject.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="geargatewayApp.gearProject.name">Name</span></dt>
+                <dd>
+                    <span>{{gearProject.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearProject.description">Description</span></dt>
+                <dd>
+                    <span>{{gearProject.description}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearProject.budget">Budget</span></dt>
+                <dd>
+                    <span>{{gearProject.budget}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearProject.percentageCompleted">Percentage Completed</span></dt>
+                <dd>
+                    <span>{{gearProject.percentageCompleted}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearProject.spend">Spend</span></dt>
+                <dd>
+                    <span>{{gearProject.spend}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearProject.startDate">Start Date</span></dt>
+                <dd>
+                    <span>{{gearProject.startDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearProject.endDate">End Date</span></dt>
+                <dd>
+                    <span>{{gearProject.endDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearProject.attach">Attach</span></dt>
+                <dd>
+                    <span>{{gearProject.attach}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearProject.createdBy">Created By</span></dt>
+                <dd>
+                    <span>{{gearProject.createdBy}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearProject.creationDate">Creation Date</span></dt>
+                <dd>
+                    <span>{{gearProject.creationDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearProject.lastModifiedBy">Last Modified By</span></dt>
+                <dd>
+                    <span>{{gearProject.lastModifiedBy}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearProject.lastModifiedDate">Last Modified Date</span></dt>
+                <dd>
+                    <span>{{gearProject.lastModifiedDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearProject.gearIteration">Gear Iteration</span></dt>
+                <dd>
+                    <span *ngFor="let gearIteration of gearProject.gearIterations; let last = last">
+                        <a [routerLink]="['/gear-iteration', gearIteration?.id, 'view' ]">{{gearIteration.id}}</a>{{last ? '' : ', '}}
+                    </span>
+                </dd>
+                <dt><span jhiTranslate="geargatewayApp.gearProject.gearPortfolio">Gear Portfolio</span></dt>
+                <dd>
+                    <div *ngIf="gearProject.gearPortfolioId">
+                        <a [routerLink]="['/gear-portfolio', gearProject.gearPortfolioId, 'view']">{{gearProject.gearPortfolioId}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gear-project', gearProject.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

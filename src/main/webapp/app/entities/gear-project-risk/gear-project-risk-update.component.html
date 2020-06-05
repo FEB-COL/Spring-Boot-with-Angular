@@ -1,0 +1,111 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-gear-project-risk-heading" jhiTranslate="geargatewayApp.gearProjectRisk.home.createOrEditLabel">Create or edit a Gear Project Risk</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!gearProjectRisk.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="gearProjectRisk.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearProjectRisk.status" for="field_status">Status</label>
+                    <input type="text" class="form-control" name="status" id="field_status"
+                        [(ngModel)]="gearProjectRisk.status" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearProjectRisk.impact" for="field_impact">Impact</label>
+                    <input type="number" class="form-control" name="impact" id="field_impact"
+                        [(ngModel)]="gearProjectRisk.impact" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearProjectRisk.probability" for="field_probability">Probability</label>
+                    <input type="number" class="form-control" name="probability" id="field_probability"
+                        [(ngModel)]="gearProjectRisk.probability" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearProjectRisk.description" for="field_description">Description</label>
+                    <input type="text" class="form-control" name="description" id="field_description"
+                        [(ngModel)]="gearProjectRisk.description" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearProjectRisk.firstImpactDate" for="field_firstImpactDate">First Impact Date</label>
+                    <div class="input-group">
+                        <input id="field_firstImpactDate" type="text" class="form-control" name="firstImpactDate" ngbDatepicker  #firstImpactDateDp="ngbDatepicker" [(ngModel)]="gearProjectRisk.firstImpactDate"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="firstImpactDateDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearProjectRisk.mitigationStrategy" for="field_mitigationStrategy">Mitigation Strategy</label>
+                    <input type="text" class="form-control" name="mitigationStrategy" id="field_mitigationStrategy"
+                        [(ngModel)]="gearProjectRisk.mitigationStrategy" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearProjectRisk.mitigationDescription" for="field_mitigationDescription">Mitigation Description</label>
+                    <input type="text" class="form-control" name="mitigationDescription" id="field_mitigationDescription"
+                        [(ngModel)]="gearProjectRisk.mitigationDescription" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearProjectRisk.expectedCloseDate" for="field_expectedCloseDate">Expected Close Date</label>
+                    <div class="input-group">
+                        <input id="field_expectedCloseDate" type="text" class="form-control" name="expectedCloseDate" ngbDatepicker  #expectedCloseDateDp="ngbDatepicker" [(ngModel)]="gearProjectRisk.expectedCloseDate"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="expectedCloseDateDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearProjectRisk.createdBy" for="field_createdBy">Created By</label>
+                    <input type="text" class="form-control" name="createdBy" id="field_createdBy"
+                        [(ngModel)]="gearProjectRisk.createdBy" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearProjectRisk.creationDate" for="field_creationDate">Creation Date</label>
+                    <div class="input-group">
+                        <input id="field_creationDate" type="text" class="form-control" name="creationDate" ngbDatepicker  #creationDateDp="ngbDatepicker" [(ngModel)]="gearProjectRisk.creationDate"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="creationDateDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearProjectRisk.lastModifiedBy" for="field_lastModifiedBy">Last Modified By</label>
+                    <input type="text" class="form-control" name="lastModifiedBy" id="field_lastModifiedBy"
+                        [(ngModel)]="gearProjectRisk.lastModifiedBy" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearProjectRisk.lastModifiedDate" for="field_lastModifiedDate">Last Modified Date</label>
+                    <div class="input-group">
+                        <input id="field_lastModifiedDate" type="text" class="form-control" name="lastModifiedDate" ngbDatepicker  #lastModifiedDateDp="ngbDatepicker" [(ngModel)]="gearProjectRisk.lastModifiedDate"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="lastModifiedDateDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="geargatewayApp.gearProjectRisk.gearProject" for="field_gearProject">Gear Project</label>
+                    <select class="form-control" id="field_gearProject" name="gearProject" [(ngModel)]="gearProjectRisk.gearProjectId" >
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="gearProjectOption.id" *ngFor="let gearProjectOption of gearprojects; trackBy: trackGearProjectById">{{gearProjectOption.id}}</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

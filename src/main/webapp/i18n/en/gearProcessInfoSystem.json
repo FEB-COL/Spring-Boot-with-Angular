@@ -1,0 +1,22 @@
+{
+    "geargatewayApp": {
+        "gearProcessInfoSystem": {
+            "home": {
+                "title": "Gear Process Info Systems",
+                "createLabel": "Create a new Gear Process Info System",
+                "createOrEditLabel": "Create or edit a Gear Process Info System"
+            },
+            "created": "A new Gear Process Info System is created with identifier {{ param }}",
+            "updated": "A Gear Process Info System is updated with identifier {{ param }}",
+            "deleted": "A Gear Process Info System is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Process Info System {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Process Info System"
+            },
+            "gearinformationsystems": "Gearinformationsystems",
+            "gearvaluechainprocess": "Gearvaluechainprocess"
+        }
+    }
+}

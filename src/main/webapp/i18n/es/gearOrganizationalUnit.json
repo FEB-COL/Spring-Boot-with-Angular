@@ -1,0 +1,43 @@
+{
+    "geargatewayApp": {
+        "gearOrganizationalUnit": {
+            "home": {
+                "title": "Gear Organizational Units",
+                "createLabel": "Crear nuevo Gear Organizational Unit",
+                "createOrEditLabel": "Crear o editar Gear Organizational Unit"
+            },
+            "created": "Un nuevo Gear Organizational Unit ha sido creado con el identificador {{ param }}",
+            "updated": "Un Gear Organizational Unit ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Gear Organizational Unit ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Gear Organizational Unit {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Organizational Unit"
+            },
+            "name": "Name",
+            "nodeIdAlfresco": "Node Id Alfresco",
+            "siteId": "Site Id",
+            "siteGuid": "Site Guid",
+            "lowercaseRestrictions": "Lowercase Restrictions",
+            "uppercaseRestrictions": "Uppercase Restrictions",
+            "specialCharactersRestrictions": "Special Characters Restrictions",
+            "digitsRestrictions": "Digits Restrictions",
+            "minimumLengthRestrictions": "Minimum Length Restrictions",
+            "maximumLengthRestriction": "Maximum Length Restriction",
+            "regexCorreoRestriction": "Regex Correo Restriction",
+            "maximumAttempsRestriction": "Maximum Attemps Restriction",
+            "automaticLockEmail": "Automatic Lock Email",
+            "manualLockEmail": "Manual Lock Email",
+            "resetPasswordEmail": "Reset Password Email",
+            "passwordExpiresDays": "Password Expires Days",
+            "gearDomain": "Gear Domain",
+            "gearUser": "Gear User",
+            "gearPortfolio": "Gear Portfolio",
+            "gearGoalsStrategyAE": "Gear Goals Strategy AE",
+            "gearValueChainCategory": "Gear Value Chain Category",
+            "gearInformationSystems": "Gear Information Systems",
+            "gearSurvey": "Gear Survey"
+        }
+    }
+}

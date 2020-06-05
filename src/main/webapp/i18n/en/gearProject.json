@@ -1,0 +1,35 @@
+{
+    "geargatewayApp": {
+        "gearProject": {
+            "home": {
+                "title": "Gear Projects",
+                "createLabel": "Create a new Gear Project",
+                "createOrEditLabel": "Create or edit a Gear Project"
+            },
+            "created": "A new Gear Project is created with identifier {{ param }}",
+            "updated": "A Gear Project is updated with identifier {{ param }}",
+            "deleted": "A Gear Project is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Gear Project {{ id }}?"
+            },
+            "detail": {
+                "title": "Gear Project"
+            },
+            "name": "Name",
+            "description": "Description",
+            "budget": "Budget",
+            "percentageCompleted": "Percentage Completed",
+            "spend": "Spend",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "attach": "Attach",
+            "createdBy": "Created By",
+            "creationDate": "Creation Date",
+            "lastModifiedBy": "Last Modified By",
+            "lastModifiedDate": "Last Modified Date",
+            "gearProjectRisk": "Gear Project Risk",
+            "gearIteration": "Gear Iteration",
+            "gearPortfolio": "Gear Portfolio"
+        }
+    }
+}
